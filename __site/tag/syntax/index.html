@@ -3,32 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/css/franklin.css">
-  <link rel="stylesheet" href="/css/basic.css">
+  <link href="/css/franklin.css" rel="stylesheet">
+<link href="/css/vela.css" rel="stylesheet">
+<script src="/libs/vela/jquery.min.js"></script>
+
+<link rel="icon" href="/assets/favicon.png">
+
   <title>Tag: syntax</title>
 </head>
 <body>
-  <header>
-<div class="blog-name"><a href="/">Basic Template</a></div>
-<nav>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/members/">members</a></li>
-    <li><a href="/papers/">papers</a></li>
-  </ul>
-  <img src="/assets/hamburger.svg" id="menu-icon">
-</nav>
-</header>
+  <div class="main-nav slideout-menu slideout-menu-left" id="menu">
+  <div class="flex-container">
+    <span class="sidebar-brand">
+      <h3 style='font-size: 25px'>LAB Navigation</h3>
+    </span>
+  </div> <!-- class="flex-container" -->
+
+  <nav class="sidebar-nav">
+    <ul class="metismenu"  id="metismenu" >
+      <li><a href="/index.html">Landing</a></li>
+      <li><a href="" class="has-arrow">Members</a>
+        <ul>
+          <li><a href="/members/current/">Current</a></li>
+          <li><a href="/members/alumni/"> Alumni</a></li>
+        </ul>
+      </li>
+      <li><a href="/papers/">Papers</a></li>
+      <li><a href="/philosophy/">Philosophy</a></li>
+      <li><a href="/teaching-ressources/">Reaching Ressources</a></li>
+      <li><a href="/open-projects-and-positions/">Open Projects and Positions</a></li>
+      <li><a href="/thesis-art/">Thesis Art</a></li>
+      <li><a href="i/nternal/">Internal</a></li>
+      <li><a href="/impressum/">Impresssum</a></li>
+    </ul>
+  </nav>
+</div> <!-- main nav menu -->
+
+<main id="panel" class="slidout-panel slideout-panel-left">
+  <div class="toggle-button hamburger hamburger--spin">
+    <div class="hamburger-box">
+      <div class="hamburger-inner"></div>
+    </div>
+  </div>
+  <h1 class="page title">404</h1>
+  <hr>
 
   <div class="">
     <h1>Tag: syntax</h1>
-    <ul><li><a href="/members\alumni/">Franklin Example</a></li><li><a href="/">Franklin Example</a></li><li><a href="/members\/">Franklin Example</a></li><li><a href="/members\current/">Franklin Example</a></li><li><a href="/internal\/">Franklin Example</a></li><li><a href="/open-projects-and-positions\/">Franklin Example</a></li><li><a href="/philosophy\/">Franklin Example</a></li><li><a href="/teaching-ressources\bayesian-statistics\/">Franklin Example</a></li><li><a href="/teaching-ressources\eeg\/">Franklin Example</a></li><li><a href="/teaching-ressources\demos\/">Franklin Example</a></li><li><a href="/teaching-ressources\glmm-course\/">Franklin Example</a></li><li><a href="/teaching-ressources\eye-tracking\/">Franklin Example</a></li><li><a href="/teaching-ressources\graphics\/">Franklin Example</a></li><li><a href="/thesis-art\/">Franklin Example</a></li></ul>
+    <ul><li><a href="/menu1/">Code blocks</a></li><li><a href="/menu2/">More goodies</a></li></ul>
     <div class="page-foot">
+  <div>
+    <table>
+      <tr>
+        <td><a href="">About</a></td>
+        <td><a href="">Open Positions</a></td>
+      </tr>
+      <tr>
+        <td><a href="">Impressum</a></td>
+        <td><a href="">Licences and Data Privacy</a></td>
+      </tr>
+    </table>
+  </div>
+
+  <hr>
+  </hr>
+
   <div class="copyright">
-    &copy; Septimia Zenobia.  Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+    &copy; VIS CCS.  Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
   </div>
 </div>
 
   </div>
+  <!-- close what is opened in nav.html -->
+  </main> <!-- end of id=main -->
+  <script src="/libs/vela/metisMenu.min.js"></script>
+  <script src="/libs/vela/slideout.min.js"></script>
 </body>
 </html>

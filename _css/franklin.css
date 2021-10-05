@@ -55,19 +55,31 @@ html {
 
 .franklin-content .page-foot a {
   text-decoration: none;
-  color: #a6a2a0;
+  color: white;
   text-decoration: underline;
 }
 
 .page-foot {
   font-size: 80%;
   font-family: Arial, serif;
-  color: #a6a2a0;
+  color: lightgrey;
   text-align: center;
   margin-top: 6em;
   border-top: 1px solid lightgrey;
   padding-top: 2em;
   margin-bottom: 4em;
+  background-color: #1f1f1f;
+  overflow-x: hidden;
+
+}
+
+.page-foot td {
+  text-align: left;
+  border-width: 5px;
+}
+.page-foot table a {
+  display: inline;
+  padding-inline: 40px;
 }
 
 /* ==================================================================
