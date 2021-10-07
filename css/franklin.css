@@ -66,10 +66,10 @@ html {
   text-align: center;
   margin-top: 6em;
   border-top: 1px solid lightgrey;
-  padding-top: 2em;
-  margin-bottom: 4em;
-  background-color: #1f1f1f;
-  overflow-x: hidden;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  background-color: #3e3e3e;
+  overflow-x: visible;
 
 }
 
@@ -77,9 +77,29 @@ html {
   text-align: left;
   border-width: 5px;
 }
+
 .page-foot table a {
   display: inline;
   padding-inline: 40px;
+}
+
+.page-foot table {
+  position: relative;
+  display: grid;
+}
+
+.page-foot-links-wrapper {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-foot-links-wrapper {
+
+}
+
+.copyright {
+  padding-top: 1em;
 }
 
 /* ==================================================================
@@ -93,15 +113,13 @@ html {
 
 .franklin-content {
   position: relative;
-  padding-left: 12.5%;
-  padding-right: 12.5%;
   line-height: 1.35em;
 }
 
 /* On wide screens, fix content width to a max value. */
 @media (min-width: 940px) {
   .franklin-content {
-    width: 705px;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -134,7 +152,7 @@ h6 {
 
 .franklin-content h1 {
   padding-bottom: 0.5em;
-  border-bottom: 3px double lightgrey;
+  border-bottom: 3px solid lightgrey;
   margin-top: 1.5em;
   margin-bottom: 1em;
 }
