@@ -3,16 +3,16 @@ small alterations for Franklin
 */
 h1.page.title,
 hr {
-  position relative
-  padding-left: 12.5%;
-  padding-right: 12.5%;
+  position: relative
+  padding-left: 0%;
+  padding-right: 0%;
   line-height: 1.35em;
 }
 
 @media (min-width: 940px) {
   h1.page.title,
   hr {
-    width: 705px;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1395,11 +1395,11 @@ a.pure-button-selected {
 }
 
 .hamburger {
+  position: relative;
   font: inherit;
   display: inline-block;
   overflow: visible;
-  margin: 0;
-  padding: 15px 15px;
+  padding: 20px 20px;
   cursor: pointer;
   transition-timing-function: linear;
   transition-duration: 0.15s;
