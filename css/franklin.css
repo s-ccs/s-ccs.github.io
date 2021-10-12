@@ -73,29 +73,37 @@ html {
 
 }
 
-.page-foot td {
-  text-align: left;
-  border-width: 5px;
-}
-
-.page-foot table a {
-  display: inline;
-  padding-inline: 40px;
-}
-
-.page-foot table {
-  position: relative;
-}
-
 .page-foot-links-container {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     display: grid;
     grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    grid-gap: 1em;
 }
 
-.page-foot-links-item {
+.page-foot-links-container-icon {
+    grid-row: 1/span 2;
+    grid-column: 2 / span 1;
+    width: 4em;
+    height: 4em;
+}
+
+.page-foot-links-container-icon img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+.page-foot-link-left {
+    display: inline-block;
+    text-align: left;
+}
+
+.page-foot-link-right {
+
 }
 
 .copyright {
@@ -117,7 +125,7 @@ html {
 }
 
 /* On wide screens, fix content width to a max value. */
-@media (min-width: 940px) {
+@media (min-width: 480px) {
   .franklin-content {
     width: 70%;
     margin-left: auto;
