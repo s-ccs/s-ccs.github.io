@@ -9,7 +9,7 @@ hr {
   line-height: 1.35em;
 }
 
-@media (min-width: 940px) {
+@media (min-width: 480px) {
   h1.page.title,
   hr {
     width: 70%;
@@ -22,7 +22,7 @@ hr {
   h1.page.title,
   hr {
     padding-left: 6%;
-    padding-right: 6%;
+    padding-right: 6%;f
   }
 }
 
