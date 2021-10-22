@@ -1880,7 +1880,6 @@ th {
   clear: both;
   margin-left: auto;
   margin-right: auto;
-  padding: 1em;
   max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1954,6 +1953,15 @@ th {
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  padding: 0.7em;
+}
+
+.masthead__menu-item .active {
+    background-color: #5c4a56;
+}
+
+.masthead__menu-item:hover {
+    background-color: #1c2a36;
 }
 
 .masthead__menu-item--lg {
@@ -2148,10 +2156,7 @@ th {
   margin: 0 1rem;
   color: #fff;
   text-decoration: none;
-}
-
-.greedy-nav a:hover {
-  color: #53595e;
+  padding: 0.7em
 }
 
 .greedy-nav a.site-logo {
@@ -2209,12 +2214,6 @@ th {
   transition: all 0.2s ease-in-out;
   -webkit-transform: scaleX(0) translate3d(0, 0, 0);
   transform: scaleX(0) translate3d(0, 0, 0);
-}
-
-.greedy-nav .visible-links a:hover::before {
-  -webkit-transform: scaleX(1);
-  -ms-transform: scaleX(1);
-  transform: scaleX(1);
 }
 
 .greedy-nav .hidden-links {
