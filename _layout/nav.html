@@ -1,35 +1,24 @@
-<div class="main-nav slideout-menu slideout-menu-right" id="menu">
-  <div class="flex-container">
-    <span class="sidebar-brand">
-      <h3 style='font-size: 25px'>LAB Navigation</h3>
-    </span>
-  </div> <!-- class="flex-container" -->
-
-  <nav class="sidebar-nav">
-    <ul class="metismenu"  id="metismenu" >
-      <li><a href="/index.html">Landing</a></li>
-      <li><a href="" class="has-arrow">Members</a>
-        <ul>
-          <li><a href="/members/current/">Current</a></li>
-          <li><a href="/members/alumni/"> Alumni</a></li>
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/">LAB LOGO</a>
+        <ul class="visible-links">
+          <li class="masthead__menu-item"><a href="/open-projects-and-positions/" >open positions</a></li>
+          <li class="masthead__menu-item"><a href="/members/" >members</a></li>
+          <li class="masthead__menu-item"><a href="/papers/" >papers</a></li>
+          <li class="masthead__menu-item"><a href="/philosophy/">philosophy</a></li>
+          <li class="masthead__menu-item"><a href="/teaching-ressources/">teaching ressources</a></li>
+          <li class="masthead__menu-item"><a href="/thesis-art/">thesis art</a></li>
+          <li class="masthead__menu-item"><a href="/internal/">internal</a></li>
+          <li class="masthead__menu-item"><a href="/impressum/">impressum</a></li>
         </ul>
-      </li>
-      <li><a href="/papers/">Papers</a></li>
-      <li><a href="/philosophy/">Philosophy</a></li>
-      <li><a href="/teaching-ressources/">Teaching Ressources</a></li>
-      <li><a href="/open-projects-and-positions/">Open Projects and Positions</a></li>
-      <li><a href="/thesis-art/">Thesis Art</a></li>
-      <li><a href="/internal/">Internal</a></li>
-      <li><a href="/impressum/">Impresssum</a></li>
-    </ul>
-  </nav>
-</div> <!-- main nav menu -->
-
-<main id="panel" class="slidout-panel slideout-panel-left">
-  <div class="toggle-button hamburger hamburger--spin">
-    <div class="hamburger-box">
-      <div class="hamburger-inner"></div>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
     </div>
   </div>
-  <h1 class="page title">{{isdef title}}{{fill title}}{{end}}</h1>
-  <hr>
+</div>
