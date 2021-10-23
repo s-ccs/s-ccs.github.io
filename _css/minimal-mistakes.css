@@ -1924,6 +1924,10 @@ th {
   z-index: 20;
 }
 
+.site-title img {
+    max-width: 50%
+}
+
 .masthead__menu {
   float: left;
   margin-left: 0;
