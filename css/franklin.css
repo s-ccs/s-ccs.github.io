@@ -15,7 +15,7 @@
 ================================================================== */
 
 html {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   font-size: var(--normal);
   color: var(--text-color);
 }
@@ -189,6 +189,11 @@ html {
   }
 }
 
+.franklin-content p {
+ padding-left: 7em;
+ padding-right: 7em;
+}
+
 /* On narrow device, reduce margins. */
 @media (max-width: 480px) {
   .franklin-content {
@@ -201,9 +206,9 @@ html {
     TITLES
 ================================================================== */
 
-.franklin-content h1 { font-size: 24px; }
-.franklin-content h2 { font-size: 22px; }
-.franklin-content h3 { font-size: 20px; }
+.franklin-content h1 { font-size: 2em; }
+.franklin-content h2 { font-size: 1.5em; }
+.franklin-content h3 { font-size: 1em; }
 
 .franklin-content h1,
 h2,
@@ -212,13 +217,14 @@ h4,
 h5,
 h6 {
   text-align: left;
+  margin: 0 0 1.1em 0;
+  color: white;
+  padding: 1.5em 2em 1.5em 2em;
+  text-transform: uppercase;
 }
 
 .franklin-content h1 {
-  padding-bottom: 0.5em;
-  border-bottom: 3px solid lightgrey;
-  margin-top: 1.5em;
-  margin-bottom: 1em;
+  background-color: #54d9b1;
 }
 
 .franklin-content h2 {
