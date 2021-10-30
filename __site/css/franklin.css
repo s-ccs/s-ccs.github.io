@@ -15,7 +15,7 @@
 ================================================================== */
 
 html {
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Arial, sans-serif;
   font-size: var(--normal);
   color: var(--text-color);
 }
@@ -28,19 +28,42 @@ html {
   display: block;
 }
 
+.franklin-content .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.franklin-content .title-image{
+  padding: 5em 0 5em 0;
+  width: 100%;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 5em;
+  font-weight: bold;
+  color: white;
+
+  background-image: url("../assets/title_img.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: scroll;
+}
+
 .franklin-content .left {
-  float: left;
-  margin-right: 15px;
+  padding: 2em 2em 2em 33%;
+  text-align: right;
+  grid-column: 1 / span 1;
+  background-color: #e09a19;
+  color: white;
+
 }
 
 .franklin-content .right {
-  float: right;
-}
+  padding: 2em 33% 2em 2em;
+  grid-column: 3 / span 1;
+  background-color: #6ad15c;
+  color: white;
 
-.franklin-content .container img {
-  width: auto;
-  padding-left: 0;
-  border-radius: 10px;
 }
 
 .franklin-content .footnote {
@@ -189,9 +212,22 @@ html {
   }
 }
 
-.franklin-content p {
- padding-left: 7em;
- padding-right: 7em;
+@media (min-width: 1200px) {
+    .franklin-content p {
+     padding-left: 20em;
+     padding-right: 20em;
+     margin-top: 3em;
+     margin-bottom: 1em;
+    }
+}
+
+@media (max-width: 1200px) {
+    .franklin-content p {
+     padding-left: 5em;
+     padding-right: 5em;
+     margin-top: 3em;
+     margin-bottom: 1em;
+    }
 }
 
 /* On narrow device, reduce margins. */
@@ -217,7 +253,7 @@ h4,
 h5,
 h6 {
   text-align: left;
-  margin: 0 0 1.1em 0;
+  margin: 0 0 0 0;
   color: white;
   padding: 1.5em 2em 1.5em 2em;
   text-transform: uppercase;
@@ -351,6 +387,13 @@ td {
   text-align: center;
   padding-left: 20%;
 }
+
+.franklin-content .text-image {
+  background-position: center;
+  background-size: cover;
+  grid-column: span 2;
+}
+
 
 /* ==================================================================
     KATEX
