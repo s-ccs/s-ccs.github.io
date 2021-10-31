@@ -22,16 +22,16 @@
 
 # Members
 @@teamcard-wrapper
-\currentCard{001_benedikt_ehinger}{Jun.-Prof. Dr.}{Benedikt Ehinger}{Lorem ipsum doloret}{benedikt.ehinger@vis.uni-stuttgart.de}
-@@
-
-
 ```julia:team_cards
 #hideall
+import CSV
+using CSV
+
 person_list = readdir("./_assets/team/current")
 for person in person_list
-    println(person)
-end
-    
+    person_data_reader = CSV.File(string("./_assets/team/current/", person, "/profile_info.csv"))
+end   
 ```
-[comments]: <>\textoutput{team_cards}
+\textoutput{team_cards}
+@@
+[comments]: <>\currentCard{001_benedikt_ehinger}{Jun.-Prof. Dr.}{Benedikt Ehinger}{Lorem ipsum doloret}{benedikt.ehinger@vis.uni-stuttgart.de}
