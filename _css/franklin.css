@@ -264,10 +264,12 @@ h6 {
 }
 
 .franklin-content h2 {
-  padding-bottom: 0.3em;
-  border-bottom: 1px solid lightgrey;
-  margin-top: 2em;
-  margin-bottom: 1em;
+  color: black
+}
+
+.franklin-content h3 {
+  color: black;
+  padding: 0;
 }
 
 .franklin-content h1 a { color: inherit; }
@@ -476,4 +478,63 @@ code {
   margin-bottom: 5px;
   border-radius: 0 10px 10px 0;
   border-left: 5px solid #4c9cf1;
+}
+
+/* ==================================================================
+    TEAMCARDS
+================================================================== */
+
+.teamcard-wrapper {
+    display: block;
+    margin: 3em auto 0 auto;
+    width: 66%;
+    position: relative;
+}
+
+.teamcard-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+    gap: 2em 2em;
+    background-color: lightgrey;
+    padding: 1em;
+    position: relative;
+    z-index: 2;
+}
+
+.teamcard-image {
+    grid-row: 1 / span 2;
+}
+
+.teamcard-box {
+    background-color: #4287f5;
+    width: 80%;
+    height: 130%;
+    top: -15%;
+    right: 10%;
+    position: absolute;
+    z-index: 1;
+}
+
+.teamcard-image img{
+    width: 230px;
+    padding: 0;
+    border-radius: 50%;
+    float: right;
+}
+
+.teamcard-info {
+    margin: auto 0 auto 0;
+}
+
+.teamcard-info .title{
+    font-size: 0.7em;
+}
+
+.teamcard-info .hobbys{
+    padding-top: 0.3em;
+}
+
+.teamcard-email{
+    font-size: 0.7em;
 }
