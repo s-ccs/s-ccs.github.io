@@ -491,10 +491,15 @@ code {
     position: relative;
 }
 
+.teamcard-column-wrapper {
+    position: relative;
+    margin: 5em 0 5em 0;
+}
+
 .teamcard-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: auto auto;
     gap: 2em 2em;
     background-color: lightgrey;
     padding: 1em;
@@ -504,6 +509,7 @@ code {
 
 .teamcard-image {
     grid-row: 1 / span 2;
+    align-self: center;
 }
 
 .teamcard-box {
