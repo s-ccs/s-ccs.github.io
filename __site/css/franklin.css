@@ -31,6 +31,7 @@ html {
 .franklin-content .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.2em 0em;
 }
 
 .franklin-content .title-image{
@@ -46,7 +47,6 @@ html {
   background-image: url("../assets/title_img.jpg");
   background-size: cover;
   background-position: center center;
-  background-attachment: scroll;
 }
 
 .franklin-content .left {

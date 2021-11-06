@@ -4,7 +4,7 @@
 [comment]: <>(~~~)
 [comment]: <>(<img href="assets/title_img.jpg">)
 [comment]: <>(~~~)
-@@title-image ![]() The Lab @@
+@@title-image The Lab @@
 
 # About the lab
 @@container

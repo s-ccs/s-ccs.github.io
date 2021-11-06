@@ -2,62 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-    <loc>https://tlienart.github.io/FranklinTemplates.jl/thesis-art\index.html</loc>
-    <lastmod>2021-10-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://tlienart.github.io/FranklinTemplates.jl/impressum\index.html</loc>
-    <lastmod>2021-10-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://tlienart.github.io/FranklinTemplates.jl/index.html</loc>
-    <lastmod>2021-10-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://tlienart.github.io/FranklinTemplates.jl/open-projects-and-positions\index.html</loc>
-    <lastmod>2021-10-05</lastmod>
+    <loc>https://tlienart.github.io/FranklinTemplates.jl/teaching-ressources\index.html</loc>
+    <lastmod>2021-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://tlienart.github.io/FranklinTemplates.jl/members\index.html</loc>
-    <lastmod>2021-11-01</lastmod>
+    <lastmod>2021-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://tlienart.github.io/FranklinTemplates.jl/papers\index.html</loc>
-    <lastmod>2021-10-05</lastmod>
+    <loc>https://tlienart.github.io/FranklinTemplates.jl/impressum\index.html</loc>
+    <lastmod>2021-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://tlienart.github.io/FranklinTemplates.jl/index.html</loc>
+    <lastmod>2021-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://tlienart.github.io/FranklinTemplates.jl/internal\index.html</loc>
-    <lastmod>2021-10-05</lastmod>
+    <lastmod>2021-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://tlienart.github.io/FranklinTemplates.jl/teaching-ressources\index.html</loc>
-    <lastmod>2021-10-05</lastmod>
+    <loc>https://tlienart.github.io/FranklinTemplates.jl/open-projects-and-positions\index.html</loc>
+    <lastmod>2021-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://tlienart.github.io/FranklinTemplates.jl/thesis-art\index.html</loc>
+    <lastmod>2021-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://tlienart.github.io/FranklinTemplates.jl/philosophy\index.html</loc>
-    <lastmod>2021-10-05</lastmod>
+    <lastmod>2021-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://tlienart.github.io/FranklinTemplates.jl/404\index.html</loc>
-    <lastmod>2021-10-05</lastmod>
+    <lastmod>2021-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://tlienart.github.io/FranklinTemplates.jl/papers\index.html</loc>
+    <lastmod>2021-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
