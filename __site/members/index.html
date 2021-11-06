@@ -4,87 +4,193 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  
+   <link rel="stylesheet" href="/libs/highlight/github.min.css">
+   
 
-  <link href="/css/franklin.css" rel="stylesheet">
-<link href="/css/vela.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/minimal-mistakes.css">
+<link href="/css/franklin.css" rel="stylesheet">
 <script src="/libs/vela/jquery.min.js"></script>
 
 <link rel="icon" href="/assets/favicon.png">
+
+<!--[if IE ]>
+<style>
+  /* old IE unsupported flexbox fixes */
+  .greedy-nav .site-title {
+    padding-right: 3em;
+  }
+  .greedy-nav button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+  }
+</style>
+<![endif]-->
 
 
   <title>LAB</title>
 </head>
 <body>
-<div class="main-nav slideout-menu slideout-menu-left" id="menu">
-  <div class="flex-container">
-    <span class="sidebar-brand">
-      <h3 style='font-size: 25px'>LAB Navigation</h3>
-    </span>
-  </div> <!-- class="flex-container" -->
-
-  <nav class="sidebar-nav">
-    <ul class="metismenu"  id="metismenu" >
-      <li><a href="/index.html">Landing</a></li>
-      <li><a href="" class="has-arrow">Members</a>
-        <ul>
-          <li><a href="/members/current/">Current</a></li>
-          <li><a href="/members/alumni/"> Alumni</a></li>
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/">LAB LOGO</a>
+        <ul class="visible-links">
+          <li class="masthead__menu-item"><a href="/open-projects-and-positions/" >open positions</a></li>
+          <li class="masthead__menu-item"><a href="/members/" >members</a></li>
+          <li class="masthead__menu-item"><a href="/papers/" >papers</a></li>
+          <li class="masthead__menu-item"><a href="/philosophy/">philosophy</a></li>
+          <li class="masthead__menu-item"><a href="/teaching-ressources/">teaching ressources</a></li>
+          <li class="masthead__menu-item"><a href="/thesis-art/">thesis art</a></li>
+          <li class="masthead__menu-item"><a href="/internal/">internal</a></li>
+          <li class="masthead__menu-item"><a href="/impressum/">impressum</a></li>
         </ul>
-      </li>
-      <li><a href="/papers/">Papers</a></li>
-      <li><a href="/philosophy/">Philosophy</a></li>
-      <li><a href="/teaching-ressources/">Reaching Ressources</a></li>
-      <li><a href="/open-projects-and-positions/">Open Projects and Positions</a></li>
-      <li><a href="/thesis-art/">Thesis Art</a></li>
-      <li><a href="i/nternal/">Internal</a></li>
-      <li><a href="/impressum/">Impresssum</a></li>
-    </ul>
-  </nav>
-</div> <!-- main nav menu -->
-
-<main id="panel" class="slidout-panel slideout-panel-left">
-  <div class="toggle-button hamburger hamburger--spin">
-    <div class="hamburger-box">
-      <div class="hamburger-inner"></div>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
     </div>
   </div>
-  <h1 class="page title">LAB</h1>
-  <hr>
+</div>
 
 
 
 <!-- Content appended here -->
-<div class="franklin-content"><h1 id="landing__2"><a href="#landing__2" class="header-anchor">Landing</a></h1>
-<p>Image here</p>
-<h1 id="about_us__2"><a href="#about_us__2" class="header-anchor">About us</a></h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At elementum eu facilisis sed odio morbi quis. Proin sed libero enim sed faucibus turpis in eu. Quis viverra nibh cras pulvinar mattis nunc sed blandit. Quam vulputate dignissim suspendisse in est ante in. Pellentesque id nibh tortor id. Facilisi cras fermentum odio eu. Sodales ut eu sem integer vitae justo eget. Felis eget velit aliquet sagittis. Pulvinar neque laoreet suspendisse interdum.</p>
+<div class="franklin-content"><h1 id="members"><a href="#members" class="header-anchor">Members</a></h1>
+<div class="teamcard-wrapper"><div class="teamcard-column-wrapper">
+        <div class="teamcard-box"></div>
+        <div class="teamcard-container">
+            <div class="teamcard-image"> 
+                <img src="/assets/team/current/001_benedikt_ehinger/profile_image.jpg" alt="Benedikt Ehinger">
+            </div>
+            <div class="teamcard-info">
+                <div class="title">Jun.-Prof. Dr.</div>
+                <h3> Benedikt Ehinger</h3>
+                <div class="hobbys">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus at augue eget arcu dictum varius duis at consectetur. Ornare quam viverra orci sagittis eu. Elit eget gravida cum sociis natoque. Placerat orci nulla pellentesque dignissim enim.</div> 
+            </div>
+            <div class="teamcard-email"> 
+                <a href="mailto: benedikt.ehigner@vis.uni-stuttgart.de">benedikt.ehigner@vis.uni-stuttgart.de</a> 
+            </div>
+        </div>
+    </div>
+    
+     
+    <div class="teamcard-column-wrapper">
+        <div class="teamcard-box"></div>
+        <div class="teamcard-container">
+            <div class="teamcard-image"> 
+                <img src="/assets/team/current/002_max_mustermann/profile_image.jpg" alt="Max Mustermann">
+            </div>
+            <div class="teamcard-info">
+                <div class="title">Dr.</div>
+                <h3> Max Mustermann</h3>
+                <div class="hobbys">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus at augue eget arcu dictum varius duis at consectetur. Ornare quam viverra orci sagittis eu. Elit eget gravida cum sociis natoque. Placerat orci nulla pellentesque dignissim enim.</div> 
+            </div>
+            <div class="teamcard-email"> 
+                <a href="mailto: benedikt.ehigner@vis.uni-stuttgart.de">benedikt.ehigner@vis.uni-stuttgart.de</a> 
+            </div>
+        </div>
+    </div>
+    
+     
+    <div class="teamcard-column-wrapper">
+        <div class="teamcard-box"></div>
+        <div class="teamcard-container">
+            <div class="teamcard-image"> 
+                <img src="/assets/team/current/003_monika_mustermann/profile_image.jpg" alt="Monika Mustermann">
+            </div>
+            <div class="teamcard-info">
+                <div class="title">MSc.</div>
+                <h3> Monika Mustermann</h3>
+                <div class="hobbys">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus at augue eget arcu dictum varius duis at consectetur. Ornare quam viverra orci sagittis eu. Elit eget gravida cum sociis natoque. Placerat orci nulla pellentesque dignissim enim.</div> 
+            </div>
+            <div class="teamcard-email"> 
+                <a href="mailto: benedikt.ehigner@vis.uni-stuttgart.de">benedikt.ehigner@vis.uni-stuttgart.de</a> 
+            </div>
+        </div>
+    </div></div>
+<h1 id="alumni"><a href="#alumni" class="header-anchor">Alumni</a></h1>
+<div class="teamcard-wrapper"><div class="teamcard-column-wrapper">
+        <div class="teamcard-box"></div>
+        <div class="teamcard-container">
+            <div class="teamcard-image"> 
+                <img src="/assets/team/alumni/002_max_mustermann/profile_image.jpg" alt="Max Mustermann">
+            </div>
+            <div class="teamcard-info">
+                <div class="title">PhD.</div>
+                <h3> Max Mustermann</h3>
+                <div class="hobbys">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus at augue eget arcu dictum varius duis at consectetur. Ornare quam viverra orci sagittis eu. Elit eget gravida cum sociis natoque. Placerat orci nulla pellentesque dignissim enim.</div> 
+            </div>
+            <div class="teamcard-email"> 
+                <a href="mailto: benedikt.ehigner@vis.uni-stuttgart.de">benedikt.ehigner@vis.uni-stuttgart.de</a> 
+            </div>
+        </div>
+    </div>
+    
+     
+    <div class="teamcard-column-wrapper">
+        <div class="teamcard-box"></div>
+        <div class="teamcard-container">
+            <div class="teamcard-image"> 
+                <img src="/assets/team/alumni/003_monika_mustermann/profile_image.jpg" alt="Monika Mustermann">
+            </div>
+            <div class="teamcard-info">
+                <div class="title">PhD.</div>
+                <h3> Monika Mustermann</h3>
+                <div class="hobbys">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus at augue eget arcu dictum varius duis at consectetur. Ornare quam viverra orci sagittis eu. Elit eget gravida cum sociis natoque. Placerat orci nulla pellentesque dignissim enim.</div> 
+            </div>
+            <div class="teamcard-email"> 
+                <a href="mailto: benedikt.ehigner@vis.uni-stuttgart.de">benedikt.ehigner@vis.uni-stuttgart.de</a> 
+            </div>
+        </div>
+    </div></div>
 <div class="page-foot">
-  <div>
-    <table>
-      <tr>
-        <td><a href="">About</a></td>
-        <td><a href="">Open Positions</a></td>
-      </tr>
-      <tr>
-        <td><a href="">Impressum</a></td>
-        <td><a href="">Licences and Data Privacy</a></td>
-      </tr>
-    </table>
-  </div>
+    <div class="page-foot-grid-container">
+        <div class="page-foot-grid-container page-foot-item-inner">
+          <div class="page-foot-image-wrap">
+              <a href="https://github.com">
+                <img src="/assets/footer_logo.png">
+              </a>
+          </div>
+          <div>
+            <ul>
+              <li class="page-foot-links"><a href="/papers/">papers</a></li>
+              <li class="page-foot-links"><a href="/open-projects-and-positions/">open positions</a></li>
+              <li class="page-foot-links"><a href="/internal/">internal</a></li>
+              <li class="page-foot-links"><a href="/teaching-ressources/">teaching ressources1</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="page-foot-grid-container page-foot-item-inner">
+          <div class="page-foot-image-wrap">
+              <a href="">
+                <img src="/assets/GitHub-Mark-Light-120px-plus.png">
+              </a>
+          </div>
+          <div class="page-foot-image-wrap">
+              <a href="https://www.uni-stuttgart.de/en/">
+                <img src="/assets/university-of-stuttgart-vector-logo.png">
+              </a>
+          </div>
+        </div>
 
-  <hr>
-  </hr>
-
-  <div class="copyright">
-    &copy; VIS CCS. Last modified: October 04, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
-  </div>
-</div>
-</div><!-- CONTENT ENDS HERE -->
+    </div>
+    <div class="copyright">
+      &copy; VIS CCS. Last modified: November 01, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+    </div>
+</div></div><!-- CONTENT ENDS HERE -->
   </main> <!-- end of id=main -->
   <script src="/libs/vela/metisMenu.min.js"></script>
   <script src="/libs/vela/slideout.min.js"></script>
   
+  
+    <script src="/libs/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();hljs.configure({tabReplace: '    '});</script>
+
   
 </body>
 </html>
