@@ -70,14 +70,6 @@ audio:not([controls]) {
   display: none;
 }
 
-a {
-  color: #32859e;
-}
-
-a:hover,
-a:active {
-  outline: 0;
-}
 
 sub,
 sup {
@@ -232,15 +224,6 @@ blockquote cite::before {
   padding-right: 5px;
 }
 
-a:visited {
-  color: #5197ad;
-}
-
-a:hover {
-  color: #266477;
-  outline: 0;
-}
-
 tt,
 code,
 kbd,
@@ -389,32 +372,6 @@ nav li ol {
   margin-top: 0;
 }
 
-b,
-i,
-strong,
-em,
-blockquote,
-p,
-q,
-span,
-figure,
-img,
-h1,
-h2,
-header,
-input,
-a,
-tr,
-td,
-form button,
-input[type="submit"],
-.btn,
-#goog-wm-sb,
-.highlight,
-.archive__item-teaser {
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
 
 form {
   margin: 0 0 5px 0;
@@ -1369,10 +1326,6 @@ th {
   align-self: center;
   font-weight: bold;
   z-index: 20;
-}
-
-.site-title img {
-    max-width: 50%
 }
 
 .masthead__menu {

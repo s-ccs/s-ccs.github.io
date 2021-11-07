@@ -1,11 +1,6 @@
 @def title = ""
 @def tags = ["landing", "home", "about"]
 
-[comment]: <>(~~~)
-[comment]: <>(<img href="assets/title_img.jpg">)
-[comment]: <>(~~~)
-@@title-image The Lab @@
-
 # About the lab
 @@container
     \textImage{eeg_cap_vr.jpg}
