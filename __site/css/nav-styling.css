@@ -132,6 +132,14 @@ nav li ol {
   padding: 0.7em 0;
 }
 
+@media(max-width: 1130px) {
+    .greedy-nav a {
+        display: inline;
+        margin: 0;
+        padding: 0;
+    }
+}
+
 .greedy-nav__toggle {
   -ms-flex-item-align: center;
   align-self: center;
@@ -182,11 +190,20 @@ nav li ol {
     border-radius: 10px
 }
 
+.hamburger-links {
+    width: 100%;
+    display: none;
+}
+
 @media (min-width: 1130px) {
     .greedy-nav .hamburger {
         visibility: hidden;
         width: 0;
         height: 0;
+    }
+
+    .hamburger-links {
+        display: none;
     }
 }
 
@@ -559,6 +576,12 @@ nav li ol {
   text-decoration: none;
   color: black;
   padding: 0.1em 0;
+  transition: 0.3s;
+}
+
+.side-nav li a:hover {
+  color: #33A0A6;
+  transition: 0.3s;
 }
 
 .side-nav .search-bar {

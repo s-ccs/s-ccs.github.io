@@ -6,6 +6,7 @@
   <!--<link rel="stylesheet" href="/css/minimal-mistakes.css">-->
 <link href="/css/franklin.css" rel="stylesheet">
 <link href="/css/nav-styling.css" rel="stylesheet">
+<script src="/libs/nav/hamburger.js"></script>
 <!--<script src="/libs/vela/jquery.min.js"></script>-->
 
 <link rel="icon" href="/assets/favicon.png">
@@ -33,19 +34,41 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <a class="site-title" href="/"><img src="/assets/text_logo.png"></a>
-        <!--div class="links-wrapper"-->
           <ul class="visible-links">
             <li class="masthead__menu-item"><a href="/teaching-ressources/">teaching ressources</a></li>
             <li class="masthead__menu-item"><a href="/internal/">internal</a></li>
             <li class="masthead__menu-item"><a href="/impressum/">impressum</a></li>
           </ul>
-          <div class="hamburger">
-            <div class="hamburger-elem1"></div>
-            <div class="hamburger-elem2"></div>
-            <div class="hamburger-elem1"></div>
-          </div>
-        <!--/div-->
+          <a href="javascript:void(0);" onclick="toggleHamburger()">
+            <div class="hamburger">
+                <div class="hamburger-elem1"></div>
+                <div class="hamburger-elem2"></div>
+                <div class="hamburger-elem1"></div>
+            </div>
+          </a>
       </nav>
+     <div class="hamburger-links">
+          <ul class="first">
+            <li><a href="">home</a></li>
+            <li><a href="/open-projects-and-positions/">open positions</a></li>
+            <li><a href="/members/" >members</a></li>
+            <li><a href="/papers/" >papers</a></li>
+            <li><a href="/philosophy/">philosophy</a></li>
+            <li><a href="/teaching-ressources/">teaching ressources</a>
+              <ul class="second">
+                  <li><a href="">demos</a></li>
+                  <li><a href="">eeg</a></li>
+                  <li><a href="">eye-tracking</a></li>
+                  <li><a href="">bayesian statistics</a></li>
+                  <li><a href="">(G)L(M)M</a></li>
+                  <li><a href="">graphics</a></li>
+              </ul>
+            </li>
+            <li><a href="/thesis-art/">thesis art</a></li>
+            <li><a href="/internal/">internal</a></li>
+            <li><a href="/impressum/">impressum</a></li>
+         </ul>
+       </div>
     </div>
   </div>
 </div>
