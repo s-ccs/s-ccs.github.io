@@ -1,8 +1,8 @@
 function toggleHamburger() {
-    var status = document.getElementsByClassName("hamburger-links");
-    if(status.style.display === "block") {
-        status.style.display = "none";
+    var status = document.getElementById("hamburgerLinks");
+    if(status.className === "invisible-hamburger-links") {
+        status.className = "visible-hamburger-links";
     } else {
-        status.style.display = "block";
+        status.className = "invisible-hamburger-links";
     }
 }

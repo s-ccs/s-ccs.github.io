@@ -190,8 +190,12 @@ nav li ol {
     border-radius: 10px
 }
 
-.hamburger-links {
+.visible-hamburger-links {
     width: 100%;
+    display: block;
+}
+
+.invisible-hamburger-links {
     display: none;
 }
 
@@ -202,7 +206,7 @@ nav li ol {
         height: 0;
     }
 
-    .hamburger-links {
+    .visible-hamburger-links {
         display: none;
     }
 }
