@@ -23,5 +23,6 @@ Add here global latex commands to use throughout your pages.
 -->
 \newcommand{\R}{\mathbb R}
 \newcommand{\scal}[1]{\langle #1 \rangle}
-\newcommand{\textImage}[1]{~~~<div class="text-image" style="background-image: url('../assets/!#1');"></div>~~~}
-\newcommand{\doubleTextImage}[2]{~~~<div class="text-image" style="background-image: url('../assets/!#1');"></div> <div class="text-image" style="background-image: url('../assets/!#2');"></div>~~~}
+
+\newcommand{\colorStrip}[1]{~~~<div class="color-strip-!#1"></div>~~~}
+\newcommand{\textImage}[2]{~~~<div class="text-image"><img src="/assets/!#1">~~~ \colorStrip{!#2} ~~~</div>~~~}

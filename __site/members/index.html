@@ -9,6 +9,7 @@
 
   <!--<link rel="stylesheet" href="/css/minimal-mistakes.css">-->
 <link href="/css/franklin.css" rel="stylesheet">
+<link href="/css/nav-styling.css" rel="stylesheet">
 <!--<script src="/libs/vela/jquery.min.js"></script>-->
 
 <link rel="icon" href="/assets/favicon.png">
@@ -37,11 +38,18 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <a class="site-title" href="/"><img src="/assets/text_logo.png"></a>
-        <ul class="visible-links">
-          <li class="masthead__menu-item"><a href="/teaching-ressources/">teaching ressources</a></li>
-          <li class="masthead__menu-item"><a href="/internal/">internal</a></li>
-          <li class="masthead__menu-item"><a href="/impressum/">impressum</a></li>
-        </ul>
+        <!--div class="links-wrapper"-->
+          <ul class="visible-links">
+            <li class="masthead__menu-item"><a href="/teaching-ressources/">teaching ressources</a></li>
+            <li class="masthead__menu-item"><a href="/internal/">internal</a></li>
+            <li class="masthead__menu-item"><a href="/impressum/">impressum</a></li>
+          </ul>
+          <div class="hamburger">
+            <div class="hamburger-elem1"></div>
+            <div class="hamburger-elem2"></div>
+            <div class="hamburger-elem1"></div>
+          </div>
+        <!--/div-->
       </nav>
     </div>
   </div>
@@ -51,15 +59,28 @@
   <div class="page-wrapper">
     <div class="side-nav-wrapper">
     <div class="side-nav">
-        <h1>
+        <div class="search-bar">
+            search-bar
+        </div>
+        <h2>
             Navigation
-        </h1>
-        <ul>
-          <li><a href="/open-projects-and-positions/" >open positions</a></li>
+        </h2>
+        <ul class="first">
+          <li><a href="">home</a></li>
+          <li><a href="/open-projects-and-positions/">open positions</a></li>
           <li><a href="/members/" >members</a></li>
           <li><a href="/papers/" >papers</a></li>
           <li><a href="/philosophy/">philosophy</a></li>
-          <li><a href="/teaching-ressources/">teaching ressources</a></li>
+          <li><a href="/teaching-ressources/">teaching ressources</a>
+            <ul class="second">
+                <li><a href="">demos</a></li>
+                <li><a href="">eeg</a></li>
+                <li><a href="">eye-tracking</a></li>
+                <li><a href="">bayesian statistics</a></li>
+                <li><a href="">(G)L(M)M</a></li>
+                <li><a href="">graphics</a></li>
+            </ul>
+          </li>
           <li><a href="/thesis-art/">thesis art</a></li>
           <li><a href="/internal/">internal</a></li>
           <li><a href="/impressum/">impressum</a></li>
@@ -73,17 +94,95 @@
 
 <!-- Content appended here -->
 <div class="franklin-content"><h1 id="members"><a href="#members" class="header-anchor">Members</a></h1>
-<div class="teamcard-wrapper"><p>ArgumentError: Package CSV &#91;336ed68f-0bac-5ca0-87d4-7b16caf5d00b&#93; is required but does not seem to be installed:</p>
-<ul>
-<li><p>Run <code>Pkg.instantiate&#40;&#41;</code> to install all recorded dependencies.</p>
-</li>
-</ul></div>
+<div class="teamcard-wrapper"><div class="teamcard-column-wrapper">
+        <div class="teamcard-box"></div>
+        <div class="teamcard-container">
+            <div class="teamcard-image"> 
+                <img src="/assets/team/current/001_benedikt_ehinger/profile_image.jpg" alt="Benedikt Ehinger">
+            </div>
+            <div class="teamcard-info">
+                <div class="title">Jun.-Prof. Dr.</div>
+                <h3> Benedikt Ehinger</h3>
+                <div class="hobbys">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus at augue eget arcu dictum varius duis at consectetur. Ornare quam viverra orci sagittis eu. Elit eget gravida cum sociis natoque. Placerat orci nulla pellentesque dignissim enim.</div> 
+            </div>
+            <div class="teamcard-email"> 
+                <a href="mailto: benedikt.ehigner@vis.uni-stuttgart.de">benedikt.ehigner@vis.uni-stuttgart.de</a> 
+            </div>
+        </div>
+    </div>
+    
+     
+    <div class="teamcard-column-wrapper">
+        <div class="teamcard-box"></div>
+        <div class="teamcard-container">
+            <div class="teamcard-image"> 
+                <img src="/assets/team/current/002_max_mustermann/profile_image.jpg" alt="Max Mustermann">
+            </div>
+            <div class="teamcard-info">
+                <div class="title">Dr.</div>
+                <h3> Max Mustermann</h3>
+                <div class="hobbys">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus at augue eget arcu dictum varius duis at consectetur. Ornare quam viverra orci sagittis eu. Elit eget gravida cum sociis natoque. Placerat orci nulla pellentesque dignissim enim.</div> 
+            </div>
+            <div class="teamcard-email"> 
+                <a href="mailto: benedikt.ehigner@vis.uni-stuttgart.de">benedikt.ehigner@vis.uni-stuttgart.de</a> 
+            </div>
+        </div>
+    </div>
+    
+     
+    <div class="teamcard-column-wrapper">
+        <div class="teamcard-box"></div>
+        <div class="teamcard-container">
+            <div class="teamcard-image"> 
+                <img src="/assets/team/current/003_monika_mustermann/profile_image.jpg" alt="Monika Mustermann">
+            </div>
+            <div class="teamcard-info">
+                <div class="title">MSc.</div>
+                <h3> Monika Mustermann</h3>
+                <div class="hobbys">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus at augue eget arcu dictum varius duis at consectetur. Ornare quam viverra orci sagittis eu. Elit eget gravida cum sociis natoque. Placerat orci nulla pellentesque dignissim enim.</div> 
+            </div>
+            <div class="teamcard-email"> 
+                <a href="mailto: benedikt.ehigner@vis.uni-stuttgart.de">benedikt.ehigner@vis.uni-stuttgart.de</a> 
+            </div>
+        </div>
+    </div></div>
 <h1 id="alumni"><a href="#alumni" class="header-anchor">Alumni</a></h1>
-<div class="teamcard-wrapper"><p>ArgumentError: Package CSV &#91;336ed68f-0bac-5ca0-87d4-7b16caf5d00b&#93; is required but does not seem to be installed:</p>
-<ul>
-<li><p>Run <code>Pkg.instantiate&#40;&#41;</code> to install all recorded dependencies.</p>
-</li>
-</ul></div>
+<div class="teamcard-wrapper"><div class="teamcard-column-wrapper">
+        <div class="teamcard-box"></div>
+        <div class="teamcard-container">
+            <div class="teamcard-image"> 
+                <img src="/assets/team/alumni/002_max_mustermann/profile_image.jpg" alt="Max Mustermann">
+            </div>
+            <div class="teamcard-info">
+                <div class="title">PhD.</div>
+                <h3> Max Mustermann</h3>
+                <div class="hobbys">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus at augue eget arcu dictum varius duis at consectetur. Ornare quam viverra orci sagittis eu. Elit eget gravida cum sociis natoque. Placerat orci nulla pellentesque dignissim enim.</div> 
+            </div>
+            <div class="teamcard-email"> 
+                <a href="mailto: benedikt.ehigner@vis.uni-stuttgart.de">benedikt.ehigner@vis.uni-stuttgart.de</a> 
+            </div>
+        </div>
+    </div>
+    
+     
+    <div class="teamcard-column-wrapper">
+        <div class="teamcard-box"></div>
+        <div class="teamcard-container">
+            <div class="teamcard-image"> 
+                <img src="/assets/team/alumni/003_monika_mustermann/profile_image.jpg" alt="Monika Mustermann">
+            </div>
+            <div class="teamcard-info">
+                <div class="title">PhD.</div>
+                <h3> Monika Mustermann</h3>
+                <div class="hobbys">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus at augue eget arcu dictum varius duis at consectetur. Ornare quam viverra orci sagittis eu. Elit eget gravida cum sociis natoque. Placerat orci nulla pellentesque dignissim enim.</div> 
+            </div>
+            <div class="teamcard-email"> 
+                <a href="mailto: benedikt.ehigner@vis.uni-stuttgart.de">benedikt.ehigner@vis.uni-stuttgart.de</a> 
+            </div>
+        </div>
+    </div></div>
+</div>
+</div>
 <div class="page-foot">
     <div class="page-foot-grid-container">
         <div class="page-foot-grid-container page-foot-item-inner">
@@ -97,7 +196,7 @@
               <li class="page-foot-links"><a href="/papers/">papers</a></li>
               <li class="page-foot-links"><a href="/open-projects-and-positions/">open positions</a></li>
               <li class="page-foot-links"><a href="/internal/">internal</a></li>
-              <li class="page-foot-links"><a href="/teaching-ressources/">teaching ressources1</a></li>
+              <li class="page-foot-links"><a href="/teaching-ressources/">teaching ressources</a></li>
             </ul>
           </div>
         </div>

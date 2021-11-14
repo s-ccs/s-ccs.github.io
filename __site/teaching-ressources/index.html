@@ -8,6 +8,7 @@
 
   <!--<link rel="stylesheet" href="/css/minimal-mistakes.css">-->
 <link href="/css/franklin.css" rel="stylesheet">
+<link href="/css/nav-styling.css" rel="stylesheet">
 <!--<script src="/libs/vela/jquery.min.js"></script>-->
 
 <link rel="icon" href="/assets/favicon.png">
@@ -36,11 +37,18 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <a class="site-title" href="/"><img src="/assets/text_logo.png"></a>
-        <ul class="visible-links">
-          <li class="masthead__menu-item"><a href="/teaching-ressources/">teaching ressources</a></li>
-          <li class="masthead__menu-item"><a href="/internal/">internal</a></li>
-          <li class="masthead__menu-item"><a href="/impressum/">impressum</a></li>
-        </ul>
+        <!--div class="links-wrapper"-->
+          <ul class="visible-links">
+            <li class="masthead__menu-item"><a href="/teaching-ressources/">teaching ressources</a></li>
+            <li class="masthead__menu-item"><a href="/internal/">internal</a></li>
+            <li class="masthead__menu-item"><a href="/impressum/">impressum</a></li>
+          </ul>
+          <div class="hamburger">
+            <div class="hamburger-elem1"></div>
+            <div class="hamburger-elem2"></div>
+            <div class="hamburger-elem1"></div>
+          </div>
+        <!--/div-->
       </nav>
     </div>
   </div>
@@ -50,15 +58,28 @@
   <div class="page-wrapper">
     <div class="side-nav-wrapper">
     <div class="side-nav">
-        <h1>
+        <div class="search-bar">
+            search-bar
+        </div>
+        <h2>
             Navigation
-        </h1>
-        <ul>
-          <li><a href="/open-projects-and-positions/" >open positions</a></li>
+        </h2>
+        <ul class="first">
+          <li><a href="">home</a></li>
+          <li><a href="/open-projects-and-positions/">open positions</a></li>
           <li><a href="/members/" >members</a></li>
           <li><a href="/papers/" >papers</a></li>
           <li><a href="/philosophy/">philosophy</a></li>
-          <li><a href="/teaching-ressources/">teaching ressources</a></li>
+          <li><a href="/teaching-ressources/">teaching ressources</a>
+            <ul class="second">
+                <li><a href="">demos</a></li>
+                <li><a href="">eeg</a></li>
+                <li><a href="">eye-tracking</a></li>
+                <li><a href="">bayesian statistics</a></li>
+                <li><a href="">(G)L(M)M</a></li>
+                <li><a href="">graphics</a></li>
+            </ul>
+          </li>
           <li><a href="/thesis-art/">thesis art</a></li>
           <li><a href="/internal/">internal</a></li>
           <li><a href="/impressum/">impressum</a></li>
@@ -77,6 +98,8 @@
 <h1 id="bayesian_statistics"><a href="#bayesian_statistics" class="header-anchor">Bayesian Statistics</a></h1>
 <h1 id="glmm_course"><a href="#glmm_course" class="header-anchor">&#40;G&#41;L&#40;M&#41;M Course</a></h1>
 <h1 id="graphics"><a href="#graphics" class="header-anchor">Graphics</a></h1>
+</div>
+</div>
 <div class="page-foot">
     <div class="page-foot-grid-container">
         <div class="page-foot-grid-container page-foot-item-inner">
@@ -90,7 +113,7 @@
               <li class="page-foot-links"><a href="/papers/">papers</a></li>
               <li class="page-foot-links"><a href="/open-projects-and-positions/">open positions</a></li>
               <li class="page-foot-links"><a href="/internal/">internal</a></li>
-              <li class="page-foot-links"><a href="/teaching-ressources/">teaching ressources1</a></li>
+              <li class="page-foot-links"><a href="/teaching-ressources/">teaching ressources</a></li>
             </ul>
           </div>
         </div>

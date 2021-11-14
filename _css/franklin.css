@@ -23,45 +23,19 @@ html {
     PAGE LAYOUT
 ================================================================== */
 .page-wrapper {
-    width: 80em;
+    max-width: 50em;
     margin: 0 auto 0 auto;
     display: grid;
     grid-template-columns: auto auto;
     gap: 0 0.5em;
 }
 
-
-/* ==================================================================
-    SIDE NAV
-================================================================== */
-
-side-nav-wrapper {
-
+@media(max-width: 1130px) {
+    .page-wrapper {
+        display: inherit;
+    }
 }
 
-.side-nav {
-    position: sticky;
-    top: 0;
-    padding: 0 0 0;
-}
-
-.side-nav .header {
-  text-align: left;
-  text-transform: uppercase;
-  font-size: 2em;
-  overflow: hidden;
-  font-weight: bold;
-}
-
-.side-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li a {
-  display: block;
-  text-decoration: none;
-}
 
 /* ==================================================================
     BASIC CONTENT STYLING
@@ -73,13 +47,21 @@ li a {
 
 .franklin-content .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 50% auto;
   gap: 0.2em 0em;
+  margin: 1em 0;
+}
+
+@media(max-width: 550px) {
+    .franklin-content .container {
+        display: block;
+    }
 }
 
 .title-image{
-  padding: 5em 0 5em 0;
-  width: 100%;
+  padding: 4em 0 4em 0;
+  max-width: 100%;
+  height: auto;
 
   text-align: center;
   text-transform: uppercase;
@@ -92,13 +74,17 @@ li a {
   background-position: center center;
 }
 
+.title-image img {
+    max-width: 3em;
+    margin: 0 0.5em 0 0.5em;
+}
+
 .franklin-content .left {
   padding: 2em 2em 2em 33%;
   text-align: right;
   grid-column: 1 / span 1;
   background-color: #e09a19;
   color: white;
-
 }
 
 .franklin-content .right {
@@ -119,38 +105,25 @@ li a {
     FOOT / COPYRIGHT
 ================================================================== */
 
-.franklin-content .page-foot a {
+.page-foot a {
   text-decoration: none;
   color: white;
-  text-decoration: underline;
 }
 
-@media(min-width: 830px) {
-    .page-foot {
-      font-size: 70%;
-      font-family: Arial, serif;
-      color: lightgrey;
-      margin-top: 6em;
-      padding-top: 12em;
-      padding-bottom: 3em;
-      background-color: #3e3e3e;
-    }
+.page-foot {
+  width: 100%
+  font-size: 70%;
+  font-family: Arial, serif;
+  color: lightgrey;
+  margin-top: 4em;
+  padding-top: 8em;
+  padding-bottom: 3em;
+  background-color: #3e3e3e;
 }
 
-@media(max-width: 830px) {
-    .page-foot {
-      font-size: 70%;
-      font-family: Arial, serif;
-      color: lightgrey;
-      margin-top: 6em;
-      padding-top: 8em;
-      padding-bottom: 3em;
-      background-color: #3e3e3e;
-    }
-}
 
 .page-foot-links{
-    margin-bottom: 0 !important;
+    margin: 0.2em;
 }
 
 @media(min-width: 830px) {
@@ -184,6 +157,7 @@ li a {
         padding: 0;
         margin: 0;
         list-style-position: inside;
+        height: 100%
     }
 }
 
@@ -195,6 +169,7 @@ li a {
         padding: 0;
         margin: 1.2em;
         list-style-position: inside;
+        height: 100%
     }
 }
 
@@ -205,14 +180,14 @@ li a {
 
 @media(min-width: 830px) {
     .page-foot-image-wrap{
-        height: 108.6px;
-        margin: 0px;
+        height: 100px;
+        margin: 6px;
     }
 }
 
 @media(max-width: 830px) {
     .page-foot-image-wrap{
-        height: 108.6px;
+        height: 100px;
         margin:1.2em;
     }
 }
@@ -281,81 +256,6 @@ li a {
 }
 
 /* ==================================================================
-    TITLES
-================================================================== */
-
-h1 { font-size: 2em; }
-h2 { font-size: 1.5em; }
-h3 { font-size: 1em; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-align: left;
-  margin: 0 0 0 0;
-  color: white;
-  padding: 1.5em 2em 1.5em 2em;
-  text-transform: uppercase;
-  overflow: hidden;
-}
-
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-    color: white;
-}
-
-h1 {
-  background-color: #54d9b1;
-
-}
-
-h2 {
-  color: black
-}
-
-h3 {
-  color: black;
-  padding: 0;
-}
-
-.franklin-content table {
-  margin-left: auto;
-  margin-right: auto;
-  border-collapse: collapse;
-  text-align: center;
-}
-
-.franklin-toc ol ol {
-  list-style-type: lower-alpha;
-}
-
-.franklin-content th,
-td {
-  font-size: var(--small);
-  padding: 10px;
-  border: 1px solid black;
-}
-
-.franklin-content blockquote {
-  background: var(--block-background);
-  border-left: 7px solid #a8a8a8;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  font-style: italic;
-}
-
-.franklin-content blockquote p {
-  display: inline;
-}
-
-/* ==================================================================
     GENERAL FORMATTING
 ================================================================== */
 
@@ -365,7 +265,6 @@ td {
 }
 
 .franklin-content a {
-  color: white;
   text-decoration: none;
 }
 
@@ -418,24 +317,75 @@ td {
     IMAGES in CONTENT
 ================================================================== */
 
-.franklin-content img {
-  width: 70%;
-  text-align: center;
-  padding-left: 10%;
-}
-
-.franklin-content .img-small img {
-  width: 50%;
-  text-align: center;
-  padding-left: 20%;
-}
-
 .franklin-content .text-image {
-  background-position: center;
-  background-size: cover;
-  grid-column: span 2;
+    max-height: 20em;
+    max-width: 100%;
+    display: flex;
 }
 
+@media(max-width: 550px) {
+    .franklin-content .text-image {
+        margin-bottom: 1em;
+        flex-direction: column;
+    }
+}
+
+.franklin-content .text-image img {
+    height: inherit;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    padding: 0;
+}
+
+.franklin-content .about-text {
+    padding-left: 1em;
+}
+
+.franklin-content .color-strip-green {
+    width: 2em;
+    height: inherit;
+    background-color: #EAFFCB;
+    margin-right: -4em;
+}
+
+.franklin-content .color-strip-blue {
+    width: 2em;
+    height: inherit;
+    background-color: #CBFCFF;
+    margin-right: -4em;
+}
+
+.franklin-content .color-strip-orange {
+    width: 2em;
+    height: inherit;
+    background-color: #FFE3CB;
+    margin-right: -4em;
+}
+
+@media(max-width: 550px) {
+    .franklin-content .color-strip-green {
+        height: 2em;
+        width: inherit;
+        background-color: #EAFFCB;
+        margin: 0 0 -2em 0;
+    }
+
+    .franklin-content .color-strip-blue {
+        height: 2em;
+        width: inherit;
+        background-color: #CBFCFF;
+        margin: 0 0 -2em 0;
+    }
+
+    .franklin-content .color-strip-orange {
+        height: 2em;
+        width: inherit;
+        background-color: #FFE3CB;
+        margin: 0 0 -2em 0;
+    }
+
+}
 
 /* ==================================================================
     KATEX
@@ -527,24 +477,37 @@ code {
 .teamcard-wrapper {
     display: block;
     margin: 3em auto 0 auto;
-    width: 66%;
+    width: 100%;
     position: relative;
 }
 
 .teamcard-column-wrapper {
     position: relative;
-    margin: 5em 0 5em 0;
+    margin: 4em 3em 4em 0;
+}
+
+@media (max-width: 1130px) {
+    .teamcard-column-wrapper {
+        margin: 4em 2em 4em 2em;
+    }
 }
 
 .teamcard-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto auto;
-    gap: 2em 2em;
+    gap: 1em 1em;
     background-color: lightgrey;
     padding: 1em;
     position: relative;
     z-index: 2;
+}
+
+@media(max-width: 550px) {
+    .teamcard-container {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .teamcard-image {
@@ -553,10 +516,10 @@ code {
 }
 
 .teamcard-box {
-    background-color: #4287f5;
+    background-color: #cbfcff;
     width: 80%;
-    height: 130%;
-    top: -15%;
+    height: 120%;
+    top: -10%;
     right: 10%;
     position: absolute;
     z-index: 1;
@@ -583,4 +546,72 @@ code {
 
 .teamcard-email{
     font-size: 0.7em;
+}
+
+
+/* ==================================================================
+    TITLES
+================================================================== */
+
+h1 { font-size: 4em;  margin: 1em 0 0 0;}
+h2 { font-size: 2em; margin: 0;}
+h3 { font-size: 1em; margin: 0}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: left;
+  color: black !important;
+  text-transform: lowercase;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover{
+    text-decoration: none !important;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a{
+    color: black;
+}
+
+.franklin-content table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.franklin-toc ol ol {
+  list-style-type: lower-alpha;
+}
+
+.franklin-content th,
+td {
+  font-size: var(--small);
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.franklin-content blockquote {
+  background: var(--block-background);
+  border-left: 7px solid #a8a8a8;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-style: italic;
+}
+
+.franklin-content blockquote p {
+  display: inline;
 }
