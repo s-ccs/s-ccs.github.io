@@ -7,7 +7,7 @@ before_script:
 pages:
   stage: deploy
   script:
-    - julia --project=@. -e 'import Pkg; Pkg.instantiate();
+    - julia --project=@. -e 'import Pkg; Pkg.instantiate(); Pkg.add("NodeJS");
       using NodeJS; run(`$(npm_cmd()) install highlight.js`);
       using Franklin;
       using CSV;
