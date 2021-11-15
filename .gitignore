@@ -1,3 +1,6 @@
 .DS_Store
+__site
 node_modules/
 package-lock.json
+Project.toml
+Manifest.toml
