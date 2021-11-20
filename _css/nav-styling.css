@@ -625,3 +625,7 @@ nav li ol {
     border-left-style: solid;
     border-color: #b8b8b8;
 }
+
+.active{
+    font-weight: bold;
+}
