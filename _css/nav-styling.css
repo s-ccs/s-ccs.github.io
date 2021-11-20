@@ -67,8 +67,6 @@
 }
 
 .masthead__menu ul {
-  margin: 0;
-  padding: 0;
   clear: both;
   list-style-type: none;
 }
@@ -542,6 +540,28 @@ nav li ol {
 
 .greedy-nav img {
   max-width: 70%
+}
+
+.nav-first {
+  padding-left: 1em;
+  margin-left: 2em;
+  border-left-style: solid;
+    border-color: #b8b8b8;
+}
+
+.nav-first a {
+    color: white;
+}
+
+.nav-first li {
+    padding: 0.2em 0;
+}
+
+.nav-second {
+  border-left-style: solid;
+  border-color: #b8b8b8;
+  padding-left: 1em;
+  margin-left: 0.7em;
 }
 
 /* ==================================================================
