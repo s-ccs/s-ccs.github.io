@@ -629,3 +629,24 @@ nav li ol {
 .active{
     font-weight: bold;
 }
+
+.search-input {
+    border-radius: 1.5em;
+    border: 1px solid grey;
+    padding: 0.5em 0.5em 0.5em 2.3em;
+    background-color: #33A0A6;
+    background-image: url('/assets/searchicon.png');
+    background-position: 8px 7px;
+    background-repeat: no-repeat;
+    color: white;
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: white;
+}
+
+input[type=submit] {
+    display: none;
+}
+

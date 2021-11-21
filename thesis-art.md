@@ -1,5 +1,5 @@
 @def title = "Thesis Art"
-@def tags = []
+@def tags = ["Images", "Project"]
 
 # Thesis Art: Karolis Degutis \date{12. August 2020}
 

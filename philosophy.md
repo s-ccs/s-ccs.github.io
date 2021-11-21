@@ -1,5 +1,5 @@
 @def title = "Philosophy"
-@def tags = []
+@def tags = ["rules", "lab", "code", "conduct"]
 
 # lab philosophy 
 1. Think for yourself

@@ -1,5 +1,5 @@
 @def title = "Impressum"
-@def tags = []
+@def tags = ["Legal", "Contact"]
 
 # Impressum
 

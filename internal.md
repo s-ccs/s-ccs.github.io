@@ -1,5 +1,5 @@
 @def title = "Internal"
-@def tags = []
+@def tags = ["Wiki", "Links", "s-ccs"]
 
 # internal
 
