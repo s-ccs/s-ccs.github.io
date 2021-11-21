@@ -213,6 +213,7 @@ html {
   font-size: 80%;
 }
 
+
 /* ==================================================================
     TEXT GEOMETRY
 ================================================================== */
@@ -554,7 +555,7 @@ code {
 
 
 /* ==================================================================
-    TITLES
+    TITLES AND TABLES
 ================================================================== */
 
 h1 { font-size: 4em;  margin: 1em 0 0 0;}
@@ -618,4 +619,16 @@ td {
 
 .franklin-content blockquote p {
   display: inline;
+}
+
+.franklin-content .impressum-table td {
+    border: 0;
+    vertical-align: top;
+    padding-left: 0;
+    padding-right: 6em;
+
+}
+
+.franklin-content .impressum-table {
+    margin-top: 1em;
 }
