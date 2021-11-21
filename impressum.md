@@ -10,18 +10,18 @@
         <td>S-CCS <br> 
         Universität Stuttgart <br>
         <br>
-        Pfaffenwaldring 5a,<br> 
+        Universitätsstraße 32<br> 
         70569 Stuttgart</td>
     </tr>
     <tr>
         <td><h2>Verantwortung</h2></td>
-        <td>Das S-CCS ist Teil der Universität Stuttgart. Die Universität Stuttgart ist eine Körperschaft des Öffentlichen Rechts.
-            Sie wird durch den <a href="https://www.uni-stuttgart.de/universitaet/organisation/leitung/rektor/">Rektor Univ.-Prof. Dr.-Ing. Wolfram Ressel</a> gesetzlich vertreten.
+        <td>Die Abteilung Computational Cognitive Science ist Teil der Universität Stuttgart. Die Universität Stuttgart ist eine Körperschaft des Öffentlichen Rechts.
+           Verantwortlich für Inhalte ist Jun.-Prof. Dr. Benedikt Ehinger
     </tr>
     <tr>
         <td><h2>Kontakt</h2></td>
         <td>Institut für Visualisierung und Interaktive Systeme <br>
-            Telefon: (0711) 685-88404 / 88456 <br> 
+            Telefon: (0711) 685-60049 <br> 
             <br>
             Abteilungsleiter Jun.-Prof. Dr. Benedikt Ehinger <br>
             Email: benedikt.ehinger@vis.uni-stuttgart.de
