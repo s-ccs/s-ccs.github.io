@@ -36,8 +36,6 @@ jobs:
     - run: julia -e '
             using Pkg; Pkg.activate("."); Pkg.instantiate(); Pkg.add("NodeJS"); Pkg.add("Franklin"); Pkg.add("CSV");
             using NodeJS; run(`$(npm_cmd()) install highlight.js`);
-            run(`$(npm_cmd()) install lunr`);
-            run(`$(npm_cmd()) install cheerio`);
             using Franklin;
             using CSV;
             optimize()'
