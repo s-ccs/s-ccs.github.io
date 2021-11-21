@@ -101,6 +101,12 @@ html {
   font-size: 70%;
 }
 
+.franklin-content .date {
+    color: #33A0A6;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
 /* ==================================================================
     FOOT / COPYRIGHT
 ================================================================== */
@@ -233,17 +239,15 @@ html {
 
 @media (min-width: 1200px) {
     .franklin-content p {
-     margin-top: 3em;
-     margin-bottom: 1em;
+     margin-top: 1em;
+     margin-bottom: 2em;
     }
 }
 
 @media (max-width: 1200px) {
     .franklin-content p {
-     padding-left: 5em;
-     padding-right: 5em;
-     margin-top: 3em;
-     margin-bottom: 1em;
+     margin-top: 1em;
+     margin-bottom: 2em;
     }
 }
 
