@@ -9,6 +9,9 @@ const PATH_PREPEND = "..";
 const HTML_FOLDER  = "../../__site";
 const OUTPUT_INDEX = "lunr_index.js";
 
+const SEARCH_FIELDS = ["title", "description", "keywords", "body"];
+const EXCLUDE_FILES = ["search.html", "404.md"];
+
 function isHtml(filename) {
     lower = filename.toLowerCase();
     return (lower.endsWith(".htm") || lower.endsWith(".html"));
