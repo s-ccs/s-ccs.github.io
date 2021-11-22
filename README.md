@@ -17,5 +17,14 @@ The readme will be updated as the project grows, if you feel something is missin
    
 If you experience any trouble, have a look at the Franklin doc: [Quick Start](https://franklinjl.org/#quick_start)
 
+## Update Lunr search index
+If you change any content inside the website, the Lunr search index should be updated automaticially when pushing to GitHub, but if you just want to be safe or update the index locally: 
+1. Make sure you have Lunr and Cheerio installed with:
+   1. Pkg.add(NodeJS)
+   2. using NodeJS
+   3. run(\`$(npm_cmd) install lunr\`); run(\`$(npm_cmd) install cheerio\`); 
+2. Update the search index by calling lunr()
+3. You're good to go! Now you can just run serve() as usual
+
 ## Licensing
 This repository is licensed under the MIT license.
