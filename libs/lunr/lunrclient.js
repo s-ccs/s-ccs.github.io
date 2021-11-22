@@ -1,17 +1,14 @@
-// This file and its minified version is adapted from https://github.com/BLE-LTER/Lunr-Index-and-Search-for-Static-Sites which is unlicensed.
-//
-
 "use strict";
 
 var LUNR_CONFIG = {
     "resultsElementId": "searchResults",  // Element to contain results
-    "countElementId": "resultCount"       // Element showing number of results
+    "countElementId": "resultCount"  // Element showing number of results
 };
 
 
 // Get URL arguments
-function getParameterByName(name) {
-    var url = window.location.href;
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");
     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
         results = regex.exec(url);
@@ -27,19 +24,20 @@ function parseLunrResults(results) {
     for (var i = 0; i < results.length; i++) {
         var id = results[i]["ref"];
         var item = PREVIEW_LOOKUP[id]
-        var title = item["t"];
+        var lowercase_title = item["l"].replace("/index.html", "").replace("teaching-ressources/", "").replace(".html", "");
+        var title = lowercase_title.charAt(0).toUpperCase() + lowercase_title.slice(1);
         var preview = item["p"];
-        var link = item["l"].replace("__site/", "");
-        var result = ('<li><span class="result-title"><a href="' + link + '">'
-                    + title + '</a></span>');
+        var link = item["l"];
+        var result = ('<p><span class="result-title"><a href="../' + link + '">'
+                    + title + '</a></span><br><span class="result-preview">'
+                    + preview + '</span></p>');
         html.push(result);
     }
     if (html.length) {
-        html.join("");
-        return '<ul>'+html+'</ul>'
+        return html.join("");
     }
     else {
-        return "";
+        return "<p>Your search returned no results.</p>";
     }
 }
 
@@ -54,11 +52,25 @@ function escapeHtml(unsafe) {
 }
 
 
-function showResultCount(total) {
-    var element = document.getElementById(LUNR_CONFIG["countElementId"])
-    if (element !== null) {
-        element.innerHTML = total + ".";
+function showResultCount(query, total, domElementId) {
+    if (total == 0) {
+        return;
     }
+
+    var s = "";
+    if (total > 1) {
+        s = "s";
+    }
+    var found = "<p>Found " + total + " result" + s;
+    if (query != "" && query != null) {
+        query = escapeHtml(query);
+        var forQuery = ' for <span class="result-query"> "' + query + '"</span>';
+    }
+    else {
+        var forQuery = "";
+    }
+    var element = document.getElementById(domElementId);
+    element.innerHTML = found + forQuery + ":</p>";
 }
 
 
@@ -69,8 +81,9 @@ function searchLunr(query) {
     var resultHtml = parseLunrResults(results);
     var elementId = LUNR_CONFIG["resultsElementId"];
     document.getElementById(elementId).innerHTML = resultHtml;
-    // Write the number of results
-    showResultCount(results.length);
+
+    var count = results.length;
+    showResultCount(query, count, LUNR_CONFIG["countElementId"]);
 }
 
 
@@ -80,9 +93,5 @@ window.onload = function() {
     if (query != "" && query != null) {
         document.forms.lunrSearchForm.q.value = query;
         searchLunr(query);
-    } else {
-        // empty query: show 0 results (no query)
-        showResultCount("0 (empty query)");
     }
-    document.getElementById("focus").focus();
 };
