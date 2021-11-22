@@ -29,7 +29,7 @@ function parseLunrResults(results) {
         var item = PREVIEW_LOOKUP[id]
         var title = item["t"];
         var preview = item["p"];
-        var link = item["l"].replace("__site/", "");
+        var link = item["l"].replace("__site\\", "");
         var result = ('<li><span class="result-title"><a href="' + link + '">'
                     + title + '</a></span>');
         html.push(result);
@@ -84,5 +84,6 @@ window.onload = function() {
         // empty query: show 0 results (no query)
         showResultCount("0 (empty query)");
     }
-    document.getElementById("focus").focus();
+    // didnt seem to have any function, keeping it for legacy
+    //document.getElementById("focus").focus();
 };
