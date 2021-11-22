@@ -10,7 +10,7 @@ const HTML_FOLDER  = "../../__site";
 const OUTPUT_INDEX = "lunr_index.js";
 
 const SEARCH_FIELDS = ["title", "description", "keywords", "body"];
-const EXCLUDE_FILES = ["search.html", "404.md"];
+const EXCLUDE_FILES = ["config.html", "readme.html", "README.html", ];
 
 function isHtml(filename) {
     lower = filename.toLowerCase();
@@ -28,7 +28,7 @@ function findHtml(folder) {
         var filename = path.join(folder, files[i]);
         var stat = fs.lstatSync(filename);
         if (stat.isDirectory()) {
-            if (stat == "assets" || stat == "css" || stat == "libs" ) {
+            if (stat == "assets" || stat == "css" || stat == "libs" || stat == "node_modules" || stat == "search" || stat == "tag") {
                 continue
             }
             var recursed = findHtml(filename);
@@ -37,7 +37,7 @@ function findHtml(folder) {
             }
             htmls.push.apply(htmls, recursed);
         }
-        else if (isHtml(filename)){
+        else if (isHtml(filename) && !EXCLUDE_FILES.includes(files[i])){
             htmls.push(files[i]);
         };
     };
