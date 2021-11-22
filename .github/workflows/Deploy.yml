@@ -32,10 +32,12 @@ jobs:
     #   Julia packages which may be required to successfully build your site.
     #   The last line should be `optimize()` though you may want to give it
     #   specific arguments, see the documentation or ?optimize in the REPL.
+    #   EDIT: Also makes sure to install Franklin and CSV. Also makes sure lune and cheerio arem installed
     - run: julia -e '
-            using Pkg; Pkg.activate("."); Pkg.instantiate();
+            using Pkg; Pkg.activate("."); Pkg.instantiate(); Pkg.add("NodeJS"); Pkg.add("Franklin"); Pkg.add("CSV");
             using NodeJS; run(`$(npm_cmd()) install highlight.js`);
             using Franklin;
+            using CSV;
             optimize()'
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3

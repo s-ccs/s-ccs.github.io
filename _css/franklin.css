@@ -101,6 +101,12 @@ html {
   font-size: 70%;
 }
 
+.franklin-content .date {
+    color: #33A0A6;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
 /* ==================================================================
     FOOT / COPYRIGHT
 ================================================================== */
@@ -207,6 +213,7 @@ html {
   font-size: 80%;
 }
 
+
 /* ==================================================================
     TEXT GEOMETRY
 ================================================================== */
@@ -233,17 +240,15 @@ html {
 
 @media (min-width: 1200px) {
     .franklin-content p {
-     margin-top: 3em;
-     margin-bottom: 1em;
+     margin-top: 1em;
+     margin-bottom: 2em;
     }
 }
 
 @media (max-width: 1200px) {
     .franklin-content p {
-     padding-left: 5em;
-     padding-right: 5em;
-     margin-top: 3em;
-     margin-bottom: 1em;
+     margin-top: 1em;
+     margin-bottom: 2em;
     }
 }
 
@@ -550,7 +555,7 @@ code {
 
 
 /* ==================================================================
-    TITLES
+    TITLES AND TABLES
 ================================================================== */
 
 h1 { font-size: 4em;  margin: 1em 0 0 0;}
@@ -614,4 +619,16 @@ td {
 
 .franklin-content blockquote p {
   display: inline;
+}
+
+.franklin-content .impressum-table td {
+    border: 0;
+    vertical-align: top;
+    padding-left: 0;
+    padding-right: 6em;
+
+}
+
+.franklin-content .impressum-table {
+    margin-top: 1em;
 }

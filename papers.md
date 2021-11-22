@@ -1,4 +1,4 @@
 @def title = "Papers"
 @def tags = ["pdf", "publications"]
 
-Archive of all published papers.
+# Archive of papers

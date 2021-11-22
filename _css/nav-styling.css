@@ -67,8 +67,6 @@
 }
 
 .masthead__menu ul {
-  margin: 0;
-  padding: 0;
   clear: both;
   list-style-type: none;
 }
@@ -544,6 +542,28 @@ nav li ol {
   max-width: 70%
 }
 
+.nav-first {
+  padding-left: 1em;
+  margin-left: 2em;
+  border-left-style: solid;
+    border-color: #b8b8b8;
+}
+
+.nav-first a {
+    color: white;
+}
+
+.nav-first li {
+    padding: 0.2em 0;
+}
+
+.nav-second {
+  border-left-style: solid;
+  border-color: #b8b8b8;
+  padding-left: 1em;
+  margin-left: 0.7em;
+}
+
 /* ==================================================================
     SIDE NAV
 ================================================================== */
@@ -605,3 +625,28 @@ nav li ol {
     border-left-style: solid;
     border-color: #b8b8b8;
 }
+
+.active{
+    font-weight: bold;
+}
+
+.search-input {
+    border-radius: 1.5em;
+    border: 1px solid grey;
+    padding: 0.5em 0.5em 0.5em 2.3em;
+    background-color: #57b5ba;
+    background-image: url('/assets/searchicon.png');
+    background-position: 8px 7px;
+    background-repeat: no-repeat;
+    color: white;
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: white;
+}
+
+input[type=submit] {
+    display: none;
+}
+
