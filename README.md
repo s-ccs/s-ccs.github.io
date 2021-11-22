@@ -18,7 +18,7 @@ The readme will be updated as the project grows, if you feel something is missin
 If you experience any trouble, have a look at the Franklin doc: [Quick Start](https://franklinjl.org/#quick_start)
 
 ## Update Lunr search index
-If you change any content inside the website, the Lunr search index should be updated automaticially when pushing to GitHub, but if you just want to be safe or update the index locally: 
+If you change any content inside the website, make sure to update the lunr search index:
 1. Make sure you have Lunr and Cheerio installed with:
    1. Pkg.add(NodeJS)
    2. using NodeJS
