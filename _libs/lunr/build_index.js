@@ -37,7 +37,7 @@ function findHtml(folder) {
             }
             htmls.push.apply(htmls, recursed);
         }
-        else if (isHtml(filename)){
+        else if (isHtml(filename) && !EXCLUDE_FILES.includes(files[i])){
             htmls.push(files[i]);
         };
     };
