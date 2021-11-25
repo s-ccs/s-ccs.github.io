@@ -1,6 +1,7 @@
 using Printf
 
 function append_files!(dict, folder)
+    @info folder
     for file in readdir(string("./../../", folder))
 
         folder_in_blacklist = false
@@ -23,18 +24,18 @@ function append_files!(dict, folder)
     end
 end
 
-function write_html(dict, path)
+function write_html(dict, path, level)
     html_string = ""
     for key in keys(dict)
         @info "KEY:" key
         if length(keys(get(dict, key, Dict{String, Dict}()))) == 0
 
-            list_element_string = @sprintf("<li><a class=\"{{ispage %s}}active{{end}}\" href=\"/%s/\">%s</a></li>\n", key, string(path, key), key)
+            list_element_string = @sprintf("%s<li><a class=\"{{ispage %s}}active{{end}}\" href=\"/%s/\">%s</a></li>\n", "\t"^(3+level), key, string(path, key), key)
             html_string = string(html_string, list_element_string)
         else
-            list_element_string = @sprintf("<li>%s\n <ul class=\"second\"> \n", key)
-            inner_dynamic_string = write_html(get(dict, key, Dict()), string(path, key, "/"))
-            return string(list_element_string, inner_dynamic_string, "</li> \n </ul> \n")
+            list_element_string = @sprintf("%s <li>%s\n %s <ul class=\"second\"> \n", "\t"^(3+level), key, "\t"^(4+level))
+            inner_dynamic_string = write_html(get(dict, key, Dict()), string(path, key, "/"), level + 1)
+            html_string = string(html_string, list_element_string, inner_dynamic_string, @sprintf("%s</ul> \n %s</li> \n", "\t"^(4+level),  "\t"^(3+level)))
         end
     end
     return html_string
@@ -60,18 +61,18 @@ file_end =
 file_list = Dict{String, Dict}()
 
 file_black_list = ["404.md", "README.md", "config.md", "search.md", "impressum.md", "index.md"]
-folder_black_list = ["_", "node_modules", ".git", "LICENSE", ".json", ".jl"]
+folder_black_list = ["_", "node_modules", ".git", "LICENSE", ".json", ".jl", ".toml", ".idea"]
 
 append_files!(file_list, "")
 
 file_string_gen = ""
 file_string_gen = string(file_string_gen, "\t \t <ul class=\"first\">\n")
-file_string_gen = string(file_string_gen, "\t \t  \t <li><a class=\"{{ispage index}}active{{end}}\" href=\"\">Home</a></li>\n")
+file_string_gen = string(file_string_gen, "\t \t \t <li><a class=\"{{ispage index}}active{{end}}\" href=\".\">Home</a></li>\n")
 
-dynamic_string = write_html(file_list, "")
+dynamic_string = write_html(file_list, "", 0)
 file_string_gen = string(file_string_gen, dynamic_string)
 
-file_string_gen = string(file_string_gen, "\t \t \t <li><a class=\"{{ispage impressum}}active{{end}}\" href=\"/impressum/\">Impressum</a></li>\n")
+file_string_gen = string(file_string_gen, "\t \t \t<li><a class=\"{{ispage impressum}}active{{end}}\" href=\"/impressum/\">Impressum</a></li>\n")
 file_string_gen = string(file_string_gen, "\t \t </ul>\n")
 
 page = string(file_start, file_string_gen, file_end)
