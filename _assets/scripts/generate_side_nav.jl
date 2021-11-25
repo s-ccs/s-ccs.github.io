@@ -2,7 +2,7 @@ using Printf
 
 function append_files!(dict, folder)
     @info folder
-    for file in readdir(string("./../../", folder))
+    for file in readdir(string("./", folder))
 
         folder_in_blacklist = false
         for exclude in folder_black_list
@@ -77,6 +77,6 @@ file_string_gen = string(file_string_gen, "\t \t </ul>\n")
 
 page = string(file_start, file_string_gen, file_end)
 
-open("./../../_layout/side_nav.html", "w") do io
+open("./_layout/side_nav.html", "w") do io
     write(io, page)
 end
