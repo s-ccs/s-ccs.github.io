@@ -1,3 +1,5 @@
+@def title = "Teaching Ressources" @def tags = ["papers", "pdf", "demo", "eeg", "eye tracking", "statistics", "graphics", "cc-by"]
+
 # How (not) to do Science - Philosophy of Research in Cognitive Science (WS 21/22)
 
 In the early 2010s, the scientific community became aware of a fundamental flaw in their work: Many cognitive and psychological phenomena could not be replicated. Today, this is known as the (still ongoing) replication crisis. During the course, we will explore pitfalls which led to the replication crisis and how to avoid them in future research. For this, we will use and evaluate selected papers on the issues of philosophy of science, experimental designs, (false) use of statistics, open science and others. While the replication crisis is usually attributed to the social and cognitive sciences, many of its pitfalls and solutions are important considerations for other fields as well. Among these are concepts like data management & sharing, researcher degrees of freedom and publication bias.
