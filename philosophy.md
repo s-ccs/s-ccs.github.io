@@ -1,7 +1,7 @@
 @def title = "Philosophy"
 @def tags = ["rules", "lab", "code", "conduct"]
 
-# lab philosophy 
+# LAB Philosophy 
 1. Think for yourself
    
 2. Be bold, question the authority

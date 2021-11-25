@@ -26,7 +26,7 @@ html {
     max-width: 50em;
     margin: 0 auto 0 auto;
     display: grid;
-    grid-template-columns: 38em 11.5em;
+    grid-template-columns: 37.5em 12em;
     gap: 0 0.5em;
 }
 
@@ -570,7 +570,6 @@ h5,
 h6 {
   text-align: left;
   color: black !important;
-  text-transform: lowercase;
 }
 
 h1 a:hover,
