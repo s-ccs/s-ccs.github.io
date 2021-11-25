@@ -16,7 +16,7 @@
 
 html {
   font-family: Montserrat, Arial, sans-serif;
-  font-size: var(--normal);
+  font-size: 1em;
   color: var(--text-color);
 }
 /* ==================================================================
