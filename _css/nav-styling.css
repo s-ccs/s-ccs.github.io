@@ -75,7 +75,7 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-  padding: 2.1em 0;
+  padding: 1em 0;
 }
 
 .masthead__menu-item .active {
@@ -535,11 +535,11 @@ nav li ol {
 
 .greedy-nav a.site-title {
   margin-left: 0;
-  padding: 2em 0;
+  padding: 1em 0;
 }
 
 .greedy-nav img {
-  max-width: 70%
+  max-width: 60%
 }
 
 .nav-first {
