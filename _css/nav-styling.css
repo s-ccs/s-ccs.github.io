@@ -634,16 +634,16 @@ nav li ol {
     border-radius: 1.5em;
     border: 1px solid grey;
     padding: 0.5em 0.5em 0.5em 2.3em;
-    background-color: #57b5ba;
+    background-color: white;
     background-image: url('/assets/searchicon.png');
     background-position: 8px 7px;
     background-repeat: no-repeat;
-    color: white;
+    color: black;
     outline: none;
 }
 
 .search-input::placeholder {
-    color: white;
+    color: #151515;
 }
 
 input[type=submit] {
