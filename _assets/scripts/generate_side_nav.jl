@@ -29,11 +29,26 @@ function write_html(dict, path, level)
     for key in keys(dict)
         @info "KEY:" key
         if length(keys(get(dict, key, Dict{String, Dict}()))) == 0
+            title = key;
 
-            list_element_string = @sprintf("%s<li><a class=\"{{ispage %s}}active{{end}}\" href=\"/%s/\">%s</a></li>\n", "\t"^(3+level), key, string(path, key), key)
+            if !(lowercase(key) in format_blacklist) && !(lowercase(key) in uppercase_list)
+                title = titlecase(replace(key, "-" => " "))
+            elseif lowercase(key) in uppercase_list
+                title = uppercase(title)
+            end
+
+            list_element_string = @sprintf("%s<li><a class=\"{{ispage %s}}active{{end}}\" href=\"/%s/\">%s</a></li>\n", "\t"^(3+level), key, string(path, key), title)
             html_string = string(html_string, list_element_string)
         else
-            list_element_string = @sprintf("%s <li>%s\n %s <ul class=\"second\"> \n", "\t"^(3+level), key, "\t"^(4+level))
+            title = key;
+
+            if !(lowercase(key) in format_blacklist) && !(lowercase(key) in uppercase_list)
+                title = titlecase(replace(key, "-" => " "))
+            elseif lowercase(key) in uppercase_list
+                title = uppercase(title)
+            end
+
+            list_element_string = @sprintf("%s <li>%s\n %s <ul class=\"second\"> \n", "\t"^(3+level), title, "\t"^(4+level))
             inner_dynamic_string = write_html(get(dict, key, Dict()), string(path, key, "/"), level + 1)
             html_string = string(html_string, list_element_string, inner_dynamic_string, @sprintf("%s</ul> \n %s</li> \n", "\t"^(4+level),  "\t"^(3+level)))
         end
@@ -62,6 +77,9 @@ file_list = Dict{String, Dict}()
 
 file_black_list = ["404.md", "README.md", "config.md", "search.md", "impressum.md", "index.md"]
 folder_black_list = ["_", "node_modules", ".git", "LICENSE", ".json", ".jl", ".toml", ".idea"]
+
+uppercase_list = ["eeg", "glmm"]
+format_blacklist = ["porics"]
 
 append_files!(file_list, "")
 
