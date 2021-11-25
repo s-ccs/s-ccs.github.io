@@ -20,9 +20,5 @@ end
 
 # output
 
-genplain("script1.jl")
-
 # plots
-
-include("script2.jl")
 include ("generate_side_nav.jl")
