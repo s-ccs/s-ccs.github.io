@@ -1,5 +1,5 @@
-@def title = "Teaching Ressources" 
-<!--@def tags = ["papers", "pdf", "demo", "eeg", "eye tracking", "statistics", "graphics", "cc-by"]-->
+@def title = "PoRiCS" 
+@def tags = ["papers", "pdf", "demo", "eeg", "eye tracking", "statistics", "graphics", "cc-by"]
 
 # How (not) to do Science - Philosophy of Research in Cognitive Science (WS 21/22)
 
