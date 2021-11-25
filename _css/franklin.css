@@ -79,6 +79,30 @@ html {
     margin: 0 0.5em 0 0.5em;
 }
 
+.title-arrow {
+    width: 0.5em;
+
+}
+
+.title-arrow-container {
+    transform: translateY(2.7em);
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+}
+
+.title-arrow-container:hover {
+    animation-name: bounce;
+    animation-timing-function: ease-in;
+}
+@keyframes bounce{
+    0% {transform: translateY(2.7em); }
+    25% {transform: translateY(2.73em); }
+    50% {transform: translateY(2.7em); }
+    75% {transform: translateY(2.67em); }
+    100% {transform: translateY(2.7em); }
+}
+
+
 .franklin-content .left {
   padding: 2em 2em 2em 33%;
   text-align: right;
@@ -258,9 +282,10 @@ html {
   }
 }
 
-.center_container {
+.center-container {
     display: grid;
     align-items: center;
+    justify-items: center;
 }
 
 /* ==================================================================
