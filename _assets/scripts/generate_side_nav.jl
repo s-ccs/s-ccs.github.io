@@ -48,7 +48,7 @@ function write_html(dict, path, level)
                 title = uppercase(title)
             end
 
-            list_element_string = @sprintf("%s <li>%s\n %s <ul class=\"second\"> \n", "\t"^(3+level), title, "\t"^(4+level))
+            list_element_string = @sprintf("%s <li><a href=\"/%s%s\">%s</a>\n %s <ul class=\"second\"> \n", "\t"^(3+level), path, key, title, "\t"^(4+level))
             inner_dynamic_string = write_html(get(dict, key, Dict()), string(path, key, "/"), level + 1)
             html_string = string(html_string, list_element_string, inner_dynamic_string, @sprintf("%s</ul> \n %s</li> \n", "\t"^(4+level),  "\t"^(3+level)))
         end
