@@ -82,20 +82,27 @@ html {
 .title-arrow-container {
     position: absolute;
     bottom: 3%;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+
 }
 
 .title-arrow-container:hover {
+    animation-timing-function: linear;
     animation-name: bounce;
-    animation-duration: 1.7s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+
 }
 @keyframes bounce{
-    /*25% {bottom(4%);}
-    75% {bottom(2%);}*/
-    0% {transform: bottom(3%); }
-    25% {transform: bottom(4%); }
-    75% {transform: bottom(2%); }
+    10% {transform: translateY(0.09em);}
+    20% {transform: translateY(0.14em);}
+    25% {transform: translateY(0.15em); }
+    30% {transform: translateY(0.14em);}
+    40% {transform: translateY(0.09em);}
+    60% {transform: translateY(-0.09em);}
+    70% {transform: translateY(-0.14em);}
+    75% {transform: translateY(-0.15em); }
+    80% {transform: translateY(-0.14em);}
+    90% {transform: translateY(-0.09em);}
 }
 
 
