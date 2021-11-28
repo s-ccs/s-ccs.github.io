@@ -60,45 +60,42 @@ html {
 }
 
 .title-image{
-  padding: 3em 0 3em 0;
   max-width: 100%;
-  height: auto;
-
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 5em;
-  font-weight: bold;
-  color: white;
-
+  height: calc(100vh - 77.39px);
+  display: grid;
+  justify-items: center;
+  align-items: center;
   background-image: url("../assets/title_img.jpg");
   background-size: cover;
   background-position: center center;
 }
 
 .title-image img {
-    max-width: 3em;
-    margin: 0 0.5em 0 0.5em;
+    max-width: 15em;
+    margin: auto;
 }
 
 .title-arrow {
-    width: 0.5em;
-
+    width: 2.5em;
 }
 
 .title-arrow-container {
-    transform: translateY(2.7em);
-    animation-duration: 1.7s;
-    animation-iteration-count: infinite;
+    position: absolute;
+    bottom: 3%;
 }
 
 .title-arrow-container:hover {
     animation-name: bounce;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
     animation-timing-function: ease-in;
 }
 @keyframes bounce{
-    0% {transform: translateY(2.7em); }
-    25% {transform: translateY(2.73em); }
-    75% {transform: translateY(2.67em); }
+    /*25% {bottom(4%);}
+    75% {bottom(2%);}*/
+    0% {transform: bottom(3%); }
+    25% {transform: bottom(4%); }
+    75% {transform: bottom(2%); }
 }
 
 
