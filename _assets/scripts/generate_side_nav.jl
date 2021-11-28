@@ -1,20 +1,5 @@
-using Printf
+include("file_blacklist.jl")
 
-
-#=
- # In this section you can exclude folders and files you don't want to be index in the nav bar,
- # as well as words you want either to be casted to uppercase or not be formatted at all.
- # md files should be stated with their full name, while folders and other file types can also just
- # contain parts of names.
- # TODO: The file black does not filter very efficiently. Could be replaced by regex
-=#
-##########################################################################################################
-file_black_list = ["404.md", "README.md", "config.md", "search.md", "impressum.md", "index.md"]
-folder_black_list = ["_", "node_modules", ".git", "LICENSE", ".idea"]
-
-uppercase_list = ["eeg", "glmm"]
-format_blacklist = ["porics"]
-##########################################################################################################
 
 #=
  # Appends all files and folders, subfolders and their contents of a given path into the provided
@@ -93,48 +78,51 @@ function apply_formatting(name)
     return title
 end
 
-# Static first part of HTML file
-file_start =
-"<div class=\"side-nav-wrapper\">
-    <div class=\"side-nav\">
-        <div class=\"search-bar\">
-            <form id=\"lunrSearchForm\" name=\"lunrSearchForm\">
-            <input class=\"search-input\" name=\"q\" placeholder=\"Search...\" type=\"text\">
-            <input type=\"submit\" value=\"Search\" formaction=\"/search/index.html\">
-        </form>
-        </div>
-        <h2>
-            Navigation
-        </h2>\n"
 
-# Static end of file
-file_end =
-"   </div>
-</div>\n"
+function generate_side_nav()
+    # Static first part of HTML file
+    file_start =
+    "<div class=\"side-nav-wrapper\">
+        <div class=\"side-nav\">
+            <div class=\"search-bar\">
+                <form id=\"lunrSearchForm\" name=\"lunrSearchForm\">
+                <input class=\"search-input\" name=\"q\" placeholder=\"Search...\" type=\"text\">
+                <input type=\"submit\" value=\"Search\" formaction=\"/search/index.html\">
+            </form>
+            </div>
+            <h2>
+                Navigation
+            </h2>\n"
 
-# Index files
-@info "Indexing files..."
-file_list = Dict{String, Dict}()
-append_files!(file_list, "")
+    # Static end of file
+    file_end =
+    "   </div>
+    </div>\n"
 
-# Custom add Home page
-file_string_gen = ""
-file_string_gen = string(file_string_gen, "\t \t <ul class=\"first\">\n")
-file_string_gen = string(file_string_gen, "\t \t \t <li><a class=\"{{ispage index}}active{{end}}\" href=\".\">Home</a></li>\n")
+    # Index files
+    @info "Indexing files..."
+    file_list = Dict{String, Dict}()
+    append_files!(file_list, "")
 
-# Generate dynamic nav HTML
-@info "Generating side-nav..."
-dynamic_string = write_html(file_list, "", 0)
-file_string_gen = string(file_string_gen, dynamic_string)
+    # Custom add Home page
+    file_string_gen = ""
+    file_string_gen = string(file_string_gen, "\t \t <ul class=\"first\">\n")
+    file_string_gen = string(file_string_gen, "\t \t \t <li><a class=\"{{ispage index}}active{{end}}\" href=\".\">Home</a></li>\n")
 
-# Custom add Impressum page
-file_string_gen = string(file_string_gen, "\t \t \t<li><a class=\"{{ispage impressum}}active{{end}}\" href=\"/impressum/\">Impressum</a></li>\n")
-file_string_gen = string(file_string_gen, "\t \t </ul>\n")
+    # Generate dynamic nav HTML
+    @info "Generating side-nav..."
+    dynamic_string = write_html(file_list, "", 0)
+    file_string_gen = string(file_string_gen, dynamic_string)
 
-page = string(file_start, file_string_gen, file_end)
+    # Custom add Impressum page
+    file_string_gen = string(file_string_gen, "\t \t \t<li><a class=\"{{ispage impressum}}active{{end}}\" href=\"/impressum/\">Impressum</a></li>\n")
+    file_string_gen = string(file_string_gen, "\t \t </ul>\n")
 
-# write HTML
-open("./_layout/side_nav.html", "w") do io
-    write(io, page)
+    page = string(file_start, file_string_gen, file_end)
+
+    # write HTML
+    open("./_layout/side_nav.html", "w") do io
+        write(io, page)
+    end
+    @info "Successfully written to HTML file!"
 end
-@info "Successfully written to HTML file!"
