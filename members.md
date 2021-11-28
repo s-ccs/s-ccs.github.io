@@ -33,15 +33,15 @@ using CSV
 person_list = readdir("./_assets/team/current")
 for person in person_list
     person_data_reader = CSV.File(string("./_assets/team/current/", person, "/profile_info.csv"), delim=";")
-    for row in person_data_reader
-        """
-        \\currentCard{current/$(person)}{$(row.title)}{$(row.name)}{$(row.hobbys)}{$(row.contact)}
-        """ |> print
-    end
+    row = person_data_reader[1]
+    """
+    \\currentCard{current/$(person)}{$(row.title)}{$(row.name)}{$(row.hobbys)}{$(row.contact)}
+    """ |> print
 end   
 ```
 \textoutput{team_cards}
 @@
+
 # Alumni
 @@teamcard-wrapper
 ```julia:alumni_cards
@@ -52,11 +52,10 @@ using CSV
 person_list = readdir("./_assets/team/alumni")
 for person in person_list
     person_data_reader = CSV.File(string("./_assets/team/alumni/", person, "/profile_info.csv"), delim=";")
-    for row in person_data_reader
-        """
-        \\currentCard{alumni/$(person)}{$(row.title)}{$(row.name)}{$(row.hobbys)}{$(row.contact)}
-        """ |> print
-    end
+    row = person_data_reader[1]
+    """
+    \\currentCard{alumni/$(person)}{$(row.title)}{$(row.name)}{$(row.hobbys)}{$(row.contact)}
+    """ |> print
 end   
 ```
 \textoutput{alumni_cards}
