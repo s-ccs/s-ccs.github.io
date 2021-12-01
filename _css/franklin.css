@@ -24,14 +24,14 @@ html {
     PAGE LAYOUT
 ================================================================== */
 .page-wrapper {
-    max-width: 50em;
+    max-width: 72em;
     margin: 0 auto 0 auto;
     display: grid;
-    grid-template-columns: 37.5em 12em;
-    gap: 0 0.5em;
+    grid-template-columns: 52em 15em;
+    gap: 0 5em;
 }
 
-@media(max-width: 1130px) {
+@media(max-width: 1280px) {
     .page-wrapper {
         display: inherit;
     }

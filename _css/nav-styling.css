@@ -130,7 +130,7 @@ nav li ol {
   padding: 0.7em 0;
 }
 
-@media(max-width: 1130px) {
+@media(max-width: 1280px) {
     .greedy-nav a {
         display: inline;
         margin: 0;
@@ -156,7 +156,7 @@ nav li ol {
   flex-wrap: wrap;
 }
 
-@media (max-width: 1130px) {
+@media (max-width: 1280px) {
     .greedy-nav .visible-links {
         visibility: hidden;
         width: 0;
@@ -197,7 +197,7 @@ nav li ol {
     display: none;
 }
 
-@media (min-width: 1130px) {
+@media (min-width: 1280px) {
     .greedy-nav .hamburger {
         visibility: hidden;
         width: 0;
@@ -567,7 +567,7 @@ nav li ol {
 /* ==================================================================
     SIDE NAV
 ================================================================== */
-@media(max-width: 1130px) {
+@media(max-width: 1280px) {
     .side-nav-wrapper {
         width: 0;
         height: 0;
