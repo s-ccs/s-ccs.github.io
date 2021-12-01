@@ -75,7 +75,7 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-  padding: 1em 0;
+  padding: 1.7em 0;
 }
 
 .masthead__menu-item .active {
@@ -83,7 +83,6 @@
 }
 
 .masthead__menu-item:hover {
-    background-color: #1c2a36;
 }
 
 .masthead__menu-item--lg {
@@ -124,10 +123,9 @@ nav li ol {
 
 .greedy-nav a {
   display: block;
-  margin: 0 1rem;
+  padding: 0 1rem;
   color: #fff;
   text-decoration: none;
-  padding: 0.7em 0;
 }
 
 @media(max-width: 1280px) {
@@ -154,6 +152,10 @@ nav li ol {
   flex: 1;
   overflow: hidden;
   flex-wrap: wrap;
+}
+
+.greedy-nav .visible-links a:hover {
+  background-color: #1c2a36
 }
 
 @media (max-width: 1280px) {
