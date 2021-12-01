@@ -21,4 +21,5 @@ end
 # output
 
 # plots
-include ("generate_side_nav.jl")
+include("generate_side_nav.jl")
+include("generate_toc_pages.jl")
