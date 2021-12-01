@@ -666,3 +666,29 @@ td {
 .franklin-content .impressum-table {
     margin-top: 0em;
 }
+
+/* ==================================================================
+    TOC PAGES
+================================================================== */
+
+.franklin-content .toc-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    margin-top: 3em;
+    gap: 1em 1em;
+}
+
+.franklin-content .toc-item {
+    min-height: 8em;
+    border-left: solid 5px #56a4a8;
+    margin-left: -5px;
+    padding: 0 0.5em;
+    transition: 0.2s;
+}
+
+.franklin-content .toc-item:hover {
+    border-left: solid 12px #CBFCFF;
+    margin-left: -12px;
+}

@@ -1,5 +1,5 @@
 include("file_blacklist.jl")
-
+include("auxiliary_functions.jl")
 
 #=
  # Appends all files and folders, subfolders and their contents of a given path into the provided
@@ -66,19 +66,6 @@ function write_html(dict, path, level)
     return html_string
 end
 
-# Formats the file names to title case
-function apply_formatting(name)
-    title = name
-    if !(lowercase(name) in format_blacklist) && !(lowercase(name) in uppercase_list)
-        title = titlecase(replace(name, "-" => " "))
-    elseif lowercase(name) in uppercase_list
-        title = uppercase(title)
-    end
-
-    return title
-end
-
-
 function generate_side_nav()
     # Static first part of HTML file
     file_start =
@@ -121,7 +108,7 @@ function generate_side_nav()
     page = string(file_start, file_string_gen, file_end)
 
     # write HTML
-    open("./_layout/side_nav.html", "w") do io
+    open("./_layout/side_nav.md", "w") do io
         write(io, page)
     end
     @info "Successfully written to HTML file!"
