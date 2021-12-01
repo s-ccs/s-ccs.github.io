@@ -94,7 +94,7 @@ function generate_side_nav()
     # Custom add Home page
     file_string_gen = ""
     file_string_gen = string(file_string_gen, "\t \t <ul class=\"first\">\n")
-    file_string_gen = string(file_string_gen, "\t \t \t <li><a class=\"{{ispage index}}active{{end}}\" href=\".\">Home</a></li>\n")
+    file_string_gen = string(file_string_gen, "\t \t \t <li><a class=\"{{ispage index}}active{{end}}\" href=\"\\.\\\">Home</a></li>\n")
 
     # Generate dynamic nav HTML
     @info "Generating side-nav..."
