@@ -641,6 +641,7 @@ td {
   font-size: var(--small);
   padding: 10px;
   border: 1px solid black;
+  word-break: break-word;
 }
 
 .franklin-content blockquote {
