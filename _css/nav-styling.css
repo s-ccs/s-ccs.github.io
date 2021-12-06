@@ -632,6 +632,14 @@ nav li ol {
     border-width: 3px;
 }
 
+.side-nav .second-invisible {
+    display: none;
+}
+
+.side-nav .second-action:hover {
+    color: grey;
+}
+
 .active{
     font-weight: bold;
 }

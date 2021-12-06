@@ -35,6 +35,10 @@
         The S-CCS therefore takes no responsibility for the content contained in external links. If you have any concerns 
         regarding the content of externals links, please let us know.</td>
     </tr>
+    <tr>
+        <td><h3>Icons</h3></td>
+        <td><a href="https://fontawesome.com/" target="_blank">Fontawesome 5</a></td>
+    </tr>
 </table>
 ~~~
 
@@ -72,6 +76,10 @@
         <td>Externe Links werden vor dem Einfügen überprüft. Jedoch kann der Inhalt nach Einfügen geändert werden. 
         Das S-CCS übernimmt daher keine Verantwortung für den Inhalt der Websiten externer Links. Sollte Sie bedenken
         bezüglich eines bestimmten Links haben, kontaktieren Sie uns bitte.</td>
+    </tr>
+    <tr>   
+        <td><h3>Icons</h3></td>
+        <td><a href="https://fontawesome.com/" target="_blank">Fontawesome 5</a></td>
     </tr>
 </table>
 
