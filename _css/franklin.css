@@ -555,8 +555,28 @@ code {
     align-self: center;
 }
 
-.teamcard-box {
-    background-color: #cbfcff;
+.teamcard-box-blue {
+    background-color: #CBFCFF;
+    width: 80%;
+    height: 120%;
+    top: -10%;
+    right: 10%;
+    position: absolute;
+    z-index: 1;
+}
+
+.teamcard-box-green {
+    background-color: #EAFFCB;
+    width: 80%;
+    height: 120%;
+    top: -10%;
+    right: 10%;
+    position: absolute;
+    z-index: 1;
+}
+
+.teamcard-box-orange {
+    background-color: #FFE3CB;
     width: 80%;
     height: 120%;
     top: -10%;

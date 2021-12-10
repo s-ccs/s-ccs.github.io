@@ -1,10 +1,10 @@
 @def title = "Members"
 @def tags = ["people", "team", "about"]
 
-\newcommand{\currentCard}[5]{
+\newcommand{\currentCard}[6]{
     ~~~
     <div class="teamcard-column-wrapper">
-        <div class="teamcard-box"></div>
+        <div class="teamcard-box-!#6"></div>
         <div class="teamcard-container">
             <div class="teamcard-image"> 
                 <img src="/assets/team/!#1/profile_image.jpg" alt="!#3">
@@ -29,13 +29,20 @@
 #hideall
 import CSV
 using CSV
+using Random
+colors = ["orange", "blue", "green"]
 
 person_list = readdir("./_assets/team/current")
 for person in person_list
+    if isempty(colors)
+        global colors = ["orange", "blue", "green"]
+    end
+    color = rand(colors)
+    global colors = filter(e->e!=color, colors)
     person_data_reader = CSV.File(string("./_assets/team/current/", person, "/profile_info.csv"), delim=";")
     row = person_data_reader[1]
     """
-    \\currentCard{current/$(person)}{$(row.title)}{$(row.name)}{$(row.hobbys)}{$(row.contact)}
+    \\currentCard{current/$(person)}{$(row.title)}{$(row.name)}{$(row.hobbys)}{$(row.contact)}{$(color)}
     """ |> print
 end   
 ```
@@ -48,13 +55,20 @@ end
 #hideall
 import CSV
 using CSV
+using Random
+colors = ["orange", "blue", "green"]
 
 person_list = readdir("./_assets/team/alumni")
 for person in person_list
+    if isempty(colors)
+        global colors = ["orange", "blue", "green"]
+    end
+    color = rand(colors)
+    global colors = filter(e->e!=color, colors)
     person_data_reader = CSV.File(string("./_assets/team/alumni/", person, "/profile_info.csv"), delim=";")
     row = person_data_reader[1]
     """
-    \\currentCard{alumni/$(person)}{$(row.title)}{$(row.name)}{$(row.hobbys)}{$(row.contact)}
+    \\currentCard{alumni/$(person)}{$(row.title)}{$(row.name)}{$(row.hobbys)}{$(row.contact)}{$(color)}
     """ |> print
 end   
 ```
