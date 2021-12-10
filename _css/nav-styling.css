@@ -636,6 +636,15 @@ nav li ol {
     display: none;
 }
 
+
+.side-nav .second-action{
+    //position: absolute;
+    //transform: translateX(-17.5px);
+    float: left;
+    padding: 2px 4px;
+
+}
+
 .side-nav .second-action:hover {
     color: grey;
 }

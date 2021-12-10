@@ -50,12 +50,12 @@ function write_html(dict, path, level)
         # not a folder
         if length(keys(get(dict, key, Dict{String, Dict}()))) == 0
             level_indent = "\t"^(3+level)
-            list_element_string = "$(level_indent)<li><a class=\"{{ispage $key}}active{{end}}\" href=\"/$href_link/\">$title</a></li>\n"
+            list_element_string = "$(level_indent)<li>\n<a class=\"{{ispage $key}}active{{end}}\" href=\"/$href_link/\">$title</a></li>\n"
             html_string = string(html_string, list_element_string)
 
         else
 
-            list_element_string = "$(level_indent) <li><a href=\"/$path$key\">$title</a>\n $(level_indent)\t <ul class=\"second\"> \n"
+            list_element_string = "$(level_indent) <li>\n<a class=\"second-action\" onclick=\"hideFolder('$key')\"><i id=\"$(string(key,"-folder-icon"))\" class=\"fas fa-arrow-circle-down\"></i></a><a href=\"/$path$key\">$title</a>\n $(level_indent)\t <ul id=\"$(string(key,"-folder"))\" class=\"second\"> \n"
 
             inner_dynamic_string = write_html(get(dict, key, Dict()), string(path, key, "/"), level + 1)
             html_string = string(html_string, list_element_string, inner_dynamic_string, "$(level_indent)\t</ul> \n $(level_indent)</li> \n")
