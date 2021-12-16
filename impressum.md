@@ -15,7 +15,7 @@
     </tr>
     <tr>
         <td><h3>Responsibilities</h3></td>
-        <td>The department of computational cognitive science is part of the University ofStuttgart. The University of Stuttgart is a public corporation
+        <td>The department of computational cognitive science is part of the University ofStuttgart. The University of Stuttgart is a public corporation.
            Responsible for the content of this website is Jun.-Prof. Dr. Benedikt Ehinger
     </tr>
     <tr>
@@ -58,7 +58,7 @@
     <tr>
         <td><h3>Verantwortung</h3></td>
         <td>Die Abteilung Computational Cognitive Science ist Teil der Universität Stuttgart. Die Universität Stuttgart ist eine Körperschaft des Öffentlichen Rechts.
-           Verantwortlich für Inhalte ist Jun.-Prof. Dr. Benedikt Ehinger
+           Verantwortlich für Inhalte ist Jun.-Prof. Dr. Benedikt Ehinger.
     </tr>
     <tr>
         <td><h3>Kontakt</h3></td>
