@@ -13,7 +13,7 @@
 
 ## Lab culture
 - We want to collaborate, not compete - within and between labs.
-- We value the principles of open science.
+- We highly value the principles of open science. It is better to be true, than be published.
 - Participation in lab's events is expected to the best of our abilities. Asking questions and commenting is strongly encouraged.
 - Be connected with eachother, we ask (and/or know) what others are doing and how they are feeling today
 - We make lot's of space for open, constructive, direct but always empathic feedback. This goes all directions, please give Bene feedback too!
@@ -29,3 +29,5 @@
 - Conflicts happen sometimes. We try to communicate open, but sometimes it might not be possible. Find a person you trust from University (any kind of mentor, second supervisor, "senior" colleague, Ombudsperson, Gleichstellungsperson - best to ask around a bit, use your intuition). Seek a meeting with me, you can always bring third persons to feel more empowered. Write Gedächtnisprotokolle
 - We are open about mistakes, no progress, or other "failures". In some sense they are our daily bread. You can always discuss with Bene in the weekly meetings.
 
+## Acknowledgments
+This philosophy is heavily inspired by [https://docs.google.com/document/d/1f6foaCkHiCkPKjO0gdKkkdm2dn1EKn5xRKZv-Ut5Dg4/](Wei Ji Ma's) Lab philosophy document. Many of these points ressonanted with me.
