@@ -13,9 +13,9 @@ ignore = ["node_modules/"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
-website_title = "LAB Homepage"
-website_descr = "This is the homepage of the EEG lab at the University of Stuttgart"
-website_url   = "https://tlienart.github.io/FranklinTemplates.jl/"
+website_title = "S-CCS Homepage"
+website_descr = "This is the homepage of the Stuttgart Computational Cognitive Science (S-CCS) lab at the University of Stuttgart"
+website_url   = "https://s-ccs.github.io/s-ccs/"
 +++
 
 <!--
