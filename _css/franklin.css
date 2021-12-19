@@ -712,6 +712,7 @@ td {
     gap: 1em 1em;
 }
 
+
 .franklin-content .toc-item {
     min-height: 8em;
     border-left: solid 5px #56a4a8;
@@ -723,4 +724,17 @@ td {
 .franklin-content .toc-item:hover {
     border-left: solid 12px #CBFCFF;
     margin-left: -12px;
+}
+
+@media(max-width: 550px) {
+    .franklin-content .toc-wrapper {
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        padding: 0 1em;
+    }
+
+    .franklin-content .toc-item {
+        flex-basis: 10em;
+    }
 }
