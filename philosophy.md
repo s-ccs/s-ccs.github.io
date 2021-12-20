@@ -2,13 +2,17 @@
 @def tags = ["rules", "lab", "code", "conduct"]
 
 # LAB Philosophy 
-1. Think for yourself.
+
+A lab philosophy defines it's values and to some degree, it's rules. The set of following points is an ongoing discussion - as a lab evolves, it's culture evolves and adapts to the needs and cultures of the members defining it.
+
+## Core Values
+1. Be kind.
+
+1. Think for yourself; question authority
    
-2. Be bold, question the authority.
-   
-3. Be kind.
-   
-4. Be honest.
+1. Be honest.
+
+1. Seek truth.
 
 
 ## Lab culture
