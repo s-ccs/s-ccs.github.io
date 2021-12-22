@@ -3,3 +3,4 @@
 
 
 # Eye Tracking
+The lecture recording can be found [here](https://www.youtube.com/playlist?list=PLldSujfEsgwo90m5TKbiLQgyre6RGmJ4q).

@@ -1,4 +1,4 @@
-# Applied Linear Modeling
+# Applied Linear Mixed Models
 ## 2018
 In this block-course we developed Generalized Linear Models and Mixed Linear Models from scratch. The idea is to 
 introduce the linear model and all its encompasing tests as one coherent framework (i.e. t-test, ANOVA, ANCOVA, repeated 
