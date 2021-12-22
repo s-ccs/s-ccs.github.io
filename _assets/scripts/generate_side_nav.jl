@@ -101,8 +101,7 @@ function generate_side_nav()
     dynamic_string = write_html(file_list, "", 0)
     file_string_gen = string(file_string_gen, dynamic_string)
 
-    # Custom add Impressum and Internal page
-    file_string_gen = string(file_string_gen, "\t \t \t<li><a class=\"{{ispage internal}}active{{end}}\" href=\"/internal/\">Internal</a></li>\n")
+    # Custom add Impressum page
     file_string_gen = string(file_string_gen, "\t \t </ul>\n")
 
     page = string(file_start, file_string_gen, file_end)
