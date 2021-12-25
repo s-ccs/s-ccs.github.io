@@ -1,7 +1,6 @@
 @def title = ""
 @def tags = ["landing", "home", "about"]
 
-
 # About the S-CCS
 @@container
     \textImage{eeg_cap_closeup_side.jpg}{blue}
