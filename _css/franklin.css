@@ -706,9 +706,10 @@ td {
 .franklin-content .toc-wrapper {
     width: 100%;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 10em 10em 10em;
 
     margin-top: 3em;
+    padding: 0 1em;
     gap: 1em 1em;
 }
 
@@ -731,7 +732,6 @@ td {
         display: flex;
         flex-flow: row;
         flex-wrap: wrap;
-        padding: 0 1em;
     }
 
     .franklin-content .toc-item {
