@@ -68,7 +68,7 @@ end
 
 function write_html_top_nav(dict, path, level)
 
-    level_indent = "\t"^(3+level)
+    level_indent = "\t"^(5+level)
 
     html_string = ""
     for key in keys(dict)
@@ -79,16 +79,15 @@ function write_html_top_nav(dict, path, level)
         # Checks if the dict, the key element is pointing to is empty, implying it being a page,
         # not a folder
         if length(keys(get(dict, key, Dict{String, Dict}()))) == 0
-            level_indent = "\t"^(3+level)
-            list_element_string = "$(level_indent)<li>\n<a href=\"/$href_link/\">$title</a></li>\n"
+            list_element_string = "$(level_indent)<li><a href=\"/$href_link/\">$title</a></li>\n"
             html_string = string(html_string, list_element_string)
 
         else
 
-            list_element_string = "$(level_indent) <li>\n<a href=\"/$path$key\">$title</a>\n $(level_indent)\t <ul class=\"nav-second\"> \n"
+            list_element_string = "$(level_indent)<li><a href=\"/$path$key\">$title</a>\n$(level_indent)\t<ul class=\"nav-second\">\n"
 
-            inner_dynamic_string = write_html_top_nav(get(dict, key, Dict()), string(path, key, "/"), level + 1)
-            html_string = string(html_string, list_element_string, inner_dynamic_string, "$(level_indent)\t</ul> \n $(level_indent)</li> \n")
+            inner_dynamic_string = write_html_top_nav(get(dict, key, Dict()), string(path, key, "/"), level + 2)
+            html_string = string(html_string, list_element_string, inner_dynamic_string, "$(level_indent)\t</ul>\n$(level_indent)</li>\n")
 
         end
     end
@@ -146,37 +145,39 @@ end
 
 function generate_top_nav()
     # Static first part of HTML file
-    file_start =     "<div class=\"masthead\">
-                      <div class=\"masthead__inner-wrap\">
-                        <div class=\"masthead__menu\">
-                          <nav id=\"site-nav\" class=\"greedy-nav\">
-                            <a class=\"site-title\" href=\"/\"><img src=\"/assets/text_logo.png\"></a>
-                              <ul class=\"visible-links\">
-                                <a href=\"/open-projects-and-positions/\"> <li class=\"masthead__menu-item\">Open Positions</li> </a>
-                                <a href=\"/members/\"><li class=\"masthead__menu-item\">Members</li></a>
-                                <a href=\"/teaching-ressources/\"><li class=\"masthead__menu-item\">Teaching Ressources</li></a>
-                              </ul>
-                              <a href=\"javascript:void(0);\" onclick=\"toggleHamburger()\">
-                                <div class=\"hamburger\">
-                                    <div class=\"hamburger-elem1\"></div>
-                                    <div class=\"hamburger-elem2\"></div>
-                                    <div class=\"hamburger-elem1\"></div>
-                                </div>
-                              </a>
-                          </nav>
-                         <div class=\"invisible-hamburger-links\" id=\"hamburgerLinks\">
-                              <ul class=\"nav-first\">\n"
+    file_start =
+    "<div class=\"masthead\">
+    <div class=\"masthead__inner-wrap\">
+    \t<div class=\"masthead__menu\">
+    \t\t<nav id=\"site-nav\" class=\"greedy-nav\">
+    \t\t\t<a class=\"site-title\" href=\"/\"><img src=\"/assets/text_logo.png\"></a>
+    \t\t\t<ul class=\"visible-links\">
+    \t\t\t\t<a href=\"/open-projects-and-positions/\"> <li class=\"masthead__menu-item\">Open Positions</li> </a>
+    \t\t\t\t<a href=\"/members/\"><li class=\"masthead__menu-item\">Members</li></a>
+    \t\t\t\t<a href=\"/teaching-ressources/\"><li class=\"masthead__menu-item\">Teaching Ressources</li></a>
+    \t\t\t</ul>
+    \t\t\t<a href=\"javascript:void(0);\" onclick=\"toggleHamburger()\">
+    \t\t\t\t<div class=\"hamburger\">
+    \t\t\t\t\t<div class=\"hamburger-elem1\"></div>
+    \t\t\t\t\t<div class=\"hamburger-elem2\"></div>
+    \t\t\t\t\t<div class=\"hamburger-elem1\"></div>
+    \t\t\t\t</div>
+    \t\t\t</a>
+    \t\t</nav>
+    \t\t<div class=\"invisible-hamburger-links\" id=\"hamburgerLinks\">
+    \t\t\t<ul class=\"nav-first\">\n"
 
      # Static end of file
-    file_end = "</ul>
-           </div>
-        </div>
-      </div>
-    </div>"
+    file_end =
+"\n\t\t\t\t</ul>
+\t\t\t</div>
+\t\t</div>
+\t</div>
+</div>"
 
     # Custom add Home page
     file_string_gen = ""
-    file_string_gen = string(file_string_gen, "\t \t \t <li><a href=\".\">Home</a></li>\n")
+    file_string_gen = string(file_string_gen, "\t\t\t\t\t<li><a href=\".\">Home</a></li>\n")
 
     # Index files
     @info "Indexing files..."
@@ -189,7 +190,7 @@ function generate_top_nav()
     file_string_gen = string(file_string_gen, dynamic_string)
 
     # Custom add Impressum and static end of page
-    file_string_gen = string(file_string_gen, "<li><a href=\"/impressum/\">Impressum</a></li>")
+    file_string_gen = string(file_string_gen, "\t\t\t\t\t<li><a href=\"/impressum/\">Impressum</a></li>")
 
     page = string(file_start, file_string_gen, file_end)
 
