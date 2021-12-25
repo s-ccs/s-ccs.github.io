@@ -1,5 +1,30 @@
+using DataStructures
+
+import Base.Ordering
+import Base.lt
+import DataStructures.eq
+
 include("file_blacklist.jl")
 include("auxiliary_functions.jl")
+
+#=
+ # Custom Order Dictionaires
+=#
+nav_order = Lt((a, b) ->
+    begin
+        custom_order = ["members", "papers", "philosophy", "teaching-ressources", "thesis-art", "open-projects-and-positions", "contact-us"]
+        a_in = a in cutom_order
+        b_in = b in custom_order
+        if(a_in && b_in)
+            return findfirst(isequal(a), custom_order) < findfirst(isequal(b), custom_order) ? true : false
+        elseif(a_in && !b_in)
+             return true
+        elseif(!a_in && b_in)
+            return false
+        else
+            return isless(lowercase(a), lowercase(b))
+        end
+    end)
 
 #=
  # Appends all files and folders, subfolders and their contents of a given path into the provided
@@ -21,13 +46,13 @@ function append_files!(dict, folder)
         # Check for .md file and add to dict, pointing to empty dict
         if contains(file, ".md") && !(file in file_black_list)
 
-            push!(dict, replace(file, ".md" => "") => Dict{String, Dict}())
+            push!(dict, replace(file, ".md" => "") => SortedDict{String, SortedDict}(nav_order))
 
         # If not .md check for (black-listed) folders and add them to the dict. This dict is then
         # filled recursivly.
         elseif isdir(file) && !(folder_in_blacklist)
 
-            inner_dict = Dict{String, Dict}()
+            inner_dict = SortedDict{String, SortedDict}(nav_order)
             push!(dict, file => inner_dict)
             append_files!(inner_dict, file)
 
@@ -37,7 +62,6 @@ end
 
 # Recursivly generates the HTML code for the side nav, given a dict and a path.
 function write_html_side_nav(dict, path, level)
-
     level_indent = "\t"^(3+level)
 
     html_string = ""
@@ -45,10 +69,11 @@ function write_html_side_nav(dict, path, level)
 
         title = apply_formatting(key)
         href_link = string(path, key)
+        #@info "SIDE_NAV_GEN: \n" title
 
         # Checks if the dict, the key element is pointing to is empty, implying it being a page,
         # not a folder
-        if length(keys(get(dict, key, Dict{String, Dict}()))) == 0
+        if length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order)))) == 0
             level_indent = "\t"^(3+level)
             list_element_string = "$(level_indent)<li><a class=\"{{ispage $href_link}}active{{end}}\" href=\"/$href_link/\">$title</a></li>\n"
             html_string = string(html_string, list_element_string)
@@ -57,7 +82,7 @@ function write_html_side_nav(dict, path, level)
 
             list_element_string = "$(level_indent)<li><a class=\"second-action\" onclick=\"hideFolder('$key')\"><i id=\"$(string(key,"-folder-icon"))\" class=\"fas fa-chevron-circle-right\"></i></a><a class=\"{{ispage $(string(href_link, "/*"))}}active{{end}}\" href=\"/$path$key\">$title</a>\n $(level_indent)\t<ul id=\"$(string(key,"-folder"))\" class=\"second-invisible\"> \n"
 
-            inner_dynamic_string = write_html_side_nav(get(dict, key, Dict()), string(path, key, "/"), level + 2)
+            inner_dynamic_string = write_html_side_nav(get(dict, key, SortedDict(nav_order)), string(path, key, "/"), level + 2)
             html_string = string(html_string, list_element_string, inner_dynamic_string, "$(level_indent)\t</ul>\n $(level_indent)</li>\n")
 
         end
@@ -78,7 +103,7 @@ function write_html_top_nav(dict, path, level)
 
         # Checks if the dict, the key element is pointing to is empty, implying it being a page,
         # not a folder
-        if length(keys(get(dict, key, Dict{String, Dict}()))) == 0
+        if length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order)))) == 0
             list_element_string = "$(level_indent)<li><a href=\"/$href_link/\">$title</a></li>\n"
             html_string = string(html_string, list_element_string)
 
@@ -86,7 +111,7 @@ function write_html_top_nav(dict, path, level)
 
             list_element_string = "$(level_indent)<li><a href=\"/$path$key\">$title</a>\n$(level_indent)\t<ul class=\"nav-second\">\n"
 
-            inner_dynamic_string = write_html_top_nav(get(dict, key, Dict()), string(path, key, "/"), level + 2)
+            inner_dynamic_string = write_html_top_nav(get(dict, key, SortedDict(nav_order)), string(path, key, "/"), level + 2)
             html_string = string(html_string, list_element_string, inner_dynamic_string, "$(level_indent)\t</ul>\n$(level_indent)</li>\n")
 
         end
@@ -117,7 +142,7 @@ function generate_side_nav()
 
     # Index files
     @info "Indexing files..."
-    file_list = Dict{String, Dict}()
+    file_list = SortedDict{String, SortedDict}(nav_order)
     append_files!(file_list, "")
 
     # Custom add Home page
@@ -181,7 +206,7 @@ function generate_top_nav()
 
     # Index files
     @info "Indexing files..."
-    file_list = Dict{String, Dict}()
+    file_list = SortedDict{String, SortedDict}(nav_order)
     append_files!(file_list, "")
 
     # Generate dynamic nav HTML

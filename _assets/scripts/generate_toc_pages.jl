@@ -31,8 +31,9 @@ function blacklisted_or_folder(file)
 end
 
 function generate_toc_pages(folder_list)
+
     for folder in folder_list
-        folder_content = filter(e->e!="index.md", readdir(folder))
+        folder_content = sort(filter(e->e!="index.md", readdir(folder)), by=x->lowercase(x))
 
         # regex needed.
         title = apply_formatting(replace(replace(folder, "-" => " "), "./" => ""))
