@@ -618,7 +618,7 @@ nav li ol {
 
 .side-nav .first {
     margin-left: 0.5em;
-    padding-left: 0.5em;
+    padding-left: 0.7em;
     border-left-style: solid;
     border-color: #f1f1f1;
     border-width: 4px;
@@ -638,15 +638,16 @@ nav li ol {
 
 
 .side-nav .second-action{
-    //position: absolute;
-    //transform: translateX(-17.5px);
-    float: left;
-    padding: 2px 4px;
+    position: absolute;
+    transform: translateX(-21px);
+    color: #d1d1d1;
+    background-color: white;
+    padding: 2px 0;
 
 }
 
 .side-nav .second-action:hover {
-    color: grey;
+    color: #A0DEE2;
 }
 
 .active{
