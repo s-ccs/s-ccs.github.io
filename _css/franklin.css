@@ -720,6 +720,7 @@ td {
     margin-left: -5px;
     padding: 0 0.5em;
     transition: 0.2s;
+    overflow-wrap: break-word;
 }
 
 .franklin-content .toc-item:hover {
