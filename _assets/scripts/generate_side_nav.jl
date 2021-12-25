@@ -50,15 +50,15 @@ function write_html_side_nav(dict, path, level)
         # not a folder
         if length(keys(get(dict, key, Dict{String, Dict}()))) == 0
             level_indent = "\t"^(3+level)
-            list_element_string = "$(level_indent)<li>\n<a class=\"{{ispage $key}}active{{end}}\" href=\"/$href_link/\">$title</a></li>\n"
+            list_element_string = "$(level_indent)<li><a class=\"{{ispage $href_link}}active{{end}}\" href=\"/$href_link/\">$title</a></li>\n"
             html_string = string(html_string, list_element_string)
 
         else
 
-            list_element_string = "$(level_indent) <li>\n<a class=\"second-action\" onclick=\"hideFolder('$key')\"><i id=\"$(string(key,"-folder-icon"))\" class=\"fas fa-chevron-circle-right\"></i></a><a href=\"/$path$key\">$title</a>\n $(level_indent)\t <ul id=\"$(string(key,"-folder"))\" class=\"second-invisible\"> \n"
+            list_element_string = "$(level_indent)<li><a class=\"second-action\" onclick=\"hideFolder('$key')\"><i id=\"$(string(key,"-folder-icon"))\" class=\"fas fa-chevron-circle-right\"></i></a><a class=\"{{ispage $(string(href_link, "/*"))}}active{{end}}\" href=\"/$path$key\">$title</a>\n $(level_indent)\t<ul id=\"$(string(key,"-folder"))\" class=\"second-invisible\"> \n"
 
-            inner_dynamic_string = write_html_side_nav(get(dict, key, Dict()), string(path, key, "/"), level + 1)
-            html_string = string(html_string, list_element_string, inner_dynamic_string, "$(level_indent)\t</ul> \n $(level_indent)</li> \n")
+            inner_dynamic_string = write_html_side_nav(get(dict, key, Dict()), string(path, key, "/"), level + 2)
+            html_string = string(html_string, list_element_string, inner_dynamic_string, "$(level_indent)\t</ul>\n $(level_indent)</li>\n")
 
         end
     end
@@ -100,21 +100,21 @@ function generate_side_nav()
     # Static first part of HTML file
     file_start =
     "<div class=\"side-nav-wrapper\">
-        <div class=\"side-nav\">
-            <div class=\"search-bar\">
-                <form id=\"lunrSearchForm\" name=\"lunrSearchForm\">
-                <input class=\"search-input\" name=\"q\" placeholder=\"Search...\" type=\"text\">
-                <input type=\"submit\" value=\"Search\" formaction=\"/search/index.html\">
-            </form>
-            </div>
-            <h2>
-                Navigation
-            </h2>\n"
+    <div class=\"side-nav\">
+    \t<div class=\"search-bar\">
+    \t\t<form id=\"lunrSearchForm\" name=\"lunrSearchForm\">
+    \t\t\t<input class=\"search-input\" name=\"q\" placeholder=\"Search...\" type=\"text\">
+    \t\t\t<input type=\"submit\" value=\"Search\" formaction=\"/search/index.html\">
+    \t\t</form>
+    \t</div>
+    \t<h2>
+    \t\tNavigation
+    \t</h2>\n"
 
     # Static end of file
     file_end =
-    "   </div>
-    </div>\n"
+    "\t</div>
+</div>\n"
 
     # Index files
     @info "Indexing files..."
@@ -123,8 +123,8 @@ function generate_side_nav()
 
     # Custom add Home page
     file_string_gen = ""
-    file_string_gen = string(file_string_gen, "\t \t <ul class=\"first\">\n")
-    file_string_gen = string(file_string_gen, "\t \t \t <li><a class=\"{{ispage index}}active{{end}}\" href=\"\\.\\\">Home</a></li>\n")
+    file_string_gen = string(file_string_gen, "\t\t<ul class=\"first\">\n")
+    file_string_gen = string(file_string_gen, "\t\t\t<li><a class=\"{{ispage index}}active{{end}}\" href=\"\\.\\\">Home</a></li>\n")
 
     # Generate dynamic nav HTML
     @info "Generating side-nav..."
@@ -132,7 +132,7 @@ function generate_side_nav()
     file_string_gen = string(file_string_gen, dynamic_string)
 
     # Custom add Impressum page
-    file_string_gen = string(file_string_gen, "\t \t </ul>\n")
+    file_string_gen = string(file_string_gen, "\t\t</ul>\n")
 
     page = string(file_start, file_string_gen, file_end)
 

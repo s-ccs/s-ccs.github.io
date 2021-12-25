@@ -1,70 +1,46 @@
 <div class="side-nav-wrapper">
-        <div class="side-nav">
-            <div class="search-bar">
-                <form id="lunrSearchForm" name="lunrSearchForm">
-                <input class="search-input" name="q" placeholder="Search..." type="text">
-                <input type="submit" value="Search" formaction="/search/index.html">
-            </form>
-            </div>
-            <h2>
-                Navigation
-            </h2>
-	 	 <ul class="first">
-	 	 	 <li><a class="{{ispage index}}active{{end}}" href="\.\">Home</a></li>
-			<li>
-<a class="{{ispage papers}}active{{end}}" href="/papers/">Papers</a></li>
-			<li>
-<a class="{{ispage contact-us}}active{{end}}" href="/contact-us/">Contact Us</a></li>
-			 <li>
-<a class="second-action" onclick="hideFolder('teaching-ressources')"><i id="teaching-ressources-folder-icon" class="fas fa-chevron-circle-right"></i></a><a href="/teaching-ressources">Teaching Ressources</a>
- 				 <ul id="teaching-ressources-folder" class="second-invisible"> 
-				<li>
-<a class="{{ispage eeg}}active{{end}}" href="/teaching-ressources/eeg/">EEG</a></li>
-				<li>
-<a class="{{ispage PoRiCS}}active{{end}}" href="/teaching-ressources/PoRiCS/">PoRiCS</a></li>
-				<li>
-<a class="{{ispage demos}}active{{end}}" href="/teaching-ressources/demos/">Demos</a></li>
-				<li>
-<a class="{{ispage eye-tracking}}active{{end}}" href="/teaching-ressources/eye-tracking/">Eye Tracking</a></li>
-				<li>
-<a class="{{ispage graphics}}active{{end}}" href="/teaching-ressources/graphics/">Graphics</a></li>
-				<li>
-<a class="{{ispage applied-linear-mixed-models}}active{{end}}" href="/teaching-ressources/applied-linear-mixed-models/">Applied Linear Mixed Models</a></li>
-				<li>
-<a class="{{ispage bayesian-statistics}}active{{end}}" href="/teaching-ressources/bayesian-statistics/">Bayesian Statistics</a></li>
-				</ul> 
- 			</li> 
-			<li>
-<a class="{{ispage philosophy}}active{{end}}" href="/philosophy/">Philosophy</a></li>
-			 <li>
-<a class="second-action" onclick="hideFolder('thesis-art')"><i id="thesis-art-folder-icon" class="fas fa-chevron-circle-right"></i></a><a href="/thesis-art">Thesis Art</a>
- 				 <ul id="thesis-art-folder" class="second-invisible"> 
-				<li>
-<a class="{{ispage Lisa-Marie-Vortmann}}active{{end}}" href="/thesis-art/Lisa-Marie-Vortmann/">Lisa Marie Vortmann</a></li>
-				<li>
-<a class="{{ispage Maria-Sokotuschenko}}active{{end}}" href="/thesis-art/Maria-Sokotuschenko/">Maria Sokotuschenko</a></li>
-				<li>
-<a class="{{ispage Judith-Schepers}}active{{end}}" href="/thesis-art/Judith-Schepers/">Judith Schepers</a></li>
-				<li>
-<a class="{{ispage Karolis-Degutis}}active{{end}}" href="/thesis-art/Karolis-Degutis/">Karolis Degutis</a></li>
-				<li>
-<a class="{{ispage Lilli-Kaufhold}}active{{end}}" href="/thesis-art/Lilli-Kaufhold/">Lilli Kaufhold</a></li>
-				<li>
-<a class="{{ispage Katja-Haeusser}}active{{end}}" href="/thesis-art/Katja-Haeusser/">Katja Haeusser</a></li>
-				<li>
-<a class="{{ispage Edoardo-Pinzuti}}active{{end}}" href="/thesis-art/Edoardo-Pinzuti/">Edoardo Pinzuti</a></li>
-				<li>
-<a class="{{ispage Jiameng-Wu}}active{{end}}" href="/thesis-art/Jiameng-Wu/">Jiameng Wu</a></li>
-				<li>
-<a class="{{ispage Katharina-Groß}}active{{end}}" href="/thesis-art/Katharina-Groß/">Katharina Groß</a></li>
-				</ul> 
- 			</li> 
-			<li>
-<a class="{{ispage members}}active{{end}}" href="/members/">Members</a></li>
-			<li>
-<a class="{{ispage open-projects-and-positions}}active{{end}}" href="/open-projects-and-positions/">Open Projects And Positions</a></li>
-			<li>
-<a class="{{ispage legacy_thesis-art}}active{{end}}" href="/legacy_thesis-art/">Legacy_Thesis Art</a></li>
-	 	 </ul>
-   </div>
-    </div>
+    <div class="side-nav">
+    	<div class="search-bar">
+    		<form id="lunrSearchForm" name="lunrSearchForm">
+    			<input class="search-input" name="q" placeholder="Search..." type="text">
+    			<input type="submit" value="Search" formaction="/search/index.html">
+    		</form>
+    	</div>
+    	<h2>
+    		Navigation
+    	</h2>
+		<ul class="first">
+			<li><a class="{{ispage index}}active{{end}}" href="\.\">Home</a></li>
+			<li><a class="{{ispage papers}}active{{end}}" href="/papers/">Papers</a></li>
+			<li><a class="{{ispage contact-us}}active{{end}}" href="/contact-us/">Contact Us</a></li>
+			<li><a class="second-action" onclick="hideFolder('teaching-ressources')"><i id="teaching-ressources-folder-icon" class="fas fa-chevron-circle-right"></i></a><a class="{{ispage teaching-ressources/*}}active{{end}}" href="/teaching-ressources">Teaching Ressources</a>
+ 				<ul id="teaching-ressources-folder" class="second-invisible"> 
+					<li><a class="{{ispage teaching-ressources/eeg}}active{{end}}" href="/teaching-ressources/eeg/">EEG</a></li>
+					<li><a class="{{ispage teaching-ressources/PoRiCS}}active{{end}}" href="/teaching-ressources/PoRiCS/">PoRiCS</a></li>
+					<li><a class="{{ispage teaching-ressources/demos}}active{{end}}" href="/teaching-ressources/demos/">Demos</a></li>
+					<li><a class="{{ispage teaching-ressources/eye-tracking}}active{{end}}" href="/teaching-ressources/eye-tracking/">Eye Tracking</a></li>
+					<li><a class="{{ispage teaching-ressources/graphics}}active{{end}}" href="/teaching-ressources/graphics/">Graphics</a></li>
+					<li><a class="{{ispage teaching-ressources/applied-linear-mixed-models}}active{{end}}" href="/teaching-ressources/applied-linear-mixed-models/">Applied Linear Mixed Models</a></li>
+					<li><a class="{{ispage teaching-ressources/bayesian-statistics}}active{{end}}" href="/teaching-ressources/bayesian-statistics/">Bayesian Statistics</a></li>
+				</ul>
+ 			</li>
+			<li><a class="{{ispage philosophy}}active{{end}}" href="/philosophy/">Philosophy</a></li>
+			<li><a class="second-action" onclick="hideFolder('thesis-art')"><i id="thesis-art-folder-icon" class="fas fa-chevron-circle-right"></i></a><a class="{{ispage thesis-art/*}}active{{end}}" href="/thesis-art">Thesis Art</a>
+ 				<ul id="thesis-art-folder" class="second-invisible"> 
+					<li><a class="{{ispage thesis-art/Lisa-Marie-Vortmann}}active{{end}}" href="/thesis-art/Lisa-Marie-Vortmann/">Lisa Marie Vortmann</a></li>
+					<li><a class="{{ispage thesis-art/Maria-Sokotuschenko}}active{{end}}" href="/thesis-art/Maria-Sokotuschenko/">Maria Sokotuschenko</a></li>
+					<li><a class="{{ispage thesis-art/Judith-Schepers}}active{{end}}" href="/thesis-art/Judith-Schepers/">Judith Schepers</a></li>
+					<li><a class="{{ispage thesis-art/Karolis-Degutis}}active{{end}}" href="/thesis-art/Karolis-Degutis/">Karolis Degutis</a></li>
+					<li><a class="{{ispage thesis-art/Lilli-Kaufhold}}active{{end}}" href="/thesis-art/Lilli-Kaufhold/">Lilli Kaufhold</a></li>
+					<li><a class="{{ispage thesis-art/Katja-Haeusser}}active{{end}}" href="/thesis-art/Katja-Haeusser/">Katja Haeusser</a></li>
+					<li><a class="{{ispage thesis-art/Edoardo-Pinzuti}}active{{end}}" href="/thesis-art/Edoardo-Pinzuti/">Edoardo Pinzuti</a></li>
+					<li><a class="{{ispage thesis-art/Jiameng-Wu}}active{{end}}" href="/thesis-art/Jiameng-Wu/">Jiameng Wu</a></li>
+					<li><a class="{{ispage thesis-art/Katharina-Groß}}active{{end}}" href="/thesis-art/Katharina-Groß/">Katharina Groß</a></li>
+				</ul>
+ 			</li>
+			<li><a class="{{ispage members}}active{{end}}" href="/members/">Members</a></li>
+			<li><a class="{{ispage open-projects-and-positions}}active{{end}}" href="/open-projects-and-positions/">Open Projects And Positions</a></li>
+			<li><a class="{{ispage legacy_thesis-art}}active{{end}}" href="/legacy_thesis-art/">Legacy_Thesis Art</a></li>
+		</ul>
+	</div>
+</div>
