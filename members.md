@@ -1,10 +1,10 @@
 @def title = "Members"
 @def tags = ["people", "team", "about"]
 
-\newcommand{\currentCard}[6]{
+\newcommand{\currentCard}[7]{
     ~~~
     <div class="teamcard-column-wrapper">
-        <div class="teamcard-box-!#6"></div>
+        <div class="teamcard-box-!#7"></div>
         <div class="teamcard-container">
             <div class="teamcard-image"> 
                 <img src="/assets/team/!#1/profile_image.jpg" alt="!#3">
@@ -12,10 +12,12 @@
             <div class="teamcard-info">
                 <div class="title">!#2</div>
                 <h3>#3</h3>
-                <div class="hobbys">!#4</div> 
+                <div class="position">!#4</div>
+                <h4>Hobbys:</h4>
+                <div class="hobbys">!#5</div> 
             </div>
             <div class="teamcard-email"> 
-                <a href="mailto:#5">!#5</a> 
+                <a href="mailto:#6">!#6</a> 
             </div>
         </div>
     </div>
@@ -42,7 +44,7 @@ for person in person_list
     person_data_reader = CSV.File(string("./_assets/team/current/", person, "/profile_info.csv"), delim=";")
     row = person_data_reader[1]
     """
-    \\currentCard{current/$(person)}{$(row.title)}{$(row.name)}{$(row.hobbys)}{$(row.contact)}{$(color)}
+    \\currentCard{current/$(person)}{$(row.title)}{$(row.name)}{$(row.position)}{$(row.hobbys)}{$(row.contact)}{$(color)}
     """ |> print
 end   
 ```
@@ -68,7 +70,7 @@ for person in person_list
     person_data_reader = CSV.File(string("./_assets/team/alumni/", person, "/profile_info.csv"), delim=";")
     row = person_data_reader[1]
     """
-    \\currentCard{alumni/$(person)}{$(row.title)}{$(row.name)}{$(row.hobbys)}{$(row.contact)}{$(color)}
+    \\currentCard{alumni/$(person)}{$(row.title)}{$(row.name)}{$(row.position)}{$(row.hobbys)}{$(row.contact)}{$(color)}
     """ |> print
 end   
 ```

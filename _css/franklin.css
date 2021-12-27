@@ -617,6 +617,12 @@ code {
 .teamcard-info .hobbys{
     padding-top: 0.3em;
 }
+.teamcard-info .position  {
+    padding-top: 0.1em;
+    padding-bottom: 1em;
+    font-size: 0.7em;
+    font-weight: bold;
+}
 
 .teamcard-email{
     font-size: 0.7em;
@@ -630,6 +636,7 @@ code {
 h1 { font-size: 2.5em;  margin: 1em 0 0 0;}
 h2 { font-size: 1.5em; margin: 0;}
 h3 { font-size: 1em; margin: 0}
+h4 { margin: 0}
 
 h1,
 h2,
