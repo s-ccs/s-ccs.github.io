@@ -34,7 +34,7 @@ html {
 @media(max-width: 1280px) {
     .page-wrapper {
         gap: 0;
-        grid-template-columns: auto;
+            grid-template-columns: auto;
     }
 }
 
@@ -60,34 +60,85 @@ html {
     }
 }
 
+.title-logo-wrapper {
+
+}
+
 .title-content-wrapper {
-    display: flex;
-    flex-flow: column;
+    display: grid;
+    grid-template-columns: max-content auto;
+    position: relative;
+    max-width: 40em;
+    padding: 2em 4em;
+    gap: 3em;
+    align-items: center;
+    background-color: black;
+    border: #333333 solid 1px;
+    border-top: aliceblue solid 25px;
+    margin: auto;
+    top: 25%;
+}
+
+@media(max-width: 43em) {
+    .title-content-wrapper {
+        grid-template-columns: auto;
+        padding: 1em 2em;
+        max-width: max-content;
+        order: revert;  
+    }
 }
 
 .title-image{
   max-width: 100%;
   height: calc(100vh - 77.39px);
-  display: grid;
-  justify-items: center;
-  align-items: center;
+  background-color: black;
   background-image: url("../assets/title_img.jpg");
   background-size: cover;
   background-position: center center;
+  background-opacity: 50%;
 }
 
 .title-image img {
     max-width: 15em;
-    margin: auto;
 }
 
 .title-text {
     color: white;
-    text-align: center;
+    text-align: start;
     font-weight: bold;
     font-size: 2.5em;
     margin-top: 0.6em;
 }
+
+.title-text::before {
+    content: ">";
+    position: absolute;
+    transform: translateX(-35px);
+}
+
+.title-text::after {
+    content: " |";
+    font-weight: bolder;
+    animation-name: cursor-fade;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cursor-fade {
+    0% {opacity: 100%;}
+    50% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+@media(max-width: 43em) {
+    .title-text {
+        font-size: 5vw;
+    }
+    .title-text::before {
+        transform: translateX(-5vw);
+    }
+}
+
 
 .title-arrow {
     width: 2.5em;
@@ -96,6 +147,7 @@ html {
 .title-arrow-container {
     position: absolute;
     bottom: 3%;
+    left: calc(50% - 35px);
     animation-duration: 1.7s;
     animation-iteration-count: infinite;
 

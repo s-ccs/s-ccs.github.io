@@ -4,7 +4,7 @@
 \newcommand{\currentCard}[7]{
     ~~~
     <div class="teamcard-column-wrapper">
-        <div class="teamcard-box-!#7"></div>
+        <div class="teamcard-box-!#7    "></div>
         <div class="teamcard-container">
             <div class="teamcard-image"> 
                 <img src="/assets/team/!#1/profile_image.jpg" alt="!#3">
