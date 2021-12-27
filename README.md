@@ -35,9 +35,9 @@ The folder of each member needs the following things:
 #### CSV Structure
 The CSV should use `;` as its delimiter and `newline` as row seperator. 
 The structer of the file should look like:
-|title|name|hobbys|contact|
-|-----|----|------|-------|
-|Jun.-Prof. Dr.|Benedikt Ehinger|Lorem ipsum|benedikt.ehinger@vis.uni-stuttgart.de|
+|title|name|position|hobbys|contact|
+|-----|----|--------|------|-------|
+|Jun.-Prof. Dr.|Benedikt Ehinger|SimTech-Tenure-Track-Professur CCS|Lorem ipsum|benedikt.ehinger@vis.uni-stuttgart.de|
 
 ## Update side_nav.html
 If you add any pages, they will be added to the navigation menu, whenever you push the changes to Github. If you wan't to update the nav bar locally, 
