@@ -604,7 +604,7 @@ nav li ol {
 .side-nav li a {
   display: block;
   text-decoration: none;
-  color: black;
+  color: #333;
   padding: 0.1em 0;
   transition: 0.3s;
 }
@@ -664,7 +664,7 @@ nav li ol {
     background-image: url('/assets/searchicon.png');
     background-position: 8px 7px;
     background-repeat: no-repeat;
-    color: black;
+    color: #333;
     outline: none;
 }
 

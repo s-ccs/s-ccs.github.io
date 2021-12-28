@@ -7,7 +7,7 @@
   --output-background: hsl(0, 0%, 98%);
   --small: 14px;
   --normal: 19px;
-  --text-color: hsv(0, 0%, 20%);
+  --text-color: #333;
 }
 
 /* ==================================================================
@@ -84,7 +84,7 @@ html {
         grid-template-columns: auto;
         padding: 1em 2em;
         max-width: max-content;
-        order: revert;  
+        order: revert;
     }
 }
 
@@ -335,8 +335,8 @@ html {
 
 @media (min-width: 1200px) {
     .franklin-content p {
-     margin-top: 1em;
-     margin-bottom: 2em;
+     margin-top: 0.3em;
+     margin-bottom: 1.5em;
     }
 }
 
@@ -372,10 +372,12 @@ html {
 
 .franklin-content a {
   text-decoration: none;
+  color: var(--textcolor);
+  background: lightgray
 }
 
 .franklin-content a:hover {
-  text-decoration: underline;
+  background: darkgray;
 }
 
 /* ==================================================================
@@ -603,7 +605,7 @@ code {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto auto;
     gap: 1em 1em;
-    background-color: lightgrey;
+    background-color: #f7f7f7;
     padding: 1em;
     position: relative;
     z-index: 2;
@@ -622,7 +624,7 @@ code {
 }
 
 .teamcard-box-blue {
-    background-color: #CBFCFF;
+    background-color: #B1D8F9;
     width: 80%;
     height: 120%;
     top: -10%;
@@ -632,7 +634,7 @@ code {
 }
 
 .teamcard-box-green {
-    background-color: #EAFFCB;
+    background-color: #F9F2B1   ;
     width: 80%;
     height: 120%;
     top: -10%;
@@ -642,7 +644,7 @@ code {
 }
 
 .teamcard-box-orange {
-    background-color: #FFE3CB;
+    background-color: #F9B1B1;
     width: 80%;
     height: 120%;
     top: -10%;
@@ -687,7 +689,7 @@ code {
 
 h1 { font-size: 2.5em;  margin: 1em 0 0 0;}
 h2 { font-size: 1.5em; margin: 0;}
-h3 { font-size: 1em; margin: 0}
+h3 { margin: 0}
 h4 { margin: 0}
 
 h1,
@@ -697,7 +699,7 @@ h4,
 h5,
 h6 {
   text-align: left;
-  color: black !important;
+  margin: 1em 0 0 0;
 }
 
 h1 a:hover,
@@ -715,7 +717,9 @@ h3 a,
 h4 a,
 h5 a,
 h6 a{
-    color: black;
+    color: var(--textcolor) !important;
+    text-decoration: none !important;
+    background: none !important;
 }
 
 .franklin-content table {

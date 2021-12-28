@@ -7,11 +7,8 @@ A lab philosophy defines it's values and to some degree, it's rules. The set of 
 
 ## Core Values
 1. Be kind.
-
 1. Think for yourself; question authority
-   
 1. Be honest.
-
 1. Seek truth.
 
 

@@ -5,7 +5,7 @@
 @@container
     \textImage{eeg_cap_closeup_side.jpg}{blue}
     @@about-text
-	The goal of the Stuttgart Computational Cognitive Science group, is to understand and model a human under realistic interactions. We focus on advancing methodological approaches in combined EEG (a method to measure brain potentials), Eye-Tracking and Cognitive Modelling. We provide open sources tools (e.g. [Unfold](www.unfoldtoolbox.org), [Unfold.jl](github.com/unfoldtoolbox/Unfold.jl, [eegvis](github.com/behinger/eegvis) and others).
+	The goal of the Stuttgart Computational Cognitive Science group, is to understand and model a human under realistic interactions. We focus on advancing methodological approaches in combined EEG (a method to measure brain potentials), Eye-Tracking and Cognitive Modelling. We provide open sources tools (e.g. [Unfold](https://www.unfoldtoolbox.org), [Unfold.jl](https://github.com/unfoldtoolbox/Unfold.jl), [eegvis](https://github.com/behinger/eegvis) and others).
 @@
 @@
 @@container
