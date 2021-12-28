@@ -1,7 +1,6 @@
-@def title = "Search ⋅ YourWebsite"
+    @def title = "Search ⋅ YourWebsite"
 
 # Search
-
 ~~~<span id="resultCount"></span>~~~
 
 ~~~
