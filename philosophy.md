@@ -31,4 +31,4 @@ A lab philosophy defines it's values and to some degree, it's rules. The set of 
 - We are open about mistakes, no progress, or other "failures". In some sense they are our daily bread. You can always discuss with Bene in the weekly meetings.
 
 ## Acknowledgments
-This philosophy is heavily inspired by [https://docs.google.com/document/d/1f6foaCkHiCkPKjO0gdKkkdm2dn1EKn5xRKZv-Ut5Dg4/](Wei Ji Ma's) Lab philosophy document. Many of these points ressonanted with me.
+This philosophy is heavily inspired by [Wei Ji Ma's](https://docs.google.com/document/d/1f6foaCkHiCkPKjO0gdKkkdm2dn1EKn5xRKZv-Ut5Dg4/) Lab philosophy document. Many of these points ressonanted with me.

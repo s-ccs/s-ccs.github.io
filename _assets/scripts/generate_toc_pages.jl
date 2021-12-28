@@ -3,7 +3,7 @@ include("auxiliary_functions.jl")
 
 function get_folders(path)
     file_list = readdir(path)
-    filtered_list = filter(blacklisted_or_folder, file_list)
+    filtered_list = filter(folder_and_not_blacklisted, file_list)
     folder_list = []
 
     for file in filtered_list
@@ -17,28 +17,54 @@ function get_folders(path)
     return folder_list
 end
 
-function blacklisted_or_folder(file)
+function folder_and_not_blacklisted(file)
+
     is_folder = isdir(file)
+    black_listed = folder_blacklisted(file)
+
+    return is_folder && !black_listed
+end
+
+function folder_blacklisted(file)
     blacklisted = false
 
-        for exclude in folder_black_list
-            if contains(file, exclude)
-                blacklisted = true
-            end
+    for exclude in folder_black_list
+        if contains(file, exclude)
+            blacklisted = true
+            break
         end
+    end
 
-    return is_folder && !blacklisted
+    return blacklisted
+end
+
+function file_blacklisted(file)
+    blacklisted = false
+
+    for exclude in file_black_list
+        if contains(file, exclude)
+            blacklisted = true
+            break
+        end
+    end
+
+    return blacklisted
 end
 
 function generate_toc_pages(folder_list)
 
     for folder in folder_list
-        folder_content = sort(filter(e->e!="index.md", readdir(folder)), by=x->lowercase(x))
+        folder_content = sort(filter(f -> !folder_blacklisted(f) && !file_blacklisted(f), readdir(folder)), by=x->lowercase(x))
+
+        start_content = ""
+        if(isfile(string(folder, "/index_content.md")))
+             start_content = open(f->read(f, String), string(folder, "/index_content.md"))
+        end
 
         # regex needed.
         title = apply_formatting(replace(replace(folder, "-" => " "), "./" => ""))
 
-        toc_content = "@def title = \"$title\" \n@def tags = [\"toc\"] \n# $title\n@@toc-wrapper\n"
+        toc_content = "@def title = \"$title\" \n@def tags = [\"toc\"] \n# $title\n$start_content\n@@toc-wrapper\n"
 
         for md in folder_content
             if contains(md, ".md")

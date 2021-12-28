@@ -1,6 +1,7 @@
 @def title = "Teaching Ressources" 
 @def tags = ["toc"] 
 # Teaching Ressources
+
 @@toc-wrapper
 	@@toc-item ## [Applied Linear Mixed Models](applied-linear-mixed-models) @@
 	@@toc-item ## [Bayesian Statistics](bayesian-statistics) @@
