@@ -15,6 +15,6 @@ for person in person_list
     person_data_reader = CSV.File(string("./_assets/team/alumni/", person, "/profile_info.csv"), delim=";")
     row = person_data_reader[1]
     """
-    \\currentCard{alumni/$(person)}{$(row.title)}{$(row.name)}{$(row.hobbys)}{$(row.contact)}{$(color)}
+    \\currentCard{alumni/$(person)}{$(row.title)}{$(row.name)}{$(row.position)}{$(row.hobbys)}{$(row.contact)}{$(color)}
     """ |> print
 end
