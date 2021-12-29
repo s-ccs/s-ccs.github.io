@@ -61,10 +61,6 @@ html {
     }
 }
 
-.title-logo-wrapper {
-
-}
-
 .title-content-wrapper {
     display: grid;
     grid-template-columns: max-content auto;
@@ -96,7 +92,6 @@ html {
   background-image: url("../assets/title_img.jpg");
   background-size: cover;
   background-position: center center;
-  background-opacity: 50%;
 }
 
 .title-image img {
@@ -214,7 +209,7 @@ html {
 }
 
 .page-foot {
-  width: 100%
+  width: 100%;
   font-size: 70%;
   font-family: Arial, serif;
   color: lightgrey;
