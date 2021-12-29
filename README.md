@@ -64,6 +64,17 @@ The structer of the file should look like:
 |-----|----|--------|------|-------|
 |Jun.-Prof. Dr.|Benedikt Ehinger|SimTech-Tenure-Track-Professur CCS|Lorem ipsum|benedikt.ehinger@vis.uni-stuttgart.de|
 
+## Update Papers list
+For now, papers are sorted by year published. Therefore for every year, there will be a CSV file in `.\_assets\papers\`
+This CSV file is built like this:
+
+|Title|Author|DOI|PDF|
+|-----|------|---|---|
+|name-of-publications|names-of-authors|identifier|link-to-pdf `i.g. "..\assets\papers\pdf\paper1.pdf"`|
+
+If you want to upload the paper directly on the homepage, you can put the pdf of the paper in `..\assets\papers\pdf\`
+Read below on how to update the list.
+
 ## Update dynamic content (like Navigation elements and TOC pages)
 If you add any pages, they will be added to the navigation menu, whenever you push the changes to Github. Same goes for the generation of TOC pages for folderse and subfolders. If you wan't to update the nav bar etc. locally, 
 just cd into the folder where you would normally start Franklin. There run
