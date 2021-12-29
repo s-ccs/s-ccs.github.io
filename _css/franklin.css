@@ -34,7 +34,8 @@ html {
 @media(max-width: 1280px) {
     .page-wrapper {
         gap: 0;
-            grid-template-columns: auto;
+        grid-template-columns: auto;
+        margin: 0 6%;
     }
 }
 
@@ -344,14 +345,6 @@ html {
      margin-top: 1em;
      margin-bottom: 2em;
     }
-}
-
-/* On narrow device, reduce margins. */
-@media (max-width: 480px) {
-  .franklin-content {
-    padding-left: 6%;
-    padding-right: 6%;
-  }
 }
 
 .center-container {
