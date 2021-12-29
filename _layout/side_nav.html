@@ -14,8 +14,8 @@
 			<li><a class="{{ispage members}}active{{end}}" href="/members/">Members</a></li>
 			<li><a class="{{ispage papers}}active{{end}}" href="/papers/">Papers</a></li>
 			<li><a class="{{ispage philosophy}}active{{end}}" href="/philosophy/">Philosophy</a></li>
-			<li><a class="second-action" onclick="hideFolder('teaching-ressources')"><i id="teaching-ressources-folder-icon" class="fas fa-chevron-circle-right"></i></a><a class="{{ispage teaching-ressources/*}}active{{end}}" href="/teaching-ressources">Teaching Ressources</a>
- 				<ul id="teaching-ressources-folder" class="second-invisible"> 
+			<li><a class="second-action" onclick="hideFolder('teaching-ressources')"><i id="teaching-ressources-folder-icon" class="fas fa-chevron-circle-{{ispage teaching-ressources/*}}down{{else}}right{{end}}"></i></a><a class="{{ispage teaching-ressources/*}}active{{end}}" href="/teaching-ressources">Teaching Ressources</a>
+ 				<ul id="teaching-ressources-folder" class="second{{isnotpage teaching-ressources/*}}-invisible{{end}}"> 
 					<li><a class="{{ispage teaching-ressources/applied-linear-mixed-models}}active{{end}}" href="/teaching-ressources/applied-linear-mixed-models/">Applied Linear Mixed Models</a></li>
 					<li><a class="{{ispage teaching-ressources/bayesian-statistics}}active{{end}}" href="/teaching-ressources/bayesian-statistics/">Bayesian Statistics</a></li>
 					<li><a class="{{ispage teaching-ressources/demos}}active{{end}}" href="/teaching-ressources/demos/">Demos</a></li>
@@ -25,8 +25,8 @@
 					<li><a class="{{ispage teaching-ressources/PoRiCS}}active{{end}}" href="/teaching-ressources/PoRiCS/">PoRiCS</a></li>
 				</ul>
  			</li>
-			<li><a class="second-action" onclick="hideFolder('thesis-art')"><i id="thesis-art-folder-icon" class="fas fa-chevron-circle-right"></i></a><a class="{{ispage thesis-art/*}}active{{end}}" href="/thesis-art">Thesis Art</a>
- 				<ul id="thesis-art-folder" class="second-invisible"> 
+			<li><a class="second-action" onclick="hideFolder('thesis-art')"><i id="thesis-art-folder-icon" class="fas fa-chevron-circle-{{ispage thesis-art/*}}down{{else}}right{{end}}"></i></a><a class="{{ispage thesis-art/*}}active{{end}}" href="/thesis-art">Thesis Art</a>
+ 				<ul id="thesis-art-folder" class="second{{isnotpage thesis-art/*}}-invisible{{end}}"> 
 					<li><a class="{{ispage thesis-art/Edoardo-Pinzuti}}active{{end}}" href="/thesis-art/Edoardo-Pinzuti/">Edoardo Pinzuti</a></li>
 					<li><a class="{{ispage thesis-art/Jiameng-Wu}}active{{end}}" href="/thesis-art/Jiameng-Wu/">Jiameng Wu</a></li>
 					<li><a class="{{ispage thesis-art/Judith-Schepers}}active{{end}}" href="/thesis-art/Judith-Schepers/">Judith Schepers</a></li>
