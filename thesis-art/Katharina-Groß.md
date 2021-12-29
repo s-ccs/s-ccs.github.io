@@ -9,4 +9,4 @@ In her project we developed a new test battery to benchmark eye-trackers in many
 
 The idea of “thesis art” is to inspire discussion with persons who do not have an academic background or work in a different field. The thesis is hidden in the drawer, but the poster is out there at the wall for everyone to see. You can find all past thesis art pieces here
 
-![](/assets/a2_katha.jpg)
+![](/assets/thesis-art/a2_katha.jpg)

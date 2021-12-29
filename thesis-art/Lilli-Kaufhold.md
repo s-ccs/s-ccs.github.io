@@ -10,4 +10,4 @@ It is a meta-study of an eye-tracking study. I recorded my eye-movements while r
 The idea is to inspire discussion with persons who do not have an academic background or work in a different field. The thesis is hidden in the drawer, but the poster is out there at the wall for everyone to see.
 This is the second piece, for the first one see here.
 
-![](/assets/a2_lilli.jpg)
+![](/assets/thesis-art/a2_lilli.jpg)

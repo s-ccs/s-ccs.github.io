@@ -8,4 +8,4 @@ One of my Bachelor students (Katja Häusser) finished her thesis on parts of thi
 The idea is to inspire discussion with people who do not necessarily have an academic background. The thesis might be hidden in the drawer, or is incromprehensible for people outside of science, but the poster is out there at the wall for everyone to see.
 I hope to start a series, where most projects end up in an unique piece of art.
 
-![](/assets/a2_katja.jpg)
+![](/assets/thesis-art/a2_katja.jpg)

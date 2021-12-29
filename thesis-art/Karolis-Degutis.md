@@ -9,4 +9,4 @@ In his project Karolis Degutis (@karolisdegutis) tried to replicate two laminar 
 Karolis made use of laminar fMRI, and accordingly in this thesis art, I used a layerified horizontal slice of brain (bigBrain). The layers are completely made up by the words of his thesis – overall ~55.000 characters were used. This was the first time that I completed a thesis art in Julia. It was a blast! Not only could I completely extract all PDF text easily, but I also used a nice library to solve a large travelling salesman problem. Finally, using makie.jl, plotting that many characters took only 0.5s – and it did not crash at all (compared to my experience with matlab/ggplot).
 You can find the julia code here
 
-![](/assets/a2_karolis-727x1024.jpg)
+![](/assets/thesis-art/a2_karolis-727x1024.jpg)

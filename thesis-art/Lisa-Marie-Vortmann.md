@@ -11,4 +11,4 @@ The idea of “thesis art” is to inspire discussion with persons who do not ha
 
 \* This is actually Lisa’s own brain activity
 
-![](/assets/a2_lisa.jpg)
+![](/assets/thesis-art/a2_lisa.jpg)
