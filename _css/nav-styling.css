@@ -118,7 +118,7 @@ nav li ol {
   display: flex;
   align-items: center;
   min-height: 2em;
-  padding: 0 1em 0 1em;
+  padding: 0 2.5em 0 3em;
 }
 
 .greedy-nav a {

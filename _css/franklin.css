@@ -671,7 +671,7 @@ code {
     padding-top: 0.3em;
 }
 .teamcard-info .position  {
-    padding-top: 0.1em;
+    margin-top: -0.6em;
     padding-bottom: 1em;
     font-size: 0.7em;
     font-weight: bold;
@@ -697,7 +697,7 @@ h4,
 h5,
 h6 {
   text-align: left;
-  margin: 0 0 0 0;
+  margin: 0 0 0.3em 0;
 }
 
 h1 a:hover,
