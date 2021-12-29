@@ -9,4 +9,4 @@ In this thesis-art, I visualized the guided-bubble paradigm used in a recent pub
 
 The idea of “thesis art” is to inspire discussion with persons who do not have an academic background or work in a different field. The thesis is hidden in the drawer, but the poster is out there at the wall for everyone to see. You can find all past thesis art pieces here
 
-![](/assets/a2_judith-727x1024.jpg)
+![](/assets/a2_judith.jpg)

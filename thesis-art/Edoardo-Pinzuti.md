@@ -10,4 +10,4 @@ He wrote an impressive matlab toolbox to analyze causality directions in time se
 
 The idea of “thesis art” is to inspire discussion with persons who do not have an academic background or work in a different field. The thesis is hidden in the drawer, but the poster is out there at the wall for everyone to see. You can find all past thesis art pieces here
 
-![](/assets/a2_edoardo-727x1024.jpg)
+![](/assets/a2_edoardo.jpg)

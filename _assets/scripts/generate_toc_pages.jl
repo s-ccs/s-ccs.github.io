@@ -17,40 +17,6 @@ function get_folders(path)
     return folder_list
 end
 
-function folder_and_not_blacklisted(file)
-
-    is_folder = isdir(file)
-    black_listed = folder_blacklisted(file)
-
-    return is_folder && !black_listed
-end
-
-function folder_blacklisted(file)
-    blacklisted = false
-
-    for exclude in folder_black_list
-        if contains(file, exclude)
-            blacklisted = true
-            break
-        end
-    end
-
-    return blacklisted
-end
-
-function file_blacklisted(file)
-    blacklisted = false
-
-    for exclude in file_black_list
-        if contains(file, exclude)
-            blacklisted = true
-            break
-        end
-    end
-
-    return blacklisted
-end
-
 function generate_toc_pages(folder_list)
 
     for folder in folder_list

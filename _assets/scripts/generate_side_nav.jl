@@ -34,23 +34,14 @@ nav_order = Lt((a, b) ->
 function append_files!(dict, folder)
     for file in readdir(string("./", folder))
 
-        # Check if folder or file is in black list.
-        folder_in_blacklist = false
-
-        for exclude in folder_black_list
-            if contains(file, exclude)
-                folder_in_blacklist = true
-            end
-        end
-
         # Check for .md file and add to dict, pointing to empty dict
-        if contains(file, ".md") && !(file in file_black_list)
+        if contains(file, ".md") && !file_blacklisted(file)
 
             push!(dict, replace(file, ".md" => "") => SortedDict{String, SortedDict}(nav_order))
 
         # If not .md check for (black-listed) folders and add them to the dict. This dict is then
         # filled recursivly.
-        elseif isdir(file) && !(folder_in_blacklist)
+        elseif isdir(file) && !(folder_blacklisted(file))
 
             inner_dict = SortedDict{String, SortedDict}(nav_order)
             push!(dict, file => inner_dict)
