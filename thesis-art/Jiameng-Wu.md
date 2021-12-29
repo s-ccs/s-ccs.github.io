@@ -10,4 +10,4 @@ In this piece I used three of her features on different scales and calculated th
 The idea is to inspire discussion with persons who do not have an academic background or work in a different field. The thesis is hidden in the drawer, but the poster is out there at the wall for everyone to see.
 Find two other pieces here and here
 
-![](/assets/jwu_bachelorthesis_saliency-724x1024.jpg)
+![](/assets/a2_meng.jpg)
