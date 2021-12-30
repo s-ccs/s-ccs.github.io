@@ -53,7 +53,7 @@ html {
 
 .franklin-content .container {
   display: grid;
-  grid-template-columns: 50% auto;
+  grid-template-columns: 50% 50%;
   gap: 0.2em 0em;
   margin: 1em 0;
 }
@@ -64,14 +64,10 @@ html {
     }
 }
 
-.title-content-wrapper {
-    display: grid;
-    grid-template-columns: max-content auto;
+.title-content-main {
     position: relative;
     max-width: 40em;
     padding: 2em 4em;
-    gap: 3em;
-    align-items: center;
     background-color: black;
     border: #333333 solid 1px;
     border-top: aliceblue solid 25px;
@@ -79,12 +75,19 @@ html {
     top: 25%;
 }
 
+.title-content-wrapper {
+    display: grid;
+    grid-template-columns: max-content auto;
+    gap: 3em;
+    align-items: center;   
+    margin: auto;
+}
+
 @media(max-width: 43em) {
     .title-content-wrapper {
         grid-template-columns: auto;
-        padding: 1em 2em;
         max-width: max-content;
-        order: revert;
+        margin: auto;
     }
 }
 
@@ -130,6 +133,7 @@ html {
 
 .title-close-button:hover .title-close-button-elem {
     background-color: #fa3c3c;
+    cursor: pointer;
 }
 
 .title-min-button {
@@ -140,6 +144,12 @@ html {
     right: 76px;
     border-bottom: var(--text-color) solid 3px; 
     transition: 0.3s;
+}
+
+.title-min-button a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .title-min-button:hover {
