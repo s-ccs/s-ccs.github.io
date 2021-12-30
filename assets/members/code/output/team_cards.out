@@ -1,4 +1,1 @@
-\currentCard{current/001_benedikt_ehinger}{Jun.-Prof.}{Benedikt V. Ehinger}{Computational Cognitive Science, Stuttgart Center for Simulation Technology / VIS}{Dancing,Bandonion, fighting pseudoscience}{benedikt.ehinger@vis.uni-stuttgart.de}{blue}
-\currentCard{current/002_judith_schepers}{M.Sc.}{Judith Schepers}{Wiss. Mitarbeiterin}{missing}{Judith.Schepers@vis.uni-stuttgart.de}{green}
-\currentCard{current/003_rene_skukies}{M.Phil.}{René Skukies}{Wiss. Mitarbeiter}{missing}{Rene.Skukies@vis.uni-stuttgart.de}{orange}
-\currentCard{current/999_eugenia_komnik}{M.A.}{Eugenia Komnik}{Administrative Assistenz}{missing}{Eugenia.Komnik@vis.uni-stuttgart.de}{orange}
+ArgumentError: "./_assets/team/alumni/002_max_mustermann/profile_info.CSV" is not a valid file or doesn't exist
