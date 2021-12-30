@@ -1,9 +1,3 @@
-@def title = "Members"
-@def tags = ["people", "team", "about"]
-
-
-```julia:team_gen_function
-#hideall
 import CSV
 using CSV
 using Random
@@ -19,7 +13,7 @@ function gen_html(team_type)
 
         color = rand(colors)
         colors = filter(e->e!=color, colors)
-        person_data_reader = CSV.File("./_assets/team/$(team_type)/$(person)/profile_info.CSV", delim=";")
+        person_data_reader = CSV.File("/_assets/team/$(team_type)/$(person)/profile_info.CSV", delim=";")
         row = person_data_reader[1]
 
         println("
@@ -27,7 +21,7 @@ function gen_html(team_type)
         <div class=\"teamcard-wrapper\">
             <div class=\"teamcard-image\">
                 <img src=\"/assets/team/$team_type/$person/profile_image.jpg\" alt=\"$(row.name)\">
-                <div class=\"teamcard-color-strip $(color)\"></div>
+                <div class=\"teamcard-color-strip-$color)\"></div>
             </div>
             <div class=\"teamcard-header\">
                 <div class=\"teamcard-title\">$(row.title)</div>
@@ -45,20 +39,3 @@ function gen_html(team_type)
         ~~~")
     end    
 end
-    
-```
-
-# Current
-```julia:team_cards
-#hideall
-gen_html("current")
-```
-\textoutput{team_cards}
-
-# Alumni
-```julia:team_cards
-#hideall
-gen_html("alumni")
-```
-\textoutput{team_cards}
-
