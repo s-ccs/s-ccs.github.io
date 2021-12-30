@@ -98,6 +98,70 @@ html {
     max-width: 15em;
 }
 
+.title-close-button {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: none;
+    top: -22px;
+    right: 10px;
+    border-radius: 50%;
+}
+
+.title-close-button-elem {
+    height: 4px;
+    width: 100%;
+    background-color: crimson;
+    position: absolute;
+    left: 0%;
+    transition: 0.3s;
+}
+
+.title-close-button .elem1 {
+    transform: translateY(7.5px) rotate(45deg);
+}
+
+.title-close-button .elem2 {
+    transform: translateY(7.5px) rotate(-45deg);
+}
+
+.title-close-button:hover .title-close-button-elem {
+    background-color: #fa3c3c;
+}
+
+.title-min-button {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: -23px;
+    right: 76px;
+    border-bottom: var(--text-color) solid 3px; 
+    transition: 0.3s;
+}
+
+.title-min-button:hover {
+    border-color: dimgray;
+    cursor: pointer;
+}
+
+
+.title-max-button {
+    width: 10px;
+    height: 6px;
+    position: absolute;
+    top: -20px;
+    right: 43px;
+    border: var(--text-color) solid 3px; 
+    border-top: var(--text-color) solid 5px;
+    transition: 0.3s;
+
+}
+
+.title-max-button:hover {
+    border-color: dimgray;
+    cursor: pointer;  
+}
+
 .title-text {
     color: white;
     text-align: start;
