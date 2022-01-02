@@ -656,8 +656,7 @@ code {
     grid-row: 1 / span 3;
     display: flex;
     flex-flow: row;
-    max-width: 25em;
-    max-height: 25em;
+    max-width: 100%;
 }
 
 .teamcard-header {
