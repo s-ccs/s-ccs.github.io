@@ -9,6 +9,6 @@ function toggleFullscreen() {
 }
 
 function closeWindow() {
-    document.getElementById('cmd-window').style.display = "none";
+    document.getElementById('cmd-window').classList.add("window-fade") //style.display = "none";
 }
 

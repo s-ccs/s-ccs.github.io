@@ -197,10 +197,23 @@ html {
     animation-iteration-count: infinite;
 }
 
+
 @keyframes cursor-fade {
     0% {opacity: 100%;}
     50% {opacity: 0%;}
     100% {opacity: 100%;}
+}
+
+.window-fade {
+    transform-origin: bottom;
+    animation: window-close 0.2s 1;
+    opacity: 0;
+}
+
+@keyframes window-close {
+    0% {opacity: 100%; display: block; transform-origin: bottom;}
+    100% {opacity: 0%; display: block; transform: scaleY(0.85) scaleX(0.95);}
+    
 }
 
 @media(max-width: 43em) {
