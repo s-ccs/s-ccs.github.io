@@ -30,7 +30,7 @@
 }
 
 .masthead__inner-wrap nav {
-  z-index: 10;
+  justify-content: space-between;
 }
 
 .masthead__inner-wrap a {
@@ -127,7 +127,7 @@ nav li ol {
 
 @media(max-width: 1280px) {
     .greedy-nav {
-      padding: 0 1em 0 1em;
+      padding: 0 2em 0 1em;
     }
 
     .greedy-nav a {
@@ -161,7 +161,7 @@ nav li ol {
 
 @media (max-width: 1280px) {
     .greedy-nav .visible-links {
-        visibility: hidden;
+        display: none;
         width: 0;
         height: 0;
     }
@@ -174,10 +174,10 @@ nav li ol {
     max-width: 100%
 }
 
-@media(max-width: 49em) {
+@media(max-width: 43em) {
   .greedy-nav .hamburger {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin-right: 1em;
   }
 }
@@ -210,7 +210,7 @@ nav li ol {
 
 @media (min-width: 1280px) {
     .greedy-nav .hamburger {
-        visibility: hidden;
+        display: none;
         width: 0;
         height: 0;
     }

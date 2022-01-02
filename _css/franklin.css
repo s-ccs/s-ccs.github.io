@@ -84,6 +84,11 @@ html {
 }
 
 @media(max-width: 43em) {
+    .title-content-main {
+        max-width: fit-content;
+        padding: 1em 7vw 2em 10vw;
+    }
+
     .title-content-wrapper {
         grid-template-columns: auto;
         max-width: max-content;
