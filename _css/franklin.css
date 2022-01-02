@@ -510,7 +510,7 @@ td {
 }
 
 .franklin-content .about-text {
-    padding-left: 1em;
+    margin: 0.5em 30% 0 1em;
 }
 
 .franklin-content .color-strip-green {
