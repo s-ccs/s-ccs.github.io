@@ -47,6 +47,7 @@ function gen_html(team_type)
 end
     
 ```
+\textoutput{team_gen_function}
 
 # Current
 ```julia:team_cards
