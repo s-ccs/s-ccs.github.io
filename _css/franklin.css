@@ -703,7 +703,7 @@ code {
     background-color: var(--green);
 }
 
-@media(max-width: 830px) {
+@media(max-width: 43em) {
     .teamcard-wrapper {
         grid-template-columns: 100%;
         grid-template-rows: auto auto auto auto;
