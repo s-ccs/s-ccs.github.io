@@ -126,6 +126,10 @@ nav li ol {
 }
 
 @media(max-width: 1280px) {
+    .greedy-nav {
+      padding: 0 1em 0 1em;
+    }
+
     .greedy-nav a {
         display: inline;
         margin: 0;
@@ -168,6 +172,14 @@ nav li ol {
     height: 50px;
     margin-right: 2em;
     max-width: 100%
+}
+
+@media(max-width: 49em) {
+  .greedy-nav .hamburger {
+    width: 30px;
+    height: 30px;
+    margin-right: 1em;
+  }
 }
 
 .greedy-nav .hamburger-elem1 {
@@ -538,7 +550,13 @@ nav li ol {
 }
 
 .greedy-nav img {
-  max-width: 60%
+  max-width: 17em;
+}
+
+@media(max-width: 43em) {
+  .greedy-nav img {
+    max-width: 10em;
+  }
 }
 
 .nav-first {
