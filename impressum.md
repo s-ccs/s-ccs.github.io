@@ -71,6 +71,6 @@
     bezüglich eines bestimmten Links haben, kontaktieren Sie uns bitte.</div>
     <div class=impressum-table-element><h3>Icons</h3></div>
     <div class=impressum-table-element><a href="https://fontawesome.com/" target="_blank">Fontawesome 5</a></div>
-</table>
+</div>
 
 ~~~

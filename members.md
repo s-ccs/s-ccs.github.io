@@ -1,6 +1,7 @@
 @def title = "Members"
 @def tags = ["people", "team", "about"]
 
+# Members
 
 ```julia:team_gen_function
 #hideall
@@ -49,14 +50,14 @@ end
 ```
 \textoutput{team_gen_function}
 
-# Current
+## Current
 ```julia:team_cards
 #hideall
 gen_html("current")
 ```
 \textoutput{team_cards}
 
-# Alumni
+## Alumni
 ```julia:team_cards
 #hideall
 gen_html("alumni")
