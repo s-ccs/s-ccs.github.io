@@ -55,7 +55,7 @@ html {
 
 .franklin-content .container {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: auto auto;
   gap: 0.2em 0em;
   margin: 1em 0;
 }
@@ -509,7 +509,7 @@ td {
 ================================================================== */
 
 .franklin-content .text-image {
-    max-height: 20em;
+    max-height: fit-content;
     max-width: 100%;
     display: flex;
 }
