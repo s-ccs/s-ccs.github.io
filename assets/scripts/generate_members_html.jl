@@ -39,3 +39,5 @@ function gen_html(team_type)
         ~~~")
     end    
 end
+
+global gen_html("current")
