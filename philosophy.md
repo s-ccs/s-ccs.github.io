@@ -40,6 +40,6 @@ Human climate change is the greates challenge we face as humanity.
 If you are thinking to apply for the lab, here are some recommendations:
 - Your motivation letter should make clear why you are applying. What is it, that you find interesting in our research / topics? Where do you want to learn and grow?
 - If you worry about a gap in your CV, a bad result, or something - I would adress it briefly in the motivation letter rather than hoping nobody notices it.
-- Lab-culture on a webpage is useless if it is not actually lived. Please contact as many PhDs/PostDocs as you want to answer all your question. Really make use of this to get a feeling how the lab is going and how Bene is supervising. In case we have on-site visits, we will also organize this.
+- Lab-culture on a webpage is useless if it is not actually lived. Please contact as many PhDs/PostDocs as you want to answer all your question. Really make use of this to get a feeling of how the lab is going and how Bene is supervising. In case we have on-site visits, we will also organize this.
 
-- @ current PhD Students & PostDocs: Please take the time and answer honestly to the incoming candidates. If you recommend not to join someone this lab, I'd be happy to hear that feedback as well.
+- @ current PhD Students & PostDocs: Please take the time and answer honestly to the incoming candidates. If you recommend someone not to join the lab, I'd be happy to hear that feedback as well.
