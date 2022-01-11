@@ -1,12 +1,26 @@
 @def title = "Open Projects and Positions"
 @def tags = ["jobs", "applications"]
 
+# Open Positions
+### PhD
+[3 year open Position in Visual Analytics for human EEG](https://jobrxiv.org/job/university-of-stuttgart-27778-phd-positions-in-visual-analytics-for-human-eeg/)
+
+### HiWi
+Currently there are two open HiWi positions a 40h/month. Apply with a 1/2 page motivation letter.
+
+Work areas include:
+  - Improve online teaching material (graphics design, literature research, cross-check solutions)
+  - Improve documentation of [unfold](https://www.unfoldtoolbox.org) and/or [unfold.jl](https://github.com/unfoldtoolbox/unfold.jl/)
+  - Contained programming tasks helping in our day-to-day process
+  - Process EEG data
+  - Record EEG data
+ 
+
 # Open Projects
+If you are interested in the areas of methods development, EEG, Eye-Tracking, Visual Processing, Cognitive Science, it is always a good idea to shoot us an email. Sometimes we have capacities for theses without a formal offer. Note on external theses: We usually only accept these if they fit within the topic of our lab.
+
 ### BSc
 We have currently an open project on directional effects of Eye-Movements on human brain activity. You can find it in the Ilias-Marketplace, or contact Judith.
 ### MSc
 There are currently no open projects.
-
-# Open Positions
-There are currently no open positions.
 
