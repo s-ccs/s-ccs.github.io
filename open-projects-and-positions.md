@@ -2,6 +2,8 @@
 @def tags = ["jobs", "applications"]
 
 # Open Positions
+If you think about working with us and want to apply, I highly recommend reading through [this link](http://www.thememolab.org/pages/gradapps/) prior to writing your statement. It is from the MemoLab (US-based), but many things apply as well. At some point I hope to write my own document, but this has to suffice for now.
+
 ### PhD
 [3 year open Position in Visual Analytics for human EEG](https://jobrxiv.org/job/university-of-stuttgart-27778-phd-positions-in-visual-analytics-for-human-eeg/)
 
