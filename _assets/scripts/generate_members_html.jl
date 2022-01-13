@@ -6,6 +6,7 @@ function gen_html(team_type)
     colors = ["orange", "blue", "green"]
 
     person_list = readdir("./_assets/team/$team_type")
+    @info person_list
     for person in person_list
         if isempty(colors)
             colors = ["orange", "blue", "green"]
