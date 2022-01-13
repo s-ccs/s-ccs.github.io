@@ -1,1 +1,0 @@
-gen_html (generic function with 1 method)

@@ -13,7 +13,7 @@ function gen_html(team_type)
 
         color = rand(colors)
         colors = filter(e->e!=color, colors)
-        person_data_reader = CSV.File("/_assets/team/$(team_type)/$(person)/profile_info.CSV", delim=";")
+        person_data_reader = CSV.File("./_assets/team/$(team_type)/$(person)/profile_info.CSV", delim=";")
         row = person_data_reader[1]
 
         println("
@@ -21,7 +21,7 @@ function gen_html(team_type)
         <div class=\"teamcard-wrapper\">
             <div class=\"teamcard-image\">
                 <img src=\"/assets/team/$team_type/$person/profile_image.jpg\" alt=\"$(row.name)\">
-                <div class=\"teamcard-color-strip-$color)\"></div>
+                <div class=\"teamcard-color-strip $(color)\"></div>
             </div>
             <div class=\"teamcard-header\">
                 <div class=\"teamcard-title\">$(row.title)</div>
@@ -29,7 +29,7 @@ function gen_html(team_type)
                 <div class=\"teamcard-position\">$(row.position)</div>
             </div>
             <div>
-                $(row.hobbys)
+                $(row.interests)
             </div>
             <div>
                 <i class=\"fas fa-envelope\"></i>
@@ -39,5 +39,3 @@ function gen_html(team_type)
         ~~~")
     end    
 end
-
-global gen_html("current")
