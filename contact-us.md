@@ -3,14 +3,11 @@
 
 # Get in touch
 
-Feel free to contact Bene here: [benedikt.ehinger@vis.uni-stuttgart.de](mailto:benedikt.ehinger@vis.uni-stuttgart.de)
+You can contact us here: [eugenia.komnik@vis.uni-stuttgart.de](mailto:eugenia.komnik@vis.uni-stuttgart.de] or [benedikt.ehinger@vis.uni-stuttgart.de](mailto:benedikt.ehinger@vis.uni-stuttgart.de).
 
-### Short Q&A
+We will try to answer within 3 business  days. 
 
-1. Greetings are hard, how should I write it?
 
-  I lived in Norway where this problem is non-existant, but here just go for: `Dear Benedikt Ehinger` or `Dear Prof. Ehinger` - if you end your e-mail with `Firstname`, I will switch to `Firstname`, if not, I will stay with `Firstname Lastname`
+**For students:** I lived in Norway where you'd just greet everyone by first name. This is not the case in Germany, therefore this pragmatic solution: in your first email write `Dear Benedikt Ehinger` or `Dear Prof. Ehinger` and if you end your e-mail with `Firstname`, I will answer with your `Firstname` in return. If not, I will stay with `Firstname Lastname`.
  
-2. When can I write a reminder?
-
-After 7 days, for urgent matters sooner - but if it is really urgent, please find a second channel to contact me.
+Sometimes it can happen that your email receives lower priority than it should - if after 7 days, for urgent matters sooner, you haven't received an answer back, please resend the email. If it is really urgent, please find a second channel to contact us.
