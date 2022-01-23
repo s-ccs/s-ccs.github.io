@@ -212,6 +212,17 @@ nav li ol {
   transform: scaleX(0);
 }
 
+@media(max-width: 43em) {
+  .greedy-nav .open #upper-hamburger-layer.hamburger-elem1 {
+    transform: translateY(12px) rotateZ(-45deg) ;
+  }
+  
+  .greedy-nav .open  #lower-hamburger-layer.hamburger-elem1 {
+    transform: translateY(-12px) rotateZ(45deg);
+  }
+
+}
+
 .greedy-nav .hamburger:hover .hamburger-elem1 {
   background-color: lightgrey;
   transition: 0.2s;
@@ -225,9 +236,11 @@ nav li ol {
 .visible-hamburger-links {
     width: 100%;
     display: block;
+    transform: translateY(  0em);
 }
 
 .invisible-hamburger-links {
+    transform: translateY(-100em);  
     display: none;
 }
 
