@@ -9,7 +9,7 @@ page_start =
 
 page_content = ""
 
-for csv_file in filter(f->contains(f, ".csv"), readdir("./_assets/papers"))
+for csv_file in filter(f->contains(f, ".csv"), sort(readdir("./_assets/papers"), rev=true))
     header = string("## ", replace(csv_file, ".csv"=>""))
 
     global page_content = string(page_content, header, "\n|Title|Authors|DOI|PDF|\n|-----|-------|---|---|\n")
@@ -17,7 +17,7 @@ for csv_file in filter(f->contains(f, ".csv"), readdir("./_assets/papers"))
     row_num = 0
     csv_reader = CSV.File(string("./_assets/papers/", csv_file), delim=";")
     for row in csv_reader
-        global page_content = string(page_content, "|$(row.Title)|$(row.Authors)|$(row.DOI)|[PDF]($(row.pdf))|\n")
+        global page_content = string(page_content, "|$(row.Title)|$(row.Authors)|[$(row.DOI)](https://doi.org/$(row.DOI))|[PDF]($(row.pdf))|\n")
         row_num += 1
     end
 
