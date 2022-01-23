@@ -41,12 +41,8 @@ jobs:
             using Franklin;
             using CSV;
             lunr();
-<<<<<<< HEAD
             optimize()
             '
-=======
-            optimize()'
->>>>>>> parent of 7c6e6bf (removed lunr and opitimize from deploy action to check for potential trouble causing)
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
