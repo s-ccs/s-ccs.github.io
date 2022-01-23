@@ -41,7 +41,7 @@ jobs:
             using Franklin;
             using CSV;
             lunr();
-            optimize()
+            optimize(clear=true, suppress_errors=false)
             '
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
