@@ -188,6 +188,7 @@ nav li ol {
     display: block;
     background-color: white;
     border-radius: 10px;
+    transform-origin: center;
 }
 .greedy-nav .hamburger-elem2 {
     width: 60%;
@@ -195,7 +196,30 @@ nav li ol {
     margin: 20% auto;
     display: block;
     background-color: white;
-    border-radius: 10px
+    border-radius: 10px;
+    transform-origin: left;
+}
+
+.greedy-nav .open #upper-hamburger-layer.hamburger-elem1 {
+  transform: translateY(15px) rotateZ(-45deg) ;
+}
+
+.greedy-nav .open  #lower-hamburger-layer.hamburger-elem1 {
+  transform: translateY(-15px) rotateZ(45deg);
+}
+
+.greedy-nav .open  .hamburger-elem2 {
+  transform: scaleX(0);
+}
+
+.greedy-nav .hamburger:hover .hamburger-elem1 {
+  background-color: lightgrey;
+  transition: 0.2s;
+}
+
+.greedy-nav .hamburger:hover .hamburger-elem2 {
+  background-color: lightgrey;
+  transition: 0.2s;
 }
 
 .visible-hamburger-links {
