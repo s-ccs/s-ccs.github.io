@@ -14,7 +14,7 @@ function gen_html(team_type)
 
         color = rand(colors)
         colors = filter(e->e!=color, colors)
-        person_data_reader = CSV.File("./_assets/team/$(team_type)/$(person)/profile_info.CSV", delim=";")
+        person_data_reader = CSV.File("./_assets/team/$(team_type)/$(person)/profile_info.csv", delim=";")
         row = person_data_reader[1]
 
         println("
