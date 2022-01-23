@@ -233,18 +233,6 @@ nav li ol {
   position: relative;
 }
 
-.greedy-nav .visible-links a::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 4px;
-  background: #6f777d;
-  width: 100%;
-  transition: all 0.2s ease-in-out;
-  transform: scaleX(0) translate3d(0, 0, 0);
-}
-
 .greedy-nav .hidden-links {
   position: absolute;
   top: 100%;
