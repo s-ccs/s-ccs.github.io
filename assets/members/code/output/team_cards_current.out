@@ -3,7 +3,7 @@
         <div class="teamcard-wrapper">
             <div class="teamcard-image">
                 <img src="/assets/team/current/001_benedikt_ehinger/profile_image.jpg" alt="Benedikt V. Ehinger">
-                <div class="teamcard-color-strip green"></div>
+                <div class="teamcard-color-strip orange"></div>
             </div>
             <div class="teamcard-header">
                 <div class="teamcard-title">Jun.-Prof.</div>
@@ -24,7 +24,7 @@
         <div class="teamcard-wrapper">
             <div class="teamcard-image">
                 <img src="/assets/team/current/002_judith_schepers/profile_image.jpg" alt="Judith Schepers">
-                <div class="teamcard-color-strip blue"></div>
+                <div class="teamcard-color-strip green"></div>
             </div>
             <div class="teamcard-header">
                 <div class="teamcard-title">M.Sc.</div>
@@ -45,7 +45,7 @@
         <div class="teamcard-wrapper">
             <div class="teamcard-image">
                 <img src="/assets/team/current/003_rene_skukies/profile_image.jpg" alt="René Skukies">
-                <div class="teamcard-color-strip orange"></div>
+                <div class="teamcard-color-strip blue"></div>
             </div>
             <div class="teamcard-header">
                 <div class="teamcard-title">M.Phil.</div>
