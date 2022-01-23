@@ -558,6 +558,11 @@ nav li ol {
     color: white;
 }
 
+.nav-first a:hover {
+    color: lightgray;
+    transition: 0.3s;
+}
+
 .nav-first li {
     padding: 0.2em 0;
 }
