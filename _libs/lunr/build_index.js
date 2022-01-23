@@ -5,7 +5,7 @@ var cheerio = require("cheerio");
 
 
 // Change these constants to suit your needs
-const HTML_FOLDER = "";  // folder with your HTML files
+const HTML_FOLDER = "../";  // folder with your HTML files
 // Valid search fields: "title", "description", "keywords", "body"
 const SEARCH_FIELDS = ["description", "keywords", "body"];
 const EXCLUDE_FILES = ["search.html", "404.html"];
