@@ -24,7 +24,7 @@
         <div class="teamcard-wrapper">
             <div class="teamcard-image">
                 <img src="/assets/team/alumni/003_monika_mustermann/profile_image.jpg" alt="Monika Mustermann">
-                <div class="teamcard-color-strip blue"></div>
+                <div class="teamcard-color-strip orange"></div>
             </div>
             <div class="teamcard-header">
                 <div class="teamcard-title">PhD.</div>
