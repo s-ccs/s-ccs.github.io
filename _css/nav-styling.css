@@ -75,7 +75,6 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-  padding: 1.8em 0;
 }
 
 .masthead__menu-item .active {
@@ -120,7 +119,7 @@ nav li ol {
 
 .greedy-nav a {
   display: block;
-  padding: 0 1rem;
+  padding: 1.8em 1rem;
   color: #fff;
   text-decoration: none;
 }
