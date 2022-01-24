@@ -3,7 +3,7 @@
         <div class="teamcard-wrapper">
             <div class="teamcard-image">
                 <img src="/assets/team/current/001_benedikt_ehinger/profile_image.jpg" alt="Benedikt V. Ehinger">
-                <div class="teamcard-color-strip green"></div>
+                <div class="teamcard-color-strip orange"></div>
             </div>
             <div class="teamcard-header">
                 <div class="teamcard-title">Jun.-Prof.</div>
@@ -24,7 +24,7 @@
         <div class="teamcard-wrapper">
             <div class="teamcard-image">
                 <img src="/assets/team/current/002_judith_schepers/profile_image.jpg" alt="Judith Schepers">
-                <div class="teamcard-color-strip orange"></div>
+                <div class="teamcard-color-strip green"></div>
             </div>
             <div class="teamcard-header">
                 <div class="teamcard-title">M.Sc.</div>
@@ -90,7 +90,7 @@
                 <div class="teamcard-color-strip blue"></div>
             </div>
             <div class="teamcard-header">
-                <div class="teamcard-title">missing</div>
+                <div class="teamcard-title">''</div>
                 <h2>Polpo</h2>
                 <div class="teamcard-position">Wiss. Maskotchen</div>
             </div>
@@ -99,7 +99,7 @@
             </div>
             <div>
                 <i class="fas fa-envelope"></i>
-                <a href="mailto:missing">missing</a>
+                <a href="mailto:polpo@polpo.de">polpo@polpo.de</a>
             </div>
         </div>
         ~~~
