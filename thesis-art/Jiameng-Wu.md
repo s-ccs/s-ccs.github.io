@@ -14,5 +14,3 @@ In this piece I used three of her features on different scales and calculated th
 @@thesis-art-modal
 ![](/assets/thesis-art/a2_meng.jpg)
 @@
-
-# TITLE

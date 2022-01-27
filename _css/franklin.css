@@ -923,3 +923,7 @@ td {
     display: block;
     margin: 5vh auto;
 }
+
+.thesis-art-modal-invis {
+    display: block !important;
+}
