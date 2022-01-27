@@ -10,4 +10,10 @@ In her project, we tried to decode from brain activity* which objects on a scree
 
 \* This is actually Lisa’s own brain activity
 
+@@thesis-art
 ![](/assets/thesis-art/a2_lisa.jpg)
+@@
+
+@@thesis-art-modal
+![](/assets/thesis-art/a2_lisa.jpg)
+@@

@@ -8,4 +8,10 @@ It is a meta-study of an eye-tracking study. I recorded my eye-movements while r
 
 
 
+@@thesis-art
 ![](/assets/thesis-art/a2_lilli.jpg)
+@@
+
+@@thesis-art-modal
+![](/assets/thesis-art/a2_lilli.jpg)
+@@

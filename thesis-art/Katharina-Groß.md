@@ -8,4 +8,10 @@ I was a supervisor for Katharina Groß’s Bachelor’s Thesis. You can find the
 In her project we developed a new test battery to benchmark eye-trackers in many different tasks. We concurrently measured Pupil Labs Glasses and an Eyelink 1000. In the thesis art I selected six of the tasks and visualized the data of one subject using the letters of her thesis. The tasks I used are: Fixation Grid, Smooth Pursuit, Microsaccades, Blinks, Pupil Dilation and Free Viewing.
 
 
+@@thesis-art
 ![](/assets/thesis-art/a2_katha.jpg)
+@@
+
+@@thesis-art-modal
+![](/assets/thesis-art/a2_katha.jpg)
+@@

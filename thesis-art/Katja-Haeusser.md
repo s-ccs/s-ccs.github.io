@@ -6,4 +6,10 @@ One of my Bachelor students (Katja Häusser) finished her thesis on parts of thi
 
 
 
+@@thesis-art
 ![](/assets/thesis-art/a2_katja.jpg)
+@@
+
+@@thesis-art-modal
+![](/assets/thesis-art/a2_katja.jpg)
+@@
