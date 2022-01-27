@@ -30,7 +30,7 @@ function gen_html(team_type)
                 <div class=\"teamcard-position\">$(row.position)</div>
             </div>
             <div>
-                $(row.interests)
+                $(row.interests === missing ? "" : row.interests)
             </div>
             <div>
                 <i class=\"fas fa-envelope\"></i>
