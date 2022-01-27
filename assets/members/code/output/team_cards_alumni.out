@@ -3,7 +3,7 @@
         <div class="teamcard-wrapper">
             <div class="teamcard-image">
                 <img src="/assets/team/alumni/002_max_mustermann/profile_image.jpg" alt="Max Mustermann">
-                <div class="teamcard-color-strip green"></div>
+                <div class="teamcard-color-strip blue"></div>
             </div>
             <div class="teamcard-header">
                 <div class="teamcard-title">PhD.</div>
@@ -24,7 +24,7 @@
         <div class="teamcard-wrapper">
             <div class="teamcard-image">
                 <img src="/assets/team/alumni/003_monika_mustermann/profile_image.jpg" alt="Monika Mustermann">
-                <div class="teamcard-color-strip orange"></div>
+                <div class="teamcard-color-strip green"></div>
             </div>
             <div class="teamcard-header">
                 <div class="teamcard-title">PhD.</div>
