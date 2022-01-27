@@ -789,6 +789,14 @@ h6 a{
   margin: 0.7em auto 2em auto;
 }
 
+.franklin-content .doi-table table {
+  width: 100%
+}
+
+.franklin-content .doi-table th {
+  width: 25%
+}
+
 .franklin-toc ol ol {
   list-style-type: lower-alpha;
 }
@@ -884,6 +892,7 @@ td {
 .thesis-art {
     border-color: #CBFCFF;
     border: #56a4a8 10px solid;
+    transition: 0.3s;
 }
 
 .thesis-art:hover {
