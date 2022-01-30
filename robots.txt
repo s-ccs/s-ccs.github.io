@@ -1,4 +1,0 @@
-Sitemap: https://s-ccs.github.io/s-ccs/sitemap.xml
-
-User-agent: *
-Disallow:
