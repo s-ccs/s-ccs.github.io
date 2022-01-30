@@ -512,7 +512,7 @@ td {
 
 .franklin-content .text-image {
     max-height: fit-content;
-    max-width: 100%;
+    width: 25em;
     display: flex;
 }
 
