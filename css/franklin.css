@@ -55,7 +55,7 @@ html {
 
 .franklin-content .container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 55% auto;
   gap: 0.2em 0em;
   margin: 1em 0;
 }
