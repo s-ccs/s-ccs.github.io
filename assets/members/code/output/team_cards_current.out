@@ -87,7 +87,7 @@
         <div class="teamcard-wrapper">
             <div class="teamcard-image">
                 <img src="/assets/team/current/999_polpo/profile_image.jpg" alt="Polpo">
-                <div class="teamcard-color-strip green"></div>
+                <div class="teamcard-color-strip blue"></div>
             </div>
             <div class="teamcard-header">
                 <div class="teamcard-title">''</div>
