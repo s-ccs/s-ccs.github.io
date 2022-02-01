@@ -189,6 +189,7 @@ nav li ol {
     background-color: white;
     border-radius: 10px;
     transform-origin: center;
+    transition: 0.2s;
 }
 .greedy-nav .hamburger-elem2 {
     width: 60%;
@@ -198,27 +199,33 @@ nav li ol {
     background-color: white;
     border-radius: 10px;
     transform-origin: left;
+    transition: 0.2s;
 }
 
 .greedy-nav .open #upper-hamburger-layer.hamburger-elem1 {
   transform: translateY(15px) rotateZ(-45deg) ;
+  transition: 0.2s;
 }
 
 .greedy-nav .open  #lower-hamburger-layer.hamburger-elem1 {
   transform: translateY(-15px) rotateZ(45deg);
+  transition: 0.2s;
 }
 
 .greedy-nav .open  .hamburger-elem2 {
   transform: scaleX(0);
+  transition: 0.2s;
 }
 
 @media(max-width: 43em) {
   .greedy-nav .open #upper-hamburger-layer.hamburger-elem1 {
-    transform: translateY(12px) rotateZ(-45deg) ;
+    transform: translateY(12px) rotateZ(-45deg);
+    transition: 0.2s;
   }
   
   .greedy-nav .open  #lower-hamburger-layer.hamburger-elem1 {
     transform: translateY(-12px) rotateZ(45deg);
+    transition: 0.2s;
   }
 
 }
