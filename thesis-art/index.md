@@ -5,13 +5,13 @@ The idea of thesis art is to inspire discussion with persons who do not have an 
 
 The thesis is hidden in the drawer, but the poster is out there at the wall for everyone to see. You can find all past thesis art pieces here
 @@toc-wrapper
-	@@toc-item ## [Edoardo Pinzuti](Edoardo-Pinzuti) @@
-	@@toc-item ## [Jiameng Wu](Jiameng-Wu) @@
-	@@toc-item ## [Judith Schepers](Judith-Schepers) @@
-	@@toc-item ## [Karolis Degutis](Karolis-Degutis) @@
-	@@toc-item ## [Katharina Groß](Katharina-Groß) @@
-	@@toc-item ## [Katja Haeusser](Katja-Haeusser) @@
-	@@toc-item ## [Lilli Kaufhold](Lilli-Kaufhold) @@
-	@@toc-item ## [Lisa Marie Vortmann](Lisa-Marie-Vortmann) @@
-	@@toc-item ## [Maria Sokotuschenko](Maria-Sokotuschenko) @@
+	@@toc-item ![]("/assets/toc_previews/Thesis Art/Edoardo-Pinzuti.jpg") ## [Edoardo Pinzuti](Edoardo-Pinzuti) @@
+	@@toc-item ![]("/assets/toc_previews/Thesis Art/Jiameng-Wu.jpg") ## [Jiameng Wu](Jiameng-Wu) @@
+	@@toc-item ![]("/assets/toc_previews/Thesis Art/Judith-Schepers.jpg") ## [Judith Schepers](Judith-Schepers) @@
+	@@toc-item ![]("/assets/toc_previews/Thesis Art/Karolis-Degutis.jpg") ## [Karolis Degutis](Karolis-Degutis) @@
+	@@toc-item ![]("/assets/toc_previews/Thesis Art/Katharina-Groß.jpg") ## [Katharina Groß](Katharina-Groß) @@
+	@@toc-item ![]("/assets/toc_previews/Thesis Art/Katja-Haeusser.jpg") ## [Katja Haeusser](Katja-Haeusser) @@
+	@@toc-item ![]("/assets/toc_previews/Thesis Art/Lilli-Kaufhold.jpg") ## [Lilli Kaufhold](Lilli-Kaufhold) @@
+	@@toc-item ![]("/assets/toc_previews/Thesis Art/Lisa-Marie-Vortmann.jpg") ## [Lisa Marie Vortmann](Lisa-Marie-Vortmann) @@
+	@@toc-item ![]("/assets/toc_previews/Thesis Art/Maria-Sokotuschenko.jpg") ## [Maria Sokotuschenko](Maria-Sokotuschenko) @@
 @@
