@@ -20,8 +20,8 @@
 ================================================================== */
 
 html {
-  font-family: Montserrat, Arial, sans-serif;
-  font-size: 1em;
+  font-family: Raleway, Arial, sans-serif;
+  font-size: 1.2em;
   color: var(--text-color);
   scroll-behavior: smooth;
 }
@@ -865,7 +865,7 @@ td {
 
 .franklin-content .toc-item img {
     position: absolute;
-    transition: 0.3s;
+    transition: 0.2s;
     transform: translateX(-15em);
     height: 100%;
     object-fit: cover;
@@ -884,7 +884,7 @@ td {
 
 .franklin-content .toc-item:hover img {
     transform: translateX(0em);
-    transition: 0.3s;
+    transition: 0.2s;
     object-fit: cover;
     object-position: center;
     
