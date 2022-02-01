@@ -858,6 +858,11 @@ td {
     gap: 1em 1em;
 }
 
+.franklin-content .toc-preview-item {
+    position: absolute;
+    transition: 0.3s;
+    transform: translateX(-15em);
+}
 
 .franklin-content .toc-item {
     min-height: 8em;
@@ -866,6 +871,13 @@ td {
     padding: 0 0.5em;
     transition: 0.2s;
     overflow-wrap: break-word;
+    overflow: hidden;
+    position: relative;
+}
+
+.franklin-content .toc-item:hover .toc-preview-item {
+    transform: translateX(0em);
+    transition: 0.3s;
 }
 
 .franklin-content .toc-item:hover {
