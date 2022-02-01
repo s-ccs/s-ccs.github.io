@@ -3,11 +3,18 @@
 # Teaching Ressources
 
 @@toc-wrapper
-	@@toc-item ![]("/assets/toc_previews/Teaching Ressources/applied-linear-mixed-models.jpg") ## [Applied Linear Mixed Models](applied-linear-mixed-models) @@
-	@@toc-item ![]("/assets/toc_previews/Teaching Ressources/bayesian-statistics.jpg") ## [Bayesian Statistics](bayesian-statistics) @@
-	@@toc-item ![]("/assets/toc_previews/Teaching Ressources/demos.jpg") ## [Demos](demos) @@
-	@@toc-item ![]("/assets/toc_previews/Teaching Ressources/eeg.jpg") ## [EEG](eeg) @@
-	@@toc-item ![]("/assets/toc_previews/Teaching Ressources/eye-tracking.jpg") ## [Eye Tracking](eye-tracking) @@
-	@@toc-item ![]("/assets/toc_previews/Teaching Ressources/graphics.jpg") ## [Graphics](graphics) @@
-	@@toc-item ![]("/assets/toc_previews/Teaching Ressources/PoRiCS.jpg") ## [PoRiCS](PoRiCS) @@
+	@@toc-item [![](/assets/toc-previews/teaching-ressources/applied-linear-mixed-models.jpg)](applied-linear-mixed-models)
+ ## [Applied Linear Mixed Models](applied-linear-mixed-models) @@
+	@@toc-item [![](/assets/toc-previews/teaching-ressources/bayesian-statistics.jpg)](bayesian-statistics)
+ ## [Bayesian Statistics](bayesian-statistics) @@
+	@@toc-item [![](/assets/toc-previews/teaching-ressources/demos.jpg)](demos)
+ ## [Demos](demos) @@
+	@@toc-item [![](/assets/toc-previews/teaching-ressources/eeg.jpg)](eeg)
+ ## [EEG](eeg) @@
+	@@toc-item [![](/assets/toc-previews/teaching-ressources/eye-tracking.jpg)](eye-tracking)
+ ## [Eye Tracking](eye-tracking) @@
+	@@toc-item [![](/assets/toc-previews/teaching-ressources/graphics.jpg)](graphics)
+ ## [Graphics](graphics) @@
+	@@toc-item [![](/assets/toc-previews/teaching-ressources/PoRiCS.jpg)](PoRiCS)
+ ## [PoRiCS](PoRiCS) @@
 @@
