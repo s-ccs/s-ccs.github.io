@@ -863,6 +863,10 @@ td {
     background: none;
 }
 
+.franklin-content .toc-item p {
+    margin: 0;
+}
+
 .franklin-content .toc-item img {
     position: absolute;
     transition: 0.2s;
