@@ -1,31 +1,36 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://kit.fontawesome.com/890a008f1c.js" crossorigin="anonymous"></script>
-  {{if hasmath}} {{insert head_katex.html }}   {{end}}
-  {{if hascode}} {{insert head_highlight.html }}   {{end}}
+
+  {{if hasmath}} {{insert head_katex.html }} {{end}}
+  {{if hascode}} {{insert head_highlight.html }} {{end}}
 
   {{insert style.html}}
+
   <script src="/libs/lunr/lunr.min.js"></script>
   <script src="/libs/lunr/lunr_index.js"></script>
   <script src="/libs/lunr/lunrclient.js"></script>
-  {{ispage thesis-art/*}} <script src="/libs/modal/modal-thesisart.js"></script> {{end}}
+
+  {{ispage thesis-art/*}}
+  <script src="/libs/modal/modal-thesisart.js"></script> {{end}}
+
   {{ispage index.html}}
-   <script src="/libs/parallax/parallax.js"></script> 
-   <script src="/libs/nav/cmd_buttons.js"></script>
-   {{end}}
+  <script src="/libs/parallax/parallax.js"></script>
+  <script src="/libs/nav/cmd_buttons.js"></script>
+  {{end}}
 
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 
-
-  
   <title>LAB</title>
 </head>
+
 <body>
-{{insert nav.html}}
-{{ispage index.html}}  {{insert title.html}}  {{end}}
+  {{insert nav.html}}
+  {{ispage index.html}} {{insert title.html}} {{end}}
   <div class="page-wrapper">
     {{insert side_nav.html}}
 
@@ -33,4 +38,4 @@
 
 
 
-<!-- Content appended here -->
+    <!-- Content appended here -->
