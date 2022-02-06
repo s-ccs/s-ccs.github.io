@@ -176,11 +176,11 @@ function generate_top_nav()
     \t\t\t\t<a href=\"/members/\"><li class=\"masthead__menu-item\">Members</li></a>
     \t\t\t\t<a href=\"/teaching-ressources/\"><li class=\"masthead__menu-item\">Teaching Ressources</li></a>
     \t\t\t</ul>
-    \t\t\t<a href=\"javascript:void(0);\" onclick=\"toggleHamburger()\">
+    \t\t\t<a href=\"javascript:void(0);\" onclick=\"toggleHamburger(this)\">
     \t\t\t\t<div class=\"hamburger\">
-    \t\t\t\t\t<div class=\"hamburger-elem1\"></div>
+    \t\t\t\t\t<div id=\"upper-hamburger-layer\" class=\"hamburger-elem1\"></div>
     \t\t\t\t\t<div class=\"hamburger-elem2\"></div>
-    \t\t\t\t\t<div class=\"hamburger-elem1\"></div>
+    \t\t\t\t\t<div id=\"lower-hamburger-layer\" class=\"hamburger-elem1\"></div>
     \t\t\t\t</div>
     \t\t\t</a>
     \t\t</nav>
