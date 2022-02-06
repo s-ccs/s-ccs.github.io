@@ -8,7 +8,7 @@ include("file_blacklist.jl")
 include("auxiliary_functions.jl")
 
 #=
- # Custom Order Dictionaires
+ # Lambda function used to add custom order for Dictionaires
 =#
 nav_order = Lt((a, b) ->
     begin
@@ -32,22 +32,26 @@ nav_order = Lt((a, b) ->
  # Every folder is pointed at another dict, containing all subfiles and -folders.
 =#
 function append_files!(dict, folder)
-    for file in readdir(string("./", folder))
+    try
+        for file in readdir(string("./", folder))
 
-        # Check for .md file and add to dict, pointing to empty dict
-        if contains(file, ".md") && !file_blacklisted(file)
+            # Check for .md file and add to dict, pointing to empty dict
+            if contains(file, ".md") && !file_blacklisted(file)
 
-            push!(dict, replace(file, ".md" => "") => SortedDict{String, SortedDict}(nav_order))
+                push!(dict, replace(file, ".md" => "") => SortedDict{String, SortedDict}(nav_order))
 
-        # If not .md check for (black-listed) folders and add them to the dict. This dict is then
-        # filled recursivly.
-        elseif isdir(file) && !(folder_blacklisted(file))
+            # If not .md check for (black-listed) folders and add them to the dict. This dict is then
+            # filled recursivly.
+            elseif isdir(file) && !(folder_blacklisted(file))
 
-            inner_dict = SortedDict{String, SortedDict}(nav_order)
-            push!(dict, file => inner_dict)
-            append_files!(inner_dict, file)
+                inner_dict = SortedDict{String, SortedDict}(nav_order)
+                push!(dict, file => inner_dict)
+                append_files!(inner_dict, file)
 
+            end
         end
+    catch e
+        @info e
     end
 end
 
@@ -197,8 +201,13 @@ function generate_top_nav()
 
     # Index files
     @info "Indexing files..."
-    file_list = SortedDict{String, SortedDict}(nav_order)
-    append_files!(file_list, "")
+    file_list = SortedDict()
+    try
+        file_list = SortedDict{String, SortedDict}(nav_order)
+        append_files!(file_list, "")
+    catch e
+        @info e
+    end
 
     # Generate dynamic nav HTML
     @info "Generating top-nav..."
