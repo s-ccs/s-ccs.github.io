@@ -12,7 +12,7 @@ try
     reverse_file_list = sort(readdir("./_assets/papers"), rev=true)
 
     for csv_file in filter(f->contains(f, ".csv"), reverse_file_list)
-        header = string("## ", replace(csv_file, ".csv"=>""))
+        header = string("## ", replace(csv_file, ".csv"=>""), "\n@@doi-table")
 
         global page_content = string(page_content, header, "\n|Title|Authors|DOI|PDF|\n|-----|-------|---|---|\n")
 
@@ -27,7 +27,7 @@ try
            global page_content = string(page_content, "| | | | |\n")
         end
 
-       global page_content = string(page_content, "\n")
+       global page_content = string(page_content, "@@\n\n")
     end
 
     global page_content = string(page_start, page_content)
