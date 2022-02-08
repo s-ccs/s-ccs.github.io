@@ -290,6 +290,8 @@ html {
 .franklin-content .date {
     margin-top: -1em;
     margin-bottom: 2em;
+    display: inline-block;
+    margin-right: 1em;
 }
 
 .franklin-content img {

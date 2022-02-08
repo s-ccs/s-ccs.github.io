@@ -1,7 +1,7 @@
 @def title = "Thesis Art"
 @def tags = ["Images", "Project"]
 
-# JIAMENG WU: THE INFLUENCE OF SALIENCY ON THE INITATION OF SACCADES IN A GUIDED VIEWING PARADIGM WITH BUBBLE-STIMULI \date{10. October 2016}
+# JIAMENG WU: THE INFLUENCE OF SALIENCY ON THE INITATION OF SACCADES IN A GUIDED VIEWING PARADIGM WITH BUBBLE-STIMULI \date{10. October 2016} \thesis{"/assets/thesis-art/a2_meng.jpg"}
 One of my bachelor’s students (Jiameng Wu) finished her thesis on parts of this project. I again tried to make art out of science.
 
 

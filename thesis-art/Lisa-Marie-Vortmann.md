@@ -1,7 +1,7 @@
 @def title = "Thesis Art"
 @def tags = ["Images", "Project"]
 
-# Thesis Art: Lisa-Marie Vortmann \date{6. September 2018}
+# Thesis Art: Lisa-Marie Vortmann \date{6. September 2018} \thesis{"/assets/thesis-art/a2_lisa.jpg"}
 I was a supervisor for Lisa-Marie Vortmanns’s Master’s Thesis.
 
 
