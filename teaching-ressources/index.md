@@ -13,8 +13,8 @@
  ## [EEG](eeg) @@
 	@@toc-item [![](/assets/toc-previews/teaching-ressources/eye-tracking.jpg)](eye-tracking)
  ## [Eye Tracking](eye-tracking) @@
-	@@toc-item [![](/assets/toc-previews/teaching-ressources/graphics.jpg)](graphics)
- ## [Graphics](graphics) @@
+	@@toc-item [![](/assets/toc-previews/teaching-ressources/open-teaching-graphics.jpg)](open-teaching-graphics)
+ ## [Open Teaching Graphics](open-teaching-graphics) @@
 	@@toc-item [![](/assets/toc-previews/teaching-ressources/PoRiCS.jpg)](PoRiCS)
  ## [PoRiCS](PoRiCS) @@
 @@
