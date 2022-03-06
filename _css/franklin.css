@@ -532,7 +532,8 @@ td {
 }
 
 .franklin-content .about-text {
-    margin: 0.5em 30% 0 1em;
+    margin: 0 30% 0 1em;
+    align-self: center;
 }
 
 .franklin-content .color-strip-green {
@@ -849,10 +850,10 @@ td {
 ================================================================== */
 
 .franklin-content .toc-wrapper {
-    width: 100%;
+    width: fit-content;
     display: grid;
     grid-template-columns: 10em 10em 10em;
-    margin-top: 3em;
+    margin: 3em auto 0 auto;
     padding: 0 1em;
     gap: 1em 1em;
 }
