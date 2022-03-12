@@ -1,7 +1,7 @@
 @def title = "Thesis Art"
 @def tags = ["Images", "Project"]
 
-# Thesis Art: Karolis Degutis \date{12. August 2020}
+# Thesis Art: Karolis Degutis \date{12. August 2020} \thesislink{link-to-thesis}
 
 
 In his project Karolis Degutis (@karolisdegutis) tried to replicate two laminar fMRI effects, but not at high-field 7T, but at 3T. Unfortunately, we failed to replicate these effects – on the one hand, we had to stop acquisition early due to COVID-19, on the other hand, we found anecdotal evidence in favour of the H0.

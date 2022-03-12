@@ -288,8 +288,17 @@ html {
 }
 
 .franklin-content .date {
+    margin-bottom: 0.4em;
     margin-top: -1em;
-    margin-bottom: 2em;
+    display: block;
+    width: fit-content;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.franklin-content .thesis-link {
+    margin-top: -1em;
+    display: inline-block;
 }
 
 .franklin-content img {
