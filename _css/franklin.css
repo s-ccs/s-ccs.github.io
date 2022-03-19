@@ -322,7 +322,7 @@ html {
   margin-top: 4em;
   padding-top: 4em;
   padding-bottom: 1.5em;
-  background-color: #3e3e3e;
+  background-color: #1e1e1e;
 }
 
 
@@ -549,21 +549,21 @@ td {
 .franklin-content .color-strip-green {
     width: 2em;
     height: inherit;
-    background-color: var(--green);
+    background-color: var(--red);
     margin-right: -4em;
 }
 
 .franklin-content .color-strip-blue {
     width: 2em;
     height: inherit;
-    background-color: var(--blue);
+    background-color: var(--red);
     margin-right: -4em;
 }
 
 .franklin-content .color-strip-orange {
     width: 2em;
     height: inherit;
-    background-color: var(--orange);
+    background-color: var(--red);
     margin-right: -4em;
 }
 
@@ -571,21 +571,21 @@ td {
     .franklin-content .color-strip-green {
         height: 2em;
         width: inherit;
-        background-color: var(--green);
+        background-color: var(--red);
         margin: 0 0 -2em 0;
     }
 
     .franklin-content .color-strip-blue {
         height: 2em;
         width: inherit;
-        background-color: var(--blue);
+        background-color: var(--red);
         margin: 0 0 -2em 0;
     }
 
     .franklin-content .color-strip-orange {
         height: 2em;
         width: inherit;
-        background-color: var(--orange);
+        background-color: var(--red);
         margin: 0 0 -2em 0;
     }
 
@@ -980,14 +980,13 @@ td {
 ================================================================== */
 
 .thesis-art {
-    border-color: #CBFCFF;
-    border: #56a4a8 10px solid;
+    border: #EC0C34 10px solid;
     transition: 0.3s;
 }
 
 .thesis-art:hover {
     cursor: pointer;
-    border: #56a4a8 3em solid;
+    border: #EC0C34 3em solid;
     transition: 0.3s;
 }
 

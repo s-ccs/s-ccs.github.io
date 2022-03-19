@@ -155,7 +155,7 @@ nav li ol {
 }
 
 .greedy-nav .visible-links a:hover {
-  background-color: #1c2a36
+  background-color: #B70928
 }
 
 @media (max-width: 1280px) {
@@ -661,7 +661,7 @@ nav li ol {
 }
 
 .side-nav li a:hover {
-  color: #33A0A6;
+  color: #EC0C34;
   transition: 0.3s;
 }
 
