@@ -8,9 +8,10 @@
   --small: 14px;
   --normal: 19px;
   --text-color: #333;
-  --green: #EAFFCB;
-  --blue: #CBFCFF;
-  --orange: #FFE3CB;
+  --red: #EC0C34;
+  --green: #DDB0B8;
+  --blue: #DDB0B8;
+  --orange: #DDB0B8;
 }
 
 /*FAD8F3  717C89  736CED*/
@@ -674,7 +675,7 @@ code {
 }
 
 /* ==================================================================
-    TEAMCARDS
+TEAMCARDS
 ================================================================== */
 
 .teamcard-wrapper {
@@ -685,18 +686,75 @@ code {
 }
 
 .teamcard-image {
-    grid-row: 1 / span 3;
-    display: flex;
-    flex-flow: row;
-    max-width: 100%;
+    max-width: 220px;
+    max-height: 220px;
+    position: relative;
+    display: grid;
 }
 
-.teamcard-header {
-    padding-top: 1em;
+.teamcard-image img {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    grid-column: 1 / 9;
+    grid-row: 1 / 9;
+    transform: scale(0.8);
+    z-index: 10;
+}
+
+.circle-1
+{
+    border-radius: 100%;
+    border: 25px solid var(--red);
+    z-index: 5;
+    grid-column: cstart-1 / span cend-1;
+    grid-row: rstart-1 / span rend-1;
+}
+
+.circle-2 
+{
+    border-radius: 100%;
+    border: 20px solid var(--red);
+    z-index: 5;
+    grid-column: cstart-2 / span cend-2;
+    grid-row: rstart-2 / span rend-2;
+}
+
+.circle-3 
+{
+    border-radius: 100%;
+    border: 20px solid var(--red);
+    background-color: var(--red);
+    z-index: 5;
+    grid-column: cstart-3 / span cend-3;
+    grid-row: rstart-3 / span rend-3;
+}
+
+.img-var-1
+{
+    grid-template-columns: [cstart-1] 1fr [cstart-3] 1fr 1fr [cstart-2] 1fr [cend-3]  1fr [cend-1] 1fr 1fr [cend-2];
+    grid-template-rows: [rstart-1] 1fr 1fr [rstart-2] 1fr 1fr [rstart-3] 1fr [rend-1] 1fr [rend-2] 1fr [rend-3];
+    
+}
+
+.img-var-2
+{
+    grid-template-columns: [cstart-3] 1fr [cstart-1] 1fr 1fr [cstart-2] 1fr [cend-3] 1fr 1fr [cend-1] 1fr [cend-2];
+    grid-template-rows: [rstart-1] 1fr 1fr [rstart-3] 1fr [rstart-2] 1fr 1fr [rend-1] 1fr [rend-3] 1fr [rend-2];
+}
+
+.img-var-3
+{
+    grid-template-columns: [cstart-2] 1fr [cstart-3] 1fr [cstart-1] 1fr [cend-2] 1fr 1fr [cend-3] 1fr 1fr [cend-1];
+    grid-template-rows: [rstart-3] 1fr 1fr [rstart-1] 1fr [rstart-2] 1fr [rend-3] 1fr 1fr [rend-2] 1fr [rend-1];
 }
 
 .teamcard-text {
     margin-top: 1em;
+}
+
+.teamcard-header {
+    padding-top: 1em;
 }
 
 .teamcard-link {
@@ -707,37 +765,25 @@ code {
     font-weight: 600;
 }
 
-.teamcard-color-strip {
-    width: 2em;
-    height: auto;
-    margin: 0 -1em;
-}
-
-.teamcard-image .blue {
-    background-color: var(--blue);
-}
-
-.teamcard-image .orange {
-    background-color: var(--orange);
-}
-
-.teamcard-image .green {
-    background-color: var(--green);
-}
 
 @media(max-width: 43em) {
     .teamcard-wrapper {
+        width: 80%;
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
         grid-template-columns: 100%;
         grid-template-rows: auto auto auto auto;
-        margin-bottom: 4em;
+        padding: 2em 1em 0em 1em;
+        background-color: #EEEEEE;
     }
 
     .teamcard-image {
-        flex-flow: column;
-        padding-bottom: 0 !important;
-        margin-bottom: -1em;
         width: 100%;
         height: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .teamcard-color-strip {
