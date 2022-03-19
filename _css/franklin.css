@@ -21,7 +21,7 @@
 
 html {
   font-family: Raleway, Arial, sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   color: var(--text-color);
   scroll-behavior: smooth;
 }
