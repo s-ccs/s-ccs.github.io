@@ -50,7 +50,7 @@ function generate_toc_pages(folder_list)
         for md in folder_content
             if contains(md, ".md")
                 # Regex needed
-            toc_content =  string(toc_content, "\t@@toc-item [![](/assets/toc-previews/$(replace(folder, "./" => ""))/$(replace(md, ".md" => "")).jpg)](", replace(md, ".md" => ""), ")\n ## [", apply_formatting(replace(md, ".md" => "")), "]($(replace(md, ".md" => ""))) @@\n")
+            toc_content =  string(toc_content, "\t@@toc-item [![](/assets/toc-previews/$(replace(folder, "./" => ""))/$(replace(md, ".md" => "")).jpg)](", replace(md, ".md" => ""), ")\n ### [", apply_formatting(replace(md, ".md" => "")), "]($(replace(md, ".md" => ""))) @@\n")
             end
         end
 
