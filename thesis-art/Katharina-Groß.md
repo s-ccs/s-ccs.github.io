@@ -1,7 +1,7 @@
 @def title = "Thesis Art"
 @def tags = ["Images", "Project"]
 
-# Thesis Art: Katharina Groß \date{15. February 2019} \thesislink{link-to-thesis}
+# Thesis Art: Katharina Groß \date{15. February 2019} \thesis{"/assets/thesis-art/a2_katha.jpg"}
 I was a supervisor for Katharina Groß’s Bachelor’s Thesis. You can find the resulting paper (!) here on biorXiv
 
 

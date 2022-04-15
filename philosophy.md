@@ -43,6 +43,3 @@ If you are thinking to apply for the lab, here are some recommendations:
 - Lab-culture on a webpage is useless if it is not actually lived. Please contact as many PhDs/PostDocs as you want to answer all your question. Really make use of this to get a feeling of how the lab is going and how Bene is supervising. In case we have on-site visits, we will also organize this.
 
 - @ current PhD Students & PostDocs: Please take the time and answer honestly to the incoming candidates. If you recommend someone not to join the lab, I'd be happy to hear that feedback as well.
-
-## Acknowledgments
-This philosophy is heavily **inspired** by [**Wei Ji Ma's**](https://docs.google.com/document/d/1f6foaCkHiCkPKjO0gdKkkdm2dn1EKn5xRKZv-Ut5Dg4/) Lab philosophy document. Many of these points ressonanted with me.

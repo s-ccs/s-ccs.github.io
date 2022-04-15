@@ -1,7 +1,7 @@
 @def title = "Thesis Art"
 @def tags = ["Images", "Project"]
 
-# THESIS ART: MARIA SOKOTUSCHHENKO \date{18. June 2018} \thesislink{link-to-thesis}
+# THESIS ART: MARIA SOKOTUSCHHENKO \date{18. June 2018} \thesis{"/assets/thesis-art/a2_maria.jpg"}
 I was a supervisor for Maria Sokotushchenko’s Master’s Thesis.
 
 

@@ -6,18 +6,16 @@
 @@doi-table
 |Title|Authors|DOI|PDF|
 |-----|-------|---|---|
-|#EEGManyLabs: Investigating the replicability of influential EEG experiments|Pavlov, Y. G. et al.|[10.1016/j.cortex.2021.03.013](https://doi.org/10.1016/j.cortex.2021.03.013)|[PDF](../assets/papers/pdf/2021/1-s2.0-S0010945221001106-main.pdf)|
-|Modelling event duration and overlap during EEG analysis|René Skukies, Benedikt Ehinger|[10.1167/jov.21.9.2037](https://doi.org/10.1167/jov.21.9.2037)|[PDF](.)|
-|Regression-based analysis of combined EEG and eye-tracking data: Theory and applications’|Dimigen, O. and Ehinger, B. V.|[10.1167/jov.21.1.3](https://doi.org/10.1167/jov.21.1.3)|[PDF](../assets/papers/pdf/2021/i1534-7362-21-1-3_1609933604.85964.pdf)|
-|Coordinating With a Robot Partner Affects Neural Processing Related to Action Monitoring|Czeszumski, A. et al.|[10.3389/fnbot.2021.686010](https://doi.org/10.3389/fnbot.2021.686010)|[PDF](../assets/papers/pdf/2021/fnbot-15-686010.pdf.pdf)|
-|Coordinating With a Robot Partner Affects Action Monitoring Related Neural Processing|Czeszumski, A. et al.|[10.1101/2021.03.26.437133](https://doi.org/10.1101/2021.03.26.437133)|[PDF](../assets/papers/pdf/2021/2021.03.26.437133v2.full.pdf)|
+|'Regression-based analysis of combined EEG and eye-tracking data: Theory and applications’|Dimigen, O. and Ehinger, B. V.|[10.1167/jov.21.1.3](https://doi.org/10.1167/jov.21.1.3)|[PDF](../assets/papers/pdf/paper1.pdf)|
+|‘Coordinating With a Robot Partner Affects Action Monitoring Related Neural Processing|Czeszumski, A. et al.|[10.1101/2021.03.26.437133](https://doi.org/10.1101/2021.03.26.437133)|[PDF](../assets/papers/pdf/paper1.pdf)|
+|#EEGManyLabs: Investigating the replicability of influential EEG experiments|Pavlov, Y. G. et al.|[10.1016/j.cortex.2021.03.013.](https://doi.org/10.1016/j.cortex.2021.03.013.)|[PDF](../assets/papers/pdf/paper1.pdf)|
 @@
 
 ## 2020
 @@doi-table
 |Title|Authors|DOI|PDF|
 |-----|-------|---|---|
-|Opposite effects of choice history and stimulus history resolve a paradox of sequential choice bias|Bosch, E. et al.|[10.1167/jov.20.12.9](https://doi.org/10.1167/jov.20.12.9)|[PDF](../assets/papers/pdf/2020/i1534-7362-20-12-9_1605697937.23632.pdf)|
+|Opposite effects of choice history and stimulus history resolve a paradox of sequential choice bias|Bosch, E. et al.|[(accepted)](https://doi.org/(accepted))|[PDF](.)|
 |Faces strongly attract early fixations in naturally sampled real-world stimulus materials|Gert, A. L. et al.|[10.1145/3379156.3391377](https://doi.org/10.1145/3379156.3391377)|[PDF](.)|
 @@
 
@@ -25,12 +23,6 @@
 @@doi-table
 |Title|Authors|DOI|PDF|
 |-----|-------|---|---|
-|How does the method change what we measure? Comparing virtual reality and text-based surveys for the assessment of moral decisions in traffic dilemmas|Leon René Sütfeld, Benedikt V Ehinger et al.|[[10.1371/journal.pone.0223108](https://doi.org/10.1371/journal.pone.0223108)](https://doi.org/[10.1371/journal.pone.0223108](https://doi.org/10.1371/journal.pone.0223108))|[PDF](../assets/papers/pdf/2019/file.pdf)|
-|Unfold: An integrated toolbox for overlap correction, non-linear modeling, and regression-based EEG analysis|Benedikt V Ehinger, Olaf Dimigen|[10.7717/peerj.7838](https://doi.org/10.7717/peerj.7838)|[PDF](../assets/papers/pdf/2019/peerj-7838.pdf)|
-|Tracking naturalistic linguistic predictions with deep neural language models|Micha Heilbron et al.|[10.48550/arXiv.1909.04400](https://doi.org/10.48550/arXiv.1909.04400)|[PDF](../assets/papers/pdf/2019/1909.04400.pdf)|
-|Wild Lab-Characterizing Face-Selective ERPs Under More Natural Conditions|Anna Lisa Gert et al.|[N/A](https://doi.org/N/A)|[PDF](.)|
-|Unmixed: Linear Mixed Models combined with Overlap Correction for M/EEG analyses. An Extension to the unfold Toolbox|Benedikt V. Ehinger|[10.32470/CCN.2019.1102-0](https://doi.org/10.32470/CCN.2019.1102-0)|[PDF](../assets/papers/pdf/2019/f94dc2de117bf2d95467bc8dc4d9b180d242.pdf)|
-|A new comprehensive Eye-Tracking Test Battery concurrently evaluating the Pupil Labs Glasses and the EyeLink 1000|Benedikt V Ehinger et al.|[10.7717/peerj.7086](https://doi.org/10.7717/peerj.7086)|[PDF](../assets/papers/pdf/2019/peerj-7086.pdf)|
-|The social situation affects how we process feedback about our actions|Artur Czeszumski et al.|[10.3389/fpsyg.2019.00361](https://doi.org/10.3389/fpsyg.2019.00361)|[PDF](../assets/papers/pdf/2019/fpsyg-10-00361.pdf)|
+| | | | |
 @@
 

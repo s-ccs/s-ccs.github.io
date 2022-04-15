@@ -29,4 +29,3 @@ Add here global latex commands to use throughout your pages.
 
 \newcommand{\thesis}[1]{~~~<div class=date>[<a href=!#1>Thesis PDF</a>]</div>~~~}
 \newcommand{\date}[1]{~~~</a> </h1> <div class=date>!#1</div>~~~}
-\newcommand{\thesislink}[1]{~~~<div class="thesis-link">| <a href=!#1>Thesis PDF</a></div>~~~}
