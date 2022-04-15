@@ -808,7 +808,9 @@ h6 a{
 }
 
 .franklin-content .doi-table table {
-  width: 100%
+  width: 100%;
+  table-layout: fixed;
+  word-break: break-all;
 }
 
 .franklin-content .doi-table th {
