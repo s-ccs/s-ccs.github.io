@@ -25,19 +25,17 @@ function gen_html(team_type)
                     <img src=\"/assets/team/$team_type/$person/profile_image.jpg\" alt=\"$(row.name)\">
                     <div class=\"teamcard-color-strip $(color)\"></div>
                 </div>
+                <div class=\"teamcard-header\">
+                    <div class=\"teamcard-title\">$(row.title)</div>
+                    <h2>$(row.name)</h2>
+                    <div class=\"teamcard-position\">$(row.position)</div>
+                </div>
                 <div>
-                    <div class=\"teamcard-header\">
-                        <div class=\"teamcard-title\">$(row.title)</div>
-                        <h2>$(row.name)</h2>
-                        <div class=\"teamcard-position\">$(row.position)</div>
-                    </div>
-                    <div class=\"teamcard-text\">
-                        $(row.interests === missing ? "" : row.interests)
-                    </div>
-                    <div class=\"teamcard-link\">
-                        <i class=\"fas fa-envelope\"></i>
-                        <a href=\"mailto:$(row.contact)\">$(row.contact)</a>
-                    </div>
+                    $(row.interests === missing ? "" : row.interests)
+                </div>
+                <div>
+                    <i class=\"fas fa-envelope\"></i>
+                    <a href=\"mailto:$(row.contact)\">$(row.contact)</a>
                 </div>
             </div>
             ~~~")
