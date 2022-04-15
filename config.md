@@ -25,7 +25,7 @@ Add here global latex commands to use throughout your pages.
 \newcommand{\scal}[1]{\langle #1 \rangle}
 
 \newcommand{\colorStrip}[1]{~~~<div class="color-strip-!#1"></div>~~~}
-\newcommand{\textImage}[2]{~~~<div class="text-image"><img src="/assets/!#1">~~~ \colorStrip{!#2} ~~~</div>~~~}
+\newcommand{\textImage}[2]{~~~<div class="text-image"><img src="/assets/!#1"></div>~~~}
 
 \newcommand{\date}[1]{~~~</a> </h1> <div class=date>!#1</div>~~~}
 \newcommand{\thesislink}[1]{~~~<div class="thesis-link">| <a href=!#1>Thesis PDF</a></div>~~~}
