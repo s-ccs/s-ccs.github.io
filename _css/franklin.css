@@ -102,7 +102,7 @@ html {
   max-width: 100%;
   height: calc(100vh - 77.39px);
   background-color: black;
-  background-image: url("../assets/title_img.jpg");
+  background-image: url("../assets/img/title_img_v001.jpg");
   background-size: cover;
   background-position: center center;
 }
