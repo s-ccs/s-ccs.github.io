@@ -27,7 +27,7 @@ function gen_html(team_type)
                 </div>
                 <div>
                     <div class=\"teamcard-header\">
-                        <div class=\"teamcard-title\">$(row.title)</div>
+                        <div class=\"teamcard-title\">$(row.title === missing ? "" : row.title)</div>
                         <h2>$(row.name)</h2>
                         <div class=\"teamcard-position\">$(row.position)</div>
                     </div>
@@ -44,7 +44,6 @@ function gen_html(team_type)
         end
 
     catch e
-        @info e
-        print("")
+        
     end
 end
