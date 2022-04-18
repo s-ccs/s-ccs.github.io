@@ -1,7 +1,6 @@
 @def title = ""
 @def tags = ["landing", "home", "about"]
-# Stuttgart-Computational Cognitive Science
-## About the S-CCS
+# Stuttgart Computational Cognitive Science
 @@container
     \textImage{img/model_human_activity.jpg}{blue}
     
