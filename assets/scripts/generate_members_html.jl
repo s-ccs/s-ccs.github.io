@@ -3,27 +3,29 @@ using CSV
 using Random
 
 function gen_html(team_type)
-    colors = ["orange", "blue", "green"]
+    image_vars = ["img-var-1", "img-var-2", "img-var-3"]
 
     try
         person_list = readdir("./_assets/team/$team_type")
 
         for person in person_list
-            if isempty(colors)
-                colors = ["orange", "blue", "green"]
+            if isempty(image_vars)
+                image_vars = ["img-var-1", "img-var-2", "img-var-3"]
             end
 
-            color = rand(colors)
-            colors = filter(e->e!=color, colors)
+            image_var = rand(image_vars)
+            image_vars = filter(e->e!=image_var, image_vars)
             person_data_reader = CSV.File("./_assets/team/$(team_type)/$(person)/profile_info.csv", delim=";")
             row = person_data_reader[1]
 
             println("
             ~~~
             <div class=\"teamcard-wrapper\">
-                <div class=\"teamcard-image\">
+                <div class=\"teamcard-image $(image_var)\">
                     <img src=\"/assets/team/$team_type/$person/profile_image.jpg\" alt=\"$(row.name)\">
-                    <div class=\"teamcard-color-strip $(color)\"></div>
+                    <div class=\"circle-1\"></div>
+                    <div class=\"circle-2\"></div>
+                    <div class=\"circle-3\"></div>
                 </div>
                 <div>
                     <div class=\"teamcard-header\">
