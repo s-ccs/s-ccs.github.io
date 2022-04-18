@@ -22,7 +22,7 @@ Work areas include:
 If you are interested in the areas of methods development, EEG, Eye-Tracking, Visual Processing, Cognitive Science, it is always a good idea to shoot us an email. Sometimes we have capacities for theses without a formal offer. Note on external theses: We usually only accept these if they fit within the topic of our lab.
 
 ### BSc
-We have currently an open project on directional effects of Eye-Movements on human brain activity. You can find it in the Ilias-Marketplace, or contact Judith.
+There are currently no open projects.
 ### MSc
 There are currently no open projects.
 
