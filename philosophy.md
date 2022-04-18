@@ -1,7 +1,7 @@
 @def title = "Philosophy"
 @def tags = ["rules", "lab", "code", "conduct"]
 
-# LAB Philosophy 
+# Lab philosophy 
 
 The philosophy of a lab defines its **values**, and to some degree, its **rules**. The set of following points is an ongoing discussion - as a lab evolves, its culture evolves and adapts to the needs and cultures of the members defining it.
 
