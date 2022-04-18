@@ -4,7 +4,7 @@
   animation: intro 0.3s both;
   animation-delay: 0.15s;
   z-index: 20;
-  background-color: #EA3043;
+  background-color: #1F5771;
 }
 
 .masthead__inner-wrap {
@@ -155,7 +155,7 @@ nav li ol {
 }
 
 .greedy-nav .visible-links a:hover {
-  background-color: #B70928
+  background-color: #386F87;
 }
 
 @media (max-width: 1280px) {
@@ -661,7 +661,7 @@ nav li ol {
 }
 
 .side-nav li a:hover {
-  color: #EC0C34;
+  color: #386F87;
   transition: 0.3s;
 }
 
@@ -700,7 +700,7 @@ nav li ol {
 }
 
 .side-nav .second-action:hover {
-    color: #A0DEE2;
+    color: #386F87;
 }
 
 .active{

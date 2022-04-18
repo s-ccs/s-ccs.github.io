@@ -8,10 +8,7 @@
   --small: 14px;
   --normal: 19px;
   --text-color: #333;
-  --red: #EA3043;
-  --green: #DDB0B8;
-  --blue: #DDB0B8;
-  --orange: #DDB0B8;
+  --blue: #1F5771;
 }
 
 /*FAD8F3  717C89  736CED*/
@@ -551,21 +548,21 @@ td {
 .franklin-content .color-strip-green {
     width: 2em;
     height: inherit;
-    background-color: var(--red);
+    background-color: var(--blue);
     margin-right: -4em;
 }
 
 .franklin-content .color-strip-blue {
     width: 2em;
     height: inherit;
-    background-color: var(--red);
+    background-color: var(--blue);
     margin-right: -4em;
 }
 
 .franklin-content .color-strip-orange {
     width: 2em;
     height: inherit;
-    background-color: var(--red);
+    background-color: var(--blue);
     margin-right: -4em;
 }
 
@@ -573,21 +570,21 @@ td {
     .franklin-content .color-strip-green {
         height: 2em;
         width: inherit;
-        background-color: var(--red);
+        background-color: var(--blue);
         margin: 0 0 -2em 0;
     }
 
     .franklin-content .color-strip-blue {
         height: 2em;
         width: inherit;
-        background-color: var(--red);
+        background-color: var(--blue);
         margin: 0 0 -2em 0;
     }
 
     .franklin-content .color-strip-orange {
         height: 2em;
         width: inherit;
-        background-color: var(--red);
+        background-color: var(--blue);
         margin: 0 0 -2em 0;
     }
 
@@ -695,7 +692,7 @@ TEAMCARDS
 }
 
 .teamcard-image img {
-    border: 2px solid lightcoral;
+    border: 2px solid #386F87;
     border-radius: 5em 0;
     width: 100%;
     height: 100%;
@@ -708,7 +705,7 @@ TEAMCARDS
 .circle-1
 {
     border-radius: 100%;
-    border: 25px solid var(--red);
+    border: 25px solid var(--blue);
     z-index: 5;
     grid-column: cstart-1 / span cend-1;
     grid-row: rstart-1 / span rend-1;
@@ -717,7 +714,7 @@ TEAMCARDS
 .circle-2 
 {
     border-radius: 100%;
-    border: 20px solid var(--red);
+    border: 20px solid var(--blue);
     z-index: 5;
     grid-column: cstart-2 / span cend-2;
     grid-row: rstart-2 / span rend-2;
@@ -726,8 +723,8 @@ TEAMCARDS
 .circle-3 
 {
     border-radius: 100%;
-    border: 20px solid var(--red);
-    background-color: var(--red);
+    border: 20px solid var(--blue);
+    background-color: var(--blue);
     z-index: 5;
     grid-column: cstart-3 / span cend-3;
     grid-row: rstart-3 / span rend-3;
