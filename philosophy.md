@@ -3,7 +3,7 @@
 
 # LAB Philosophy 
 
-A lab philosophy defines it's **values** and to some degree, it's **rules**. The set of following points is an ongoing discussion - as a lab evolves, it's culture evolves and adapts to the needs and cultures of the members defining it.
+The philosophy of a lab defines its **values**, and to some degree, its **rules**. The set of following points is an ongoing discussion - as a lab evolves, its culture evolves and adapts to the needs and cultures of the members defining it.
 
 ## Core Values
 1. Be **kind**.
