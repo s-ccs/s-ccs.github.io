@@ -27,5 +27,6 @@ Add here global latex commands to use throughout your pages.
 \newcommand{\colorStrip}[1]{~~~<div class="color-strip-!#1"></div>~~~}
 \newcommand{\textImage}[2]{~~~<div class="text-image"><img src="/assets/!#1"></div>~~~}
 
+\newcommand{\thesis}[1]{~~~<div class=date>[<a href=!#1>Thesis PDF</a>]</div>~~~}
 \newcommand{\date}[1]{~~~</a> </h1> <div class=date>!#1</div>~~~}
 \newcommand{\thesislink}[1]{~~~<div class="thesis-link">| <a href=!#1>Thesis PDF</a></div>~~~}

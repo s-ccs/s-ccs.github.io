@@ -712,7 +712,7 @@ nav li ol {
     border: 1px solid grey;
     padding: 0.5em 0.5em 0.5em 2.3em;
     background-color: white;
-    background-image: url('/assets/searchicon.png');
+    background-image: url('/assets/icn/searchicon.png');
     background-position: 8px 7px;
     background-repeat: no-repeat;
     color: #333;

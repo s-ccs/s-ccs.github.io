@@ -3,7 +3,7 @@
 # Stuttgart-Computational Cognitive Science
 ## About the S-CCS
 @@container
-    \textImage{eeg_cap_closeup_side.jpg}{blue}
+    \textImage{img/model_human_activity.jpg}{blue}
     
 @@about-text
 ### Modelling human activity
@@ -11,14 +11,14 @@ The goal of the Stuttgart Computational Cognitive Science group, is to **underst
 @@
 @@
 @@container
-    \textImage{eeg_cap_vr.jpg}{green}
+    \textImage{img/versatility.jpg}{green}
 @@about-text
 ### Versatility
 We are starting out to **combine** EEG, Eye-Tracking and VR - stay tuned for more!    
 @@
 @@
 @@container
-\textImage{eeg_cap_behind.jpg}{orange}
+\textImage{img/collaboration_not_competition.jpg}{orange}
 @@about-text
 ### Collaboration, not Competition
 If you are **interested in our work**, please reach out! We are committed to **not compete** but **collaborate**!
