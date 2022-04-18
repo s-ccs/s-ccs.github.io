@@ -921,7 +921,7 @@ td {
     grid-auto-rows: 10em;
     margin: 3em auto 0 auto;
     padding: 0 1em;
-    gap: 3em 3em;
+    gap: 5em 8em;
 }
 
 .franklin-content .toc-wrapper a {
@@ -932,6 +932,11 @@ td {
 .franklin-content .toc-wrapper a:hover {
     background-color: white;
     padding: 0;
+}
+
+.toc-titles {
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 .franklin-content .toc-item a {
@@ -976,7 +981,7 @@ td {
     margin-left: -12px;
 }
 
-@media(max-width: 640px) {
+@media(max-width: 850px) {
     .franklin-content .toc-wrapper {
         display: flex;
         flex-flow: row;

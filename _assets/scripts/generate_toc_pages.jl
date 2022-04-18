@@ -50,8 +50,9 @@ function generate_toc_pages(folder_list)
         toc_content = ""
 
         for file in folder_content
+            file_edited = apply_formatting(replace(replace(file, ".md" => ""), "-" => " "))
             if contains(file, ".md")
-                toc_content = string(toc_content, "\t\t\t\t<a href=\"$(replace(file, ".md" => ""))\">\n\t\t\t\t<div class=\"teamcard-image img-var-$(rand((1,3)))\">\n\t\t\t\t\t<img src=\"/assets/toc-previews/$(replace(folder, "./" => ""))/$(replace(file, ".md" => "")).jpg\">\n\t\t\t\t\t<div class=\"circle-1\"></div>\n\t\t\t\t\t<div class=\"circle-2\"></div>\n\t\t\t\t\t<div class=\"circle-3\"></div>\n\t\t\t\t</div>\n\t\t\t\t</a>")                
+                toc_content = string(toc_content, "\t\t\t\t<a href=\"$(replace(file, ".md" => ""))\">\n\t\t\t\t<div class=\"toc-titles\">$file_edited</div><div class=\"teamcard-image img-var-$(rand((1,3)))\">\n\t\t\t\t\t<img src=\"/assets/toc-previews/$(replace(folder, "./" => ""))/$(replace(file, ".md" => "")).jpg\">\n\t\t\t\t\t<div class=\"circle-1\"></div>\n\t\t\t\t\t<div class=\"circle-2\"></div>\n\t\t\t\t\t<div class=\"circle-3\"></div>\n\t\t\t\t</div>\n\t\t\t\t</a>")                
             end
         end
 
