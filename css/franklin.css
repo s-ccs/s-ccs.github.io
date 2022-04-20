@@ -103,6 +103,7 @@ html {
   background-image: url("../assets/img/title_img.jpg");
   background-size: cover;
   background-position: center center;
+  background-position-y: 0px;
 }
 
 .title-image img {
@@ -998,13 +999,13 @@ td {
 ================================================================== */
 
 .thesis-art {
-    border: #EC0C34 10px solid;
+    border: #264C6F 10px solid;
     transition: 0.3s;
 }
 
 .thesis-art:hover {
     cursor: pointer;
-    border: #EC0C34 3em solid;
+    border: #264C6F 3em solid;
     transition: 0.3s;
 }
 
