@@ -1,4 +1,4 @@
-Sitemap: https://s-ccs.github.io/s-ccs/sitemap.xml
+Sitemap: https://s-ccs.github.io/sitemap.xml
 
 User-agent: *
 Disallow:
