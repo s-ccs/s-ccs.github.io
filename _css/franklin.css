@@ -89,9 +89,9 @@ html {
   height: calc(100vh - 77.39px);
   background-color: black;
   background-image: url("../assets/img/title_img.jpg");
-  background-size: cover;
+  background-size: auto;
   background-position: center center;
-  background-position-y: -100px;
+  background-position-y: -50px;
 }
 
 .title-image img {
