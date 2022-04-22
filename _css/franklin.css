@@ -103,7 +103,7 @@ html {
   background-image: url("../assets/img/title_img.jpg");
   background-size: cover;
   background-position: center center;
-  background-position-y: 0px;
+  background-position-y: -100px;
 }
 
 .title-image img {
