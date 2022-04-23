@@ -100,5 +100,9 @@ If you change any content inside the website, make sure to update the lunr searc
 2. Update the search index by calling lunr()
 3. You're good to go! Now you can just run serve() as usual
 
+## ToDo's/ Ideas on how to improve the page
+- Better SEO
+- Warning system, if changes are made to pages that are auto-generated and not to the generation script itself
+
 ## Licensing
 This repository is licensed under the MIT license.
