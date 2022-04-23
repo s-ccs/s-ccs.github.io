@@ -83,6 +83,18 @@ html {
     margin: auto;
 }
 
+@media(max-width: 43em) {
+    .title-content-main {
+        max-width: fit-content;
+        padding: 1em 7vw 2em 10vw;
+    }
+
+    .title-content-wrapper {
+        grid-template-columns: auto;
+        max-width: max-content;
+        margin: auto;
+    }
+}
 
 .title-image{
   max-width: 100%;
@@ -98,20 +110,10 @@ html {
     max-width: 15em;
 }
 
-@media(max-width: 43em) {
-    .title-content-main {
-        max-width: fit-content;
-        padding: 1em 7vw 2em 10vw;
-    }
-
-    .title-content-wrapper {
-        grid-template-columns: auto;
-        max-width: max-content;
-        margin: auto;
-    }
-
+@media(max-width: 1280px) {
     .title-image {
         background-position: right center;
+        background-position-y: -50px;
     }
 }
 
