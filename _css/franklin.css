@@ -863,8 +863,6 @@ h6 a{
 
 .franklin-content .doi-table table {
   width: 100%;
-  table-layout: fixed;
-  word-break: break-all;
 }
 
 .franklin-content .doi-table th {
@@ -881,6 +879,7 @@ td {
   padding: 10px;
   border: 1px solid black;
   text-align: left;
+  width: 60%;
 }
 
 .franklin-content blockquote {
