@@ -915,6 +915,12 @@ td {
     .franklin-content .impressum-table-element{
         padding: 0.5em 0em 1em 0
     }
+
+    .franklin-content th,
+    td {
+        width: auto;
+        word-break: break-word;
+    }
 }
 
 /* ==================================================================
