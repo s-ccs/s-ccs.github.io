@@ -17,6 +17,7 @@ Work areas include:
   - Process EEG data
   - Record EEG data
  
+ [Further info @ Stellenwerk](https://www.stellenwerk.de/stuttgart/jobboerse/hiwi-position-in-computational-cognitive-science-mfd-220426-91652/)
 
 # Open Projects
 If you are interested in the areas of methods development, EEG, Eye-Tracking, Visual Processing, Cognitive Science, it is always a good idea to shoot us an email. Sometimes we have capacities for theses without a formal offer. Note on external theses: We usually only accept these if they fit within the topic of our lab.
