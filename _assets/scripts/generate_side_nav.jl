@@ -170,7 +170,7 @@ function generate_top_nav()
     <div class=\"masthead__inner-wrap\">
     \t<div class=\"masthead__menu\">
     \t\t<nav id=\"site-nav\" class=\"greedy-nav\">
-    \t\t\t<a class=\"site-title\" href=\"/\"><img src=\"/assets/text_logo.png\"></a>
+    \t\t\t<a class=\"site-title\" href=\"/\"><img src=\"/assets/icn/text_logo.png\"></a>
     \t\t\t<ul class=\"visible-links\">
     \t\t\t\t<a href=\"/open-projects-and-positions/\"> <li class=\"masthead__menu-item\">Open Positions</li> </a>
     \t\t\t\t<a href=\"/members/\"><li class=\"masthead__menu-item\">Members</li></a>
@@ -197,7 +197,7 @@ function generate_top_nav()
 
     # Custom add Home page
     file_string_gen = ""
-    file_string_gen = string(file_string_gen, "\t\t\t\t\t<li><a href=\".\">Home</a></li>\n")
+    file_string_gen = string(file_string_gen, "\t\t\t\t\t<li><a href=\"/index.html\">Home</a></li>\n")
 
     # Index files
     @info "Indexing files..."

@@ -103,11 +103,18 @@ html {
   background-image: url("../assets/img/title_img.jpg");
   background-size: cover;
   background-position: center center;
-  background-position-y: 0px;
+  background-position-y: -50px;
 }
 
 .title-image img {
     max-width: 15em;
+}
+
+@media(max-width: 1280px) {
+    .title-image {
+        background-position-x: 85%;
+        height: calc(100vh + 77.39px);
+    }
 }
 
 .title-close-button {
@@ -863,8 +870,6 @@ h6 a{
 
 .franklin-content .doi-table table {
   width: 100%;
-  table-layout: fixed;
-  word-break: break-all;
 }
 
 .franklin-content .doi-table th {
@@ -881,6 +886,7 @@ td {
   padding: 10px;
   border: 1px solid black;
   text-align: left;
+  width: 60%;
 }
 
 .franklin-content blockquote {
@@ -915,6 +921,12 @@ td {
 
     .franklin-content .impressum-table-element{
         padding: 0.5em 0em 1em 0
+    }
+
+    .franklin-content th,
+    td {
+        width: auto;
+        word-break: break-word;
     }
 }
 

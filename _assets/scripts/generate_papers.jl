@@ -14,12 +14,12 @@ try
     for csv_file in filter(f->contains(f, ".csv"), reverse_file_list)
         header = string("## ", replace(csv_file, ".csv"=>""), "\n@@doi-table")
 
-        global page_content = string(page_content, header, "\n|Title|Authors|DOI|PDF|\n|-----|-------|---|---|\n")
+        global page_content = string(page_content, header, "\n|Title|Authors|DOI/PDF|\n|-----|-------|------|\n")
 
         row_num = 0
         csv_reader = CSV.File(string("./_assets/papers/", csv_file), delim=";")
         for row in csv_reader
-            global page_content = string(page_content, "|$(row.Title)|$(row.Authors)|[$(row.DOI)](https://doi.org/$(row.DOI))|[PDF]($(row.pdf))|\n")
+            global page_content = string(page_content, "|$(row.Title)|$(row.Authors)|[DOI](https://doi.org/$(row.DOI))/[PDF]($(row.pdf))|\n")
             row_num += 1
         end
 
