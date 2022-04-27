@@ -112,8 +112,8 @@ html {
 
 @media(max-width: 1280px) {
     .title-image {
-        background-size: auto calc(100vh);
-        background-position-x: 550px;
+        background-position-x: 85%;
+        height: calc(100vh + 77.39px);
     }
 }
 
