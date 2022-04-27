@@ -307,10 +307,17 @@ html {
     display: inline-block;
 }
 
-.franklin-content img {
+/*.franklin-content img {
     width: 100%;
 }
+*/
 
+.franklin-content .centered img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 /* ==================================================================
     FOOT / COPYRIGHT
 ================================================================== */
@@ -1013,6 +1020,10 @@ td {
 .thesis-art {
     border: #264C6F 10px solid;
     transition: 0.3s;
+}
+
+.thesis-art img{
+    width: 100%;
 }
 
 .thesis-art:hover {
