@@ -316,8 +316,18 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+    
+        border: #264C6F 10px solid;
+        transition: 0.3s;
+    
 }
+
+.franklin-content .centered a img:hover {
+    cursor: pointer;
+    border: #264C6F 1em solid;
+    transition: 0.3s;
+}
+
 /* ==================================================================
     FOOT / COPYRIGHT
 ================================================================== */
