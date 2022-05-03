@@ -1,7 +1,7 @@
 @def title = "Teaching Ressources"
 @def tags = ["papers", "pdf", "demo", "eeg", "eye tracking", "statistics", "graphics", "cc-by"]
 
-# Interactive Explanations?
+# Interactive Explanations
 **Explorable explanations** are a medium to interactively learn complex topics. Go, check out [explorabl.es](https://explorabl.es/) - be careful not to spend all your time there. Interactive explanations is the little sibling, there is some interactivity, but it is more like an interactive notebook.
 
 Together with some students, we are trying to make EEG and Eye-Tracking concepts more tangible.
