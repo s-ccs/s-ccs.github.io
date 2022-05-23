@@ -45,4 +45,4 @@ If you are thinking to apply to the lab, here are some recommendations:
 - @ current PhD Students & PostDocs: Please take the time and give honest answers to the incoming candidates. If you recommend someone not to join the lab, I would be happy to hear that feedback as well.
 
 ## Acknowledgments
-This philosophy is heavily **inspired** by [**Wei Ji Ma's**](https://docs.google.com/document/d/1f6foaCkHiCkPKjO0gdKkkdm2dn1EKn5xRKZv-Ut5Dg4/) Lab philosophy. Many of her points resonated with us.
+This philosophy is heavily **inspired** by [**Wei Ji Ma's**](https://docs.google.com/document/d/1f6foaCkHiCkPKjO0gdKkkdm2dn1EKn5xRKZv-Ut5Dg4/) Lab philosophy. Many of the points raised there resonated strongly with us.
