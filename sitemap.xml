@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-ressources/open-teaching-graphics/index.html</loc>
+    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/interactive-explanations/index.html</loc>
     <lastmod>2022-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -14,7 +14,7 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-ressources/philosophy-of-science/index.html</loc>
+    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/linear-mixed-models/index.html</loc>
     <lastmod>2022-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -44,12 +44,6 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-ressources/eye-tracking-course/index.html</loc>
-    <lastmod>2022-06-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>https://s-ccs.github.io/s-ccs/open-projects-and-positions/index.html</loc>
     <lastmod>2022-06-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -68,13 +62,13 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/thesis-art/Lilli-Kaufhold/index.html</loc>
+    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/eeg-course/index.html</loc>
     <lastmod>2022-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-ressources/linear-mixed-models/index.html</loc>
+    <loc>https://s-ccs.github.io/s-ccs/thesis-art/Lilli-Kaufhold/index.html</loc>
     <lastmod>2022-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -86,7 +80,7 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-ressources/eeg-course/index.html</loc>
+    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/bayesian-statistics/index.html</loc>
     <lastmod>2022-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -98,25 +92,31 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/index.html</loc>
+    <lastmod>2022-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://s-ccs.github.io/s-ccs/thesis-art/Karolis-Degutis/index.html</loc>
     <lastmod>2022-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/thesis-art/Katja-Haeusser/index.html</loc>
+    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/philosophy-of-science/index.html</loc>
+    <lastmod>2022-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/vision-demos/index.html</loc>
     <lastmod>2022-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://s-ccs.github.io/s-ccs/thesis-art/Judith-Schepers/index.html</loc>
-    <lastmod>2022-06-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://s-ccs.github.io/s-ccs/thesis-art/Lisa-Marie-Vortmann/index.html</loc>
     <lastmod>2022-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -134,25 +134,25 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://s-ccs.github.io/s-ccs/thesis-art/Katja-Haeusser/index.html</loc>
+    <lastmod>2022-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://s-ccs.github.io/s-ccs/thesis-art/Lisa-Marie-Vortmann/index.html</loc>
+    <lastmod>2022-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://s-ccs.github.io/s-ccs/thesis-art/Maria-Sokotuschenko/index.html</loc>
     <lastmod>2022-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-ressources/vision-demos/index.html</loc>
-    <lastmod>2022-06-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-ressources/interactive-explanations/index.html</loc>
-    <lastmod>2022-06-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-ressources/bayesian-statistics/index.html</loc>
+    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/eye-tracking-course/index.html</loc>
     <lastmod>2022-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -176,7 +176,7 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-ressources/index/</loc>
+    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/index/</loc>
     <lastmod>2022-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
