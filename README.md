@@ -10,7 +10,7 @@ If you ever think you fixed a simple bug like changing a link or some text and p
 1. Make sure you have [Julia](https://julialang.org/) installed. This Website is running on Julia 1.6.3, but later versions should work as well.
 1. Install Franklin for Julia, by going into the [package manager](https://docs.julialang.org/en/v1/stdlib/Pkg/) and typing `add Franklin; add CSV; add DataStructures`.
 1. Clone this git repository.
-1. In Julia, exit the package manager, if you didn't already and [cd](https://docs.julialang.org/en/v1/base/file/#Base.Filesystem.cd-Tuple{AbstractString}) into your local repository.
+1. In Julia, exit the package manager by pressing CTRL-C or pressing the backspace key at the beginning of the line, if you didn't already and [cd](https://docs.julialang.org/en/v1/base/file/#Base.Filesystem.cd-Tuple{AbstractString}) into your local repository.
 1. Then type the following:
    ```
    using Franklin
