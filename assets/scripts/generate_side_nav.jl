@@ -174,7 +174,7 @@ function generate_top_nav()
     \t\t\t<ul class=\"visible-links\">
     \t\t\t\t<a href=\"/open-projects-and-positions/\"> <li class=\"masthead__menu-item\">Open Positions</li> </a>
     \t\t\t\t<a href=\"/members/\"><li class=\"masthead__menu-item\">Members</li></a>
-    \t\t\t\t<a href=\"/teaching-ressources/\"><li class=\"masthead__menu-item\">Teaching Ressources</li></a>
+    \t\t\t\t<a href=\"/teaching-resources/\"><li class=\"masthead__menu-item\">Teaching Resources</li></a>
     \t\t\t</ul>
     \t\t\t<a href=\"javascript:void(0);\" onclick=\"toggleHamburger(this)\">
     \t\t\t\t<div class=\"hamburger\">

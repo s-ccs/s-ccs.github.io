@@ -24,7 +24,7 @@ function parseLunrResults(results) {
     for (var i = 0; i < results.length; i++) {
         var id = results[i]["ref"];
         var item = PREVIEW_LOOKUP[id]
-        var lowercase_title = item["l"].replace("/index.html", "").replace("teaching-ressources/", "").replace(".html", "");
+        var lowercase_title = item["l"].replace("/index.html", "").replace("teaching-resources/", "").replace(".html", "");
         var title = lowercase_title.charAt(0).toUpperCase() + lowercase_title.slice(1);
         var preview = item["p"];
         var link = item["l"];
