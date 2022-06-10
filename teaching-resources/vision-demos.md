@@ -1,4 +1,4 @@
-@def title = "Teaching Ressources"
+@def title = "Teaching Resources"
 @def tags = ["papers", "pdf", "demo", "eeg", "eye tracking", "statistics", "graphics", "cc-by"]
 
 # Vision Science Demos

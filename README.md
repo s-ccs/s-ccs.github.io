@@ -50,7 +50,7 @@ The first level is sorted like this: Any page that is specified in the custom or
 In the `generate_side_nav.jl` under `.\_assets\scripts\` is a `custom_order` array, that contains all custom ordered pages in their correct order. This array can be modified to meet the demands needed. (This array might be extracted in the future, if the script is not like documented here, look for an obvious script name in the script folder)
 
 ### Custom content for TOC pages
-In general the toc pages (such es Teaching Ressources or Thesis Art) are just a hub to link to the content of this group. But of course there should be some content before the grid of links. In each folder that becomes a toc page, you can add a index_content.md file. This file will be ignored by any navigation elements and the contents will be prepended to the links of the toc page.
+In general the toc pages (such es Teaching Resources or Thesis Art) are just a hub to link to the content of this group. But of course there should be some content before the grid of links. In each folder that becomes a toc page, you can add a index_content.md file. This file will be ignored by any navigation elements and the contents will be prepended to the links of the toc page.
 
 Furthermore TOC pages now have an image preview. The images for each tile have to be added by hand. Images should have resolution of 400px x 380px. Folder structure is like: `\assets\toc-previews\sub-folder-name\Page-Name.jpg`. The image size is important in that regard, thats it both controls the image size on screen as well as the aspectio ratio of the background circles.
 
