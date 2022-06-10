@@ -12,7 +12,7 @@ include("auxiliary_functions.jl")
 =#
 nav_order = Lt((a, b) ->
     begin
-        custom_order = ["members", "papers", "philosophy", "teaching-ressources", "thesis-art", "open-projects-and-positions", "contact-us"]
+        custom_order = ["members", "papers", "philosophy", "teaching-resources", "thesis-art", "open-projects-and-positions", "contact-us"]
         a_in = a in custom_order
         b_in = b in custom_order
         if(a_in && b_in)
