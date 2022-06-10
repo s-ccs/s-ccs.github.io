@@ -1,7 +1,7 @@
 @def title = "Thesis Art"
 @def tags = ["Images", "Project"]
 
-# THESIS ART: FELIX SCHRÖDER \date{30.May 2018} \thesislink{link-to-thesis}
+# THESIS ART: FELIX SCHRÖDER \date{30. August 2021} \thesislink{link-to-thesis}
 
 Felix Schröder was the first Master’s Thesis in the S-CCS Lab in Stuttgart. He was co-supervised with Sebastiaan Mathôt (Groningen). 
 

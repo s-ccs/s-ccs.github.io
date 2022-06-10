@@ -1,7 +1,7 @@
 @def title = "Thesis Art"
 @def tags = ["Images", "Project"]
 
-# THESIS ART: EDOARDO PINZUTI \date{30.May 2018} \thesislink{link-to-thesis}
+# THESIS ART: EDOARDO PINZUTI \date{30. May 2018} \thesislink{link-to-thesis}
 
 I was a co-supervisor for Edoardo Pinzuti’s Master’s Thesis. I finally came around to make this artwork with the text from his thesis.
 
