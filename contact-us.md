@@ -5,9 +5,9 @@
 
 You can contact us here: [eugenia.komnik@vis.uni-stuttgart.de](mailto:eugenia.komnik@vis.uni-stuttgart.de) or [benedikt.ehinger@vis.uni-stuttgart.de](mailto:benedikt.ehinger@vis.uni-stuttgart.de). 
 
-<!-- twitter image -->
+<!-- twitter image 
 
-[<img src="_assets\icn\twitter.png" width="50" height="50">](https://twitter.com/BenediktEhinger)
+[<img src="_assets\icn\twitter.png" width="50" height="50">](https://twitter.com/BenediktEhinger)-->
 
 We will try to answer within 3 business  days. 
 
