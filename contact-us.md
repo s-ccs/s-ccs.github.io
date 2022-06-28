@@ -5,9 +5,25 @@
 
 You can contact us here: [eugenia.komnik@vis.uni-stuttgart.de](mailto:eugenia.komnik@vis.uni-stuttgart.de) or [benedikt.ehinger@vis.uni-stuttgart.de](mailto:benedikt.ehinger@vis.uni-stuttgart.de). 
 
-<!-- twitter image 
+[![alt text][1.1]][1]
 
-[<img src="_assets\icn\twitter.png" width="50" height="50">](https://twitter.com/BenediktEhinger)-->
+
+[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
+[2.1]: http://i.imgur.com/P3YfQoD.png (facebook icon with padding)
+
+[1]: https://twitter.com/BenediktEhinger
+[2]: @BenediktEhinger@scholar.social
+
+<!--[![alt text][2.1]][2]
+[![alt text](http://i.imgur.com/tXSoThF.png)][https://twitter.com/BenediktEhinger]
+
+[**Twitter**](https://twitter.com/BenediktEhinger)       [**Mastodon**](@BenediktEhinger@scholar.social)
+
+twitter image 
+
+[<img src="_assets\icn\twitter.png" width="50" height="50">](https://twitter.com/BenediktEhinger)
+
+[![Twitter_link](_assets\img\twitter.png")](https://twitter.com/BenediktEhinger)-->
 
 We will try to answer within 3 business  days. 
 
