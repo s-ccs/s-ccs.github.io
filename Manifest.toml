@@ -86,9 +86,9 @@ uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
 
 [[Franklin]]
 deps = ["Dates", "DelimitedFiles", "DocStringExtensions", "ExprTools", "FranklinTemplates", "HTTP", "Literate", "LiveServer", "Logging", "Markdown", "NodeJS", "OrderedCollections", "Pkg", "REPL", "Random", "TOML"]
-git-tree-sha1 = "72e24bd2aeb71e7b4eab9ebfc9c1764c84bd3531"
+git-tree-sha1 = "80fe9a242a5124ef47ff769105578efed3d50379"
 uuid = "713c75ef-9fc9-4b05-94a9-213340da978e"
-version = "0.10.74"
+version = "0.10.75"
 
 [[FranklinTemplates]]
 deps = ["LiveServer"]
@@ -119,9 +119,9 @@ version = "0.5.1"
 
 [[InlineStrings]]
 deps = ["Parsers"]
-git-tree-sha1 = "61feba885fac3a407465726d0c330b3055df897f"
+git-tree-sha1 = "a8671d5c9670a62cb36b7d44c376bdb09181aa26"
 uuid = "842dd82b-1e85-43dc-bf29-5d0ee9dffc48"
-version = "1.1.2"
+version = "1.1.3"
 
 [[InteractiveUtils]]
 deps = ["Markdown"]
