@@ -5,29 +5,6 @@
 
 You can contact us here: [eugenia.komnik@vis.uni-stuttgart.de](mailto:eugenia.komnik@vis.uni-stuttgart.de) or [benedikt.ehinger@vis.uni-stuttgart.de](mailto:benedikt.ehinger@vis.uni-stuttgart.de). 
 
-
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&label=Follow%20%40BenediktEhinger)](https://twitter.com/BenediktEhinger)
-
-
-<!--[![twitter][1.1]][1]
-
-[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
-[2.1]: http://i.imgur.com/P3YfQoD.png (facebook icon with padding)
-
-[1]: https://twitter.com/BenediktEhinger
-[2]: @BenediktEhinger@scholar.social
-
-[![alt text][2.1]][2]
-[![alt text](http://i.imgur.com/tXSoThF.png)][https://twitter.com/BenediktEhinger]
-
-[**Twitter**](https://twitter.com/BenediktEhinger)       [**Mastodon**](@BenediktEhinger@scholar.social)
-
-twitter image 
-
-[<img src="_assets\icn\twitter.png" width="50" height="50">](https://twitter.com/BenediktEhinger)
-
-[![Twitter_link](_assets\img\twitter.png")](https://twitter.com/BenediktEhinger)-->
-
 We will try to answer within 3 business  days. 
 
 Sometimes it can happen that your email receives lower priority than it should - if after 7 days, for urgent matters sooner, you haven't received an answer back, please resend the email. If it is really urgent, please find a second channel to contact us.
