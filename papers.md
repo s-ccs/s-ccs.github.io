@@ -1,7 +1,15 @@
 @def title = "Papers"
 @def tags = ["pdf", "publications"]
 
-# Archive of Papers
+# Archive of 
+## 2022
+@@doi-table
+|Title|Authors|DOI/PDF|
+|-----|-------|------|
+|At a second glance: cognitive and oculomotor neural activity of refixation planning|Nikolaev, A. R. et al.|[DOI](https://doi.org/10.1101/660308)/[PDF](../assets/papers/pdf/2022/660308v4.full.pdf)| 
+@@
+
+
 ## 2021
 @@doi-table
 |Title|Authors|DOI/PDF|
