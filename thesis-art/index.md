@@ -15,6 +15,16 @@ The thesis is hidden in the drawer, but the poster is out there at the wall for 
 		@@circle-2@@
 		@@circle-3@@
 	@@
+	@@image-var-1 [![](/assets/toc-previews/thesis-art/Hannes-Bonasch.jpg)](Hannes-Bonasch) 
+		@@circle-1@@
+		@@circle-2@@
+		@@circle-3@@
+	@@
+	@@image-var-1 [![](/assets/toc-previews/thesis-art/Jan-Haas.jpg)](Jan-Haas) 
+		@@circle-1@@
+		@@circle-2@@
+		@@circle-3@@
+	@@
 	@@image-var-1 [![](/assets/toc-previews/thesis-art/Jiameng-Wu.jpg)](Jiameng-Wu)
 		@@circle-1@@
 		@@circle-2@@
