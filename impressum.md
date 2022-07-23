@@ -6,7 +6,7 @@
 ~~~     
 <div class=impressum-table>
     
-        <div class=impressum-table-element><h3>Adress</h3></div>
+        <div class=impressum-table-element><h3>Address</h3></div>
         <div class=impressum-table-element>S-CCS <br> 
             Universität Stuttgart <br> <br>
             Universitätsstraße 32<br> 
@@ -30,7 +30,7 @@
             
     
     
-        <div class=impressum-table-element><h3>Externe Links</h3></div>
+        <div class=impressum-table-element><h3>Externel Links</h3></div>
         <div class=impressum-table-element>External links are checked before insertion. But the content of the links can change over time. 
         The S-CCS therefore takes no responsibility for the content contained in external links. If you have any concerns 
         regarding the content of externals links, please let us know.</div>
@@ -47,7 +47,7 @@
 ## German
 ~~~
 <div class=impressum-table>
-    <div class=impressum-table-element><h3>Adresse</h3></div>
+    <div class=impressum-table-element><h3>Anschrift</h3></div>
     <div class=impressum-table-element>S-CCS <br> 
     Universität Stuttgart <br>
     <br>
@@ -65,7 +65,7 @@
    </div>
         
         
-    <div class=impressum-table-element><h3>Externe Links</h3></div>
+    <div class=impressum-table-element><h3>Externel Links</h3></div>
     <div class=impressum-table-element>Externe Links werden vor dem Einfügen überprüft. Jedoch kann der Inhalt nach Einfügen geändert werden. 
     Das S-CCS übernimmt daher keine Verantwortung für den Inhalt der Websiten externer Links. Sollte Sie bedenken
     bezüglich eines bestimmten Links haben, kontaktieren Sie uns bitte.</div>
