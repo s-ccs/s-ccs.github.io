@@ -65,7 +65,7 @@
    </div>
         
         
-    <div class=impressum-table-element><h3>Externel Links</h3></div>
+    <div class=impressum-table-element><h3>Externe Links</h3></div>
     <div class=impressum-table-element>Externe Links werden vor dem Einfügen überprüft. Jedoch kann der Inhalt nach Einfügen geändert werden. 
     Das S-CCS übernimmt daher keine Verantwortung für den Inhalt der Websiten externer Links. Sollte Sie bedenken
     bezüglich eines bestimmten Links haben, kontaktieren Sie uns bitte.</div>
