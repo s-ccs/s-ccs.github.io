@@ -886,6 +886,22 @@ h6 a{
   width: 25%
 }
 
+.franklin-content .lecture-table table {
+  width: 100%;
+}
+
+.franklin-content .lecture-table th { 
+    width: auto;
+    text-align: left;
+    
+}
+
+.franklin-content .lecture-table td { 
+    width: auto;
+    text-align: left;
+    
+}
+
 .franklin-toc ol ol {
   list-style-type: lower-alpha;
 }
