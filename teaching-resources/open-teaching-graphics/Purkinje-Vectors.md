@@ -4,7 +4,7 @@
 # Purkinje Vectors
 
 @@open-teaching-graphics
-![](/assets/teaching-resources/purkinje_vectors.png)
+![](/assets/teaching-resources/open-teaching-graphics/purkinje_vectors.png)
 @@
 
 

@@ -5,7 +5,7 @@
 
 
 @@open-teaching-graphics
-![](/assets/teaching-resources/plane_basisvectors.png)
+![](/assets/teaching-resources/open-teaching-graphics/plane_basisvectors.png)
 @@
 
 

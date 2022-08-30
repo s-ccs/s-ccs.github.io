@@ -4,7 +4,7 @@
 # Multi Taper Vs FFT
 
 @@open-teaching-graphics
-![](/assets/teaching-resources/multiTaperVsFFT.png)
+![](/assets/teaching-resources/open-teaching-graphics/multiTaperVsFFT.png)
 @@
 
 

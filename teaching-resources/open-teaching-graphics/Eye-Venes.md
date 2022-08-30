@@ -5,7 +5,7 @@
 
 
 @@open-teaching-graphics
-![](/assets/teaching-resources/EyeVenes.png)
+![](/assets/teaching-resources/open-teaching-graphics/EyeVenes.png)
 @@
 
 

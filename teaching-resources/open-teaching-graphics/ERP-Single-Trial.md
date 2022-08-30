@@ -5,7 +5,7 @@
 
 
 @@open-teaching-graphics
-![](/assets/teaching-resources/ERP_singletrial.png)
+![](/assets/teaching-resources/open-teaching-graphics/ERP_singletrial.png)
 @@
 
 

@@ -5,7 +5,7 @@
 
 
 @@open-teaching-graphics
-![](/assets/teaching-resources/figure_disparity_receptiveFields.png)
+![](/assets/teaching-resources/open-teaching-graphics/figure_disparity_receptiveFields.png)
 @@
 
 

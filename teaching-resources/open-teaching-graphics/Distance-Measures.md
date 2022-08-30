@@ -5,7 +5,7 @@
 
 
 @@open-teaching-graphics
-![](/assets/teaching-resources/distance_measures.png)
+![](/assets/teaching-resources/open-teaching-graphics/distance_measures.png)
 @@
 
 

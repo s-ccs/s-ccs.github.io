@@ -5,7 +5,7 @@
 
 
 @@open-teaching-graphics
-![](/assets/teaching-resources/bold_response_sampling.png)
+![](/assets/teaching-resources/open-teaching-graphics/bold_response_sampling.png)
 @@
 
 

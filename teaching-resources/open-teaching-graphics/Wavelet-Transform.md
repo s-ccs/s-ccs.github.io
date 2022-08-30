@@ -5,7 +5,7 @@
 
 
 @@open-teaching-graphics
-![](/assets/teaching-resources/waveletTransform.png)
+![](/assets/teaching-resources/open-teaching-graphics/waveletTransform.png)
 @@
 
 

@@ -5,7 +5,7 @@
 
 
 @@open-teaching-graphics
-![](/assets/teaching-resources/ERPs.png)
+![](/assets/teaching-resources/open-teaching-graphics/ERPs.png)
 @@
 
 

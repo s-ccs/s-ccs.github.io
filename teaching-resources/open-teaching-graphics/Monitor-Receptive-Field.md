@@ -5,7 +5,7 @@
 
 
 @@open-teaching-graphics
-![](/assets/teaching-resources/monitor_receptiveField.png)
+![](/assets/teaching-resources/open-teaching-graphics/monitor_receptiveField.png)
 @@
 
 

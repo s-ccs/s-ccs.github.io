@@ -5,7 +5,7 @@
 
 
 @@open-teaching-graphics
-![](/assets/teaching-resources/EEG_analysis.png)
+![](/assets/teaching-resources/open-teaching-graphics/EEG_analysis.png)
 @@
 
 
