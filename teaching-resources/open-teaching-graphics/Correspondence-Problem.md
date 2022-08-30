@@ -5,7 +5,7 @@
 
 
 @@open-teaching-graphics
-![](/assets/teaching-resources/open-teaching-graphics/correspondenceProblem.png)
+[![](/assets/teaching-resources/open-teaching-graphics/correspondenceProblem.png)](/assets/teaching-resources/open-teaching-graphics/pdf/correspondenceProblem.pdf)
 @@
 
 

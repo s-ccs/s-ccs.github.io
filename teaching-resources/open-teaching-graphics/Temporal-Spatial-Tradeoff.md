@@ -5,7 +5,7 @@
 
 
 @@open-teaching-graphics
-![](/assets/teaching-resources/open-teaching-graphics/temporalSpatialTradeoff.png)
+[![](/assets/teaching-resources/open-teaching-graphics/temporalSpatialTradeoff.png)](/assets/teaching-resources/open-teaching-graphics/pdf/temporalSpatialTradeoff.pdf)
 @@
 
 

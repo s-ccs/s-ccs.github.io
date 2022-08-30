@@ -5,7 +5,7 @@
 
 
 @@open-teaching-graphics
-![](/assets/teaching-resources/open-teaching-graphics/simulated_signal.png)
+[![](/assets/teaching-resources/open-teaching-graphics/simulated_signal.png)](/assets/teaching-resources/open-teaching-graphics/pdf/simulated_signal.pdf)
 @@
 
 

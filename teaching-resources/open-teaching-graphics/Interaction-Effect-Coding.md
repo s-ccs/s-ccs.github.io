@@ -5,7 +5,7 @@
 
 
 @@open-teaching-graphics
-![](/assets/teaching-resources/open-teaching-graphics/interaction_effectcoding.png)
+[![](/assets/teaching-resources/open-teaching-graphics/interaction_effectcoding.png)](/assets/teaching-resources/open-teaching-graphics/pdf/interaction_effectcoding.pdf)
 @@
 
 
