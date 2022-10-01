@@ -8,12 +8,6 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/Plane-Basis-Vectors/index.html</loc>
-    <lastmod>2022-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>https://s-ccs.github.io/s-ccs/thesis-art/Edoardo-Pinzuti/index.html</loc>
     <lastmod>2022-10-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -38,19 +32,13 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/Eye-Venes/index.html</loc>
-    <lastmod>2022-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>https://s-ccs.github.io/s-ccs/impressum/index.html</loc>
     <lastmod>2022-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/Monitor-Receptive-Field/index.html</loc>
+    <loc>https://s-ccs.github.io/s-ccs/open-teaching-graphics/Plane-Basis-Vectors/index.html</loc>
     <lastmod>2022-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -62,13 +50,13 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/Temporal-Spatial-Tradeoff/index.html</loc>
+    <loc>https://s-ccs.github.io/s-ccs/open-teaching-graphics/Interaction-Effect-Coding/index.html</loc>
     <lastmod>2022-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/Power-Spectral-Bands/index.html</loc>
+    <loc>https://s-ccs.github.io/s-ccs/open-teaching-graphics/Temporal-Spatial-Tradeoff/index.html</loc>
     <lastmod>2022-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -86,7 +74,13 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/Distance-Measures/index.html</loc>
+    <loc>https://s-ccs.github.io/s-ccs/open-teaching-graphics/Correspondence-Problem/index.html</loc>
+    <lastmod>2022-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://s-ccs.github.io/s-ccs/open-teaching-graphics/Eye-Venes/index.html</loc>
     <lastmod>2022-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -98,31 +92,7 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/Bold-Response-Sampling/index.html</loc>
-    <lastmod>2022-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/Simulated-Signal/index.html</loc>
-    <lastmod>2022-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>https://s-ccs.github.io/s-ccs/internal/index.html</loc>
-    <lastmod>2022-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/Induced-Evoked/index.html</loc>
-    <lastmod>2022-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/index.html</loc>
     <lastmod>2022-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -134,7 +104,19 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://s-ccs.github.io/s-ccs/open-teaching-graphics/ERPs/index.html</loc>
+    <lastmod>2022-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://s-ccs.github.io/s-ccs/thesis-art/Jiameng-Wu/index.html</loc>
+    <lastmod>2022-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://s-ccs.github.io/s-ccs/open-teaching-graphics/ERP-Single-Trial/index.html</loc>
     <lastmod>2022-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -146,7 +128,25 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://s-ccs.github.io/s-ccs/open-teaching-graphics/Multi-Taper-Vs-FFT/index.html</loc>
+    <lastmod>2022-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://s-ccs.github.io/s-ccs/open-teaching-graphics/Power-Spectral-Bands/index.html</loc>
+    <lastmod>2022-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://s-ccs.github.io/s-ccs/teaching-resources/vision-demos/index.html</loc>
+    <lastmod>2022-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://s-ccs.github.io/s-ccs/open-teaching-graphics/Purkinje-Vectors/index.html</loc>
     <lastmod>2022-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -158,7 +158,25 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://s-ccs.github.io/s-ccs/open-teaching-graphics/Figure-Disparity-Receptive-Fields/index.html</loc>
+    <lastmod>2022-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://s-ccs.github.io/s-ccs/teaching-resources/interactive-explanations/index.html</loc>
+    <lastmod>2022-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://s-ccs.github.io/s-ccs/open-teaching-graphics/Distance-Measures/index.html</loc>
+    <lastmod>2022-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://s-ccs.github.io/s-ccs/open-teaching-graphics/Wavelet-Transform/index.html</loc>
     <lastmod>2022-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -176,19 +194,19 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/EEG-Analysis/index.html</loc>
+    <loc>https://s-ccs.github.io/s-ccs/open-teaching-graphics/Bold-Response-Sampling/index.html</loc>
     <lastmod>2022-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/Interaction-Effect-Coding/index.html</loc>
+    <loc>https://s-ccs.github.io/s-ccs/open-teaching-graphics/Simulated-Signal/index.html</loc>
     <lastmod>2022-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/Purkinje-Vectors/index.html</loc>
+    <loc>https://s-ccs.github.io/s-ccs/open-teaching-graphics/EEG-Analysis/index.html</loc>
     <lastmod>2022-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -207,6 +225,12 @@
 </url>
 <url>
     <loc>https://s-ccs.github.io/s-ccs/teaching-resources/philosophy-of-science/index.html</loc>
+    <lastmod>2022-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://s-ccs.github.io/s-ccs/open-teaching-graphics/index.html</loc>
     <lastmod>2022-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -236,7 +260,7 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/Wavelet-Transform/index.html</loc>
+    <loc>https://s-ccs.github.io/s-ccs/open-teaching-graphics/Induced-Evoked/index.html</loc>
     <lastmod>2022-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -248,31 +272,7 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/ERPs/index.html</loc>
-    <lastmod>2022-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/Figure-Disparity-Receptive-Fields/index.html</loc>
-    <lastmod>2022-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>https://s-ccs.github.io/s-ccs/404/index.html</loc>
-    <lastmod>2022-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/Correspondence-Problem/index.html</loc>
-    <lastmod>2022-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/ERP-Single-Trial/index.html</loc>
     <lastmod>2022-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -296,7 +296,7 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/Multi-Taper-Vs-FFT/index.html</loc>
+    <loc>https://s-ccs.github.io/s-ccs/open-teaching-graphics/Monitor-Receptive-Field/index.html</loc>
     <lastmod>2022-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -308,7 +308,7 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/teaching-resources/open-teaching-graphics/index/</loc>
+    <loc>https://s-ccs.github.io/s-ccs/open-teaching-graphics/index/</loc>
     <lastmod>2022-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
