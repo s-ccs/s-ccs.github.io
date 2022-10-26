@@ -26,12 +26,6 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://s-ccs.github.io/s-ccs/blogs/index.html</loc>
-    <lastmod>2022-10-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>https://s-ccs.github.io/s-ccs/open-projects-and-positions/index.html</loc>
     <lastmod>2022-10-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -261,6 +255,12 @@
 </url>
 <url>
     <loc>https://s-ccs.github.io/s-ccs/404/index.html</loc>
+    <lastmod>2022-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://s-ccs.github.io/s-ccs/Science%20Communication/index.html</loc>
     <lastmod>2022-10-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
