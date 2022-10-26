@@ -73,19 +73,19 @@ function write_html_side_nav(dict, path, level)
             list_element_string = "$(level_indent)<li><a class=\"{{ispage $href_link}}active{{end}}\" href=\"/$href_link/\">$title</a></li>\n"
             html_string = string(html_string, list_element_string)
 
-        elseif
+        else
 
             list_element_string = "$(level_indent)<li><a class=\"second-action\" onclick=\"hideFolder('$key')\"><i id=\"$(string(key,"-folder-icon"))\" class=\"fas fa-chevron-circle-{{ispage $key/*}}down{{else}}right{{end}}\"></i></a><a class=\"{{ispage $(string(href_link, "/*"))}}active{{end}}\" href=\"/$path$key\">$title</a>\n $(level_indent)\t<ul id=\"$(string(key,"-folder"))\" class=\"second{{isnotpage $key/*}}-invisible{{end}}\"> \n"
 
             inner_dynamic_string = write_html_side_nav(get(dict, key, SortedDict(nav_order)), string(path, key, "/"), level + 2)
             html_string = string(html_string, list_element_string, inner_dynamic_string, "$(level_indent)\t</ul>\n $(level_indent)</li>\n")
 
-        else
+        # else
 
-            list_element_string = "$(level_indent)<li><a class=\"third-action\" onclick=\"hideFolder('$key')\"><i id=\"$(string(key,"-folder-icon"))\" class=\"fas fa-chevron-circle-{{ispage $key/*}}down{{else}}right{{end}}\"></i></a><a class=\"{{ispage $(string(href_link, "/*"))}}active{{end}}\" href=\"/$path$key\">$title</a>\n $(level_indent)\t<ul id=\"$(string(key,"-folder"))\" class=\"second{{isnotpage $key/*}}-invisible{{end}}\"> \n"
+        #     list_element_string = "$(level_indent)<li><a class=\"third-action\" onclick=\"hideFolder('$key')\"><i id=\"$(string(key,"-folder-icon"))\" class=\"fas fa-chevron-circle-{{ispage $key/*}}down{{else}}right{{end}}\"></i></a><a class=\"{{ispage $(string(href_link, "/*"))}}active{{end}}\" href=\"/$path$key\">$title</a>\n $(level_indent)\t<ul id=\"$(string(key,"-folder"))\" class=\"second{{isnotpage $key/*}}-invisible{{end}}\"> \n"
 
-            inner_dynamic_string = write_html_side_nav(get(dict, key, SortedDict(nav_order)), string(path, key, "/"), level + 2)
-            html_string = string(html_string, list_element_string, inner_dynamic_string, "$(level_indent)\t</ul>\n $(level_indent)</li>\n")
+        #     inner_dynamic_string = write_html_side_nav(get(dict, key, SortedDict(nav_order)), string(path, key, "/"), level + 2)
+        #     html_string = string(html_string, list_element_string, inner_dynamic_string, "$(level_indent)\t</ul>\n $(level_indent)</li>\n")
 
         end
     end
@@ -182,7 +182,6 @@ function generate_top_nav()
     \t\t\t\t<a href=\"/open-projects-and-positions/\"> <li class=\"masthead__menu-item\">Open Positions</li> </a>
     \t\t\t\t<a href=\"/members/\"><li class=\"masthead__menu-item\">Members</li></a>
     \t\t\t\t<a href=\"/teaching-resources/\"><li class=\"masthead__menu-item\">Teaching Resources</li></a>
-    \t\t\t\t\t<a href=\"/teaching-resources/open-teaching-graphics/\"><li class=\"masthead__menu-item\">Open Teaching Graphics</li></a>
     \t\t\t</ul>
     \t\t\t<a href=\"javascript:void(0);\" onclick=\"toggleHamburger(this)\">
     \t\t\t\t<div class=\"hamburger\">
