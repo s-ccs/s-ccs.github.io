@@ -12,9 +12,10 @@ include("auxiliary_functions.jl")
 =#
 nav_order = Lt((a, b) ->
     begin
-        custom_order = ["members", "papers", "philosophy", "teaching-resources", "thesis-art", "open-projects-and-positions", "Science Communication", "contact-us"]
+        custom_order = ["members", "papers", "philosophy", "teaching-resources", "thesis-art", "open-projects-and-positions", "science-communication", "contact-us"]
         a_in = a in custom_order
         b_in = b in custom_order
+        
         if(a_in && b_in)
             return findfirst(isequal(a), custom_order) < findfirst(isequal(b), custom_order) ? true : false
         elseif(a_in && !b_in)
@@ -26,6 +27,7 @@ nav_order = Lt((a, b) ->
         end
     end)
 
+
 #=
  # Appends all files and folders, subfolders and their contents of a given path into the provided
  # dict, but ignoring all black listed files and folders.
@@ -33,21 +35,53 @@ nav_order = Lt((a, b) ->
 =#
 function append_files!(dict, folder)
     try
-        for file in readdir(string("./", folder))
+        for file in readdir(string("./", folder)) 
+            #println(readdir(string("./", folder)))
+            # print((string("./", folder)))
+            # println("File-",file,"Folder-",folder)
 
             # Check for .md file and add to dict, pointing to empty dict
             if contains(file, ".md") && !file_blacklisted(file)
 
                 push!(dict, replace(file, ".md" => "") => SortedDict{String, SortedDict}(nav_order))
-
+            
             # If not .md check for (black-listed) folders and add them to the dict. This dict is then
             # filled recursivly.
             elseif isdir(file) && !(folder_blacklisted(file))
-
+                
+                println("Inner_file-",file)
                 inner_dict = SortedDict{String, SortedDict}(nav_order)
                 push!(dict, file => inner_dict)
+                println("entering else part_:")
                 append_files!(inner_dict, file)
+            
+            # If not .md and for (black-listed) folders , check for folder inside folder and add them to the dict. This dict is then
+            # filled recursivly. eg:teaching-resources/open-teaching-graphics
+            elseif isdir(string("./", folder,"/",file)) && !(folder_blacklisted(file)) && !(file_blacklisted(file)) 
 
+                println("entering third condidition:",file)
+                print((string("./", folder,"/",file)))
+                # Updating folder name
+                file = string(folder,"/",file)
+                second_inner_dict = SortedDict{String, SortedDict}(nav_order)
+                push!(dict, file => second_inner_dict)
+                append_files!(second_inner_dict, file)
+
+                
+                # folder = file
+                # #append_files!(inner_dict, file)
+                # for file in readdir(string("./teaching-resources/", folder)) 
+                #     #println(readdir(string("./teaching-resources/", folder)))
+                #     inner_dict = SortedDict{String, SortedDict}(nav_order)
+                #     push!(dict, file => inner_dict)
+                #     println("entering else part:")
+                #     if contains(file, ".md") && !file_blacklisted(file)
+                #         println(file)
+        
+                #         push!(inner_dict, replace(file, ".md" => "") => SortedDict{String, SortedDict}(nav_order))
+                #     end  
+                # end         
+                        
             end
         end
     catch e
@@ -73,15 +107,15 @@ function write_html_side_nav(dict, path, level)
             list_element_string = "$(level_indent)<li><a class=\"{{ispage $href_link}}active{{end}}\" href=\"/$href_link/\">$title</a></li>\n"
             html_string = string(html_string, list_element_string)
 
-        elseif
-
+        elseif length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order)))) <= 11  #based on the fact that second action has maximum length of 11
+            #println(length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order)))))
             list_element_string = "$(level_indent)<li><a class=\"second-action\" onclick=\"hideFolder('$key')\"><i id=\"$(string(key,"-folder-icon"))\" class=\"fas fa-chevron-circle-{{ispage $key/*}}down{{else}}right{{end}}\"></i></a><a class=\"{{ispage $(string(href_link, "/*"))}}active{{end}}\" href=\"/$path$key\">$title</a>\n $(level_indent)\t<ul id=\"$(string(key,"-folder"))\" class=\"second{{isnotpage $key/*}}-invisible{{end}}\"> \n"
 
             inner_dynamic_string = write_html_side_nav(get(dict, key, SortedDict(nav_order)), string(path, key, "/"), level + 2)
             html_string = string(html_string, list_element_string, inner_dynamic_string, "$(level_indent)\t</ul>\n $(level_indent)</li>\n")
-
+        
         else
-
+            #println("Third-section:",length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order)))))
             list_element_string = "$(level_indent)<li><a class=\"third-action\" onclick=\"hideFolder('$key')\"><i id=\"$(string(key,"-folder-icon"))\" class=\"fas fa-chevron-circle-{{ispage $key/*}}down{{else}}right{{end}}\"></i></a><a class=\"{{ispage $(string(href_link, "/*"))}}active{{end}}\" href=\"/$path$key\">$title</a>\n $(level_indent)\t<ul id=\"$(string(key,"-folder"))\" class=\"third{{isnotpage $key/*}}-invisible{{end}}\"> \n"
 
             inner_dynamic_string = write_html_side_nav(get(dict, key, SortedDict(nav_order)), string(path, key, "/"), level + 2)
@@ -109,9 +143,18 @@ function write_html_top_nav(dict, path, level)
             list_element_string = "$(level_indent)<li><a href=\"/$href_link/\">$title</a></li>\n"
             html_string = string(html_string, list_element_string)
 
-        else
+        elseif length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order)))) <= 11 #based on the fact that second action has maximum length of 11
+            #println(length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order)))))
 
             list_element_string = "$(level_indent)<li><a href=\"/$path$key\">$title</a>\n$(level_indent)\t<ul class=\"nav-second\">\n"
+
+            inner_dynamic_string = write_html_top_nav(get(dict, key, SortedDict(nav_order)), string(path, key, "/"), level + 2)
+            html_string = string(html_string, list_element_string, inner_dynamic_string, "$(level_indent)\t</ul>\n$(level_indent)</li>\n")
+
+        else
+            #println("third-",length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order)))))
+
+            list_element_string = "$(level_indent)<li><a href=\"/$path$key\">$title</a>\n$(level_indent)\t<ul class=\"nav-third\">\n"
 
             inner_dynamic_string = write_html_top_nav(get(dict, key, SortedDict(nav_order)), string(path, key, "/"), level + 2)
             html_string = string(html_string, list_element_string, inner_dynamic_string, "$(level_indent)\t</ul>\n$(level_indent)</li>\n")
@@ -146,11 +189,14 @@ function generate_side_nav()
     @info "Indexing files..."
     file_list = SortedDict{String, SortedDict}(nav_order)
     append_files!(file_list, "")
+    
+
 
     # Custom add Home page
     file_string_gen = ""
     file_string_gen = string(file_string_gen, "\t\t<ul class=\"first\">\n")
     file_string_gen = string(file_string_gen, "\t\t\t<li><a class=\"{{ispage index}}active{{end}}\" href=\"\\.\\\">Home</a></li>\n")
+
 
     # Generate dynamic nav HTML
     @info "Generating side-nav..."
