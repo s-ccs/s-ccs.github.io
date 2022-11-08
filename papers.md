@@ -1,15 +1,14 @@
 @def title = "Papers"
 @def tags = ["pdf", "publications"]
 
-# Archive of 
+# Archive of Papers
 ## 2022
 @@doi-table
 |Title|Authors|DOI/PDF|
 |-----|-------|------|
-|At a second glance: cognitive and oculomotor neural activity of refixation planning|Nikolaev, A. R. et al.|[DOI](https://doi.org/10.1101/660308)/[PDF](../assets/papers/pdf/2022/660308v4.full.pdf)| 
-|EEG ERP Preregistration Template|Govaart, G. H. et al.|[DOI](https://doi.org/10.31222/osf.io/4nvpt)/[PDF](../assets/papers/pdf/2022/govaart-eeg-erp-prereg-template-2022.pdf)| 
+|At a second glance: cognitive and oculomotor neural activity of refixation planning|Nikolaev, A. R. et al.|[DOI](https://doi.org/10.1101/660308)/[PDF](../assets/papers/pdf/2022/660308v4.full.pdf)|
+|EEG ERP Preregistration Template|Govaart, G. H. et al.|[DOI](https://doi.org/10.31222/osf.io/4nvpt)/[PDF](../assets/papers/pdf/2022/govaart-eeg-erp-prereg-template-2022.pdf)|
 @@
-
 
 ## 2021
 @@doi-table

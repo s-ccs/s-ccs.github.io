@@ -5,9 +5,7 @@
 
 **Lab measurement**
 
-And this is how the neurolab looks in the 
-@iaostuttgart
- here we measure today, unfortunately my own lab is not ready yet.
+And this is how the neurolab looks in the @iaostuttgart - here we measure today, unfortunately my own lab is not ready yet.
 
 Screen+keyboard is clear, the box in front of the monitor is the eyetracker, quasi a very fast+accurate infrared camera (up to 2000hz).
 
