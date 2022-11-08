@@ -92,32 +92,43 @@ end
 # Recursivly generates the HTML code for the side nav, given a dict and a path.
 function write_html_side_nav(dict, path, level)
     level_indent = "\t"^(3+level)
-
+    
     html_string = ""
     for key in keys(dict)
 
         title = apply_formatting(key)
         href_link = string(path, key)
+        #println("href:", href_link)
         #@info "SIDE_NAV_GEN: \n" title
 
         # Checks if the dict, the key element is pointing to is empty, implying it being a page,
         # not a folder
         if length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order)))) == 0
+            #println("KEY in if:",key)
             level_indent = "\t"^(3+level)
             list_element_string = "$(level_indent)<li><a class=\"{{ispage $href_link}}active{{end}}\" href=\"/$href_link/\">$title</a></li>\n"
             html_string = string(html_string, list_element_string)
 
         elseif length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order)))) <= 11  #based on the fact that second action has maximum length of 11
             #println(length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order)))))
+            #println("KEY in elseif:",key)
             list_element_string = "$(level_indent)<li><a class=\"second-action\" onclick=\"hideFolder('$key')\"><i id=\"$(string(key,"-folder-icon"))\" class=\"fas fa-chevron-circle-{{ispage $key/*}}down{{else}}right{{end}}\"></i></a><a class=\"{{ispage $(string(href_link, "/*"))}}active{{end}}\" href=\"/$path$key\">$title</a>\n $(level_indent)\t<ul id=\"$(string(key,"-folder"))\" class=\"second{{isnotpage $key/*}}-invisible{{end}}\"> \n"
 
             inner_dynamic_string = write_html_side_nav(get(dict, key, SortedDict(nav_order)), string(path, key, "/"), level + 2)
             html_string = string(html_string, list_element_string, inner_dynamic_string, "$(level_indent)\t</ul>\n $(level_indent)</li>\n")
         
         else
+            #println("KEY in else:",key)
+            arr = split(key,'/')
+            key_outer = arr[1] #(index starts at 1)
+            key_inner = arr[2]
+            #reset the title and href
+            title = apply_formatting(key_inner)
+            href_link = string(path, key_inner)
+            
             #println("Third-section:",length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order)))))
-            list_element_string = "$(level_indent)<li><a class=\"third-action\" onclick=\"hideFolder('$key')\"><i id=\"$(string(key,"-folder-icon"))\" class=\"fas fa-chevron-circle-{{ispage $key/*}}down{{else}}right{{end}}\"></i></a><a class=\"{{ispage $(string(href_link, "/*"))}}active{{end}}\" href=\"/$path$key\">$title</a>\n $(level_indent)\t<ul id=\"$(string(key,"-folder"))\" class=\"third{{isnotpage $key/*}}-invisible{{end}}\"> \n"
-
+            list_element_string = "$(level_indent)<li><a class=\"third-action\" onclick=\"hideFolder('$key')\"><i id=\"$(string(key,"-folder-icon"))\" class=\"fas fa-chevron-circle-{{ispage $key/*}}down{{else}}right{{end}}\"></i></a><a class=\"{{ispage $(string(href_link, "/*"))}}active{{end}}\" href=\"/$key\">$title</a>\n $(level_indent)\t<ul id=\"$(string(key,"-folder"))\" class=\"third{{isnotpage $key/*}}-invisible{{end}}\"> \n"
+            path =""
             inner_dynamic_string = write_html_side_nav(get(dict, key, SortedDict(nav_order)), string(path, key, "/"), level + 2)
             html_string = string(html_string, list_element_string, inner_dynamic_string, "$(level_indent)\t</ul>\n $(level_indent)</li>\n")
 
@@ -137,25 +148,35 @@ function write_html_top_nav(dict, path, level)
         title = apply_formatting(key)
         href_link = string(path, key)
 
+
         # Checks if the dict, the key element is pointing to is empty, implying it being a page,
         # not a folder
         if length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order)))) == 0
+            println("KEY in if:",key)
             list_element_string = "$(level_indent)<li><a href=\"/$href_link/\">$title</a></li>\n"
             html_string = string(html_string, list_element_string)
 
         elseif length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order)))) <= 11 #based on the fact that second action has maximum length of 11
             #println(length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order)))))
-
+            println("KEY in elseif:",key)
             list_element_string = "$(level_indent)<li><a href=\"/$path$key\">$title</a>\n$(level_indent)\t<ul class=\"nav-second\">\n"
 
             inner_dynamic_string = write_html_top_nav(get(dict, key, SortedDict(nav_order)), string(path, key, "/"), level + 2)
             html_string = string(html_string, list_element_string, inner_dynamic_string, "$(level_indent)\t</ul>\n$(level_indent)</li>\n")
 
         else
+            println("KEY in else:",key)
             #println("third-",length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order)))))
+            arr = split(key,'/')
+            key_outer = arr[1] #(index starts at 1)
+            key_inner = arr[2]
+            #reset the title and href
+            title = apply_formatting(key_inner)
+            href_link = string(path, key_inner)
+            path =""
 
             list_element_string = "$(level_indent)<li><a href=\"/$path$key\">$title</a>\n$(level_indent)\t<ul class=\"nav-third\">\n"
-
+            
             inner_dynamic_string = write_html_top_nav(get(dict, key, SortedDict(nav_order)), string(path, key, "/"), level + 2)
             html_string = string(html_string, list_element_string, inner_dynamic_string, "$(level_indent)\t</ul>\n$(level_indent)</li>\n")
 
