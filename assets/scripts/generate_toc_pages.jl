@@ -1,12 +1,23 @@
 include("file_blacklist.jl")
 include("auxiliary_functions.jl")
 
+
 function get_folders(path)
     folder_list = []
     try
         file_list = readdir(path)
         filtered_list = filter(folder_and_not_blacklisted, file_list)
         folder_list = []
+        
+        #to traverse through inner folders
+        if path != "."
+            for file in file_list
+                if (isdir(string(path, "/",file))) && !folder_blacklisted(string(path, "/",file))
+                    push!(filtered_list,file)
+                end
+            end
+        end
+        
 
         for file in filtered_list
             path_to_file = string(path, "/",file)
@@ -25,7 +36,7 @@ end
 function generate_toc_pages(folder_list)
 
     for folder in folder_list
-
+        
         folder_content = []
         try
             folder_content = sort(filter(f -> !folder_blacklisted(f) && !file_blacklisted(f), readdir(folder)), by=x->lowercase(x))
@@ -53,6 +64,9 @@ function generate_toc_pages(folder_list)
             file_edited = apply_formatting(replace(replace(file, ".md" => ""), "-" => " "))
             if contains(file, ".md")
                 toc_content = string(toc_content, "\t\t\t\t<a href=\"$(replace(file, ".md" => ""))\">\n\t\t\t\t<div class=\"toc-titles\">$file_edited</div><div class=\"teamcard-image img-var-$(rand((1,3)))\">\n\t\t\t\t\t<img src=\"/assets/toc-previews/$(replace(folder, "./" => ""))/$(replace(file, ".md" => "")).jpg\">\n\t\t\t\t\t<div class=\"circle-1\"></div>\n\t\t\t\t\t<div class=\"circle-2\"></div>\n\t\t\t\t\t<div class=\"circle-3\"></div>\n\t\t\t\t</div>\n\t\t\t\t</a>")                
+            elseif !contains(file, ".html")
+                toc_content = string(toc_content, "\t\t\t\t<a href=\"$file\">\n\t\t\t\t<div class=\"toc-titles\">$file_edited</div><div class=\"teamcard-image img-var-$(rand((1,3)))\">\n\t\t\t\t\t<img src=\"/assets/toc-previews/$(replace(folder, "./" => ""))/$file.jpg\">\n\t\t\t\t\t<div class=\"circle-1\"></div>\n\t\t\t\t\t<div class=\"circle-2\"></div>\n\t\t\t\t\t<div class=\"circle-3\"></div>\n\t\t\t\t</div>\n\t\t\t\t</a>")                
+
             end
         end
 
