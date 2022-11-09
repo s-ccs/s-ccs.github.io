@@ -3,7 +3,7 @@
 
 # Open Teaching Graphics 
 
-Here we will  publish our CC-by figures that we created to teach various courses. 
+These are vector graphics relating to EEG/fMRI/cognitive research and are free to use under CC-By license. 
 
 
 
