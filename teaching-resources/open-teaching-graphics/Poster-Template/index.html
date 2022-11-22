@@ -42,9 +42,6 @@
   
 
   
-  <script src="/libs/parallax/parallax.js"></script>
-  <script src="/libs/nav/cmd_buttons.js"></script>
-  
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 
@@ -133,22 +130,7 @@
 		</div>
 	</div>
 </div>
-   <div class="title-image" id="title-image">
-    <div id="cmd-window" class="title-content-main">
-        <div class="title-content-wrapper">
-            <div class="title-text">Stuttgart;<br>Computational;<br>Cognitive;<br>Science;</div>
-            <img src="/assets/icn/title_logo.svg">
-            <div onclick="closeWindow()" class="title-close-button"><div class="title-close-button-elem elem1"></div><div class="title-close-button-elem elem2"></div></div>
-            <div class="title-min-button"><a href="#about_the_s-ccs"></a></div>
-            <div onclick="toggleFullscreen()" class="title-max-button"></a></div>
-        </div>
-    </div>
-    <div class="title-arrow-container">
-        <a href="#about_the_s-ccs">
-            <img src="/assets/icn/down_arrow.png" class="title-arrow">
-        </a>
-    </div>
-</div> 
+  
   <div class="page-wrapper">
     <div class="side-nav-wrapper">
     <div class="side-nav">
@@ -162,20 +144,20 @@
     		Navigation
     	</h2>
 		<ul class="first">
-			<li><a class="active" href="\.\">Home</a></li>
+			<li><a class="" href="\.\">Home</a></li>
 			<li><a class="" href="/members/">Members</a></li>
 			<li><a class="" href="/papers/">Papers</a></li>
 			<li><a class="" href="/philosophy/">Philosophy</a></li>
-			<li><a class="second-action" onclick="hideFolder('teaching-resources')"><i id="teaching-resources-folder-icon" class="fas fa-chevron-circle-right"></i></a><a class="" href="/teaching-resources">Teaching Resources</a>
- 				<ul id="teaching-resources-folder" class="second-invisible"> 
+			<li><a class="second-action" onclick="hideFolder('teaching-resources')"><i id="teaching-resources-folder-icon" class="fas fa-chevron-circle-down"></i></a><a class="active" href="/teaching-resources">Teaching Resources</a>
+ 				<ul id="teaching-resources-folder" class="second"> 
 					<li><a class="" href="/teaching-resources/bayesian-statistics/">Bayesian Statistics</a></li>
 					<li><a class="" href="/teaching-resources/eeg-course/">Eeg Course</a></li>
 					<li><a class="" href="/teaching-resources/eye-tracking-course/">Eye Tracking Course</a></li>
 					<li><a class="" href="/teaching-resources/interactive-explanations/">Interactive Explanations</a></li>
 					<li><a class="" href="/teaching-resources/linear-mixed-models/">Linear Mixed Models</a></li>
 					<li><a class="" href="/teaching-resources/philosophy-of-science/">Philosophy Of Science</a></li>
-					<li><a class="third-action" onclick="hideFolder('teaching-resources/open-teaching-graphics')"><i id="teaching-resources/open-teaching-graphics-folder-icon" class="fas fa-chevron-circle-right"></i></a><a class="" href="/teaching-resources/open-teaching-graphics">Open Teaching Graphics</a>
- 						<ul id="teaching-resources/open-teaching-graphics-folder" class="third-invisible"> 
+					<li><a class="third-action" onclick="hideFolder('teaching-resources/open-teaching-graphics')"><i id="teaching-resources/open-teaching-graphics-folder-icon" class="fas fa-chevron-circle-down"></i></a><a class="active" href="/teaching-resources/open-teaching-graphics">Open Teaching Graphics</a>
+ 						<ul id="teaching-resources/open-teaching-graphics-folder" class="third"> 
 							<li><a class="" href="/teaching-resources/open-teaching-graphics/Bold-Response-Sampling/">Bold Response Sampling</a></li>
 							<li><a class="" href="/teaching-resources/open-teaching-graphics/Correspondence-Problem/">Correspondence Problem</a></li>
 							<li><a class="" href="/teaching-resources/open-teaching-graphics/Distance-Measures/">Distance Measures</a></li>
@@ -189,7 +171,7 @@
 							<li><a class="" href="/teaching-resources/open-teaching-graphics/Monitor-Receptive-Field/">Monitor Receptive Field</a></li>
 							<li><a class="" href="/teaching-resources/open-teaching-graphics/Multi-Taper-Vs-FFT/">Multi Taper Vs Fft</a></li>
 							<li><a class="" href="/teaching-resources/open-teaching-graphics/Plane-Basis-Vectors/">Plane Basis Vectors</a></li>
-							<li><a class="" href="/teaching-resources/open-teaching-graphics/Poster-Template/">Poster Template</a></li>
+							<li><a class="active" href="/teaching-resources/open-teaching-graphics/Poster-Template/">Poster Template</a></li>
 							<li><a class="" href="/teaching-resources/open-teaching-graphics/Power-Spectral-Bands/">Power Spectral Bands</a></li>
 							<li><a class="" href="/teaching-resources/open-teaching-graphics/Purkinje-Blue-Arc/">Purkinje Blue Arc</a></li>
 							<li><a class="" href="/teaching-resources/open-teaching-graphics/Simulated-Signal/">Simulated Signal</a></li>
@@ -227,16 +209,9 @@
 
 
 
-    <!-- Content appended here --><div class="franklin-content"><h1 id="stuttgart_computational_cognitive_science"><a href="#stuttgart_computational_cognitive_science" class="header-anchor">Stuttgart Computational Cognitive Science</a></h1>
-<div class="container"><div class="text-image"><img src="/assets/img/model_human_activity.jpg"></div>
-<div class="about-text"><h3 id="modelling_human_activity"><a href="#modelling_human_activity" class="header-anchor">Modelling human activity</a></h3>
-<p>The goal of the Stuttgart Computational Cognitive Science group, is to <strong>understand human behavior</strong> and <strong>brain activity</strong> under realistic conditions. We focus on <strong>advancing methodological approaches</strong> in combined EEG &#40;a method to measure brain potentials&#41;, Eye-Tracking and Cognitive Modelling. We provide <strong>open source</strong> tools &#40;e.g. <a href="https://www.unfoldtoolbox.org">Unfold</a>, <a href="https://github.com/unfoldtoolbox/Unfold.jl">Unfold.jl</a>, <a href="https://github.com/behinger/eegvis">eegvis</a> and others&#41;.</p></div></div>
-<div class="container"><div class="text-image"><img src="/assets/img/versatility.jpg"></div>
-<div class="about-text"><h3 id="versatility"><a href="#versatility" class="header-anchor">Versatility</a></h3>
-<p>We are starting out to <strong>combine</strong> EEG, Eye-Tracking and VR - stay tuned for more&#33;</p></div></div>
-<div class="container"><div class="text-image"><img src="/assets/img/collaboration_not_competition.jpg"></div>
-<div class="about-text"><h3 id="collaboration_not_competition"><a href="#collaboration_not_competition" class="header-anchor">Collaboration, not Competition</a></h3>
-<p>If you are <strong>interested in our work</strong>, please reach out&#33; We are committed to <strong>collaborate</strong> but <strong>not to compete</strong>&#33;</p></div></div>
+    <!-- Content appended here --><div class="franklin-content"><h1 id="poster_template"><a href="#poster_template" class="header-anchor">Poster Template</a></h1>
+<p>These are vector graphics relating to EEG/fMRI/cognitive research and are free to use under CC-By license.</p>
+<div class="open-teaching-graphics"><a href="https://benediktehinger.de/blog/science/scientific-poster-templates/"><img src="/assets/teaching-resources/open-teaching-graphics/poster_template.png" alt="" /></a></div>
 </div>
 </div>
 <div class="page-foot" id="bottom">
