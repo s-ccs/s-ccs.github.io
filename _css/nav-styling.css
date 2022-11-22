@@ -703,6 +703,32 @@ nav li ol {
     color: #2F587F;
 }
 
+.side-nav .third {
+  margin-left: 0.4em;
+  padding-left: 0.6em;
+  border-left-style: solid;
+  border-color: #f1f1f1;
+  border-width: 3px;
+}
+
+.side-nav .third-invisible {
+  display: none;
+}
+
+
+.side-nav .third-action{
+  position: absolute;
+  transform: translateX(-21px);
+  color: #d1d1d1;
+  background-color: white;
+  padding: 2px 0;
+
+}
+
+.side-nav .third-action:hover {
+  color: #2F587F;
+}
+
 .active{
     font-weight: bold;
 }
