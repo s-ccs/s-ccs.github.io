@@ -3,11 +3,23 @@
 
 # Poster Template
 
-These are vector graphics relating to EEG/fMRI/cognitive research and are free to use under CC-By license.
+Scientific poster templates are free to use under CC-By license.
 
 
-@@open-teaching-graphics
-[![](/assets/teaching-resources/open-teaching-graphics/poster_template.png)](https://benediktehinger.de/blog/science/scientific-poster-templates/)
+@@science-communication
+[![](/assets/teaching-resources/open-teaching-graphics/poster_template.jpg)](https://benediktehinger.de/blog/science/scientific-poster-templates/)
 @@
 
+
+
+## Better posters
+
+### A poster in the round
+Authors call it "tondo" meaning round piece of art
+
+@@science-communication
+[![](/assets/teaching-resources/open-teaching-graphics/Chekov_tondo.png)](/assets/teaching-resources/open-teaching-graphics/Chekov_tondo.png)
+@@
+
+### Link roundup for November 2022
 
