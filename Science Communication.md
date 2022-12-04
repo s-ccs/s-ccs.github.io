@@ -105,10 +105,3 @@ Now test it for yourself by placing your nose close to the screen:-)
 
 
 
-### Installation 
-============
-
-# &#9889; Usage [![](https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&label=Follow)](https://twitter.com/realsci_DE/status/1438438680927084549)
-=====
-
-Linux (manual installation)
