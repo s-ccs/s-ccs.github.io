@@ -8,9 +8,7 @@ If you think about working with us and want to apply, I highly recommend reading
 Currently no open position.
 
 ### HiWi
-We are looking for HiWis again. Please provide your CV + a short motivation. 
-
-Your tasks can be diverse, from Lab-Management / Recording EEG from subjects, to programming pipelines, to improving course-materials and documentation.
+Currently no open position - maybe End of May again.
 
 # Open Projects
 If you are interested in the areas of methods development, EEG, Eye-Tracking, Visual Processing, Cognitive Science, it is always a good idea to shoot us an email. Sometimes we have capacities for theses without a formal offer. Note on external theses: We usually only accept these if they fit within the topic of our lab.
