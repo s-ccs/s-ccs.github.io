@@ -1,7 +1,7 @@
 
             ~~~
             <div class="teamcard-wrapper">
-                <div class="teamcard-image img-var-3">
+                <div class="teamcard-image img-var-1">
                     <img src="/assets/team/current/001_benedikt_ehinger/profile_image.jpg" alt="Benedikt V. Ehinger">
                     <div class="circle-1"></div>
                     <div class="circle-2"></div>
@@ -11,7 +11,7 @@
                     <div class="teamcard-header">
                         <div class="teamcard-title">Jun.-Prof.</div>
                         <h2>Benedikt V. Ehinger</h2>
-                        <div class="teamcard-position">Computational Cognitive Science, [Stuttgart Center for Simulation Science](https://www.simtech.uni-stuttgart.de/exc/people/Ehinger-00003/) / VIS</div>
+                        <div class="teamcard-position">Computational Cognitive Science, <a href="https://www.simtech.uni-stuttgart.de/exc/people/Ehinger-00003/">Stuttgart Center for Simulation Science</a> / VIS</div>
                     </div>
                     <div class="teamcard-text">
                         EEG/Eye-Tracking, Methods, Statistics, Visual Processing
@@ -51,7 +51,7 @@
 
             ~~~
             <div class="teamcard-wrapper">
-                <div class="teamcard-image img-var-1">
+                <div class="teamcard-image img-var-3">
                     <img src="/assets/team/current/003_rene_skukies/profile_image.jpg" alt="René Skukies">
                     <div class="circle-1"></div>
                     <div class="circle-2"></div>
