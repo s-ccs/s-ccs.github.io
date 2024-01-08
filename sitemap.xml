@@ -122,6 +122,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://s-ccs.github.io/s-ccs/thesis-art/Alexander-Lulkin/index.html</loc>
+    <lastmod>2024-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://s-ccs.github.io/s-ccs/thesis-art/Lilli-Kaufhold/index.html</loc>
     <lastmod>2024-01-08</lastmod>
     <changefreq>monthly</changefreq>
@@ -224,7 +230,25 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://s-ccs.github.io/s-ccs/thesis-art/Luis-Lips/index.html</loc>
+    <lastmod>2024-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://s-ccs.github.io/s-ccs/search/index.html</loc>
+    <lastmod>2024-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://s-ccs.github.io/s-ccs/thesis-art/Martin-Geiger/index.html</loc>
+    <lastmod>2024-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://s-ccs.github.io/s-ccs/thesis-art/Hannes-Bonasch/index.html</loc>
     <lastmod>2024-01-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

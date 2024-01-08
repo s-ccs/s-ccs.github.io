@@ -76,7 +76,7 @@ function write_html_side_nav(dict, path, level)
 
         title = apply_formatting(key)
         href_link = string(path, key)
-        #@info "SIDE_NAV_GEN: \n" title
+        @info "SIDE_NAV_GEN: \n" title
 
         # Checks if the dict, the key element is pointing to is empty, implying it being a page,
         # not a folder
@@ -86,7 +86,7 @@ function write_html_side_nav(dict, path, level)
             list_element_string = "$(level_indent)<li><a class=\"{{ispage $href_link}}active{{end}}\" href=\"/$href_link/\">$title</a></li>\n"
             html_string = string(html_string, list_element_string)
 
-        elseif length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order)))) <= 11  #based on the fact that second action has maximum length of 11
+        elseif length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order)))) <= 15 # no idea about this number, but needs to be increased if you add new thesis-arts
             
             list_element_string = "$(level_indent)<li><a class=\"second-action\" onclick=\"hideFolder('$key')\"><i id=\"$(string(key,"-folder-icon"))\" class=\"fas fa-chevron-circle-{{ispage $key/*}}down{{else}}right{{end}}\"></i></a><a class=\"{{ispage $(string(href_link, "/*"))}}active{{end}}\" href=\"/$path$key\">$title</a>\n $(level_indent)\t<ul id=\"$(string(key,"-folder"))\" class=\"second{{isnotpage $key/*}}-invisible{{end}}\"> \n"
 
@@ -94,7 +94,8 @@ function write_html_side_nav(dict, path, level)
             html_string = string(html_string, list_element_string, inner_dynamic_string, "$(level_indent)\t</ul>\n $(level_indent)</li>\n")
         
         else
-            
+            @debug key
+            @debug length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order))))
             arr = split(key,'/')
             key_outer = arr[1] #(index starts at 1)
             key_inner = arr[2]
@@ -132,7 +133,7 @@ function write_html_top_nav(dict, path, level)
             list_element_string = "$(level_indent)<li><a href=\"/$href_link/\">$title</a></li>\n"
             html_string = string(html_string, list_element_string)
 
-        elseif length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order)))) <= 11 #based on the fact that second action has maximum length of 11
+        elseif length(keys(get(dict, key, SortedDict{String, SortedDict}(nav_order)))) <= 15 #see comment below for near identical code structure
             
             list_element_string = "$(level_indent)<li><a href=\"/$path$key\">$title</a>\n$(level_indent)\t<ul class=\"nav-second\">\n"
 
@@ -140,7 +141,7 @@ function write_html_top_nav(dict, path, level)
             html_string = string(html_string, list_element_string, inner_dynamic_string, "$(level_indent)\t</ul>\n$(level_indent)</li>\n")
 
         else
-            
+            @debug "I'm here",key
             arr = split(key,'/')
             key_outer = arr[1] #(index starts at 1)
             key_inner = arr[2]
