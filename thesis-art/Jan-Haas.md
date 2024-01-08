@@ -1,7 +1,7 @@
 @def title = "Thesis Art"
 @def tags = ["Images", "Project"]
 
-# THESIS ART: JAN HAAS \date{30. November 2021} \thesislink{https://github.com/s-ccs/s-ccs.github.io/files/8815265/2021_jan_A2.pdf}
+# THESIS ART: Jan Haas \date{30. November 2021} \thesislink{https://cloud.wirdreibei.de/s/ozDpzSmxARiNWgZ}
 
 Rene Skukies was the supervisor for Jan Haas's Bachelor Thesis.
 
