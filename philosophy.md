@@ -18,7 +18,7 @@ The philosophy of a lab defines its **values**, and to some degree, its **rules*
 - Participation in the lab- (non-social) events is expected to the best of our abilities. Asking **questions** and providing **comments** is strongly encouraged.
 - Be **connected** with each other. We ask (and/or know) what others are doing and how they are feeling today.
 - We make lots of space for open, constructive, direct, but always empathic **feedback**. This goes both directions, please give Bene feedback too!
-- We strive for diversity and equity in every part of our work, commiting to actively foster an all welcoming atmosphere for LGBTQIA+, neurodivergent, BIPOC, researchers at risk, and other marginalized groups. We recognize the challenges these groups face through systemic discrimination and prejudice, and strive to provide special support where needed.
+- We strive for **diversity and equity** in every part of our work, commiting to actively foster an all welcoming atmosphere for LGBTQIA+, neurodivergent, BIPOC, researchers at risk, and other marginalized groups. We recognize the challenges these groups face through systemic discrimination and prejudice, and strive to provide special support where needed.
 
 ## Work-Life Balance
 - Our work should typically be **fun**, **fulfilling**, **interesting** and (in some sense) **important** (if it is not: contact Bene). But work is not life, and sometimes work can overburden us. Take vacation, start relationships, explore new things, grow as a person.
