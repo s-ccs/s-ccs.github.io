@@ -15,13 +15,14 @@ If you are interested in the areas of methods development, EEG, Eye-Tracking, Vi
 
 ### BSc
 
-If you are a student at University Stuttgart/ VIS we are offering the following project(s) (note that you have to be signed into Ilias to access the links):
+If you are a student at University Stuttgart/ VIS we are offering the following project(s):
 
-[Effect of stimulus duration on brain activity, during a rapid serial presentation task](https://ilias3.uni-stuttgart.de/ilias.php?baseClass=ilrepositorygui&cmdNode=ym:my:a6&cmdClass=ildclrecordlistgui&cmd=sendFile&ref_id=2140309&tableview_id=907&record_id=68305&field_id=3531)
+[Effect of stimulus duration on brain activity, during a rapid serial presentation task](https://github.com/s-ccs/s-ccs.github.io/blob/03c14559b7c0d924a0018125389ae4cdf24eca5c/_assets/thesis-projects/2023-02-01_BSc_LongFaces_RS.pdf)
+
 
 ### MSc
 
 If you are a student at University Stuttgart/ VIS we are offering the following project(s) (note that you have to be signed into Ilias to access the links):
 
-[Implement & improve the RIDE algorithm into the Unfold.jl toolbox (for brain analyses)](https://ilias3.uni-stuttgart.de/ilias.php?baseClass=ilrepositorygui&cmdNode=ym:my:a6&cmdClass=ildclrecordlistgui&cmd=sendFile&ref_id=2140309&tableview_id=907&record_id=68306&field_id=3531)
+[Implement & improve the RIDE algorithm into the Unfold.jl toolbox (for brain analyses)](https://github.com/s-ccs/s-ccs.github.io/blob/03c14559b7c0d924a0018125389ae4cdf24eca5c/_assets/thesis-projects/2023-02-01_MSc_RIDE_RS.pdf)
 
