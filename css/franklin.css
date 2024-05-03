@@ -3,12 +3,12 @@
 ================================================================== */
 
 :root {
-  --block-background: hsl(0, 0%, 94%);
-  --output-background: hsl(0, 0%, 98%);
-  --small: 14px;
-  --normal: 19px;
-  --text-color: #333;
-  --blue: #264C6F;
+    --block-background: hsl(0, 0%, 94%);
+    --output-background: hsl(0, 0%, 98%);
+    --small: 14px;
+    --normal: 19px;
+    --text-color: #333;
+    --blue: #264C6F;
 }
 
 /*FAD8F3  717C89  736CED*/
@@ -18,11 +18,12 @@
 ================================================================== */
 
 html {
-  font-family: Raleway, Arial, sans-serif;
-  font-size: 1em;
-  color: var(--text-color);
-  scroll-behavior: smooth;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 1em;
+    color: var(--text-color);
+    scroll-behavior: smooth;
 }
+
 /* ==================================================================
     PAGE LAYOUT
 ================================================================== */
@@ -48,14 +49,14 @@ html {
 ================================================================== */
 
 .franklin-content .row {
-  display: block;
+    display: block;
 }
 
 .franklin-content .container {
-  display: grid;
-  grid-template-columns: 55% auto;
-  gap: 0.2em 0em;
-  margin: 1em 0;
+    display: grid;
+    grid-template-columns: 55% auto;
+    gap: 0.2em 0em;
+    margin: 1em 0;
 }
 
 @media(max-width: 550px) {
@@ -79,7 +80,7 @@ html {
     display: grid;
     grid-template-columns: max-content auto;
     gap: 3em;
-    align-items: center;   
+    align-items: center;
     margin: auto;
 }
 
@@ -96,14 +97,14 @@ html {
     }
 }
 
-.title-image{
-  max-width: 100%;
-  height: calc(100vh - 77.39px);
-  background-color: black;
-  background-image: url("../assets/img/title_img.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-position-y: -50px;
+.title-image {
+    max-width: 100%;
+    height: calc(100vh - 77.39px);
+    background-color: black;
+    background-image: url("../assets/img/title_img.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-position-y: -50px;
 }
 
 .title-image img {
@@ -155,7 +156,7 @@ html {
     position: absolute;
     top: -23px;
     right: 76px;
-    border-bottom: var(--text-color) solid 3px; 
+    border-bottom: var(--text-color) solid 3px;
     transition: 0.3s;
 }
 
@@ -177,7 +178,7 @@ html {
     position: absolute;
     top: -20px;
     right: 43px;
-    border: var(--text-color) solid 3px; 
+    border: var(--text-color) solid 3px;
     border-top: var(--text-color) solid 5px;
     transition: 0.3s;
 
@@ -185,7 +186,7 @@ html {
 
 .title-max-button:hover {
     border-color: dimgray;
-    cursor: pointer;  
+    cursor: pointer;
 }
 
 .title-text {
@@ -212,9 +213,17 @@ html {
 
 
 @keyframes cursor-fade {
-    0% {opacity: 100%;}
-    50% {opacity: 0%;}
-    100% {opacity: 100%;}
+    0% {
+        opacity: 100%;
+    }
+
+    50% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
 }
 
 .window-fade {
@@ -224,15 +233,25 @@ html {
 }
 
 @keyframes window-close {
-    0% {opacity: 100%; display: block; transform-origin: bottom;}
-    100% {opacity: 0%; display: block; transform: scaleY(0.85) scaleX(0.95);}
-    
+    0% {
+        opacity: 100%;
+        display: block;
+        transform-origin: bottom;
+    }
+
+    100% {
+        opacity: 0%;
+        display: block;
+        transform: scaleY(0.85) scaleX(0.95);
+    }
+
 }
 
 @media(max-width: 43em) {
     .title-text {
         font-size: 5vw;
     }
+
     .title-text::before {
         transform: translateX(-5vw);
     }
@@ -257,40 +276,70 @@ html {
     animation-name: bounce;
 
 }
-@keyframes bounce{
-    10% {transform: translateY(0.09em);}
-    20% {transform: translateY(0.14em);}
-    25% {transform: translateY(0.15em); }
-    30% {transform: translateY(0.14em);}
-    40% {transform: translateY(0.09em);}
-    60% {transform: translateY(-0.09em);}
-    70% {transform: translateY(-0.14em);}
-    75% {transform: translateY(-0.15em); }
-    80% {transform: translateY(-0.14em);}
-    90% {transform: translateY(-0.09em);}
+
+@keyframes bounce {
+    10% {
+        transform: translateY(0.09em);
+    }
+
+    20% {
+        transform: translateY(0.14em);
+    }
+
+    25% {
+        transform: translateY(0.15em);
+    }
+
+    30% {
+        transform: translateY(0.14em);
+    }
+
+    40% {
+        transform: translateY(0.09em);
+    }
+
+    60% {
+        transform: translateY(-0.09em);
+    }
+
+    70% {
+        transform: translateY(-0.14em);
+    }
+
+    75% {
+        transform: translateY(-0.15em);
+    }
+
+    80% {
+        transform: translateY(-0.14em);
+    }
+
+    90% {
+        transform: translateY(-0.09em);
+    }
 }
 
 
 .franklin-content .left {
-  padding: 2em 2em 2em 33%;
-  text-align: right;
-  grid-column: 1 / span 1;
-  background-color: #e09a19;
-  color: white;
+    padding: 2em 2em 2em 33%;
+    text-align: right;
+    grid-column: 1 / span 1;
+    background-color: #e09a19;
+    color: white;
 }
 
 .franklin-content .right {
-  padding: 2em 33% 2em 2em;
-  grid-column: 3 / span 1;
-  background-color: #6ad15c;
-  color: white;
+    padding: 2em 33% 2em 2em;
+    grid-column: 3 / span 1;
+    background-color: #6ad15c;
+    color: white;
 
 }
 
 .franklin-content .footnote {
-  position: relative;
-  top: -0.5em;
-  font-size: 70%;
+    position: relative;
+    top: -0.5em;
+    font-size: 70%;
 }
 
 .franklin-content .date {
@@ -316,10 +365,10 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
-        border: #264C6F 10px solid;
-        transition: 0.3s;
-    
+
+    border: #264C6F 10px solid;
+    transition: 0.3s;
+
 }
 
 .franklin-content .centered a img:hover {
@@ -333,22 +382,22 @@ html {
 ================================================================== */
 
 .page-foot a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .page-foot {
-  width: 100%;
-  font-size: 80%;
-  color: lightgrey;
-  margin-top: 4em;
-  padding-top: 4em;
-  padding-bottom: 1.5em;
-  background-color: #1e1e1e;
+    width: 100%;
+    font-size: 80%;
+    color: lightgrey;
+    margin-top: 4em;
+    padding-top: 4em;
+    padding-bottom: 1.5em;
+    background-color: #1e1e1e;
 }
 
 
-.page-foot-links{
+.page-foot-links {
     margin: 0.2em;
 }
 
@@ -399,36 +448,36 @@ html {
 }
 
 .page-foot-item-inner {
-    width:auto;
+    width: auto;
     grid-column-gap: 2em;
 }
 
 @media(min-width: 830px) {
-    .page-foot-image-wrap{
+    .page-foot-image-wrap {
         height: 120px;
         margin: 6px;
     }
 }
 
 @media(max-width: 830px) {
-    .page-foot-image-wrap{
+    .page-foot-image-wrap {
         height: 100px;
-        margin:1.2em;
+        margin: 1.2em;
     }
 }
 
 .page-foot-grid-container img {
     height: 100%;
     object-fit: contain;
-    padding-left: 0 !important ;
+    padding-left: 0 !important;
     display: block;
     margin: auto;
 }
 
 .copyright {
-  padding-top: 3.5em;
-  text-align: center;
-  font-size: 80%;
+    padding-top: 3.5em;
+    text-align: center;
+    font-size: 80%;
 }
 
 
@@ -437,36 +486,36 @@ html {
 ================================================================== */
 
 .franklin-toc li {
-  /* Avoid clickable elements being too close together. */
-  margin: 0.6rem 0;
+    /* Avoid clickable elements being too close together. */
+    margin: 0.6rem 0;
 }
 
 .franklin-content {
-  position: relative;
-  grid-column: 1;
-  grid-row: 1;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 /* On wide screens, fix content width to a max value. */
 @media (min-width: 480px) {
-  .franklin-content {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    .franklin-content {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media (min-width: 1200px) {
     .franklin-content p {
-     margin-top: 0.3em;
-     margin-bottom: 2h1em;
+        margin-top: 0.3em;
+        margin-bottom: 2h1em;
     }
 }
 
 @media (max-width: 1200px) {
     .franklin-content p {
-     margin-top: 1em;
-     margin-bottom: 2em;
+        margin-top: 1em;
+        margin-bottom: 2em;
     }
 }
 
@@ -482,60 +531,65 @@ html {
 
 /* Spacing between bullet points. */
 .franklin-content li p {
-  margin: 10px 0;
+    margin: 10px 0;
 }
 
 .franklin-content a {
-  text-decoration: none;
-  color: var(--textcolor);
-  background: lightgray;
-  padding-left: 0.1em;
-  padding-right: 0.1em;
+    text-decoration: none;
+    color: var(--textcolor);
+    background: lightgray;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
 }
 
 .franklin-content a:hover {
-  background: darkgray;
+    background: darkgray;
 }
 
 /* ==================================================================
     HYPERREFS AND FOOTNOTES
 ================================================================== */
 
-.franklin-content .eqref a { color: green; }
-.franklin-content .bibref a { color: green; }
+.franklin-content .eqref a {
+    color: green;
+}
+
+.franklin-content .bibref a {
+    color: green;
+}
 
 .franklin-content sup {
-  font-size: 70%;
-  vertical-align: super;
-  line-height: 0;
+    font-size: 70%;
+    vertical-align: super;
+    line-height: 0;
 }
 
 .franklin-content table.fndef {
-  margin: 0;
-  margin-bottom: 10px;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 .franklin-content .fndef tr,
 td {
-  padding: 0;
-  border: 0;
-  text-align: left;
+    padding: 0;
+    border: 0;
+    text-align: left;
 }
 
 .franklin-content .fndef tr {
-  border-left: 2px solid lightgray;
+    border-left: 2px solid lightgray;
 }
 
 .franklin-content .fndef td.fndef-backref {
-  vertical-align: top;
-  font-size: 70%;
-  padding-left: 5px;
+    vertical-align: top;
+    font-size: 70%;
+    padding-left: 5px;
 }
 
 .franklin-content .fndef td.fndef-content {
-  font-size: 80%;
-  padding-left: 10px;
-  width: 100%;
+    font-size: 80%;
+    padding-left: 10px;
+    width: 100%;
 }
 
 /* ==================================================================
@@ -619,24 +673,29 @@ td {
     KATEX
 ================================================================== */
 
-body { counter-reset: eqnum; margin: 0;}
+body {
+    counter-reset: eqnum;
+    margin: 0;
+}
 
-.katex { font-size: 1em !important; }
+.katex {
+    font-size: 1em !important;
+}
 
 .katex-display .katex {
-  /* Overwrite KaTeX settings. */
-  display: inline-block;
+    /* Overwrite KaTeX settings. */
+    display: inline-block;
 
-  /* Allow display equations to wrap on small screens. */
-  white-space: normal;
+    /* Allow display equations to wrap on small screens. */
+    white-space: normal;
 }
 
 .katex-display::after {
-  counter-increment: eqnum;
-  content: "(" counter(eqnum) ")";
-  position: relative;
-  float: right;
-  padding-right: 5px;
+    counter-increment: eqnum;
+    content: "(" counter(eqnum) ")";
+    position: relative;
+    float: right;
+    padding-right: 5px;
 }
 
 /* ==================================================================
@@ -644,10 +703,10 @@ body { counter-reset: eqnum; margin: 0;}
 ================================================================== */
 
 code {
-  background-color: var(--block-background);
-  padding: 0.1em 0.2em;
-  border-radius: 2px;
-  font-size: var(--small);
+    background-color: var(--block-background);
+    padding: 0.1em 0.2em;
+    border-radius: 2px;
+    font-size: var(--small);
 }
 
 /* .franklin-content code { */
@@ -661,24 +720,32 @@ code {
 /* font-size: 90%; } */
 
 .hljs {
-  font-size: var(--small);
-  line-height: 1.35em;
-  border-radius: 10px;
+    font-size: var(--small);
+    line-height: 1.35em;
+    border-radius: 10px;
 }
 
 .hljs-meta,
 .hljs-metas,
-.hljs-metap { font-weight: bold; }
+.hljs-metap {
+    font-weight: bold;
+}
 
-.hljs-meta { color: rgb(25, 179, 51); }
+.hljs-meta {
+    color: rgb(25, 179, 51);
+}
 
-.hljs-metas { color: red; }
+.hljs-metas {
+    color: red;
+}
 
-.hljs-metap { color: rgb(51, 131, 231); }
+.hljs-metap {
+    color: rgb(51, 131, 231);
+}
 
 .code-output {
-  background: var(--output-background);
-  border: 1px dashed #dbdbdb;
+    background: var(--output-background);
+    border: 1px dashed #dbdbdb;
 }
 
 /* ==================================================================
@@ -686,16 +753,16 @@ code {
 ================================================================== */
 
 .franklin-content .colbox-blue {
-  background-color: #eef3f5;
-  padding-top: 5px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 5px;
-  margin-left: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border-radius: 0 10px 10px 0;
-  border-left: 5px solid #4c9cf1;
+    background-color: #eef3f5;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 0 10px 10px 0;
+    border-left: 5px solid #4c9cf1;
 }
 
 /* ==================================================================
@@ -727,8 +794,7 @@ TEAMCARDS
     z-index: 10;
 }
 
-.circle-1
-{
+.circle-1 {
     border-radius: 100%;
     border: 25px solid var(--blue);
     z-index: 5;
@@ -736,8 +802,7 @@ TEAMCARDS
     grid-row: rstart-1 / span rend-1;
 }
 
-.circle-2 
-{
+.circle-2 {
     border-radius: 100%;
     border: 20px solid var(--blue);
     z-index: 5;
@@ -745,8 +810,7 @@ TEAMCARDS
     grid-row: rstart-2 / span rend-2;
 }
 
-.circle-3 
-{
+.circle-3 {
     border-radius: 100%;
     border: 20px solid var(--blue);
     background-color: var(--blue);
@@ -755,21 +819,18 @@ TEAMCARDS
     grid-row: rstart-3 / span rend-3;
 }
 
-.img-var-1
-{
-    grid-template-columns: [cstart-1] 1fr [cstart-3] 1fr 1fr [cstart-2] 1fr [cend-3]  1fr [cend-1] 1fr 1fr [cend-2];
+.img-var-1 {
+    grid-template-columns: [cstart-1] 1fr [cstart-3] 1fr 1fr [cstart-2] 1fr [cend-3] 1fr [cend-1] 1fr 1fr [cend-2];
     grid-template-rows: [rstart-1] 1fr 1fr [rstart-2] 1fr 1fr [rstart-3] 1fr [rend-1] 1fr [rend-2] 1fr [rend-3];
-    
+
 }
 
-.img-var-2
-{
+.img-var-2 {
     grid-template-columns: [cstart-3] 1fr [cstart-1] 1fr 1fr [cstart-2] 1fr [cend-3] 1fr 1fr [cend-1] 1fr [cend-2];
     grid-template-rows: [rstart-1] 1fr 1fr [rstart-3] 1fr [rstart-2] 1fr 1fr [rend-1] 1fr [rend-3] 1fr [rend-2];
 }
 
-.img-var-3
-{
+.img-var-3 {
     grid-template-columns: [cstart-2] 1fr [cstart-3] 1fr [cstart-1] 1fr [cend-2] 1fr 1fr [cend-3] 1fr 1fr [cend-1];
     grid-template-rows: [rstart-3] 1fr 1fr [rstart-1] 1fr [rstart-2] 1fr [rend-3] 1fr 1fr [rend-2] 1fr [rend-1];
 }
@@ -835,18 +896,31 @@ TEAMCARDS
     TITLES AND TABLES
 ================================================================== */
 
-h1 { font-size: 2.5em; margin: 1em 0 0.5em 0;}
-h2 { font-size: 1.5em; margin: 0;}
-h3 { margin: 0}
-h4 { margin: 0}
+h1 {
+    font-size: 2.5em;
+    margin: 1em 0 0.5em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+h3 {
+    margin: 0
+}
+
+h4 {
+    margin: 0
+}
 
 h2,
 h3,
 h4,
 h5,
 h6 {
-  text-align: left;
-  margin: 0 0 0.3em 0;
+    text-align: left;
+    margin: 0 0 0.3em 0;
 }
 
 h1 a:hover,
@@ -854,7 +928,7 @@ h2 a:hover,
 h3 a:hover,
 h4 a:hover,
 h5 a:hover,
-h6 a:hover{
+h6 a:hover {
     text-decoration: none !important;
 }
 
@@ -863,74 +937,73 @@ h2 a,
 h3 a,
 h4 a,
 h5 a,
-h6 a{
+h6 a {
     color: var(--textcolor) !important;
     text-decoration: none !important;
     background: none !important;
 }
 
 .franklin-content table {
-  margin-left: auto;
-  margin-right: auto;
-  border-collapse: collapse;
-  text-align: center;
-  margin-top: 0.7em;
-  margin: 0.7em auto 2em auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 0.7em;
+    margin: 0.7em auto 2em auto;
 }
 
 .franklin-content .doi-table table {
-  width: 100%;
+    width: 100%;
 }
 
 .franklin-content .doi-table th {
-  width: 25%
+    width: 25%
 }
 
 .franklin-content .lecture-table table {
-  width: 100%;
+    width: 100%;
 }
 
-.franklin-content .lecture-table th { 
-  width: auto;
-  text-align: left;  
-}
-
-.franklin-content .lecture-table td { 
+.franklin-content .lecture-table th {
     width: auto;
     text-align: left;
-    
+}
+
+.franklin-content .lecture-table td {
+    width: auto;
+    text-align: left;
+
 }
 
 .franklin-toc ol ol {
-  list-style-type: lower-alpha;
+    list-style-type: lower-alpha;
 }
 
 .franklin-content th,
 td {
-  font-size: var(--small);
-  padding: 10px;
-  border: 1px solid black;
-  text-align: left;
-  width: 60%;
+    font-size: var(--small);
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+    width: 60%;
 }
 
 .franklin-content blockquote {
-  background: var(--block-background);
-  border-left: 7px solid #a8a8a8;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  font-style: italic;
+    background: var(--block-background);
+    border-left: 7px solid #a8a8a8;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    font-style: italic;
 }
 
 .franklin-content blockquote p {
-  display: inline;
+    display: inline;
 }
 
-.franklin-content .impressum-table-element{
+.franklin-content .impressum-table-element {
     border: 0;
     vertical-align: top;
     padding: 0.5em 6em 1em 0
-
 }
 
 .franklin-content .impressum-table {
@@ -940,11 +1013,11 @@ td {
 }
 
 @media(max-width: 550px) {
-    .franklin-content .impressum-table{
+    .franklin-content .impressum-table {
         grid-template-columns: auto;
     }
 
-    .franklin-content .impressum-table-element{
+    .franklin-content .impressum-table-element {
         padding: 0.5em 0em 1em 0
     }
 
@@ -1018,7 +1091,7 @@ td {
     transition: 0.2s;
     object-fit: cover;
     object-position: center;
-    
+
 }
 
 .franklin-content .toc-item:hover {
@@ -1047,7 +1120,7 @@ td {
     transition: 0.3s;
 }
 
-.thesis-art img{
+.thesis-art img {
     width: 100%;
 }
 
@@ -1136,7 +1209,7 @@ td {
 ================================================================== */
 
 .science-communication img {
-    border: #264C6F 5px solid ;
+    border: #264C6F 5px solid;
     width: auto;
     height: 150px;
     /* display: block;
@@ -1150,3 +1223,9 @@ td {
 
 
 
+.franklin-content .img-side img {
+    width: 30%;
+    text-align: right;
+    padding-top: 5%;
+    float: right;
+}
