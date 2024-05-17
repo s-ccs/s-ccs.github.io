@@ -13,10 +13,14 @@ In the [Emmy Noether Group](https://www.dfg.de/de/foerderung/foerdermoeglichkeit
 **TLDR;** In the real world many events happen at the same time, worse: everything is moving all the time. We develop solutions how to nevertheless investigate brain activity.
 
 
-### We are hiring
-We will soon post official announcements, that we are hiring the initial two researchers for this project. 
+@@note @@title ### We are hiring @@ @@content  We will soon post official announcements. We are hiring 2 100% TVL13 PhD or PostDocs for this project.  @@ @@
 
-### Goals & outcomes
+
+
+
+## Goals & outcomes
+@@img-side ![](../assets/img/s-ccs-21.jpg) @@
+
 We want to develop and calibrate new algorithms as a foundation for (mobile) EEG in a highly dynamic real world.
 
 For this we need:
@@ -29,12 +33,14 @@ For this we need:
 
 ## Overview of the topics
 
+
 ### Smooth Pursuit & EEG
 [Smooth pursuit](https://en.wikipedia.org/wiki/Smooth_pursuit) is ubiquitous in unrestricted viewing situations with moving objects or self-motion. Often in self-motion, smooth pursuit (or vestibular-ocular reflex) is completely dominating over fixational periods. It is therefore surprising, that the brain potentials reflecting smooth pursuit have not been described before.
 
 In this work package, we test the hypothesis that smooth pursuit acts functionally as pure gaze-stabilisation and leads to cortical processing effectively identical to fixations. We first establish that the initial part of the smooth pursuit brain response is identical to a mere fixation. We then will go further and propose a method, currently under development in our group, to model the ongoing smooth pursuit sustained response. In order to refine our spline-regression based method, we will further improve it on a purely computational level. Finally, we will show whether additional sudden stimulus onsets, on top of smooth pursuit behavior, elicits linearly overlapping brain activity, or whether there is an interaction between performing smooth pursuit and brain processing.
 
 ### Optic flow
+@@img-side ![](../assets/img/s-ccs-18.jpg) @@
 Whenever we move our bodies in space, or are moved in space, we experience optic flow. Optic flow is a fundamental feature of our world especially visible in e.g. sports, driving simulators, or VR experiments with movement. Foundational works on optic flow in EEG show a motion onset visual evoked potential that is critically influenced by motion strength and direction. But optic flow combined with eye movements has only been rarely investigated. In this work package we investigate which methods are needed to analyze moving objects and self-motion.
 
 Optic flow is a strong indicator to estimate heading and speed, but it seems unlikely to be a strong predictor of object category alone. To use mobile EEG, we need to understand how to deal with the optic flow processing in the EEG. Should we try to account for it in our modelling, or can we ignore it for the typical event-based analyses? 
