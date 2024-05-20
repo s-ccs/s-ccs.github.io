@@ -3,7 +3,7 @@
 
 # Get in touch
 
-You can contact us here: [eugenia.komnik@vis.uni-stuttgart.de](mailto:daniela.milanese@vis.uni-stuttgart.de) or [benedikt.ehinger@vis.uni-stuttgart.de](mailto:benedikt.ehinger@vis.uni-stuttgart.de). 
+You can contact us here: [daniela.milanese@vis.uni-stuttgart.de](mailto:daniela.milanese@vis.uni-stuttgart.de) or [benedikt.ehinger@vis.uni-stuttgart.de](mailto:benedikt.ehinger@vis.uni-stuttgart.de). 
 
 We will try to answer within 3 business  days. 
 
