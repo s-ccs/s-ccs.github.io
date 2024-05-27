@@ -42,7 +42,7 @@ For this we need:
 
 ## Overview of the topics
 
-@@note @@title ### Topics of the initial two positions @@ @@content One open position will work on smooth pursuit - one on Dynamic motion in videos @@ @@
+@@note @@title ### Topics of the initial two positions @@ @@content One open position will work on smooth pursuit - one on dynamic motion in videos @@ @@
 
 @@img-side ![](../assets/img/s-ccs-21.jpg) @@
 ### Smooth Pursuit & EEG
