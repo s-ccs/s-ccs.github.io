@@ -9,7 +9,7 @@ slug = "emmynoether"
 
 
 In the [Emmy Noether Group](https://www.dfg.de/de/foerderung/foerdermoeglichkeiten/programme/einzelfoerderung/emmy-noether) "EEG in motion", we will investigate self-, object- and eye-motion in combination with EEG. The project runs for 6 years, funded with 4 x 3.5 year positions by the DFG.
-@@note @@title ### We are hiring @@ @@content  We are hiring [2x 100% TVL13 PhD or PostDocs (link to pdf)](../assets/hiring/2024-05-27_emmyNoether.pdf) for this project.  @@ @@
+@@note @@important @@title ### We are hiring @@ @@content  We are hiring [2x 100% TVL13 PhD or PostDocs (link to pdf)](../assets/hiring/2024-05-27_emmyNoether.pdf) for this project.  @@ @@ @@
 ![](../assets/img/website_EN_events.svg)
 
 **TLDR;** In the real world many events happen at the same time, worse: everything is moving all the time. We develop solutions how to nevertheless investigate brain activity.

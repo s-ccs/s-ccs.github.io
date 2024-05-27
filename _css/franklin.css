@@ -1243,6 +1243,11 @@ td {
     margin-bottom: 1em;
 }
 
+
+.note .important .title {
+    background: #fa3c3c;
+}
+
 .note .content {
     padding: 10px;
     padding-left: 12px;
