@@ -13,7 +13,7 @@ In the [Emmy Noether Group](https://www.dfg.de/de/foerderung/foerdermoeglichkeit
 **TLDR;** In the real world many events happen at the same time, worse: everything is moving all the time. We develop solutions how to nevertheless investigate brain activity.
 
 
-@@note @@title ### We are hiring @@ @@content  We will soon post official announcements. We are hiring 2 100% TVL13 PhD or PostDocs for this project.  @@ @@
+@@note @@title ### We are hiring @@ @@content  [We are hiring 2 100% TVL13 PhD or PostDocs](_assets/hiring/2024-05-27_emmyNoether.pdf) for this project.  @@ @@
 
 
 
