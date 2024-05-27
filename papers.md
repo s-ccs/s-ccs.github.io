@@ -2,7 +2,6 @@
 @def tags = ["pdf", "publications"]
 
 # Archive of Papers
-
 ## 2022
 @@doi-table
 |Title|Authors|DOI/PDF|

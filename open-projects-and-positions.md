@@ -5,7 +5,7 @@
 If you think about working with us and want to apply, I highly recommend reading through [this link](http://www.thememolab.org/pages/gradapps/) prior to writing your statement. It is from the MemoLab (US-based), but many things apply as well. At some point I hope to write my own document, but this has to suffice for now.
 
 ### PostDoc/PhD
-Official announcement for 2 TVL-13 100% positions coming soon!
+2x TVL-13 100% positions. [Find more details here](../emmynoether) or [directly access the official posting (pdf)](../assets/hiring/2024-05-27_emmyNoether.pdf)
 
 ### HiWi
 We have open HiWi positions.

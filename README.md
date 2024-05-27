@@ -2,7 +2,7 @@
 This is the git repository, containing the homepage for the eeg-lab at the VIS of the University of Stuttgart.
 The readme will be updated as the project grows, if you feel something is missing, feel free to add an issue. 
 
-## **TEETHBREAKER** (List of strange, unrational and seemingly unfixable bugs)
+## **TEETHBREAKER** (List of strange, irrational and seemingly unfixable bugs)
 ### **Code does not get published on live site**
 If you ever think you fixed a simple bug like changing a link or some text and publish it, but the the online version of the page does not change, altough the code was published correctly to the main branch, check the **automated scripts**. It's very likely your change get's overwritten when pushed to the gh-pages branch.
 
@@ -41,7 +41,7 @@ In contrast the **folder blacklist** only needs keywords and/ or symbols that ne
 
 ## Extending and editing the page
 ### Generation scripts
-Under `.\_assets\scritps\` all scripts for page generation and similar scripts that should be run after deployement, but before the changes go live. If scripts are added there, they either should be called in `inti_dynamics.jl` or manually added to the github action under `.\.github\workflows\Deploy.yml`.
+Under `.\_assets\scritps\` all scripts for page generation and similar scripts that should be run after deployement, but before the changes go live. If scripts are added there, they either should be called in `init_dynamics.jl` or manually added to the github action under `.\.github\workflows\Deploy.yml`.
 
 ### Custom ordering the navigation
 The first level of all navigation elements can have a custom ordering, while any higher level is going to be sorted alphabeticially.
