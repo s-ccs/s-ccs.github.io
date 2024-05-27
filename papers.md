@@ -2,13 +2,6 @@
 @def tags = ["pdf", "publications"]
 
 # Archive of Papers
-## 2024
-@@doi-table
-|Title|Authors|DOI/PDF|
-|-----|-------|------|
-|The Art of Brainwaves: A Survey on Event-Related Potential Visualization Practices|Vladimir Mikheev, Rene Skukies, Benedikt V. Ehinger.|[DOI](https://doi.org/10.52294/001c.116386)/[PDF](../assets/papers/pdf/2024/Mikheev_2014.pdf)|
-@@
-
 ## 2022
 @@doi-table
 |Title|Authors|DOI/PDF|

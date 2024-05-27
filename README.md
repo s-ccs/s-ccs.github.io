@@ -41,7 +41,7 @@ In contrast the **folder blacklist** only needs keywords and/ or symbols that ne
 
 ## Extending and editing the page
 ### Generation scripts
-Under `.\_assets\scritps\` all scripts for page generation and similar scripts that should be run after deployement, but before the changes go live. If scripts are added there, they either should be called in `inti_dynamics.jl` or manually added to the github action under `.\.github\workflows\Deploy.yml`.
+Under `.\_assets\scritps\` all scripts for page generation and similar scripts that should be run after deployement, but before the changes go live. If scripts are added there, they either should be called in `init_dynamics.jl` or manually added to the github action under `.\.github\workflows\Deploy.yml`.
 
 ### Custom ordering the navigation
 The first level of all navigation elements can have a custom ordering, while any higher level is going to be sorted alphabeticially.
