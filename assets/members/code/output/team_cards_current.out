@@ -76,7 +76,7 @@
 
             ~~~
             <div class="teamcard-wrapper">
-                <div class="teamcard-image img-var-1">
+                <div class="teamcard-image img-var-2">
                     <img src="/assets/team/current/004_vladimir_mikheev/profile_image.jpg" alt="Vladimir Mihkeev">
                     <div class="circle-1"></div>
                     <div class="circle-2"></div>
@@ -101,7 +101,7 @@
 
             ~~~
             <div class="teamcard-wrapper">
-                <div class="teamcard-image img-var-3">
+                <div class="teamcard-image img-var-1">
                     <img src="/assets/team/current/100_daniela_milanese/profile_image.jpg" alt="Daniela Milanese">
                     <div class="circle-1"></div>
                     <div class="circle-2"></div>
@@ -126,7 +126,7 @@
 
             ~~~
             <div class="teamcard-wrapper">
-                <div class="teamcard-image img-var-2">
+                <div class="teamcard-image img-var-3">
                     <img src="/assets/team/current/999_polpo/profile_image.jpg" alt="Polpo">
                     <div class="circle-1"></div>
                     <div class="circle-2"></div>
