@@ -20,5 +20,4 @@ If you are interested in the areas of methods development, EEG, Eye-Tracking, Vi
 
 ### MSc
 
-[Implement & improve the RIDE algorithm into the Unfold.jl toolbox (for brain analyses)](https://github.com/s-ccs/s-ccs.github.io/blob/03c14559b7c0d924a0018125389ae4cdf24eca5c/_assets/thesis-projects/2023-02-01_MSc_RIDE_RS.pdf)
-
+Currently no MSc thesis topics available.
