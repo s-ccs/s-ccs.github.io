@@ -8,7 +8,7 @@ If you think about working with us and want to apply, I highly recommend reading
 2x TVL-13 100% positions. [Find more details here](../emmynoether) or [directly access the official posting (pdf)](../assets/hiring/2024-05-27_emmyNoether.pdf)
 
 ### HiWi
-We have open HiWi positions.
+Currently no open HiWi positions - maybe in Fall 2024 again.
 
 # Open Projects
 If you are interested in the areas of methods development, EEG, Eye-Tracking, Visual Processing, Cognitive Science, it is always a good idea to shoot us an email. Sometimes we have capacities for theses without a formal offer. Note on external theses: We usually only accept these if they fit within the topic of our lab.
