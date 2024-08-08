@@ -5,7 +5,7 @@
 If you think about working with us and want to apply, I highly recommend reading through [this link](http://www.thememolab.org/pages/gradapps/) prior to writing your statement. It is from the MemoLab (US-based), but many things apply as well. At some point I hope to write my own document, but this has to suffice for now.
 
 ### PostDoc/PhD
-2x TVL-13 100% positions. [Find more details here](../emmynoether) or [directly access the official posting (pdf)](../assets/hiring/2024-05-27_emmyNoether.pdf)
+The Emmy Noether positions have been filled. Thank you for your great interest (>180 applications!)
 
 ### HiWi
 Currently no open HiWi positions - maybe in Fall 2024 again.
