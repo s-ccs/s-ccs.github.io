@@ -102,6 +102,31 @@
             ~~~
             <div class="teamcard-wrapper">
                 <div class="teamcard-image img-var-1">
+                    <img src="/assets/team/current/005_jevri_hanna/profile_image.jpg" alt="Jevri Hanna">
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                    <div class="circle-3"></div>
+                </div>
+                <div>
+                    <div class="teamcard-header">
+                        <div class="teamcard-title">Ph.D</div>
+                        <h2>Jevri Hanna</h2>
+                        <div class="teamcard-position">Post-doctoral Researcher</div>
+                    </div>
+                    <div class="teamcard-text">
+                        M/EEG, Methods, Statistics, Machine Learning
+                    </div>
+                    <div class="teamcard-link">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:jevri.hanna@vis.uni-stuttgart.de">jevri.hanna@vis.uni-stuttgart.de</a>
+                    </div>
+                </div>
+            </div>
+            ~~~
+
+            ~~~
+            <div class="teamcard-wrapper">
+                <div class="teamcard-image img-var-2">
                     <img src="/assets/team/current/100_daniela_milanese/profile_image.jpg" alt="Daniela Milanese">
                     <div class="circle-1"></div>
                     <div class="circle-2"></div>
