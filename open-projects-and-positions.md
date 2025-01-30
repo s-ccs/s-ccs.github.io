@@ -14,9 +14,7 @@ Currently no open HiWi positions - maybe in Fall 2024 again.
 If you are interested in the areas of methods development, EEG, Eye-Tracking, Visual Processing, Cognitive Science, it is always a good idea to shoot us an email. Sometimes we have capacities for theses without a formal offer. Note on external theses: We usually only accept these if they fit within the topic of our lab.
 
 ### BSc
-
-[Effect of stimulus duration on brain activity, during a rapid serial presentation task](https://github.com/s-ccs/s-ccs.github.io/blob/03c14559b7c0d924a0018125389ae4cdf24eca5c/_assets/thesis-projects/2023-02-01_BSc_LongFaces_RS.pdf)
-
+Currently no BSc thesis topics available.
 
 ### MSc
 
