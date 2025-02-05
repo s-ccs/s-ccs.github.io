@@ -4,6 +4,10 @@ on:
     branches:
       - main
       - master
+  pull_request:
+    branches:
+      - main
+      - master
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -12,6 +16,11 @@ jobs:
       uses: actions/checkout@v2
       with:
         persist-credentials: false
+    - name: Fix URLs for PR preview deployment (pull request previews)
+      if: github.event_name == 'pull_request'
+      run: | # "previews" below is the folder name where your PR previews are stored
+        echo "PREVIEW_FRANKLIN_WEBSITE_URL=https://s-ccs.github.io/previews/PR${{ github.event.number }}/" >> $GITHUB_ENV
+        echo "PREVIEW_FRANKLIN_PREPATH=previews/PR${{ github.event.number }}" >> $GITHUB_ENV
     # NOTE: Python is necessary for the pre-rendering (minification) step
     - name: Install python
       uses: actions/setup-python@v2
@@ -49,3 +58,20 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
         FOLDER: __site
+    - name: Deploy (preview)
+      if: github.event_name == 'pull_request' && github.repository == github.event.pull_request.head.repo.full_name # if this build is a PR build and the PR is NOT from a fork
+      uses: JamesIves/github-pages-deploy-action@releases/v4
+      with:
+        branch: gh-pages # The branch where your website is deployed
+        folder: __site
+        token: ${{ secrets.GITHUB_TOKEN }}
+        target-folder: "previews/PR${{ github.event.number }}" # The website preview is going to be stored in the previews subfolder
+    - name: Deploy (main)
+      if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        branch: gh-pages # Replace here the branch where your website is deployed
+        folder: __site
+        clean-exclude: |  # This makes sure that the previews are not wiped out during regular builds
+          previews/*

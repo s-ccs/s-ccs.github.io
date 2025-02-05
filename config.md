@@ -15,7 +15,9 @@ ignore = ["node_modules/"]
 generate_rss = true
 website_title = "S-CCS Homepage"
 website_descr = "This is the homepage of the Stuttgart Computational Cognitive Science (S-CCS) lab at the University of Stuttgart"
-website_url   = "https://s-ccs.github.io/s-ccs/"
+
+prepath     = get(ENV, "PREVIEW_FRANKLIN_PREPATH", "s-ccs")
+website_url = get(ENV, "PREVIEW_FRANKLIN_WEBSITE_URL", "https://s-ccs.github.io/s-ccs/")
 
 generate_robots = false
 +++
