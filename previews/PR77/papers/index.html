@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="Hoif5diNsHJ90NTixkCQk2ILYGpO00x9RyaZtFq6I7s" />
+  <a rel="me" href="https://scholar.social/@BenediktEhinger"></a>
+  <script src="https://kit.fontawesome.com/890a008f1c.js" crossorigin="anonymous"></script>
+
+  
+  
+
+  <!--<link rel="stylesheet" href="/css/minimal-mistakes.css">-->
+<link href="/css/franklin.css" rel="stylesheet">
+<link href="/css/nav-styling.css" rel="stylesheet">
+<script src="/libs/nav/hamburger.js"></script>
+<script src="/libs/nav/hideFolder.js"></script>
+<!--<script src="/libs/vela/jquery.min.js"></script>-->
+
+<link rel="icon" href="/assets/favicon.png">
+
+<!--[if IE ]>
+<style>
+  /* old IE unsupported flexbox fixes */
+  .greedy-nav .site-title {
+    padding-right: 3em;
+  }
+  .greedy-nav button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+  }
+</style>
+<![endif]-->
+
+
+  <script src="/libs/lunr/lunr.min.js"></script>
+  <script src="/libs/lunr/lunr_index.js"></script>
+  <script src="/libs/lunr/lunrclient.js"></script>
+
+  
+
+  
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+</head>
+
+<body>
+  <div class="masthead">
+                 <div class="masthead__inner-wrap">
+                 	<div class="masthead__menu">
+                 		<nav id="site-nav" class="greedy-nav">
+                 			<a class="site-title" href="/"><img src="/assets/icn/text_logo.png"></a>
+                 			<ul class="visible-links">
+                 				<a href="/open-projects-and-positions/"> <li class="masthead__menu-item">Open Positions</li> </a>
+                 				<a href="/members/"><li class="masthead__menu-item">Members</li></a>
+                 				<a href="/teaching-resources/"><li class="masthead__menu-item">Teaching Resources</li></a>
+                 			</ul>
+                 			<a href="javascript:void(0);" onclick="toggleHamburger(this)">
+                 				<div class="hamburger">
+                 					<div id="upper-hamburger-layer" class="hamburger-elem1"></div>
+                 					<div class="hamburger-elem2"></div>
+                 					<div id="lower-hamburger-layer" class="hamburger-elem1"></div>
+                 				</div>
+                 			</a>
+                 		</nav>
+                 		<div class="invisible-hamburger-links" id="hamburgerLinks">
+                 			<ul class="nav-first">
+					<li><a href="/index.html">Home</a></li>
+					<li><a href="/members/">Members</a></li>
+					<li><a href="/papers/">Papers</a></li>
+					<li><a href="/philosophy/">Philosophy</a></li>
+					<li><a href="/teaching-resources/">Teaching Resources</a>
+						<ul class="nav-second">
+							<li><a href="/teaching-resources/bayesian-statistics/">Bayesian Statistics</a></li>
+							<li><a href="/teaching-resources/eeg-course/">Eeg Course</a></li>
+							<li><a href="/teaching-resources/eye-tracking-course/">Eye Tracking Course</a></li>
+							<li><a href="/teaching-resources/interactive-explanations/">Interactive Explanations</a></li>
+							<li><a href="/teaching-resources/linear-mixed-models/">Linear Mixed Models</a></li>
+							<li><a href="/teaching-resources/philosophy-of-science/">Philosophy Of Science</a></li>
+							<li><a href="/teaching-resources/open-teaching-graphics">Open Teaching Graphics</a>
+								<ul class="nav-third">
+									<li><a href="/teaching-resources/open-teaching-graphics/Bold-Response-Sampling/">Bold Response Sampling</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Correspondence-Problem/">Correspondence Problem</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Distance-Measures/">Distance Measures</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/EEG-Analysis/">Eeg Analysis</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/ERP-Single-Trial/">Erp Single Trial</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/ERPs/">Erps</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Eye-Venes/">Eye Venes</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Figure-Disparity-Receptive-Fields/">Figure Disparity Receptive Fields</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Induced-Evoked/">Induced Evoked</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Interaction-Effect-Coding/">Interaction Effect Coding</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Monitor-Receptive-Field/">Monitor Receptive Field</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Multi-Taper-Vs-FFT/">Multi Taper Vs Fft</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Plane-Basis-Vectors/">Plane Basis Vectors</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Poster-Template/">Poster Template</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Power-Spectral-Bands/">Power Spectral Bands</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Purkinje-Blue-Arc/">Purkinje Blue Arc</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Simulated-Signal/">Simulated Signal</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Temporal-Spatial-Tradeoff/">Temporal Spatial Tradeoff</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Wavelet-Transform/">Wavelet Transform</a></li>
+								</ul>
+							</li>
+							<li><a href="/vision-demos/">Vision Demos</a></li>
+						</ul>
+					</li>
+					<li><a href="/thesis-art/">Thesis Art</a>
+						<ul class="nav-second">
+							<li><a href="/thesis-art/Alexander-Lulkin/">Alexander Lulkin</a></li>
+							<li><a href="/thesis-art/Edoardo-Pinzuti/">Edoardo Pinzuti</a></li>
+							<li><a href="/thesis-art/Felix-Schröder/">Felix Schröder</a></li>
+							<li><a href="/thesis-art/Hannes-Bonasch/">Hannes Bonasch</a></li>
+							<li><a href="/thesis-art/Jan-Haas/">Jan Haas</a></li>
+							<li><a href="/thesis-art/Jiameng-Wu/">Jiameng Wu</a></li>
+							<li><a href="/thesis-art/Judith-Schepers/">Judith Schepers</a></li>
+							<li><a href="/thesis-art/Karolis-Degutis/">Karolis Degutis</a></li>
+							<li><a href="/thesis-art/Katharina-Groß/">Katharina Groß</a></li>
+							<li><a href="/thesis-art/Katja-Haeusser/">Katja Haeusser</a></li>
+							<li><a href="/thesis-art/Lilli-Kaufhold/">Lilli Kaufhold</a></li>
+							<li><a href="/thesis-art/Lisa-Marie-Vortmann/">Lisa Marie Vortmann</a></li>
+							<li><a href="/thesis-art/Luis-Lips/">Luis Lips</a></li>
+							<li><a href="/thesis-art/Maria-Sokotuschenko/">Maria Sokotuschenko</a></li>
+							<li><a href="/thesis-art/Martin-Geiger/">Martin Geiger</a></li>
+						</ul>
+					</li>
+					<li><a href="/open-projects-and-positions/">Open Projects And Positions</a></li>
+					<li><a href="/emmy-noether/">Emmy Noether</a></li>
+					<li><a href="/contact-us/">Contact Us</a></li>
+					<li><a href="/how-to-find-us/">How To Find Us</a></li>
+					<li><a href="/Science Communication/">Science Communication</a></li>
+					<li><a href="/impressum/">Impressum</a></li>
+				</ul>
+               			</div>
+               		</div>
+               	</div>
+               </div>
+  
+  <div class="page-wrapper">
+    <div class="side-nav-wrapper">
+                 <div class="side-nav">
+                 	<div class="search-bar">
+                 		<form id="lunrSearchForm" name="lunrSearchForm">
+                 			<input class="search-input" name="q" placeholder="Search..." type="text">
+                 			<input type="submit" value="Search" formaction="/search/index.html">
+                 		</form>
+                 	</div>
+                 	<h2>
+                 		Navigation
+                 	</h2>
+		<ul class="first">
+			<li><a class="" href="\.\">Home</a></li>
+			<li><a class="" href="/members/">Members</a></li>
+			<li><a class="active" href="/papers/">Papers</a></li>
+			<li><a class="" href="/philosophy/">Philosophy</a></li>
+			<li><a class="second-action" onclick="hideFolder('teaching-resources')"><i id="teaching-resources-folder-icon" class="fas fa-chevron-circle-right"></i></a><a class="" href="/teaching-resources">Teaching Resources</a>
+ 				<ul id="teaching-resources-folder" class="second-invisible"> 
+					<li><a class="" href="/teaching-resources/bayesian-statistics/">Bayesian Statistics</a></li>
+					<li><a class="" href="/teaching-resources/eeg-course/">Eeg Course</a></li>
+					<li><a class="" href="/teaching-resources/eye-tracking-course/">Eye Tracking Course</a></li>
+					<li><a class="" href="/teaching-resources/interactive-explanations/">Interactive Explanations</a></li>
+					<li><a class="" href="/teaching-resources/linear-mixed-models/">Linear Mixed Models</a></li>
+					<li><a class="" href="/teaching-resources/philosophy-of-science/">Philosophy Of Science</a></li>
+					<li><a class="third-action" onclick="hideFolder('teaching-resources/open-teaching-graphics')"><i id="teaching-resources/open-teaching-graphics-folder-icon" class="fas fa-chevron-circle-right"></i></a><a class="" href="/teaching-resources/open-teaching-graphics">Open Teaching Graphics</a>
+ 						<ul id="teaching-resources/open-teaching-graphics-folder" class="third-invisible"> 
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Bold-Response-Sampling/">Bold Response Sampling</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Correspondence-Problem/">Correspondence Problem</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Distance-Measures/">Distance Measures</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/EEG-Analysis/">Eeg Analysis</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/ERP-Single-Trial/">Erp Single Trial</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/ERPs/">Erps</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Eye-Venes/">Eye Venes</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Figure-Disparity-Receptive-Fields/">Figure Disparity Receptive Fields</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Induced-Evoked/">Induced Evoked</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Interaction-Effect-Coding/">Interaction Effect Coding</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Monitor-Receptive-Field/">Monitor Receptive Field</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Multi-Taper-Vs-FFT/">Multi Taper Vs Fft</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Plane-Basis-Vectors/">Plane Basis Vectors</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Poster-Template/">Poster Template</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Power-Spectral-Bands/">Power Spectral Bands</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Purkinje-Blue-Arc/">Purkinje Blue Arc</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Simulated-Signal/">Simulated Signal</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Temporal-Spatial-Tradeoff/">Temporal Spatial Tradeoff</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Wavelet-Transform/">Wavelet Transform</a></li>
+						</ul>
+ 					</li>
+					<li><a class="" href="/vision-demos/">Vision Demos</a></li>
+				</ul>
+ 			</li>
+			<li><a class="second-action" onclick="hideFolder('thesis-art')"><i id="thesis-art-folder-icon" class="fas fa-chevron-circle-right"></i></a><a class="" href="/thesis-art">Thesis Art</a>
+ 				<ul id="thesis-art-folder" class="second-invisible"> 
+					<li><a class="" href="/thesis-art/Alexander-Lulkin/">Alexander Lulkin</a></li>
+					<li><a class="" href="/thesis-art/Edoardo-Pinzuti/">Edoardo Pinzuti</a></li>
+					<li><a class="" href="/thesis-art/Felix-Schröder/">Felix Schröder</a></li>
+					<li><a class="" href="/thesis-art/Hannes-Bonasch/">Hannes Bonasch</a></li>
+					<li><a class="" href="/thesis-art/Jan-Haas/">Jan Haas</a></li>
+					<li><a class="" href="/thesis-art/Jiameng-Wu/">Jiameng Wu</a></li>
+					<li><a class="" href="/thesis-art/Judith-Schepers/">Judith Schepers</a></li>
+					<li><a class="" href="/thesis-art/Karolis-Degutis/">Karolis Degutis</a></li>
+					<li><a class="" href="/thesis-art/Katharina-Groß/">Katharina Groß</a></li>
+					<li><a class="" href="/thesis-art/Katja-Haeusser/">Katja Haeusser</a></li>
+					<li><a class="" href="/thesis-art/Lilli-Kaufhold/">Lilli Kaufhold</a></li>
+					<li><a class="" href="/thesis-art/Lisa-Marie-Vortmann/">Lisa Marie Vortmann</a></li>
+					<li><a class="" href="/thesis-art/Luis-Lips/">Luis Lips</a></li>
+					<li><a class="" href="/thesis-art/Maria-Sokotuschenko/">Maria Sokotuschenko</a></li>
+					<li><a class="" href="/thesis-art/Martin-Geiger/">Martin Geiger</a></li>
+				</ul>
+ 			</li>
+			<li><a class="" href="/open-projects-and-positions/">Open Projects And Positions</a></li>
+			<li><a class="" href="/emmynoether/">Emmy Noether</a></li>
+			<li><a class="" href="/contact-us/">Contact Us</a></li>
+			<li><a class="" href="/how-to-find-us/">How To Find Us</a></li>
+			<li><a class="" href="/Science Communication/">Science Communication</a></li>
+		</ul>
+	</div>
+           </div>
+
+
+
+
+
+
+    <!-- Content appended here -->
+<div class="franklin-content"><h1 id="archive_of_papers"><a href="#archive_of_papers" class="header-anchor">Archive of Papers</a></h1>
+<h2 id="2025"><a href="#2025" class="header-anchor">2025</a></h2>
+<div class="doi-table"><table><tr><th align="right">Title</th><th align="right">Authors</th><th align="right">DOI/PDF</th></tr><tr><td align="right">UnfoldMakie.jl: EEG/ERP visualization package</td><td align="right">Mikheev V., Ehinger B. V.</td><td align="right"><a href="https://doi.org/10.21105/joss.07560">DOI</a>/<a href="../assets/papers/pdf/2025/Mikheev_2025.pdf">PDF</a></td></tr></table></div>
+<h2 id="2024"><a href="#2024" class="header-anchor">2024</a></h2>
+<div class="doi-table"><table><tr><th align="right">Title</th><th align="right">Authors</th><th align="right">DOI/PDF</th></tr><tr><td align="right">The Art of Brainwaves: A Survey on Event-Related Potential Visualization Practices</td><td align="right">Mikheev V., Skukies R., Ehinger B. V.</td><td align="right"><a href="https://doi.org/10.52294/001c.116386">DOI</a>/<a href="../assets/papers/pdf/2024/Mikheev_2024.pdf">PDF</a></td></tr></table></div>
+<h2 id="2023"><a href="#2023" class="header-anchor">2023</a></h2>
+<div class="doi-table"><table><tr><th align="right">Title</th><th align="right">Authors</th><th align="right">DOI/PDF</th></tr><tr><td align="right">Planning to revisit: Neural activity in refixation precursors</td><td align="right">Nikolaev AR, Ehinger BV, Meghanathan RN, Leeuwen, van C</td><td align="right"><a href="https://doi.org/10.1167/jov.23.7.2">DOI</a>/<a href="../assets/papers/pdf/2023/Nikolaev &#40;2023&#41;.pdf">PDF</a></td></tr><tr><td align="right">Humans predict the forest, not the trees: statistical learning of spatiotemporal structure in visual scenes</td><td align="right">Yan C, Ehinger BV, Pérez-Bellido A, Peelen MV, de Lange FP</td><td align="right"><a href="https://doi.org/10.1093/cercor/bhad115">DOI</a>/<a href="../assets/papers/pdf/2023/Yan &#40;2023&#41;.pdf">PDF</a></td></tr></table></div>
+<h2 id="2022"><a href="#2022" class="header-anchor">2022</a></h2>
+<div class="doi-table"><table><tr><th align="right">Title</th><th align="right">Authors</th><th align="right">DOI/PDF</th></tr><tr><td align="right">At a second glance: cognitive and oculomotor neural activity of refixation planning</td><td align="right">Nikolaev, A. R. et al.</td><td align="right"><a href="https://doi.org/10.1101/660308">DOI</a>/<a href="../assets/papers/pdf/2022/660308v4.full.pdf">PDF</a></td></tr><tr><td align="right">EEG ERP Preregistration Template</td><td align="right">Govaart, G. H. et al.</td><td align="right"><a href="https://doi.org/10.31222/osf.io/4nvpt">DOI</a>/<a href="../assets/papers/pdf/2022/govaart-eeg-erp-prereg-template-2022.pdf">PDF</a></td></tr><tr><td align="right">WildLab: A naturalistic free viewing experiment reveals previously unknown electroencephalography signatures of face processing</td><td align="right">Gert Al, Ehinger BV, Timm S, Kietzmann TC, König P</td><td align="right"><a href="https://doi.org/10.1111/ejn.15824">DOI</a>/<a href="../assets/papers/pdf/2022/Gert &#40;2022&#41;.pdf">PDF</a></td></tr></table></div>
+<h2 id="2021"><a href="#2021" class="header-anchor">2021</a></h2>
+<div class="doi-table"><table><tr><th align="right">Title</th><th align="right">Authors</th><th align="right">DOI/PDF</th></tr><tr><td align="right">#EEGManyLabs: Investigating the replicability of influential EEG experiments</td><td align="right">Pavlov, Y. G. et al.</td><td align="right"><a href="https://doi.org/10.1016/j.cortex.2021.03.013">DOI</a>/<a href="../assets/papers/pdf/2021/1-s2.0-S0010945221001106-main.pdf">PDF</a></td></tr><tr><td align="right">Regression-based analysis of combined EEG and eye-tracking data: Theory and applications’</td><td align="right">Dimigen, O. and Ehinger, B. V.</td><td align="right"><a href="https://doi.org/10.1167/jov.21.1.3">DOI</a>/<a href="../assets/papers/pdf/2021/i1534-7362-21-1-3_1609933604.85964.pdf">PDF</a></td></tr><tr><td align="right">Coordinating With a Robot Partner Affects Neural Processing Related to Action Monitoring</td><td align="right">Czeszumski, A., Gert, A.L., Keshava, A. et al.</td><td align="right"><a href="https://doi.org/10.3389/fnbot.2021.686010">DOI</a>/<a href="../assets/papers/pdf/2021/fnbot-15-686010.pdf.pdf">PDF</a></td></tr></table></div>
+<h2 id="2020"><a href="#2020" class="header-anchor">2020</a></h2>
+<div class="doi-table"><table><tr><th align="right">Title</th><th align="right">Authors</th><th align="right">DOI/PDF</th></tr><tr><td align="right">Opposite effects of choice history and stimulus history resolve a paradox of sequential choice bias</td><td align="right">Bosch, E. et al.</td><td align="right"><a href="https://doi.org/10.1167/jov.20.12.9">DOI</a>/<a href="../assets/papers/pdf/2020/i1534-7362-20-12-9_1605697937.23632.pdf">PDF</a></td></tr><tr><td align="right">Faces strongly attract early fixations in naturally sampled real-world stimulus materials</td><td align="right">Gert, A. L. et al.</td><td align="right"><a href="https://doi.org/10.1145/3379156.3391377">DOI</a>/<a href=".">PDF</a></td></tr></table></div>
+<h2 id="2019"><a href="#2019" class="header-anchor">2019</a></h2>
+<div class="doi-table"><table><tr><th align="right">Title</th><th align="right">Authors</th><th align="right">DOI/PDF</th></tr><tr><td align="right">How does the method change what we measure? Comparing virtual reality and text-based surveys for the assessment of moral decisions in traffic dilemmas</td><td align="right">Sütfeld L. et al.</td><td align="right"><a href="https://doi.org/&#91;10.1371/journal.pone.0223108&#93;&#40;https://doi.org/10.1371/journal.pone.0223108&#41;">DOI</a>/<a href="../assets/papers/pdf/2019/file.pdf">PDF</a></td></tr><tr><td align="right">Unfold: An integrated toolbox for overlap correction, non-linear modeling, and regression-based EEG analysis</td><td align="right">Ehinger B. &amp; Dimigen O.</td><td align="right"><a href="https://doi.org/10.7717/peerj.7838">DOI</a>/<a href="../assets/papers/pdf/2019/peerj-7838.pdf">PDF</a></td></tr><tr><td align="right">Tracking naturalistic linguistic predictions with deep neural language models</td><td align="right">Heilbron, M. et al.</td><td align="right"><a href="https://doi.org/10.48550/arXiv.1909.04400">DOI</a>/<a href="../assets/papers/pdf/2019/1909.04400.pdf">PDF</a></td></tr><tr><td align="right">Wild Lab-Characterizing Face-Selective ERPs Under More Natural Conditions</td><td align="right">Gert, A.L. et al.</td><td align="right"><a href="https://doi.org/N/A">DOI</a>/<a href=".">PDF</a></td></tr><tr><td align="right">Unmixed: Linear Mixed Models combined with Overlap Correction for M/EEG analyses. An Extension to the unfold Toolbox</td><td align="right">Ehinger, B.</td><td align="right"><a href="https://doi.org/10.32470/CCN.2019.1102-0">DOI</a>/<a href="../assets/papers/pdf/2019/f94dc2de117bf2d95467bc8dc4d9b180d242.pdf">PDF</a></td></tr><tr><td align="right">A new comprehensive Eye-Tracking Test Battery concurrently evaluating the Pupil Labs Glasses and the EyeLink 1000</td><td align="right">Ehinger, B. et al.</td><td align="right"><a href="https://doi.org/10.7717/peerj.7086">DOI</a>/<a href="../assets/papers/pdf/2019/peerj-7086.pdf">PDF</a></td></tr><tr><td align="right">The social situation affects how we process feedback about our actions</td><td align="right">Czeszumski, A. et al.</td><td align="right"><a href="https://doi.org/10.3389/fpsyg.2019.00361">DOI</a>/<a href="../assets/papers/pdf/2019/fpsyg-10-00361.pdf">PDF</a></td></tr></table></div>
+</div>
+</div>
+<div class="page-foot" id="bottom">
+    <div class="page-foot-grid-container">
+        <div class="page-foot-grid-container page-foot-item-inner">
+          <div class="page-foot-image-wrap">
+              <a href="/">
+                <img src="/assets/icn/footer_logo.png">
+              </a>
+          </div>
+          <div class="center-container">
+            <ul>
+              <li class="page-foot-links"><a href="/papers/">Papers</a></li>
+              <li class="page-foot-links"><a href="/open-projects-and-positions/">Open Positions</a></li>
+              <li class="page-foot-links"><a href="/internal/">Internal</a></li>
+              <li class="page-foot-links"><a href="/impressum/">Impressum</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="page-foot-grid-container page-foot-item-inner">
+          <div class="page-foot-image-wrap">
+            <a href="https://twitter.com/BenediktEhinger" target="_blank">
+              <img src="/assets/icn/twitter_icon.png"> 
+            </a>
+          </div>
+          <div class="page-foot-image-wrap">
+            <a href="https://github.com/s-ccs" target="_blank">
+              <img src="/assets/icn/GitHub-Mark-Light-120px-plus.png">
+            </a>
+          </div>
+          <div class="page-foot-image-wrap">
+            <a href="https://www.uni-stuttgart.de/en/" target="_blank">
+              <img src="/assets/icn/university-of-stuttgart-vector-logo.png">
+            </a>
+          </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+      &copy; S-CCS. Last modified: February 06, 2025. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+    </div>
+    
+</div></div><!-- CONTENT ENDS HERE -->
+  </div>
+  </main> <!-- end of id=main -->
+  
+  
+</body>
+</html>
