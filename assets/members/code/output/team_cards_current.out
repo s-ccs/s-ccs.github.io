@@ -1,7 +1,7 @@
 
             ~~~
             <div class="teamcard-wrapper">
-                <div class="teamcard-image img-var-1">
+                <div class="teamcard-image img-var-2">
                     <img src="/assets/team/current/001_benedikt_ehinger/profile_image.jpg" alt="Benedikt V. Ehinger">
                     <div class="circle-1"></div>
                     <div class="circle-2"></div>
@@ -26,7 +26,7 @@
 
             ~~~
             <div class="teamcard-wrapper">
-                <div class="teamcard-image img-var-2">
+                <div class="teamcard-image img-var-1">
                     <img src="/assets/team/current/002_judith_schepers/profile_image.jpg" alt="Judith Schepers">
                     <div class="circle-1"></div>
                     <div class="circle-2"></div>
@@ -76,7 +76,7 @@
 
             ~~~
             <div class="teamcard-wrapper">
-                <div class="teamcard-image img-var-3">
+                <div class="teamcard-image img-var-1">
                     <img src="/assets/team/current/004_vladimir_mikheev/profile_image.jpg" alt="Vladimir Mihkeev">
                     <div class="circle-1"></div>
                     <div class="circle-2"></div>
@@ -89,7 +89,7 @@
                         <div class="teamcard-position">Doctoral Researcher</div>
                     </div>
                     <div class="teamcard-text">
-                        Visualization, Research Software Dvelopment, EEG, ERP, Eye-tracking, Learning analytics
+                        Visualization, Research Software Development, EEG, ERP, Eye-tracking, Learning analytics
                     </div>
                     <div class="teamcard-link">
                         <i class="fas fa-envelope"></i>
@@ -126,7 +126,7 @@
 
             ~~~
             <div class="teamcard-wrapper">
-                <div class="teamcard-image img-var-1">
+                <div class="teamcard-image img-var-3">
                     <img src="/assets/team/current/100_daniela_milanese/profile_image.jpg" alt="Daniela Milanese">
                     <div class="circle-1"></div>
                     <div class="circle-2"></div>
