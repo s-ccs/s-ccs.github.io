@@ -21,6 +21,12 @@ If you ever think you fixed a simple bug like changing a link or some text and p
    
 If you experience any trouble, have a look at the Franklin doc: [Quick Start](https://franklinjl.org/#quick_start)
 
+### Troubleshooting
+1. If your local preview of the members page shows something along the lines of
+   Argument Error: Package CSV not found in current path: Run `import Pkg; Pkg.add("CSV")` to install the CSV package.
+   Have a look [here](https://franklinjl.org/code/#projecttoml). This problem might be due to a wrong path in the project.toml or manifest.toml. 
+   The most reliable way to fix this so far, is deleteing both .toml files and re-adding the packages in julia by cd'ing into the project folder and adding, as well as activating the packages (see link above).
+
 ## Previewing pull requests
 By following these steps, you can preview changes to the website with pull requests before merging them:
 1. Clone this git repository
@@ -34,12 +40,6 @@ By following these steps, you can preview changes to the website with pull reque
 - click "Create pull request"
 7. Preview the website with your changes by visiting the following URL, where you use the number of your pull request: https://s-ccs.github.io/previews/PR{number}/
 8. If everything works as intended, merge the pull request
-
-### Troubleshooting
-1. If your local preview of the members page shows something along the lines of
-   Argument Error: Package CSV not found in current path: Run `import Pkg; Pkg.add("CSV")` to install the CSV package.
-   Have a look [here](https://franklinjl.org/code/#projecttoml). This problem might be due to a wrong path in the project.toml or manifest.toml. 
-   The most reliable way to fix this so far, is deleteing both .toml files and re-adding the packages in julia by cd'ing into the project folder and adding, as well as activating the packages (see link above).
 
 ## File Structure 
 Generally, the site follows the Franklin folder structure, documented [here](https://franklinjl.org/workflow/#folder_structure). If you just want to edit the content of the website, get familiar with Markdown and the basic functionality of [Franklin](https://franklinjl.org/)
