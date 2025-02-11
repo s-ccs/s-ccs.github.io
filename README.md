@@ -2,10 +2,6 @@
 This is the git repository, containing the homepage for the eeg-lab at the VIS of the University of Stuttgart.
 The readme will be updated as the project grows, if you feel something is missing, feel free to add an issue. 
 
-## **TEETHBREAKER** (List of strange, irrational and seemingly unfixable bugs)
-### **Code does not get published on live site**
-If you ever think you fixed a simple bug like changing a link or some text and publish it, but the the online version of the page does not change, altough the code was published correctly to the main branch, check the **automated scripts**. It's very likely your change get's overwritten when pushed to the gh-pages branch.
-
 ## How to deploy the website locally
 1. Make sure you have [Julia](https://julialang.org/) installed. This Website is running on Julia 1.6.3, but later versions should work as well.
 2. Install Franklin for Julia, by going into the [package manager](https://docs.julialang.org/en/v1/stdlib/Pkg/) and typing `add Franklin; add CSV; add DataStructures`.
@@ -106,7 +102,7 @@ include("./_assets/scripts/init_dynamics.jl");
 ```
 
 ## Update Lunr search index
-If you change any content inside the website, make sure to update the lunr search index:
+If you change any content inside the website, make sure to update the [lunr search index (according to the Franklin.jl docs)](https://franklinjl.org/extras/lunr/):
 1. Make sure you have Lunr and Cheerio installed with:
    1. Pkg.add(NodeJS)
    2. using NodeJS
