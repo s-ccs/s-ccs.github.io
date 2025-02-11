@@ -338,6 +338,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://s-ccs.github.io/s-ccs/previews/index/</loc>
+    <lastmod>2025-02-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://s-ccs.github.io/s-ccs/teaching-resources/index/</loc>
     <lastmod>2025-02-11</lastmod>
     <changefreq>monthly</changefreq>
