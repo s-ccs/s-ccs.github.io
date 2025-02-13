@@ -1,11 +1,11 @@
 @def title = ""
 @def tags = ["landing", "home", "about"]
-# Stuttgart Computational Cognitive Science
+# IS THIS WORKING???
 @@container
     \textImage{img/model_human_activity.jpg}{blue}
     
 @@about-text
-### Modelling human activity
+### PREVIEW TEST!!
 The goal of the Stuttgart Computational Cognitive Science group, is to **understand human behavior** and **brain activity** under realistic conditions. We focus on **advancing methodological approaches** in combined EEG (a method to measure brain potentials), Eye-Tracking and Cognitive Modelling. We provide **open source** tools (e.g. [Unfold](https://www.unfoldtoolbox.org), [Unfold.jl](https://github.com/unfoldtoolbox/Unfold.jl), [eegvis](https://github.com/behinger/eegvis) and others).
 @@
 @@
