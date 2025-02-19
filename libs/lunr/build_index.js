@@ -5,11 +5,11 @@ var cheerio = require("cheerio");
 
 
 // Change these constants to suit your needs
-const HTML_FOLDER = "../../";  // folder with your HTML files
+const HTML_FOLDER = "../../__site";  // folder with your HTML files
 // Valid search fields: "title", "description", "keywords", "body"
 const SEARCH_FIELDS = ["description", "keywords", "body"];
 const EXCLUDE_FILES = ["search.html", "404.html"];
-const EXCLUDE_FOLDERS = ["node_modules", "css", "assets", "libs", "search", "tag"];
+const EXCLUDE_FOLDERS = ["node_modules", "css", "libs", "assets", "search", "tag"];
 const MAX_PREVIEW_CHARS = 275;  // Number of characters to show for a given search result
 const OUTPUT_INDEX = "lunr_index.js";  // Index file
 
@@ -75,11 +75,11 @@ function buildIndex(docs) {
         this.ref('id');
         for (var i = 0; i < SEARCH_FIELDS.length; i++) {
             this.field(SEARCH_FIELDS[i].slice(0, 1));
-        } 
+        }
         docs.forEach(function (doc) {
-                this.add(doc);
-            }, this);
-        });
+            this.add(doc);
+        }, this);
+    });
     return idx;
 }
 
@@ -112,14 +112,14 @@ function main() {
     }
     var idx = buildIndex(docs);
     var previews = buildPreviews(docs);
-    var js = "const LUNR_DATA = " + JSON.stringify(idx) + ";\n" + 
-             "const PREVIEW_LOOKUP = " + JSON.stringify(previews) + ";";
-    fs.writeFile(OUTPUT_INDEX, js, function(err) {
-        if(err) {
+    var js = "const LUNR_DATA = " + JSON.stringify(idx) + ";\n" +
+        "const PREVIEW_LOOKUP = " + JSON.stringify(previews) + ";";
+    fs.writeFile(OUTPUT_INDEX, js, function (err) {
+        if (err) {
             return console.log(err);
         }
         console.log("Index saved as " + OUTPUT_INDEX);
-    }); 
+    });
 }
 
 main();
