@@ -49,7 +49,7 @@ jobs:
             include("./_assets/scripts/init_dynamics.jl");
             using Franklin;
             using CSV;
-            optimize(clear=true, minify=false)
+            optimize(clear=true, minify=false);
             lunr();
             '
     - name: Build and Deploy
