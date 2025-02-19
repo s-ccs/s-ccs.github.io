@@ -49,8 +49,8 @@ jobs:
             include("./_assets/scripts/init_dynamics.jl");
             using Franklin;
             using CSV;
-            lunr();
             optimize(clear=true, minify=false)
+            lunr();
             '
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
