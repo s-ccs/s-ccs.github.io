@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="Hoif5diNsHJ90NTixkCQk2ILYGpO00x9RyaZtFq6I7s" />
+  <a rel="me" href="https://scholar.social/@BenediktEhinger"></a>
+  <script src="https://kit.fontawesome.com/890a008f1c.js" crossorigin="anonymous"></script>
+
+  
+  
+
+  <!--<link rel="stylesheet" href="/css/minimal-mistakes.css">-->
+<link href="/css/franklin.css" rel="stylesheet">
+<link href="/css/nav-styling.css" rel="stylesheet">
+<script src="/libs/nav/hamburger.js"></script>
+<script src="/libs/nav/hideFolder.js"></script>
+<!--<script src="/libs/vela/jquery.min.js"></script>-->
+
+<link rel="icon" href="/assets/favicon.png">
+
+<!--[if IE ]>
+<style>
+  /* old IE unsupported flexbox fixes */
+  .greedy-nav .site-title {
+    padding-right: 3em;
+  }
+  .greedy-nav button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+  }
+</style>
+<![endif]-->
+
+
+  <script src="/libs/lunr/lunr.min.js"></script>
+  <script src="/libs/lunr/lunr_index.js"></script>
+  <script src="/libs/lunr/lunrclient.js"></script>
+
+  
+
+  
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+</head>
+
+<body>
+  <div class="masthead">
+                 <div class="masthead__inner-wrap">
+                 	<div class="masthead__menu">
+                 		<nav id="site-nav" class="greedy-nav">
+                 			<a class="site-title" href="/"><img src="/assets/icn/text_logo.png"></a>
+                 			<ul class="visible-links">
+                 				<a href="/open-projects-and-positions/"> <li class="masthead__menu-item">Open Positions</li> </a>
+                 				<a href="/members/"><li class="masthead__menu-item">Members</li></a>
+                 				<a href="/teaching-resources/"><li class="masthead__menu-item">Teaching Resources</li></a>
+                 			</ul>
+                 			<a href="javascript:void(0);" onclick="toggleHamburger(this)">
+                 				<div class="hamburger">
+                 					<div id="upper-hamburger-layer" class="hamburger-elem1"></div>
+                 					<div class="hamburger-elem2"></div>
+                 					<div id="lower-hamburger-layer" class="hamburger-elem1"></div>
+                 				</div>
+                 			</a>
+                 		</nav>
+                 		<div class="invisible-hamburger-links" id="hamburgerLinks">
+                 			<ul class="nav-first">
+					<li><a href="/index.html">Home</a></li>
+					<li><a href="/members/">Members</a></li>
+					<li><a href="/papers/">Papers</a></li>
+					<li><a href="/philosophy/">Philosophy</a></li>
+					<li><a href="/teaching-resources/">Teaching Resources</a>
+						<ul class="nav-second">
+							<li><a href="/teaching-resources/bayesian-statistics/">Bayesian Statistics</a></li>
+							<li><a href="/teaching-resources/eeg-course/">Eeg Course</a></li>
+							<li><a href="/teaching-resources/eye-tracking-course/">Eye Tracking Course</a></li>
+							<li><a href="/teaching-resources/interactive-explanations/">Interactive Explanations</a></li>
+							<li><a href="/teaching-resources/linear-mixed-models/">Linear Mixed Models</a></li>
+							<li><a href="/teaching-resources/philosophy-of-science/">Philosophy Of Science</a></li>
+							<li><a href="/teaching-resources/open-teaching-graphics">Open Teaching Graphics</a>
+								<ul class="nav-third">
+									<li><a href="/teaching-resources/open-teaching-graphics/Bold-Response-Sampling/">Bold Response Sampling</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Correspondence-Problem/">Correspondence Problem</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Distance-Measures/">Distance Measures</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/EEG-Analysis/">Eeg Analysis</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/ERP-Single-Trial/">Erp Single Trial</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/ERPs/">Erps</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Eye-Venes/">Eye Venes</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Figure-Disparity-Receptive-Fields/">Figure Disparity Receptive Fields</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Induced-Evoked/">Induced Evoked</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Interaction-Effect-Coding/">Interaction Effect Coding</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Monitor-Receptive-Field/">Monitor Receptive Field</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Multi-Taper-Vs-FFT/">Multi Taper Vs Fft</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Plane-Basis-Vectors/">Plane Basis Vectors</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Poster-Template/">Poster Template</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Power-Spectral-Bands/">Power Spectral Bands</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Purkinje-Blue-Arc/">Purkinje Blue Arc</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Simulated-Signal/">Simulated Signal</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Temporal-Spatial-Tradeoff/">Temporal Spatial Tradeoff</a></li>
+									<li><a href="/teaching-resources/open-teaching-graphics/Wavelet-Transform/">Wavelet Transform</a></li>
+								</ul>
+							</li>
+							<li><a href="/vision-demos/">Vision Demos</a></li>
+						</ul>
+					</li>
+					<li><a href="/thesis-art/">Thesis Art</a>
+						<ul class="nav-second">
+							<li><a href="/thesis-art/Alexander-Lulkin/">Alexander Lulkin</a></li>
+							<li><a href="/thesis-art/Edoardo-Pinzuti/">Edoardo Pinzuti</a></li>
+							<li><a href="/thesis-art/Felix-Schröder/">Felix Schröder</a></li>
+							<li><a href="/thesis-art/Hannes-Bonasch/">Hannes Bonasch</a></li>
+							<li><a href="/thesis-art/Jan-Haas/">Jan Haas</a></li>
+							<li><a href="/thesis-art/Jiameng-Wu/">Jiameng Wu</a></li>
+							<li><a href="/thesis-art/Judith-Schepers/">Judith Schepers</a></li>
+							<li><a href="/thesis-art/Karolis-Degutis/">Karolis Degutis</a></li>
+							<li><a href="/thesis-art/Katharina-Groß/">Katharina Groß</a></li>
+							<li><a href="/thesis-art/Katja-Haeusser/">Katja Haeusser</a></li>
+							<li><a href="/thesis-art/Lilli-Kaufhold/">Lilli Kaufhold</a></li>
+							<li><a href="/thesis-art/Lisa-Marie-Vortmann/">Lisa Marie Vortmann</a></li>
+							<li><a href="/thesis-art/Luis-Lips/">Luis Lips</a></li>
+							<li><a href="/thesis-art/Maria-Sokotuschenko/">Maria Sokotuschenko</a></li>
+							<li><a href="/thesis-art/Martin-Geiger/">Martin Geiger</a></li>
+						</ul>
+					</li>
+					<li><a href="/open-projects-and-positions/">Open Projects And Positions</a></li>
+					<li><a href="/emmy-noether/">Emmy Noether</a></li>
+					<li><a href="/contact-us/">Contact Us</a></li>
+					<li><a href="/how-to-find-us/">How To Find Us</a></li>
+					<li><a href="/previews/">Previews</a></li>
+					<li><a href="/Science Communication/">Science Communication</a></li>
+					<li><a href="/impressum/">Impressum</a></li>
+				</ul>
+               			</div>
+               		</div>
+               	</div>
+               </div>
+  
+  <div class="page-wrapper">
+    <div class="side-nav-wrapper">
+                 <div class="side-nav">
+                 	<div class="search-bar">
+                 		<form id="lunrSearchForm" name="lunrSearchForm">
+                 			<input class="search-input" name="q" placeholder="Search..." type="text">
+                 			<input type="submit" value="Search" formaction="/search/index.html">
+                 		</form>
+                 	</div>
+                 	<h2>
+                 		Navigation
+                 	</h2>
+		<ul class="first">
+			<li><a class="" href="\.\">Home</a></li>
+			<li><a class="" href="/members/">Members</a></li>
+			<li><a class="" href="/papers/">Papers</a></li>
+			<li><a class="active" href="/philosophy/">Philosophy</a></li>
+			<li><a class="second-action" onclick="hideFolder('teaching-resources')"><i id="teaching-resources-folder-icon" class="fas fa-chevron-circle-right"></i></a><a class="" href="/teaching-resources">Teaching Resources</a>
+ 				<ul id="teaching-resources-folder" class="second-invisible"> 
+					<li><a class="" href="/teaching-resources/bayesian-statistics/">Bayesian Statistics</a></li>
+					<li><a class="" href="/teaching-resources/eeg-course/">Eeg Course</a></li>
+					<li><a class="" href="/teaching-resources/eye-tracking-course/">Eye Tracking Course</a></li>
+					<li><a class="" href="/teaching-resources/interactive-explanations/">Interactive Explanations</a></li>
+					<li><a class="" href="/teaching-resources/linear-mixed-models/">Linear Mixed Models</a></li>
+					<li><a class="" href="/teaching-resources/philosophy-of-science/">Philosophy Of Science</a></li>
+					<li><a class="third-action" onclick="hideFolder('teaching-resources/open-teaching-graphics')"><i id="teaching-resources/open-teaching-graphics-folder-icon" class="fas fa-chevron-circle-right"></i></a><a class="" href="/teaching-resources/open-teaching-graphics">Open Teaching Graphics</a>
+ 						<ul id="teaching-resources/open-teaching-graphics-folder" class="third-invisible"> 
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Bold-Response-Sampling/">Bold Response Sampling</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Correspondence-Problem/">Correspondence Problem</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Distance-Measures/">Distance Measures</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/EEG-Analysis/">Eeg Analysis</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/ERP-Single-Trial/">Erp Single Trial</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/ERPs/">Erps</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Eye-Venes/">Eye Venes</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Figure-Disparity-Receptive-Fields/">Figure Disparity Receptive Fields</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Induced-Evoked/">Induced Evoked</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Interaction-Effect-Coding/">Interaction Effect Coding</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Monitor-Receptive-Field/">Monitor Receptive Field</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Multi-Taper-Vs-FFT/">Multi Taper Vs Fft</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Plane-Basis-Vectors/">Plane Basis Vectors</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Poster-Template/">Poster Template</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Power-Spectral-Bands/">Power Spectral Bands</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Purkinje-Blue-Arc/">Purkinje Blue Arc</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Simulated-Signal/">Simulated Signal</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Temporal-Spatial-Tradeoff/">Temporal Spatial Tradeoff</a></li>
+							<li><a class="" href="/teaching-resources/open-teaching-graphics/Wavelet-Transform/">Wavelet Transform</a></li>
+						</ul>
+ 					</li>
+					<li><a class="" href="/vision-demos/">Vision Demos</a></li>
+				</ul>
+ 			</li>
+			<li><a class="second-action" onclick="hideFolder('thesis-art')"><i id="thesis-art-folder-icon" class="fas fa-chevron-circle-right"></i></a><a class="" href="/thesis-art">Thesis Art</a>
+ 				<ul id="thesis-art-folder" class="second-invisible"> 
+					<li><a class="" href="/thesis-art/Alexander-Lulkin/">Alexander Lulkin</a></li>
+					<li><a class="" href="/thesis-art/Edoardo-Pinzuti/">Edoardo Pinzuti</a></li>
+					<li><a class="" href="/thesis-art/Felix-Schröder/">Felix Schröder</a></li>
+					<li><a class="" href="/thesis-art/Hannes-Bonasch/">Hannes Bonasch</a></li>
+					<li><a class="" href="/thesis-art/Jan-Haas/">Jan Haas</a></li>
+					<li><a class="" href="/thesis-art/Jiameng-Wu/">Jiameng Wu</a></li>
+					<li><a class="" href="/thesis-art/Judith-Schepers/">Judith Schepers</a></li>
+					<li><a class="" href="/thesis-art/Karolis-Degutis/">Karolis Degutis</a></li>
+					<li><a class="" href="/thesis-art/Katharina-Groß/">Katharina Groß</a></li>
+					<li><a class="" href="/thesis-art/Katja-Haeusser/">Katja Haeusser</a></li>
+					<li><a class="" href="/thesis-art/Lilli-Kaufhold/">Lilli Kaufhold</a></li>
+					<li><a class="" href="/thesis-art/Lisa-Marie-Vortmann/">Lisa Marie Vortmann</a></li>
+					<li><a class="" href="/thesis-art/Luis-Lips/">Luis Lips</a></li>
+					<li><a class="" href="/thesis-art/Maria-Sokotuschenko/">Maria Sokotuschenko</a></li>
+					<li><a class="" href="/thesis-art/Martin-Geiger/">Martin Geiger</a></li>
+				</ul>
+ 			</li>
+			<li><a class="" href="/open-projects-and-positions/">Open Projects And Positions</a></li>
+			<li><a class="" href="/emmynoether/">Emmy Noether</a></li>
+			<li><a class="" href="/contact-us/">Contact Us</a></li>
+			<li><a class="" href="/how-to-find-us/">How To Find Us</a></li>
+			<li><a class="" href="/previews/">Previews</a></li>
+			<li><a class="" href="/Science Communication/">Science Communication</a></li>
+		</ul>
+	</div>
+           </div>
+
+
+
+
+
+
+    <!-- Content appended here -->
+<div class="franklin-content"><h1 id="lab_philosophy"><a href="#lab_philosophy" class="header-anchor">Lab philosophy </a></h1>
+<p>The philosophy of a lab defines its <strong>values</strong>, and to some degree, its <strong>rules</strong>. The set of following points is an ongoing discussion - as a lab evolves, its culture evolves and adapts to the needs and cultures of the members defining it.</p>
+<h2 id="core_values"><a href="#core_values" class="header-anchor">Core Values</a></h2>
+<ol>
+<li><p>Be <strong>kind</strong>.</p>
+</li>
+<li><p>Think for yourself; <strong>question</strong> authority.</p>
+</li>
+<li><p>Be <strong>honest</strong>.</p>
+</li>
+<li><p>Seek <strong>truth</strong>.</p>
+</li>
+</ol>
+<h2 id="lab_culture"><a href="#lab_culture" class="header-anchor">Lab culture</a></h2>
+<ul>
+<li><p>We want to <strong>collaborate</strong>, not compete - within and between labs.</p>
+</li>
+<li><p>We highly value the principles of <strong>open</strong> science. It is better to be truthful, than be published.</p>
+</li>
+<li><p>Participation in the lab- &#40;non-social&#41; events is expected to the best of our abilities. Asking <strong>questions</strong> and providing <strong>comments</strong> is strongly encouraged.</p>
+</li>
+<li><p>Be <strong>connected</strong> with each other. We ask &#40;and/or know&#41; what others are doing and how they are feeling today.</p>
+</li>
+<li><p>We make lots of space for open, constructive, direct, but always empathic <strong>feedback</strong>. This goes both directions, please give Bene feedback too&#33;</p>
+</li>
+<li><p>We strive for <strong>diversity and equity</strong> in every part of our work, commiting to actively foster an all welcoming atmosphere for LGBTQIA&#43;, neurodivergent, BIPOC, researchers at risk, and other marginalized groups. We recognize the challenges these groups face through systemic discrimination and prejudice, and strive to provide special support where needed.</p>
+</li>
+</ul>
+<h2 id="work-life_balance"><a href="#work-life_balance" class="header-anchor">Work-Life Balance</a></h2>
+<ul>
+<li><p>Our work should typically be <strong>fun</strong>, <strong>fulfilling</strong>, <strong>interesting</strong> and &#40;in some sense&#41; <strong>important</strong> &#40;if it is not: contact Bene&#41;. But work is not life, and sometimes work can overburden us. Take vacation, start relationships, explore new things, grow as a person.</p>
+</li>
+<li><p>Nobody checks work hours, but we expect <strong>honest communication</strong> on needs and limits.</p>
+</li>
+<li><p>We <strong>don&#39;t</strong> expect <strong>responses/work</strong> during evenings, weekends or vacations. Exceptions &#40;e.g. conference deadlines&#41; should be communicated in advance.</p>
+</li>
+<li><p>We schedule meetings during <strong>core working hours</strong> &#40;10-16&#41; and accommodate individual requests&#40;e.g. care duties&#41;.</p>
+</li>
+</ul>
+<h2 id="mental_health"><a href="#mental_health" class="header-anchor">Mental Health</a></h2>
+<ul>
+<li><p>Sometimes we feel <strong>guilty</strong> - we forgot to do something, were slower than expected, we are overworked, we don&#39;t meet expectations, or we missed a deadline &#40;Bene feels guilty too, unfortunately all of these things happen to him still...&#41;. We will try to fight this and <strong>fight</strong> it <strong>early</strong>. The sooner we realize what is going on &#40;not always easy&#41;, the better we can put measures in place to stop it. <strong>Guilt</strong> can be a <strong>vicious cycle</strong>.</p>
+</li>
+<li><p><strong>Conflicts can happen</strong> sometimes. We try to <strong>communicate openly</strong>, but sometimes it might not be possible. Find a person you <strong>trust</strong> at the University &#40;any kind of mentor, second supervisor, &quot;senior&quot; colleague, Ombudsperson, Gleichstellungsperson - best to ask around a bit, use your intuition&#41;. Seek a specific meeting with me, you can always <strong>bring third persons</strong> to feel more empowered. Write memory logs&#33;</p>
+</li>
+<li><p>We are open about mistakes, no progress, or other struggles. In some sense they are our day-to-day business. You can <strong>always discuss</strong> with Bene in the weekly meetings.</p>
+</li>
+</ul>
+<h2 id="climate_impact"><a href="#climate_impact" class="header-anchor">Climate impact</a></h2>
+<p>Human-made climate change is the greatest challenge we face as humanity.</p>
+<ul>
+<li><p>Minimize climate impact of conferences, by travelling by train for everything reachable in &lt;10h &#40;exceptions e.g. for travelling with small children as appropriate&#41;.</p>
+</li>
+<li><p>Think twice, run once - spend time on efficiency.</p>
+</li>
+<li><p>We are encouraging Green computing solutions and encourage re-use in the lab where possible.</p>
+</li>
+</ul>
+<h2 id="joining_the_lab"><a href="#joining_the_lab" class="header-anchor">Joining the lab?</a></h2>
+<p>If you are thinking to apply to the lab, here are some recommendations:</p>
+<ul>
+<li><p>Your motivation letter should make clear why you are applying. What is it, that you find interesting in our research/topics?</p>
+</li>
+<li><p>If you worry about a gap in your CV, a bad result, or something - adress it briefly in the motivation letter rather than hoping nobody notices it.</p>
+</li>
+<li><p>Lab-culture on a webpage is useless if it is not actually lived. Please contact as many PhDs/PostDocs as you want to answer all your question. Really make use of this to get a feeling of how the lab is going and how Bene is supervising. In case we have on-site visits, we will also organize such meetings.</p>
+</li>
+<li><p>@ current PhD Students &amp; PostDocs: Please take the time and give honest answers to the incoming candidates. If you recommend someone not to join the lab, I would be happy to hear that feedback as well.</p>
+</li>
+</ul>
+<h2 id="acknowledgments"><a href="#acknowledgments" class="header-anchor">Acknowledgments</a></h2>
+<p>This philosophy is heavily <strong>inspired</strong> by <a href="https://docs.google.com/document/d/1f6foaCkHiCkPKjO0gdKkkdm2dn1EKn5xRKZv-Ut5Dg4/"><strong>Wei Ji Ma&#39;s</strong></a> Lab philosophy. Many of the points raised there resonated strongly with us.</p>
+</div>
+</div>
+<div class="page-foot" id="bottom">
+    <div class="page-foot-grid-container">
+        <div class="page-foot-grid-container page-foot-item-inner">
+          <div class="page-foot-image-wrap">
+              <a href="/">
+                <img src="/assets/icn/footer_logo.png">
+              </a>
+          </div>
+          <div class="center-container">
+            <ul>
+              <li class="page-foot-links"><a href="/papers/">Papers</a></li>
+              <li class="page-foot-links"><a href="/open-projects-and-positions/">Open Positions</a></li>
+              <li class="page-foot-links"><a href="/internal/">Internal</a></li>
+              <li class="page-foot-links"><a href="/impressum/">Impressum</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="page-foot-grid-container page-foot-item-inner">
+          <div class="page-foot-image-wrap">
+            <a href="https://twitter.com/BenediktEhinger" target="_blank">
+              <img src="/assets/icn/twitter_icon.png"> 
+            </a>
+          </div>
+          <div class="page-foot-image-wrap">
+            <a href="https://github.com/s-ccs" target="_blank">
+              <img src="/assets/icn/GitHub-Mark-Light-120px-plus.png">
+            </a>
+          </div>
+          <div class="page-foot-image-wrap">
+            <a href="https://www.uni-stuttgart.de/en/" target="_blank">
+              <img src="/assets/icn/university-of-stuttgart-vector-logo.png">
+            </a>
+          </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+      &copy; S-CCS. Last modified: April 30, 2025. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+    </div>
+    
+</div></div><!-- CONTENT ENDS HERE -->
+  </div>
+  </main> <!-- end of id=main -->
+  
+  
+</body>
+</html>
