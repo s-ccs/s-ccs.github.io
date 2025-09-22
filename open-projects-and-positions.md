@@ -5,7 +5,7 @@
 If you think about working with us and want to apply, I highly recommend reading through [this link](http://www.thememolab.org/pages/gradapps/) prior to writing your statement. It is from the MemoLab (US-based), but many things apply as well. At some point I hope to write my own document, but this has to suffice for now.
 
 ### PostDoc/PhD
-There are currently no open positions.
+We are hiring a 100% TVL-13 position via the [Max Planck Graduate School IMPRS-IS](https://imprs.is.mpg.de/) - Deadline is 16th November.
 
 ### HiWi
 Currently no open HiWi positions - maybe in Summer 2025 again.
