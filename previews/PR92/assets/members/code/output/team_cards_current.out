@@ -1,0 +1,200 @@
+
+            ~~~
+            <div class="teamcard-wrapper">
+                <div class="teamcard-image img-var-1">
+                    <img src="/assets/team/current/001_benedikt_ehinger/profile_image.jpg" alt="Benedikt V. Ehinger">
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                    <div class="circle-3"></div>
+                </div>
+                <div>
+                    <div class="teamcard-header">
+                        <div class="teamcard-title">Jun.-Prof.</div>
+                        <h2>Benedikt V. Ehinger</h2>
+                        <div class="teamcard-position">Computational Cognitive Science, <a href="https://www.simtech.uni-stuttgart.de/exc/people/Ehinger-00003/">Stuttgart Center for Simulation Science</a> / VIS</div>
+                    </div>
+                    <div class="teamcard-text">
+                        EEG/Eye-Tracking, Methods, Statistics, Visual Processing
+                    </div>
+                    <div class="teamcard-link">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:benedikt.ehinger@vis.uni-stuttgart.de">benedikt.ehinger@vis.uni-stuttgart.de</a>
+                    </div>
+                </div>
+            </div>
+            ~~~
+
+            ~~~
+            <div class="teamcard-wrapper">
+                <div class="teamcard-image img-var-2">
+                    <img src="/assets/team/current/002_judith_schepers/profile_image.jpg" alt="Judith Schepers">
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                    <div class="circle-3"></div>
+                </div>
+                <div>
+                    <div class="teamcard-header">
+                        <div class="teamcard-title">M.Sc.</div>
+                        <h2>Judith Schepers</h2>
+                        <div class="teamcard-position">Doctoral Researcher</div>
+                    </div>
+                    <div class="teamcard-text">
+                        Cognitive modelling, EEG/Eye-tracking experiments, Bayesian statistics
+                    </div>
+                    <div class="teamcard-link">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:Judith.Schepers@vis.uni-stuttgart.de">Judith.Schepers@vis.uni-stuttgart.de</a>
+                    </div>
+                </div>
+            </div>
+            ~~~
+
+            ~~~
+            <div class="teamcard-wrapper">
+                <div class="teamcard-image img-var-3">
+                    <img src="/assets/team/current/003_rene_skukies/profile_image.jpg" alt="René Skukies">
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                    <div class="circle-3"></div>
+                </div>
+                <div>
+                    <div class="teamcard-header">
+                        <div class="teamcard-title">M.Phil.</div>
+                        <h2>René Skukies</h2>
+                        <div class="teamcard-position">Doctoral Researcher</div>
+                    </div>
+                    <div class="teamcard-text">
+                        M/EEG, Methods, Statistics, (multimodal) Perception/ Awareness
+                    </div>
+                    <div class="teamcard-link">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:Rene.Skukies@vis.uni-stuttgart.de">Rene.Skukies@vis.uni-stuttgart.de</a>
+                    </div>
+                </div>
+            </div>
+            ~~~
+
+            ~~~
+            <div class="teamcard-wrapper">
+                <div class="teamcard-image img-var-3">
+                    <img src="/assets/team/current/004_vladimir_mikheev/profile_image.jpg" alt="Vladimir Mikheev">
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                    <div class="circle-3"></div>
+                </div>
+                <div>
+                    <div class="teamcard-header">
+                        <div class="teamcard-title">M.Sc.</div>
+                        <h2>Vladimir Mikheev</h2>
+                        <div class="teamcard-position">Doctoral Researcher</div>
+                    </div>
+                    <div class="teamcard-text">
+                        Current: Research Software Development in Julia, EEG and ERP Visualization. Former: Eye-tracking, Learning analytics
+                    </div>
+                    <div class="teamcard-link">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:Vladimir.Mikheev@vis.uni-stuttgart.de">Vladimir.Mikheev@vis.uni-stuttgart.de</a>
+                    </div>
+                </div>
+            </div>
+            ~~~
+
+            ~~~
+            <div class="teamcard-wrapper">
+                <div class="teamcard-image img-var-2">
+                    <img src="/assets/team/current/005_jevri_hanna/profile_image.jpg" alt="Jevri Hanna">
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                    <div class="circle-3"></div>
+                </div>
+                <div>
+                    <div class="teamcard-header">
+                        <div class="teamcard-title">Ph.D</div>
+                        <h2>Jevri Hanna</h2>
+                        <div class="teamcard-position">Post-doctoral Researcher</div>
+                    </div>
+                    <div class="teamcard-text">
+                        M/EEG, Methods, Statistics, Machine Learning
+                    </div>
+                    <div class="teamcard-link">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:jevri.hanna@vis.uni-stuttgart.de">jevri.hanna@vis.uni-stuttgart.de</a>
+                    </div>
+                </div>
+            </div>
+            ~~~
+
+            ~~~
+            <div class="teamcard-wrapper">
+                <div class="teamcard-image img-var-1">
+                    <img src="/assets/team/current/006_martin_geiger/profile_image.jpg" alt="Martin Geiger">
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                    <div class="circle-3"></div>
+                </div>
+                <div>
+                    <div class="teamcard-header">
+                        <div class="teamcard-title">M.Sc.</div>
+                        <h2>Martin Geiger</h2>
+                        <div class="teamcard-position">Doctoral Researcher</div>
+                    </div>
+                    <div class="teamcard-text">
+                        mobile EEG/ET, Methods, Optic Flow, BCI
+                    </div>
+                    <div class="teamcard-link">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:martin.geiger@vis.uni-stuttgart.de">martin.geiger@vis.uni-stuttgart.de</a>
+                    </div>
+                </div>
+            </div>
+            ~~~
+
+            ~~~
+            <div class="teamcard-wrapper">
+                <div class="teamcard-image img-var-3">
+                    <img src="/assets/team/current/100_daniela_milanese/profile_image.jpg" alt="Daniela Milanese">
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                    <div class="circle-3"></div>
+                </div>
+                <div>
+                    <div class="teamcard-header">
+                        <div class="teamcard-title">M.A.</div>
+                        <h2>Daniela Milanese</h2>
+                        <div class="teamcard-position">Administrative assistant </div>
+                    </div>
+                    <div class="teamcard-text">
+                         
+                    </div>
+                    <div class="teamcard-link">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:daniela.milanese@vis.uni-stuttgart.de">daniela.milanese@vis.uni-stuttgart.de</a>
+                    </div>
+                </div>
+            </div>
+            ~~~
+
+            ~~~
+            <div class="teamcard-wrapper">
+                <div class="teamcard-image img-var-2">
+                    <img src="/assets/team/current/999_polpo/profile_image.jpg" alt="Polpo">
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                    <div class="circle-3"></div>
+                </div>
+                <div>
+                    <div class="teamcard-header">
+                        <div class="teamcard-title"></div>
+                        <h2>Polpo</h2>
+                        <div class="teamcard-position">Scientific Mascot</div>
+                    </div>
+                    <div class="teamcard-text">
+                        Cognitive Coleoidea Science
+                    </div>
+                    <div class="teamcard-link">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:polpo@polpo.de">polpo@polpo.de</a>
+                    </div>
+                </div>
+            </div>
+            ~~~
