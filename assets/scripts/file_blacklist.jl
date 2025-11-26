@@ -7,7 +7,7 @@
 =#
 ##########################################################################################################
 file_black_list = ["404.md", "README.md", "config.md", "search.md", "impressum.md", "index.md", "internal.md", "index_content.md", "robots.txt"]
-folder_black_list = ["_", "node_modules", ".git", "LICENSE", ".idea", ".vscode", "preview"]
+folder_black_list = ["_", "node_modules", ".git", "LICENSE", ".idea", ".vscode"]
 
 uppercase_list = ["eeg", "glmm"]
 format_blacklist = ["porics"]
