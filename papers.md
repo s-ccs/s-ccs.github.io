@@ -2,12 +2,35 @@
 @def tags = ["pdf", "publications"]
 
 # Archive of Papers
+## 2025
+@@doi-table
+|Title|Authors|DOI/PDF|
+|-----|-------|------|
+|UnfoldMakie.jl: EEG/ERP visualization package|Mikheev V., Ehinger B. V.|[DOI](https://doi.org/10.21105/joss.07560)/[PDF](../assets/papers/pdf/2025/Mikheev_2025.pdf)|
+@@
+
+## 2024
+@@doi-table
+|Title|Authors|DOI/PDF|
+|-----|-------|------|
+|The Art of Brainwaves: A Survey on Event-Related Potential Visualization Practices|Mikheev V., Skukies R., Ehinger B. V.|[DOI](https://doi.org/10.52294/001c.116386)/[PDF](../assets/papers/pdf/2024/Mikheev_2024.pdf)|
+@@
+
+## 2023
+@@doi-table
+|Title|Authors|DOI/PDF|
+|-----|-------|------|
+|Planning to revisit: Neural activity in refixation precursors|Nikolaev AR, Ehinger BV, Meghanathan RN, Leeuwen, van C|[DOI](https://doi.org/10.1167/jov.23.7.2)/[PDF](../assets/papers/pdf/2023/Nikolaev (2023).pdf)|
+|Humans predict the forest, not the trees: statistical learning of spatiotemporal structure in visual scenes|Yan C, Ehinger BV, Pérez-Bellido A, Peelen MV, de Lange FP|[DOI](https://doi.org/10.1093/cercor/bhad115)/[PDF](../assets/papers/pdf/2023/Yan (2023).pdf)|
+@@
+
 ## 2022
 @@doi-table
 |Title|Authors|DOI/PDF|
 |-----|-------|------|
 |At a second glance: cognitive and oculomotor neural activity of refixation planning|Nikolaev, A. R. et al.|[DOI](https://doi.org/10.1101/660308)/[PDF](../assets/papers/pdf/2022/660308v4.full.pdf)|
 |EEG ERP Preregistration Template|Govaart, G. H. et al.|[DOI](https://doi.org/10.31222/osf.io/4nvpt)/[PDF](../assets/papers/pdf/2022/govaart-eeg-erp-prereg-template-2022.pdf)|
+|WildLab: A naturalistic free viewing experiment reveals previously unknown electroencephalography signatures of face processing|Gert Al, Ehinger BV, Timm S, Kietzmann TC, König P|[DOI](https://doi.org/10.1111/ejn.15824)/[PDF](../assets/papers/pdf/2022/Gert (2022).pdf)|
 @@
 
 ## 2021
