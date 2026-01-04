@@ -19,3 +19,13 @@ gen_html("alumni")
 ```
 \textoutput{team_cards_alumni}
 
+
+
+
+## Hiwi
+```julia:team_cards_Hiwi
+#hideall
+include("./_assets/scripts/generate_members_html.jl")
+gen_html("Hiwi")
+```
+\textoutput{team_cards_Hiwi}
