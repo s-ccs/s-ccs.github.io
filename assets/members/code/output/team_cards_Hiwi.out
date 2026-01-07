@@ -1,0 +1,100 @@
+
+            ~~~
+            <div class="teamcard-wrapper">
+                <div class="teamcard-image img-var-2">
+                    <img src="/assets/team/Hiwi/001_christina_bohnacker/profile_image.jpg" alt="Christina Bohnacker">
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                    <div class="circle-3"></div>
+                </div>
+                <div>
+                    <div class="teamcard-header">
+                        <div class="teamcard-title">M.Sc.</div>
+                        <h2>Christina Bohnacker</h2>
+                        <div class="teamcard-position">Research Assistant</div>
+                    </div>
+                    <div class="teamcard-text">
+                          
+                    </div>
+                    <div class="teamcard-link">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:st184804@stud.uni-stuttgart.de">st184804@stud.uni-stuttgart.de</a>
+                    </div>
+                </div>
+            </div>
+            ~~~
+
+            ~~~
+            <div class="teamcard-wrapper">
+                <div class="teamcard-image img-var-1">
+                    <img src="/assets/team/Hiwi/002_Maanik_Marathe/profile_image.jpg" alt="Maanik Marathe">
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                    <div class="circle-3"></div>
+                </div>
+                <div>
+                    <div class="teamcard-header">
+                        <div class="teamcard-title">M.Sc.</div>
+                        <h2>Maanik Marathe</h2>
+                        <div class="teamcard-position">Research Assistant</div>
+                    </div>
+                    <div class="teamcard-text">
+                           
+                    </div>
+                    <div class="teamcard-link">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:st185219@stud.uni-stuttgart.de">st185219@stud.uni-stuttgart.de</a>
+                    </div>
+                </div>
+            </div>
+            ~~~
+
+            ~~~
+            <div class="teamcard-wrapper">
+                <div class="teamcard-image img-var-3">
+                    <img src="/assets/team/Hiwi/003_Yanhong_Xu/profile_image.jpg" alt="Maanik Marathe">
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                    <div class="circle-3"></div>
+                </div>
+                <div>
+                    <div class="teamcard-header">
+                        <div class="teamcard-title">M.Sc.</div>
+                        <h2>Maanik Marathe</h2>
+                        <div class="teamcard-position">Research Assistant</div>
+                    </div>
+                    <div class="teamcard-text">
+                           
+                    </div>
+                    <div class="teamcard-link">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:st181570@stud.uni-stuttgart.de">st181570@stud.uni-stuttgart.de</a>
+                    </div>
+                </div>
+            </div>
+            ~~~
+
+            ~~~
+            <div class="teamcard-wrapper">
+                <div class="teamcard-image img-var-1">
+                    <img src="/assets/team/Hiwi/004_Sanaz_Talebi/profile_image.jpg" alt="Sanaz Talebi">
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                    <div class="circle-3"></div>
+                </div>
+                <div>
+                    <div class="teamcard-header">
+                        <div class="teamcard-title">M.Sc.</div>
+                        <h2>Sanaz Talebi</h2>
+                        <div class="teamcard-position">Research Assistant</div>
+                    </div>
+                    <div class="teamcard-text">
+                           
+                    </div>
+                    <div class="teamcard-link">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:st196879@stud.uni-stuttgart.de">st196879@stud.uni-stuttgart.de</a>
+                    </div>
+                </div>
+            </div>
+            ~~~
