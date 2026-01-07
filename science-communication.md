@@ -1,7 +1,7 @@
-@def title = "Blogs"
+@def title = "Science Communication"
 @def tags = [ "Lab"]
 
-# Real-Sci twitter threads
+# Science Communication Threads
 
 ## Table of contents
 --------------------------------
