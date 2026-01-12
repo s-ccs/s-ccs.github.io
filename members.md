@@ -11,6 +11,15 @@ gen_html("current")
 ```
 \textoutput{team_cards_current}
 
+## Hiwi
+```julia:team_cards_Hiwi
+#hideall
+include("./_assets/scripts/generate_members_html.jl")
+gen_html("Hiwi")
+```
+\textoutput{team_cards_Hiwi}
+
+
 ## Alumni
 ```julia:team_cards_alumni
 #hideall
@@ -21,11 +30,3 @@ gen_html("alumni")
 
 
 
-
-## Hiwi
-```julia:team_cards_Hiwi
-#hideall
-include("./_assets/scripts/generate_members_html.jl")
-gen_html("Hiwi")
-```
-\textoutput{team_cards_Hiwi}
