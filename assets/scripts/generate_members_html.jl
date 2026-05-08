@@ -31,6 +31,7 @@ function gen_html(team_type)
                     <div class=\"teamcard-header\">
                         <div class=\"teamcard-title\">$(row.title === missing ? "" : row.title)</div>
                         <h2>$(row.name)</h2>
+                        <div class=\"teamcard-pronunciation\">$(row.pronunciation === missing ? "" : row.pronunciation)</div>
                         <div class=\"teamcard-position\">$(row.position)</div>
                     </div>
                     <div class=\"teamcard-text\">

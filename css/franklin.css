@@ -847,9 +847,15 @@ TEAMCARDS
     margin-top: 0.5em;
 }
 
+.teamcard-pronunciation {
+    font-size: 0.85em;
+    font-style: italic;
+}
+
 .teamcard-position {
     font-weight: 600;
 }
+
 
 
 @media(max-width: 43em) {
