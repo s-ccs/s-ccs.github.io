@@ -79,7 +79,7 @@
 
             ~~~
             <div class="teamcard-wrapper">
-                <div class="teamcard-image img-var-1">
+                <div class="teamcard-image img-var-2">
                     <img src="/assets/team/Hiwi/004_Sanaz_Talebi/profile_image.jpg" alt="Sanaz Talebi">
                     <div class="circle-1"></div>
                     <div class="circle-2"></div>
@@ -131,7 +131,7 @@
 
             ~~~
             <div class="teamcard-wrapper">
-                <div class="teamcard-image img-var-2">
+                <div class="teamcard-image img-var-1">
                     <img src="/assets/team/Hiwi/006_Qianyue_li/profile_image.jpg" alt="Qianyue Li">
                     <div class="circle-1"></div>
                     <div class="circle-2"></div>
