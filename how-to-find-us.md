@@ -11,10 +11,12 @@ Our **offices** can be found at [Universitätsstr. 32, 70569 Stuttgart](https://
 @@centered
 ~~~
 <div class="container" style="text-align: center;">
-  <iframe width="560" height="400" src="https://maps.uni-stuttgart.de/G%C3%A4stehaus,+KI,+MIB,+Druck-Service,+Chancengleichheit/17.5" frameborder="0"></iframe>
+  <iframe src="https://www.google.com/maps/d/embed?mid=1R8xUQCXdVAeESrygb6SNfy0ed_ajT0I&ehbc=2E312F" width="640" height="480" frameborder="0"></iframe>
 </div>
 ~~~
 @@
+
+----
 
 @@centered
 ~~~
