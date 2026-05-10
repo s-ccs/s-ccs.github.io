@@ -1,7 +1,7 @@
 
             ~~~
             <div class="teamcard-wrapper">
-                <div class="teamcard-image img-var-2">
+                <div class="teamcard-image img-var-3">
                     <img src="/assets/team/Hiwi/001_christina_bohnacker/profile_image.jpg" alt="Christina Bohnacker">
                     <div class="circle-1"></div>
                     <div class="circle-2"></div>
@@ -53,7 +53,7 @@
 
             ~~~
             <div class="teamcard-wrapper">
-                <div class="teamcard-image img-var-3">
+                <div class="teamcard-image img-var-2">
                     <img src="/assets/team/Hiwi/003_Sven/profile_image.jpg" alt="Sven Naber">
                     <div class="circle-1"></div>
                     <div class="circle-2"></div>
@@ -105,7 +105,7 @@
 
             ~~~
             <div class="teamcard-wrapper">
-                <div class="teamcard-image img-var-1">
+                <div class="teamcard-image img-var-2">
                     <img src="/assets/team/Hiwi/005_Kiran_Belgal/profile_image.jpg" alt="Kiran Belgal">
                     <div class="circle-1"></div>
                     <div class="circle-2"></div>
@@ -131,7 +131,7 @@
 
             ~~~
             <div class="teamcard-wrapper">
-                <div class="teamcard-image img-var-2">
+                <div class="teamcard-image img-var-1">
                     <img src="/assets/team/Hiwi/006_Qianyue_li/profile_image.jpg" alt="Qianyue Li">
                     <div class="circle-1"></div>
                     <div class="circle-2"></div>
