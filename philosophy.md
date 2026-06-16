@@ -18,7 +18,7 @@ The philosophy of a lab defines its **values**, and to some degree, its **rules*
 - Participation in the lab- (non-social) events is expected to the best of our abilities. Asking **questions** and providing **comments** is strongly encouraged.
 - Be **connected** with each other. We ask (and/or know) what others are doing and how they are feeling today.
 - We make lots of space for open, constructive, direct, but always empathic **feedback**. This goes both directions, please give Bene feedback too!
-- We strive for **diversity and equity** in every part of our work, commiting to actively foster an all welcoming atmosphere for LGBTQIA+, neurodivergent, BIPOC, researchers at risk, and other marginalized groups. We recognize the challenges these groups face through systemic discrimination and prejudice, and strive to provide special support where needed.
+- We strive for **diversity and equity** in every part of our work, commiting to actively foster an all welcoming atmosphere for LGBTQIA+, neurodivergent, people affected by racism or migration-related exclusion, researchers at risk, and other marginalized groups. We recognize the challenges these groups face through systemic discrimination and prejudice, and strive to provide special support where needed.
 
 ## Work-Life Balance
 - Our work should typically be **fun**, **fulfilling**, **interesting** and (in some sense) **important** (if it is not: contact Bene). But work is not life, and sometimes work can overburden us. Take vacation, start relationships, explore new things, grow as a person.
@@ -27,7 +27,7 @@ The philosophy of a lab defines its **values**, and to some degree, its **rules*
 - We schedule meetings during **core working hours** (10-16) and accommodate individual requests(e.g. care duties).
 
 ## Mental Health
-- Sometimes we feel **guilty** - we forgot to do something, were slower than expected, we are overworked, we don't meet expectations, or we missed a deadline (Bene feels guilty too, unfortunately all of these things happen to him still...). We will try to fight this and **fight** it **early**. The sooner we realize what is going on (not always easy), the better we can put measures in place to stop it. **Guilt** can be a **vicious cycle**.
+- Sometimes things become **difficult** - we forgot to do something, were slower than expected, we are overworked, we don't meet expectations, or we missed a deadline (Bene struggles too, unfortunately all of these things happen to him still...). We will try to fight this and **fight** it **early**. The sooner we realize what is going on (not always easy), the better we can put measures in place to stop it. When difficulties remain unspoken, they can easily become a **vicious cycle**.
 - **Conflicts can happen** sometimes. We try to **communicate openly**, but sometimes it might not be possible. Find a person you **trust** at the University (any kind of mentor, second supervisor, "senior" colleague, Ombudsperson, Gleichstellungsperson - best to ask around a bit, use your intuition). Seek a specific meeting with me, you can always **bring third persons** to feel more empowered. Write memory logs!
 - We are open about mistakes, no progress, or other struggles. In some sense they are our day-to-day business. You can **always discuss** with Bene in the weekly meetings.
 
