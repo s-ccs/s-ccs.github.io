@@ -27,7 +27,7 @@
 
             ~~~
             <div class="teamcard-wrapper">
-                <div class="teamcard-image img-var-3">
+                <div class="teamcard-image img-var-1">
                     <img src="/assets/team/current/002_judith_schepers/profile_image.jpg" alt="Judith Schepers">
                     <div class="circle-1"></div>
                     <div class="circle-2"></div>
@@ -53,7 +53,7 @@
 
             ~~~
             <div class="teamcard-wrapper">
-                <div class="teamcard-image img-var-1">
+                <div class="teamcard-image img-var-3">
                     <img src="/assets/team/current/003_rene_skukies/profile_image.jpg" alt="René Skukies">
                     <div class="circle-1"></div>
                     <div class="circle-2"></div>
@@ -79,7 +79,7 @@
 
             ~~~
             <div class="teamcard-wrapper">
-                <div class="teamcard-image img-var-1">
+                <div class="teamcard-image img-var-3">
                     <img src="/assets/team/current/004_vladimir_mikheev/profile_image.jpg" alt="Vladimir Mikheev">
                     <div class="circle-1"></div>
                     <div class="circle-2"></div>
@@ -131,7 +131,7 @@
 
             ~~~
             <div class="teamcard-wrapper">
-                <div class="teamcard-image img-var-3">
+                <div class="teamcard-image img-var-1">
                     <img src="/assets/team/current/006_martin_geiger/profile_image.jpg" alt="Martin Geiger">
                     <div class="circle-1"></div>
                     <div class="circle-2"></div>
