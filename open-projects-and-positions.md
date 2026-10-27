@@ -6,7 +6,8 @@ If you think about working with us and want to apply, I highly recommend reading
 
 ### PostDoc/PhD
 - I might be hiring a PhD student via https://imprs.is.mpg.de/ this year. If you cannot identify yourself with IMPRS, feel free to apply directly to me as well.
-- ~April 2027 a PostDoc position is opening up.
+- around April 2027 a PostDoc position is opening up.
+- I will hire a lab-manager (likely E11, possibility to be permanent!) in 2027
 
 ### HiWi
 Currently no open HiWi positions.
