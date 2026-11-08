@@ -1,0 +1,104 @@
+
+            ~~~
+            <div class="teamcard-wrapper">
+                <div class="teamcard-image img-var-3">
+                    <img src="/assets/team/alumni/001_rene_skukies/profile_image.jpg" alt="René Skukies">
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                    <div class="circle-3"></div>
+                </div>
+                <div>
+                    <div class="teamcard-header">
+                        <div class="teamcard-title">PhD.</div>
+                        <h2>René Skukies</h2>
+                        <div class="teamcard-pronunciation">Ren'e: ˈskuːkiːs</div>
+                        <div class="teamcard-position">Doctoral Researcher</div>
+                    </div>
+                    <div class="teamcard-text">
+                        M/EEG, Methods, Statistics, (multimodal) Perception/ Awareness
+                    </div>
+                    <div class="teamcard-link">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:Rene.Skukies@vis.uni-stuttgart.de">Rene.Skukies@vis.uni-stuttgart.de</a>
+                    </div>
+                </div>
+            </div>
+            ~~~
+
+            ~~~
+            <div class="teamcard-wrapper">
+                <div class="teamcard-image img-var-1">
+                    <img src="/assets/team/alumni/002_Sven/profile_image.jpg" alt="Sven Naber">
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                    <div class="circle-3"></div>
+                </div>
+                <div>
+                    <div class="teamcard-header">
+                        <div class="teamcard-title">M.Sc.</div>
+                        <h2>Sven Naber</h2>
+                        <div class="teamcard-pronunciation">svɛn ˈnaːbɐ</div>
+                        <div class="teamcard-position">Research Assistant</div>
+                    </div>
+                    <div class="teamcard-text">
+                           
+                    </div>
+                    <div class="teamcard-link">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:sven.naber@ims.uni-stuttgart.de ">sven.naber@ims.uni-stuttgart.de </a>
+                    </div>
+                </div>
+            </div>
+            ~~~
+
+            ~~~
+            <div class="teamcard-wrapper">
+                <div class="teamcard-image img-var-2">
+                    <img src="/assets/team/alumni/003_Sanaz_Talebi/profile_image.jpg" alt="Sanaz Talebi">
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                    <div class="circle-3"></div>
+                </div>
+                <div>
+                    <div class="teamcard-header">
+                        <div class="teamcard-title">B.Sc.</div>
+                        <h2>Sanaz Talebi</h2>
+                        <div class="teamcard-pronunciation">sæˈnɑːz tɑːˈlebi</div>
+                        <div class="teamcard-position">Research Assistant</div>
+                    </div>
+                    <div class="teamcard-text">
+                           
+                    </div>
+                    <div class="teamcard-link">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:st196879@stud.uni-stuttgart.de ">st196879@stud.uni-stuttgart.de </a>
+                    </div>
+                </div>
+            </div>
+            ~~~
+
+            ~~~
+            <div class="teamcard-wrapper">
+                <div class="teamcard-image img-var-1">
+                    <img src="/assets/team/alumni/004_Maanik_Marathe/profile_image.jpg" alt="Maanik Marathe">
+                    <div class="circle-1"></div>
+                    <div class="circle-2"></div>
+                    <div class="circle-3"></div>
+                </div>
+                <div>
+                    <div class="teamcard-header">
+                        <div class="teamcard-title">B.Sc.</div>
+                        <h2>Maanik Marathe</h2>
+                        <div class="teamcard-pronunciation">ˈmaːnɪk məˈraːtʰe</div>
+                        <div class="teamcard-position">Research Assistant</div>
+                    </div>
+                    <div class="teamcard-text">
+                           
+                    </div>
+                    <div class="teamcard-link">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:st185219@stud.uni-stuttgart.de">st185219@stud.uni-stuttgart.de</a>
+                    </div>
+                </div>
+            </div>
+            ~~~
